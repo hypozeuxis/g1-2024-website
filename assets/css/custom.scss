@@ -1,9 +1,40 @@
 ---
 ---
+
 @charset "utf-8";
+@use "sass:math";
+@use 'sass:list';
+
 // Your custom css /scss here
 
-#sezione-1, #sezione-11, #sezione-12, #mappa-delle-stragi, #galleria{
+.hero-chulapa-image h1 {
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-style: italic;
+}
+
+$test-colors: white, yellow, cyan, lime, magenta, red, blue, black;
+// Create empty list
+$test-color-stops: null;
+@for $i from 1 through (length($test-colors)) {
+  $test-color-stop: #{list.nth($test-colors, $i) + ' ' + ($i - 1) * math.div(100,length($test-colors)) + '%,'
+  list.nth($test-colors, $i) + ' ' + $i * math.div(100,length($test-colors)) + '%'
+  };
+  $test-color-stops: list.append($test-color-stops, $test-color-stop, comma);
+}
+
+.test-card {
+  display: flex;
+  width: 50%;
+  height: 48px;
+  margin: 0 auto;
+  background-color: red;
+
+  background-image: linear-gradient(90deg, $test-color-stops);
+
+}
+
+#sezione-1, #sezione-11, #sezione-12, #mappa-delle-stragi, #galleria {
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
 }
 
@@ -28,8 +59,9 @@
 .modal-backdrop {
   z-index: 99;
 }
+
 .sticky-top {
-    z-index: 98;
+  z-index: 98;
 }
 
 // card container:
@@ -58,6 +90,7 @@
     }
   }
 }
+
 .card-container .card {
   flex: 1 1 100%; /* Default: cards take full width on small screens */
   max-width: 100%;
@@ -102,7 +135,6 @@
 }
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 .comic-neue-regular {
@@ -117,10 +149,10 @@
   font-style: normal;
 }
 
-// Backgound full width color:
+// Background full width color:
 .bg-color-full {
-    clip-path: inset(0 -100vmax);
-    box-shadow: 0 0 0 100vmax rgba(243, 173, 149, 0.3);
+  clip-path: inset(0 -100vmax);
+  box-shadow: 0 0 0 100vmax rgba(243, 173, 149, 0.3);
 }
 
 .bg-color {

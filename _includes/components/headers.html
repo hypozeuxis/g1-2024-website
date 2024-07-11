@@ -30,6 +30,7 @@
     <h1 class="p-name">{{- page.header_title | default: "Where's your title?" -}}</h1>
     {%- if page.subtitle -%}
     <hr class="my-3">
+        <div class="test-card"></div>
     <p class="chulapa-subtitle p-summary">{{- page.subtitle -}}</p>
     {%- endif -%}
         {% if include.projects %}
@@ -113,7 +114,7 @@
       {% endfor %}
     </div>
   {% endif %}
-            
+
             <hr class="mb-0">
 			</div>
 		</div>
