@@ -44,16 +44,18 @@ github_repo:
 navbar:
   style :  dual #non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title :  "Home"
+    title :  "Progettone Website Guide"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
     - title: Bootstrap
-      url: /bootstrap # equivale alla pagina `/_pages/bootstrap.markdown
+      url: /bootstrap
     - title: Jekyll
       url: /jekyll-ssg
     - title: Charts
       url: /charts
+    - title: Folium
+      url: /folium-map
     - title: Write first #Label
       child:
         - title: markdown cheatsheet #Label
@@ -70,6 +72,11 @@ navbar:
           url: /single#sezione-11 #url
         - title: "Sezione 1.2" #Label
           url: /single#sezione-12 #url
+        - title: "Gallerie" #Label
+          url: /single#galleria #url
+        - title: "Mappa delle stragi" #Label
+          url: /single#mappa-delle-stragi #url
+
 
 
 
