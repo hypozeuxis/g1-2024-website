@@ -49,7 +49,7 @@ navbar:
     url: /
   nav:
     - title: Bootstrap
-      url: /bootstrap
+      url: /bootstrap # equivale alla pagina `/_pages/bootstrap.markdown
     - title: Jekyll
       url: /jekyll-ssg
     - title: Charts
