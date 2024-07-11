@@ -62,7 +62,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Muli;
+  font-family: Sofia Sans;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -360,7 +360,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: Oswald;
+  font-family: Sofia Sans Extra Condensed;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -5385,7 +5385,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Muli;
+  font-family: Sofia Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5486,7 +5486,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: Muli;
+  font-family: Sofia Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9491,7 +9491,7 @@ a.chulapa-pill-bg-body:focus, a.chulapa-pill-bg-body.focus {
 }
 
 .chulapa-headingfont {
-  font-family: Oswald;
+  font-family: Sofia Sans Extra Condensed;
   font-weight: 500;
 }
 
@@ -9574,7 +9574,7 @@ a.chulapa-pill-bg-body:focus, a.chulapa-pill-bg-body.focus {
 }
 
 .hero-chulapa, .splash-chulapa, .splash-chulapa-image, .hero-chulapa-image {
-  font-family: Oswald;
+  font-family: Sofia Sans Extra Condensed;
   background-color: #2f3c48;
   text-align: center;
   min-height: 40vh;
@@ -10474,14 +10474,14 @@ h6:hover .chulapa-header-link {
 }
 #ch-cusdis button.bg-gray-200 {
   font-weight: 500;
-  font-family: Oswald;
+  font-family: Sofia Sans Extra Condensed;
 }
 #ch-cusdis .border-color-gray-200 {
   border-color: #fff;
 }
 #ch-cusdis .font-medium {
   color: #cbced1;
-  font-family: Oswald;
+  font-family: Sofia Sans Extra Condensed;
   font-weight: 700;
 }
 #ch-cusdis .text-gray-500 {
@@ -10492,7 +10492,7 @@ h6:hover .chulapa-header-link {
   font-weight: 400;
 }
 #ch-cusdis button.text-gray-500.text-sm {
-  font-family: Muli;
+  font-family: Sofia Sans;
   font-weight: 400;
   color: #fff;
   background-color: #2f3c48;
@@ -10536,13 +10536,13 @@ h6:hover .chulapa-header-link {
 
 #welcomments__container {
   text-align: left;
-  font-family: Muli;
+  font-family: Sofia Sans;
   overflow-x: hidden;
 }
 #welcomments__container .welcomments__comments-title,
 #welcomments__container .welcomments__author-name {
   color: #cbced1;
-  font-family: Oswald;
+  font-family: Sofia Sans Extra Condensed;
   font-weight: 700;
 }
 #welcomments__container .welcomments__comment-time time, #welcomments__container .welcomments__comment-time #ch-cusdis .text-gray-500.text-sm, #ch-cusdis #welcomments__container .welcomments__comment-time .text-gray-500.text-sm, #welcomments__container .welcomments__comment-time .welcomments__comment-time {
@@ -10593,7 +10593,7 @@ h6:hover .chulapa-header-link {
   border-color: #cbced1;
 }
 #welcomments__container .welcomments__comment-reply-link {
-  font-family: Muli;
+  font-family: Sofia Sans;
   color: #fff;
   background-color: #2f3c48;
   border-color: #cbced1;
@@ -10624,7 +10624,7 @@ h6:hover .chulapa-header-link {
 }
 #welcomments__container label {
   font-size: 0.875rem;
-  font-family: Muli;
+  font-family: Sofia Sans;
   color: #cbced1;
 }
 #welcomments__container label .welcomments__optional-notice {
@@ -10633,7 +10633,7 @@ h6:hover .chulapa-header-link {
 }
 #welcomments__container .welcomments__submit-button {
   font-weight: 500;
-  font-family: Oswald;
+  font-family: Sofia Sans Extra Condensed;
 }
 #disqus_recommendations {
   width: 100%;
