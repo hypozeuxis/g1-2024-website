@@ -30,15 +30,15 @@
                     <strong> Project by</strong>
                 </p>
                 {%- if site.data.members -%}
-                <ul>
-                    {%- for member in site.data.members -%}
+                <ol>
+                    {% for member in site.data.members %}
                     <li>
-                        <a href="https://github.com/{{ member.github }}" target="_blank">
+                        <a href="https://github.com/{{ member.github }}">
                             {{ member.name }}
                         </a>
                     </li>
-                    {%- endfor -%}
-                </ul>
+                    {% endfor %}
+                </ol>
                 {%- endif -%}
             </div>
             <div class="col-md-4">
