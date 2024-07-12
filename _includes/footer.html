@@ -30,7 +30,7 @@
                     <strong> Project by</strong>
                 </p>
                 {%- if site.data.members -%}
-                <ol>
+                <ul>
                     {% for member in site.data.members %}
                     <li>
                         <a href="https://github.com/{{ member.github }}">
@@ -38,7 +38,7 @@
                         </a>
                     </li>
                     {% endfor %}
-                </ol>
+                </ul>
                 {%- endif -%}
             </div>
             <div class="col-md-4">
