@@ -56,6 +56,8 @@ navbar:
       url: /charts
     - title: Folium
       url: /folium-map
+    - title: Search
+      url: /search
     - title: Write first #Label
       child:
         - title: markdown cheatsheet #Label

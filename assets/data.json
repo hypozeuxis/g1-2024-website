@@ -1,0 +1,22 @@
+[
+  {
+    "title": "First Spot",
+    "content": "This is the content of the first post.",
+    "image": "/assets/images/spot_1.jpeg"
+  },
+  {
+    "title": "Second Spot",
+    "content": "This is the content of the second post.",
+    "image": "/assets/images/spot_2.jpeg"
+  },
+  {
+    "title": "Third Spot",
+    "content": "This is the content of the third post.",
+    "image": "/assets/images/spot_3.jpeg"
+  },
+  {
+    "title": "Fourth Spot",
+    "content": "This is the content of the fourth post.",
+    "image": "/assets/images/spot_4.jpeg"
+  }
+]

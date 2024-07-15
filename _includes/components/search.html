@@ -1,0 +1,78 @@
+---
+---
+<input type="text" id="search-input" placeholder="Cerca...">
+<div id="search-results"></div>
+<style>
+    /* Include the CSS styles here */
+    #search-results {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #search-results .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 5px;
+      box-sizing: border-box;
+      flex: 0 0 30%;
+    }
+
+    #search-results .card h2 {
+      margin-top: 0;
+    }
+
+    #search-results .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    #search-results .card p {
+      text-align: center;
+    }
+  </style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  fetch('{{site.baseurl}}/assets/data.json')
+    .then(response => response.json())
+    .then(data => {
+      var idx = lunr(function () {
+        this.ref('title');
+        this.field('title');
+        this.field('content');
+        this.field('image');
+
+        data.forEach(function (doc) {
+          this.add(doc);
+        }, this);
+      });
+
+      document.getElementById('search-input').addEventListener('input', function () {
+        var query = this.value;
+        var results = idx.search(query);
+        var resultDiv = document.getElementById('search-results');
+
+        resultDiv.innerHTML = '';
+
+        if (results.length > 0) {
+          results.forEach(function (result) {
+            var item = data.find(d => d.title === result.ref);
+            var card = document.createElement('div');
+            card.classList.add('card');
+            card.innerHTML = `
+              <h2>${item.title}</h2>
+              <img src="${item.image}" alt="${item.title}">
+              <p>${item.content}</p>
+            `;
+            resultDiv.appendChild(card);
+          });
+        } else {
+          resultDiv.innerHTML = '<p>Nessun risultato trovato</p>';
+        }
+      });
+    });
+});
+
+</script>
