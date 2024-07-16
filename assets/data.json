@@ -1,22 +1,51 @@
 [
   {
+    "commercial_id": "1",
     "title": "First Spot",
     "content": "This is the content of the first post.",
-    "image": "/assets/images/spot_1.jpeg"
+    "image": "/assets/images/spot_1.jpeg",
+    "marimekko": "/assets/marimekko_charts/spot_1.json"
   },
   {
+    "commercial_id": "2",
     "title": "Second Spot",
     "content": "This is the content of the second post.",
-    "image": "/assets/images/spot_2.jpeg"
+    "image": "/assets/images/spot_2.jpeg",
+    "marimekko": "/assets/marimekko_charts/spot_2.json"
   },
   {
+    "commercial_id": "3",
     "title": "Third Spot",
     "content": "This is the content of the third post.",
-    "image": "/assets/images/spot_3.jpeg"
+    "image": "/assets/images/spot_3.jpeg",
+    "marimekko": "/assets/marimekko_charts/spot_3.json"
   },
   {
+    "commercial_id": "4",
     "title": "Fourth Spot",
     "content": "This is the content of the fourth post.",
-    "image": "/assets/images/spot_4.jpeg"
+    "image": "/assets/images/spot_4.jpeg",
+    "marimekko": "/assets/marimekko_charts/spot_4.json"
+  },
+  {
+    "commercial_id": "5",
+    "title": "5 Spot",
+    "content": "This is the content of the third post.",
+    "image": "/assets/images/spot_5.jpeg",
+    "marimekko": "/assets/marimekko_charts/spot_5.json"
+  },
+  {
+    "commercial_id": "6",
+    "title": "6 Spot",
+    "content": "This is the content of the third post.",
+    "image": "/assets/images/spot_6.jpeg",
+    "marimekko": "/assets/marimekko_charts/spot_6.json"
+  },
+  {
+    "commercial_id": "7",
+    "title": "7 Spot",
+    "content": "This is the content of the third post.",
+    "image": "/assets/images/spot_7.jpeg",
+    "marimekko": "/assets/marimekko_charts/spot_7.json"
   }
 ]

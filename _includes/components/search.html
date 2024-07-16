@@ -1,78 +1,113 @@
----
----
-<input type="text" id="search-input" placeholder="Cerca...">
-<div id="search-results"></div>
+<div class="container">
+    <h1>Search Tool</h1>
+    <p>This is a search tool for the website. It is based on the [Lunr](https://lunrjs.com/) search engine. The search
+        index is built using the [Jekyll Lunr]() plugin.</p>
+
+    <input type="text" id="search-input" placeholder="Cerca…">
+</div>
+
+<div class="container-fluid">
+    <div id="search-results"></div>
+</div>
+
 <style>
     /* Include the CSS styles here */
     #search-results {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); /* see notes below */
+        gap: 1rem;
+    }
+
+    /*
+    #search-results {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     #search-results .card {
-      border: 1px solid #ddd;
-      padding: 20px;
-      margin: 10px;
-      border-radius: 5px;
-      box-sizing: border-box;
-      flex: 0 0 30%;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        flex: 0 0 30%;
     }
 
     #search-results .card h2 {
-      margin-top: 0;
+        margin-top: 0;
     }
 
     #search-results .card img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 5px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
     }
 
     #search-results .card p {
-      text-align: center;
+        text-align: center;
     }
-  </style>
+
+     */
+</style>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  fetch('{{site.baseurl}}/assets/data.json')
-    .then(response => response.json())
-    .then(data => {
-      var idx = lunr(function () {
-        this.ref('title');
-        this.field('title');
-        this.field('content');
-        this.field('image');
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('{{ site.baseurl }}/assets/data.json')
+            .then(response => response.json())
+            .then(data => {
+                const idx = lunr(function () {
+                    this.ref('commercial_id');
+                    this.field('title');
+                    this.field('content');
+                    this.field('image');
+                    this.field('marimekko_charts');
 
-        data.forEach(function (doc) {
-          this.add(doc);
-        }, this);
-      });
+                    data.forEach(function (doc) {
+                        this.add(doc);
+                    }, this);
+                });
 
-      document.getElementById('search-input').addEventListener('input', function () {
-        var query = this.value;
-        var results = idx.search(query);
-        var resultDiv = document.getElementById('search-results');
+                document.getElementById('search-input').addEventListener('input', function () {
+                    const query = this.value;
+                    if (query === '') {
+                        return;
+                    }
+                    const results = idx.search(query);
+                    const resultDiv = document.getElementById('search-results');
 
-        resultDiv.innerHTML = '';
+                    resultDiv.innerHTML = '';
 
-        if (results.length > 0) {
-          results.forEach(function (result) {
-            var item = data.find(d => d.title === result.ref);
-            var card = document.createElement('div');
-            card.classList.add('card');
-            card.innerHTML = `
+                    if (results.length > 0) {
+                        results.forEach(function (result) {
+                            const item = data.find(d => d.commercial_id === result.ref);
+                            console.log(item);
+                            const card = document.createElement('div');
+                            card.classList.add('card');
+                            const vegaChart = document.createElement('vegachart');
+                            vegaChart.setAttribute('schema-url', item.marimekko);
+                            vegaChart.style.width = '100%';
+                            vegaChart.style.height = '10rem';
+                            vegaChart.style.pointerEvents = 'none';
+
+                            card.appendChild(vegaChart);
+                            /*
+                            card.innerHTML = `
               <h2>${item.title}</h2>
               <img src="${item.image}" alt="${item.title}">
               <p>${item.content}</p>
-            `;
-            resultDiv.appendChild(card);
-          });
-        } else {
-          resultDiv.innerHTML = '<p>Nessun risultato trovato</p>';
-        }
-      });
+              <vegachart schema-url="${item.marimekko}" style="width: 100%"></vegachart>
+            `;*/
+                            resultDiv.appendChild(card);
+                            parseSchema(vegaChart).then(schema => vegaEmbed(vegaChart, schema, {"actions": false}));
+                            card.addEventListener('click', function (){
+                                console.log(item.title);
+                            });
+                        });
+                    } else {
+                        resultDiv.innerHTML = '<p>Nessun risultato trovato</p>';
+                    }
+                });
+            });
     });
-});
 
 </script>
