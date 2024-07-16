@@ -48,6 +48,8 @@ navbar:
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
+    - title: Dati
+      url: /data-collection
     - title: Colore
       url: /color-analysis
     - title: Musica
@@ -72,6 +74,8 @@ navbar:
     #       url: /markdown  #url
     #     - title: kramdown cheatsheet #Label
     #       url: /kramdown #url
+    - title: Tempo
+      url: /time-analysis
     - title: One page demo
       child:
         - title: Demo
