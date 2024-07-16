@@ -42,26 +42,32 @@ github_repo:
 
 
 navbar:
-  style :  dual #non modificare
+  style: dual # non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title :  "Progettone Website Guide"
+    title: ""
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
-    - title: Bootstrap
-      url: /bootstrap # equivale alla pagina `/_pages/bootstrap.markdown
-    - title: Jekyll
-      url: /jekyll-ssg
-    - title: Charts
-      url: /charts
-    - title: Folium
-      url: /folium-map
-    - title: Write first #Label
-      child:
-        - title: markdown cheatsheet #Label
-          url: /markdown  #url
-        - title: kramdown cheatsheet #Label
-          url: /kramdown #url
+    - title: Colore
+      url: /color-analysis
+    - title: Musica
+      url: /music-analysis
+    # - title: Search
+    #   url: /search
+    # - title: Bootstrap
+    #   url: /bootstrap # equivale alla pagina `/_pages/bootstrap.markdown
+    # - title: Jekyll
+    #   url: /jekyll-ssg
+    # - title: Charts
+    #   url: /charts
+    # - title: Folium
+    #   url: /folium-map
+    # - title: Write first #Label
+    #   child:
+    #     - title: markdown cheatsheet #Label
+    #       url: /markdown  #url
+    #     - title: kramdown cheatsheet #Label
+    #       url: /kramdown #url
     - title: One page demo
       child:
         - title: Demo
@@ -88,9 +94,10 @@ googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
 
 chulapa-skin:
-  skin:  "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
+  skin: "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
+  # skin:  "gitdev-dark" dark mode
   vars:
-    body-bg: "#fbf1ed"
+    # body-bg: "#fbf1ed"
     font-family-base: "Sofia Sans"
     headings-font-family: "Sofia Sans Extra Condensed"
 
@@ -118,15 +125,15 @@ collections:
 
 footer:
   links:
-  - label: "LinkedIn"
-    icon: "fab fa-linkedin"
-    url: https://www.linkedin.com/company/sobigdata
-  - label: "Twitter"
-    icon: "fab fa-twitter"
-    url: https://www.twitter.com/sobigdata
-  - label: "Facebook"
-    icon: "fab fa-facebook"
-    url: https://www.facebook.com/sobigdata
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: https://www.linkedin.com/company/sobigdata
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: https://www.twitter.com/sobigdata
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: https://www.facebook.com/sobigdata
   copyright: "2024 SoBigData Master Projects"
 
 
@@ -137,17 +144,17 @@ sass:
 # their entries' file path in the `include:` list.
 #
 exclude:
- - .sass-cache/
- - .jekyll-cache/
- - gemfiles/
- - Gemfile
- - Gemfile.lock
- - node_modules/
- - vendor/bundle/
- - vendor/cache/
- - vendor/gems/
- - vendor/ruby/
- - .idea/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .idea/
 
 include:
   - .nojekyll
