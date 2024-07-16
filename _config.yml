@@ -54,6 +54,8 @@ navbar:
       url: /music-analysis
     - title: Testo
       url: /text-analysis
+    - title: Entità
+      url: /entity-analysis
     # - title: Search
     #   url: /search
     # - title: Bootstrap
