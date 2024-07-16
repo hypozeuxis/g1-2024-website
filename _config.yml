@@ -52,6 +52,8 @@ navbar:
       url: /color-analysis
     - title: Musica
       url: /music-analysis
+    - title: Testo
+      url: /text-analysis
     # - title: Search
     #   url: /search
     # - title: Bootstrap
