@@ -74,8 +74,8 @@ navbar:
     #       url: /markdown  #url
     #     - title: kramdown cheatsheet #Label
     #       url: /kramdown #url
-    - title: Tempo
-      url: /time-analysis
+    # - title: Tempo
+    #   url: /time-analysis
     - title: One page demo
       child:
         - title: Demo
