@@ -102,7 +102,7 @@ googlefonts:
 chulapa-skin:
   skin: "gitdev-dark" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    body-bg: '#1D2225'
+    body-bg: '#313338'
     body-color: '#DBDEE1'
     # Typography
     font-family-base: "'Sofia Sans', 'Roboto' !important"
