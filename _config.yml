@@ -95,19 +95,18 @@ navbar:
 
 
 googlefonts:
-  - url: "https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-  - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
 
 chulapa-skin:
-  skin: "graymor" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
-  # skin:  "gitdev-dark" dark mode
+  skin: "gitdev-dark" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
   vars:
-    # body-bg: "#fbf1ed"
-    font-family-base: "Sofia Sans"
-    headings-font-family: "Sofia Sans Extra Condensed"
+    body-bg: '#1D2225'
+    # Typography
+    font-family-base: "'Sofia Sans', 'Roboto' !important"
+    headings-font-family: "'Sofia Sans Extra Condensed', 'Roboto' !important"
+    font-family-monospace: "'Space Mono', monospace !important"
 
 
 #chulapa-skin:

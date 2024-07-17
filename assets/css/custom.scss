@@ -5,13 +5,124 @@
 @use "sass:math";
 @use 'sass:list';
 
-// Your custom css /scss here
 
-.hero-chulapa-image h1 {
-  text-transform: uppercase;
-  font-weight: 1000;
-  font-style: italic;
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* Overrides gitdev-dark.scss */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+// Colors
+
+$body-color: #fff !default;
+$body-bg: #1D2225 !default;
+
+$primary: mix($body-color, $body-bg, 10%) !default;
+$secondary: mix($body-color, $body-bg, 90%) !default;
+$white: #fff !default;
+$black: #373e47 !default;
+$link-color: #2B8FFD !default;
+$success: #2da44e !default;
+$warning: #d4a72c !default;
+$danger: #D86F75 !default;
+$info: #9686BE !default;
+$code-color: #E75CA2 !default;
+
+
+// Typography
+
+$headings-font-family: 'Sofia Sans', Roboto !default;
+$page-title-font-family: 'Sofia Sans Extra Condensed', Roboto !default;
+$font-family-base: 'Sofia Sans', Roboto !default;
+$font-family-monospace: 'Space Mono', monospace !default;
+$headings-font-weight: 800 !default;
+$text-muted: #8b949e !default;
+
+// Chulapa components
+
+$navbar-chulapa-bg-color: $body-bg !default;
+$navbar-chulapa-toggler-border-color: $body-bg !default;
+$navbar-chulapa-text-color: $body-color !default;
+$navbar-chulapa-hover-color: $text-muted !default;
+$navbar-chulapa-brand-color: $navbar-chulapa-text-color !default;
+
+$footer-chulapa-bg-color: $body-bg !default;
+$footer-chulapa-text-color: $text-muted !default;
+$footer-chulapa-hover-color: #58a6ff !default;
+$footer-chulapa-icon-hover-color: mix($footer-chulapa-hover-color, $footer-chulapa-bg-color, 20%) !default;
+
+// Misc
+// Blockquote
+$blockquote-chulapa-bg-color: $body-bg !default;
+$blockquote-chulapa-text-color: $body-color !default;
+
+$pre-chulapa-bg-color: mix($body-bg, $body-color, 5%) !default;
+
+
+$pagination-chulapa-bg-hover-color: $white !default;
+$min-contrast-ratio: 2 !default;
+
+
+// Lines for dark themes
+
+// @import "skins/dark-bg";
+
+
+// Special rules
+
+.hero-chulapa h1,
+.hero-chulapa-image h1,
+.splash-chulapa h1,
+.splash-chulapa-image h1 {
+  font-family: $page-title-font-family;
+  font-weight: 1000 !important;
 }
+
+nav, .navbar, .navbar-chulapa-fab .nav-item, .navbar-chulapa, .footer-chulapa {
+  font-family: $font-family-base;
+  font-weight: $headings-font-weight !important;
+}
+
+
+.navbar-chulapa .active, .navbar-chulapa-fab .active {
+  color: mix($navbar-chulapa-text-color, $navbar-chulapa-bg-color, 80%) !important;
+}
+
+
+.chulapa-links-hover-only i {
+  color: $link-color;
+}
+
+.chulapaDateSocial time, .chulapaDateSocial .chulapa-text-line-through {
+  font-family: $font-family-monospace;
+}
+
+time {
+  font-family: $font-family-monospace;
+  font-style: normal !important;
+}
+
+blockquote {
+  border-radius: 0 !important;
+  border-left: solid $link-color !important;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* Overrides _type.scss */
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $headings-font-family;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* Custom rules. */
 
 $test-colors: white, yellow, cyan, lime, magenta, red, blue, black;
 // Create empty list
@@ -23,16 +134,48 @@ $test-color-stops: null;
   $test-color-stops: list.append($test-color-stops, $test-color-stop, comma);
 }
 
+
+@keyframes rotate {
+  to {
+    --angle: 450deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: false;
+}
+
+.hero-chulapa-image {
+  border: 48px solid;
+  // border-image: conic-gradient(from var(--angle), $test-color-stops) 1;
+  border-image: linear-gradient(var(--angle), $test-color-stops) 1;
+  // border-image-repeat: round;
+  animation: 480s rotate linear infinite;
+  border-radius: 48px;
+  margin: 48px;
+
+  h1 {
+    // font-family: 'Space Mono', 'Roboto' !important;
+    text-transform: uppercase;
+    font-weight: 1000 !important;
+    font-style: italic;
+  }
+}
+
+
 .test-card {
   display: flex;
   width: 50%;
   height: 48px;
   margin: 0 auto;
-  background-color: red;
-
   background-image: linear-gradient(90deg, $test-color-stops);
 
 }
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
 
 #sezione-1, #sezione-11, #sezione-12, #mappa-delle-stragi, #galleria {
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
