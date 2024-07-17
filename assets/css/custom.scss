@@ -36,7 +36,7 @@ $headings-font-family: 'Sofia Sans', Roboto !default;
 $page-title-font-family: 'Sofia Sans Extra Condensed', Roboto !default;
 $font-family-base: 'Sofia Sans', Roboto !default;
 $font-family-monospace: 'Space Mono', monospace !default;
-$headings-font-weight: 800 !default;
+$headings-font-weight: 700 !default;
 $text-muted: #8b949e !default;
 
 // Chulapa components
@@ -117,6 +117,7 @@ blockquote {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -168,14 +169,18 @@ $test-color-stops: null;
   }
 }
 
+/* Cards */
+.card-body {
+  p {
+    font-size: 0.875rem;
+    margin: 0;
 
-.test-card {
-  display: flex;
-  width: 50%;
-  height: 48px;
-  margin: 0 auto;
-  background-image: linear-gradient(90deg, $test-color-stops);
+  }
 
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */

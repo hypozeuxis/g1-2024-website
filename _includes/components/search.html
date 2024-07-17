@@ -1,0 +1,148 @@
+<div class="container">
+    <h1>Cerca per marchio</h1>
+    <p>Puoi cercare per marchio, categoria di prodotti o anno</p>
+
+    <input type="text" id="search-input" placeholder="Cerca…">
+</div>
+
+<div class="container-fluid mt-5">
+    <div id="search-results"></div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex flex-row">
+                    <div class="d-grid grid-2x2">
+                        <div>Metadata</div>
+                        <div>Marimekko</div>
+                        <div>Classifica</div>
+                        <div>Classifica tf-idf</div>
+                    </div>
+                    <div>Masonry</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    /* Include the CSS styles here */
+    #search-results {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); /* see notes below */
+        gap: 1rem;
+    }
+
+    .modal-body div div {
+        width: 100%;
+        border: 1px solid yellow;
+        padding: 0.25rem;
+    }
+
+    .grid-2x2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100% / 3, max(64px, 100% / 5)), 1fr));
+        gap: 1rem;
+    }
+</style>
+<script>
+    /*
+     "commercial_id": "qlT0fzmhays",
+    "brand": "Mediafriends",
+    "year": 2023,
+    "title": "Mediafriends e Fondazione AlberItalia: uno degli spot dedicati alla prevenzione degli incendi",
+    "product_type": "Raccolta di fondi e sponsorizzazione finanziaria",
+    "nice_class": 36,
+    "duration_in_seconds": 30.0,
+    "source": "Engage.it (YouTube)"
+     */
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('{{ site.baseurl }}/assets/commercial_db.json')
+            .then(response => response.json())
+            .then(data => {
+                const idx = lunr(function () {
+                    this.ref('commercial_id');
+                    this.field('brand');
+                    this.field('year');
+                    this.field('title');
+                    this.field('product_type');
+                    this.field('nice_class');
+                    this.field('duration_in_seconds');
+                    this.field('source');
+
+                    data.forEach(function (doc) {
+                        this.add(doc);
+                    }, this);
+                });
+
+                document.getElementById('search-input').addEventListener('input', function () {
+                    const resultDiv = document.getElementById('search-results');
+                    const query = this.value;
+                    if (query === '') {
+                        resultDiv.innerHTML = '';
+                        return;
+                    }
+
+                    const results = idx.search(`*${query}*`);
+                    resultDiv.innerHTML = '';
+
+                    if (results.length > 0) {
+                        results.forEach(function (result) {
+                            const item = data.find(d => d.commercial_id === result.ref);
+                            const card = document.createElement('div');
+                            card.classList.add('card');
+                            card.setAttribute('data-toggle', 'modal');
+                            card.setAttribute('data-target', '#exampleModalCenter');
+                            card.addEventListener('click', function () {
+                                const modalTitle = document.getElementById('exampleModalLongTitle');
+                                modalTitle.innerText = `${item.brand}, ${item.year}`;
+                            });
+
+                            const vegaChart = document.createElement('vegachart');
+                            vegaChart.classList.add('card-img-top');
+                            vegaChart.setAttribute('schema-url', `/assets/marimekko_charts/${item.commercial_id}.marimekko.json`);
+                            vegaChart.style.width = '100%';
+                            vegaChart.style.height = '10rem';
+                            vegaChart.style.pointerEvents = 'none';
+                            card.appendChild(vegaChart);
+
+                            const cardBody = document.createElement('div');
+                            cardBody.classList.add('card-body');
+
+                            const cardText = document.createElement('p');
+                            cardText.classList.add('card-text');
+                            cardText.textContent = item.year;
+                            cardBody.appendChild(cardText);
+
+                            const cardTitle = document.createElement('h2');
+                            cardTitle.classList.add('card-title');
+                            cardTitle.textContent = item.brand;
+
+                            cardBody.appendChild(cardTitle);
+
+
+                            card.appendChild(cardBody);
+
+                            resultDiv.appendChild(card);
+                            parseSchema(vegaChart).then(schema => vegaEmbed(vegaChart, schema, {"actions": false}));
+                        });
+                    } else {
+                        resultDiv.innerHTML = '<p>Nessun risultato trovato</p>';
+                    }
+                });
+            });
+    });
+
+</script>
