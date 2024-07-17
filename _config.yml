@@ -108,6 +108,12 @@ chulapa-skin:
     font-family-base: "'Sofia Sans', 'Roboto' !important"
     headings-font-family: "'Sofia Sans Extra Condensed', 'Roboto' !important"
     font-family-monospace: "'Space Mono', monospace !important"
+    headings-font-weight: "700 !default"
+    # Card
+    card-bg: '#2B2D31'
+    # Modal
+    close-color: '#DBDEE1'
+    close-text-shadow: none
 
 
 #chulapa-skin:
