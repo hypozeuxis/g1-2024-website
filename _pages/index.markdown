@@ -7,7 +7,7 @@ title: "Home"
 subtitle: "un template per i progetti del master SoBigData"
 show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/stampo_biscotti.jpg
+header_img: assets/images/miro_1.jpg
 header_title: "Progettone Template"
 ---
 

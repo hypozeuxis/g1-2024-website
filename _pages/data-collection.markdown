@@ -3,7 +3,7 @@ layout: home
 title: "Raccolta dati"
 # subtitle: ""
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/folium_map.webp
+header_img: assets/images/miro_2.jpg
 header_title: "Raccolta dati"
 vega: true
 ---
