@@ -10,6 +10,8 @@ vega: true
 
 # Analisi della musica
 
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/lustrum.json" style="width: 100%"></vegachart>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, lectus laoreet mattis maximus, enim orci
 vulputate risus, nec scelerisque lectus nulla sed ex. Nam ullamcorper cursus tellus, vel venenatis magna. Pellentesque
 felis dolor, egestas et auctor ut, tincidunt vel augue. Donec vitae mollis orci. Donec cursus lacus vel dui dignissim
