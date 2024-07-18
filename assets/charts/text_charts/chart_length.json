@@ -1426,12 +1426,12 @@
   "encoding": {
     "x": {
       "field": "Lustrum",
-      "title": "Lustrum",
+      "title": "Lustro",
       "type": "nominal"
     },
     "y": {
       "field": "Value",
-      "title": "Average Length of Transcriptions",
+      "title": "Lunghezza media delle trascrizioni per classe di Nizza",
       "type": "quantitative"
     }
   },
@@ -1456,6 +1456,7 @@
       }
     }
   ],
+  "title": "Lunghezza media delle trascrizioni",
   "transform": [
     {
       "filter": {
