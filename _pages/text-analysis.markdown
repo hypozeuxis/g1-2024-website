@@ -22,3 +22,12 @@ Successivamente, la stessa analisi è stata ripetuta ma considerando anche la cl
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length.json" style="width:100%"></vegachart>  
 
+Come ulteriore analisi, sono stati ricercati i cosiddetti 'topic' più rilevanti divisi, ancora una volta, per lustro e classe di Nizza. Questa analisi permette di osservare l'eventuale insorgenza di parole chiave. Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerge la parola 
+'italiano'. Un simile aggettivo potrebbe essere emblematico della emergenza sanitaria dovuta al COVID.
+Oppure, considerando la classe di Nizza 5, che unisce i diversi tipi di farmaci, è possibile notare che uno dei topic del lustro 2020_2024 è 'Laila', ovvero, un farmaco per l'ansia.
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_topic.json" style="width:100%"></vegachart>  
+
+Infine, l'attenazione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari.
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl.json" style="width:100%"></vegachart> 
+
