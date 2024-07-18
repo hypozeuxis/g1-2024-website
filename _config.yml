@@ -25,6 +25,7 @@ subtitle: "Evoluzione nel tempo"
 description: >- # this means to ignore newlines until "baseurl:"
   Analizzare l’evoluzione dei diversi aspetti della comunicazione pubblicitaria
   negli spot trasmessi dalla TV italiana dal 1980 a oggi.
+locale: 'it-IT'
 
 
 # Riportare il github del gruppo di progetto e quello del sito web (se differente).
@@ -96,8 +97,11 @@ navbar:
 
 googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-  - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap"
-  - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+  # - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap"
+  # - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+  # - url: "https://fonts.googleapis.com/css2?family=VT323&display=swap"
+  - url: "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+  - url: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
 
 chulapa-skin:
   skin: "gitdev-dark" #"graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "sunset" "minty" "lux" "journal" "deeply"
@@ -105,8 +109,8 @@ chulapa-skin:
     body-bg: '#313338'
     body-color: '#DBDEE1'
     # Typography
-    font-family-base: "'Sofia Sans', 'Roboto' !important"
-    headings-font-family: "'Sofia Sans Extra Condensed', 'Roboto' !important"
+    font-family-base: "'Montserrat', 'Roboto' !important"
+    headings-font-family: "'Montserrat', 'Roboto' !important"
     font-family-monospace: "'Space Mono', monospace !important"
     headings-font-weight: "700 !default"
     # Card
@@ -114,6 +118,7 @@ chulapa-skin:
     # Modal
     close-color: '#DBDEE1'
     close-text-shadow: none
+    modal-content-bg: '#313338'
 
 
 #chulapa-skin:
