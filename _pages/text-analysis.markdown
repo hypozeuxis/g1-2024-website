@@ -24,6 +24,9 @@ ac elit. Mauris at pharetra ante. Sed at condimentum odio. Sed vulputate urna et
 congue. Donec ultricies dolor in mauris pellentesque eleifend. In felis nunc, hendrerit hendrerit fringilla eget,
 posuere vitae nisl.
 
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length.json" style="width:100%"></vegachart>  
+
 Sed purus est, sollicitudin a commodo vitae, molestie non orci. Vivamus ac sagittis dolor. Sed fermentum, ipsum at
 sodales porta, turpis dui euismod arcu, id fringilla eros nunc vulputate justo. Mauris congue enim in orci maximus
 viverra. Ut dignissim interdum lacus, non posuere quam aliquet quis. Nam sodales nulla sed justo ullamcorper feugiat.
