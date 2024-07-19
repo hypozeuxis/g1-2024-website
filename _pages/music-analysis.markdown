@@ -11,6 +11,8 @@ vega: true
 # Analisi della musica
 
 
+Durante gli anni, la proporzione tra spot pubblicitari in cui la musica rappresenta una componente fondamentale 
+dell'audio e quelli in cui la sua presenza è limitata, è rimasta pressoché costante.
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/music_lustrum.json" style="width: 100%"></vegachart>
 
@@ -46,17 +48,41 @@ per le pubblicità dei giocattoli (28), per i prodotti alimenteri (29,30) e per 
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice_top10.json" style="width: 100%"></vegachart>
 
-#### Classe di Nizza 12
+#### Veicoli (12)
+Per gli spot pubblicitari dei veicoli, si osserva che la musica classica, un tempo abbastanza diffusa, è andata via
+via diminuendo. Il rock invece ha raggiunto un picco di presenza negli anni a inizio duemila, in corrispondenza di 
+un minimo per la musica elettronica, che è poi tornata ad essere negli ultimi anni il genere preponderante nelle 
+pubblicità delle automobili.
+
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice12.json" style="width: 100%"></vegachart>
 
-#### Classe di Nizza 28
+#### Giocattoli (28)
+La classe di Nizza relativa ai giocattoli è quella con la proporzione maggiore di musica pop e come si osserva dal 
+grafico il suo aumento è stato piuttosto costante. Anche in questo caso, la musica classica è pian piano diminuita 
+fino a scomparire del tutto negli ultimi venti anni. 
+
+
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice28.json" style="width: 100%"></vegachart>
 
-#### Classe di Nizza 29
+#### Generi alimentari (29 e 30)
+Per le pubblicità relativi ai generi alimentari (classi 29 e 30) l'andamento del genere musicale è piuttosto simile, 
+con un progressivo aumento della musica pop a discapito di quella elettronica. Per entrambe le classi di Nizza, 
+il lustro 2010-2014 vede un impiego più ridotto della musica pop con un aumento della musica classica per la classe 30 
+e di background per la classe 29.
+
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice29.json" style="width: 100%"></vegachart>
 
-#### Classe di Nizza 30
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice30.json" style="width: 100%"></vegachart>
 
-#### Classe di Nizza 38
+#### Telecomunicazioni (38)
+Le pubblicità relativi ai servizi di telecomunicazioni hanno un andamento caratteristico rispetto alle altre classi 
+di Nizza, con una proporzione tra generi molto variabile da un lustro all'altro e con l'unica costante dell'assenza 
+di musica rock. Il genere pop infatti ha avuto un periodo di massima rappresentazione, seguito da un calo e da una 
+ripresa negli ultimi anni.
+
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice38.json" style="width: 100%"></vegachart>
