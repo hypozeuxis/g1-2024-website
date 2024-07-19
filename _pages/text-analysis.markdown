@@ -18,7 +18,7 @@ Dal grafico è possibile notare come ci sia un calo della lunghezza media delle 
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length_lustrum.json" style="width:100%"></vegachart> 
 
-Successivamente, la stessa analisi è stata ripetuta ma considerando anche la classe di Nizza.
+Successivamente, la stessa analisi è stata ripetuta ma considerando anche la classe di Nizza. In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notre, inoltre, come ogni classe segua un proprio andamento indipendente.
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length.json" style="width:100%"></vegachart>  
 
@@ -32,7 +32,7 @@ Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi prese
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
 
-
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_word.json" style="width:100%"></vegachart> 
 
 
 
