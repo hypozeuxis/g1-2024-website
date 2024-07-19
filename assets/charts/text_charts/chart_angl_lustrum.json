@@ -7,44 +7,44 @@
     }
   },
   "data": {
-    "name": "data-6c2136b2bd2e071764cc7d7f5fe93e9f"
+    "name": "data-0d3f05f79eb7ff6e948c1ad32c2e7cb0"
   },
   "datasets": {
-    "data-6c2136b2bd2e071764cc7d7f5fe93e9f": [
+    "data-0d3f05f79eb7ff6e948c1ad32c2e7cb0": [
       {
-        "Anglicism": 795,
+        "Anglicism": 778,
         "Period": "1980_1984"
       },
       {
-        "Anglicism": 2850,
+        "Anglicism": 2786,
         "Period": "1985_1989"
       },
       {
-        "Anglicism": 2679,
+        "Anglicism": 2551,
         "Period": "1990_1994"
       },
       {
-        "Anglicism": 853,
+        "Anglicism": 827,
         "Period": "1995_1999"
       },
       {
-        "Anglicism": 1665,
+        "Anglicism": 1602,
         "Period": "2000_2004"
       },
       {
-        "Anglicism": 2004,
+        "Anglicism": 1937,
         "Period": "2005_2009"
       },
       {
-        "Anglicism": 530,
+        "Anglicism": 519,
         "Period": "2010_2014"
       },
       {
-        "Anglicism": 538,
+        "Anglicism": 527,
         "Period": "2015_2019"
       },
       {
-        "Anglicism": 1004,
+        "Anglicism": 963,
         "Period": "2020_2024"
       }
     ]
