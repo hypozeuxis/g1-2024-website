@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-6c2136b2bd2e071764cc7d7f5fe93e9f"
+  },
+  "datasets": {
+    "data-6c2136b2bd2e071764cc7d7f5fe93e9f": [
+      {
+        "Anglicism": 795,
+        "Period": "1980_1984"
+      },
+      {
+        "Anglicism": 2850,
+        "Period": "1985_1989"
+      },
+      {
+        "Anglicism": 2679,
+        "Period": "1990_1994"
+      },
+      {
+        "Anglicism": 853,
+        "Period": "1995_1999"
+      },
+      {
+        "Anglicism": 1665,
+        "Period": "2000_2004"
+      },
+      {
+        "Anglicism": 2004,
+        "Period": "2005_2009"
+      },
+      {
+        "Anglicism": 530,
+        "Period": "2010_2014"
+      },
+      {
+        "Anglicism": 538,
+        "Period": "2015_2019"
+      },
+      {
+        "Anglicism": 1004,
+        "Period": "2020_2024"
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "Period",
+      "title": "Lustro",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Anglicism",
+      "title": "Numero di Anglicismi",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "mark": {
+    "type": "bar"
+  },
+  "title": "Numero di anglicismi per lustro",
+  "width": 600
+}
