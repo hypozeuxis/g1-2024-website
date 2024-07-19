@@ -7,21 +7,99 @@
     }
   },
   "data": {
-    "name": "data-51e22661500041e56636667bf172a351"
+    "name": "data-2e86d422dd4703a860a5888409ee01ec"
   },
   "datasets": {
-    "data-51e22661500041e56636667bf172a351": [
+    "data-2e86d422dd4703a860a5888409ee01ec": [
       {
         "Count": 1,
-        "Lustrum": "1985_1989",
+        "Lustrum": "1980_1984",
         "Nice_class": 1.0,
-        "Word": "assembler"
+        "Word": "kodak"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 1.0,
-        "Word": "boston"
+        "Word": "kodak"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 1.0,
+        "Word": "blue"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 1.0,
+        "Word": "color"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 1.0,
+        "Word": "gold"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 1.0,
+        "Word": "call"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 1.0,
+        "Word": "kodak"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 1.0,
+        "Word": "black"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 1.0,
+        "Word": "clock"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 1.0,
+        "Word": "magic"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 1.0,
+        "Word": "tower"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 1.0,
+        "Word": "gold"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 1.0,
+        "Word": "champagne"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 1.0,
+        "Word": "kodak"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 1.0,
+        "Word": "kodak"
       },
       {
         "Count": 1,
@@ -34,12 +112,6 @@
         "Lustrum": "1980_1984",
         "Nice_class": 3.0,
         "Word": "baby"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 3.0,
-        "Word": "soap"
       },
       {
         "Count": 1,
@@ -69,7 +141,7 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 3.0,
-        "Word": "stick"
+        "Word": "soap"
       },
       {
         "Count": 1,
@@ -105,13 +177,19 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 3.0,
-        "Word": "magic"
+        "Word": "oil"
       },
       {
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 3.0,
-        "Word": "oil"
+        "Word": "temperature"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 3.0,
+        "Word": "chili"
       },
       {
         "Count": 1,
@@ -141,18 +219,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 3.0,
-        "Word": "ace"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 3.0,
-        "Word": "water"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 3.0,
         "Word": "last"
       },
       {
@@ -171,13 +237,13 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 3.0,
-        "Word": "carefree"
+        "Word": "gel"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 3.0,
-        "Word": "gel"
+        "Word": "water"
       },
       {
         "Count": 1,
@@ -205,15 +271,21 @@
       },
       {
         "Count": 1,
-        "Lustrum": "1990_1994",
+        "Lustrum": "1985_1989",
         "Nice_class": 3.0,
-        "Word": "shampoo"
+        "Word": "dimension"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 3.0,
+        "Word": "vim"
       },
       {
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 3.0,
-        "Word": "ace"
+        "Word": "shampoo"
       },
       {
         "Count": 1,
@@ -295,6 +367,12 @@
       },
       {
         "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 3.0,
+        "Word": "test"
+      },
+      {
+        "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 3.0,
         "Word": "gel"
@@ -310,12 +388,6 @@
         "Lustrum": "1995_1999",
         "Nice_class": 3.0,
         "Word": "net"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 3.0,
-        "Word": "ace"
       },
       {
         "Count": 1,
@@ -340,12 +412,6 @@
         "Lustrum": "1995_1999",
         "Nice_class": 3.0,
         "Word": "finish"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 3.0,
-        "Word": "ava"
       },
       {
         "Count": 1,
@@ -382,6 +448,18 @@
         "Lustrum": "1995_1999",
         "Nice_class": 3.0,
         "Word": "hair"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 3.0,
+        "Word": "system"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 3.0,
+        "Word": "factor"
       },
       {
         "Count": 1,
@@ -489,12 +567,6 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 3.0,
-        "Word": "spray"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 3.0,
         "Word": "chilly"
       },
       {
@@ -508,6 +580,12 @@
         "Lustrum": "2005_2009",
         "Nice_class": 3.0,
         "Word": "loreal"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 3.0,
+        "Word": "spray"
       },
       {
         "Count": 1,
@@ -669,13 +747,13 @@
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 3.0,
-        "Word": "vanish"
+        "Word": "net"
       },
       {
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 3.0,
-        "Word": "net"
+        "Word": "vanish"
       },
       {
         "Count": 1,
@@ -693,12 +771,6 @@
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 3.0,
-        "Word": "ace"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 3.0,
         "Word": "color"
       },
       {
@@ -706,12 +778,6 @@
         "Lustrum": "2015_2019",
         "Nice_class": 3.0,
         "Word": "cocco"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 3.0,
-        "Word": "air"
       },
       {
         "Count": 1,
@@ -745,6 +811,18 @@
       },
       {
         "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 3.0,
+        "Word": "vali"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 3.0,
+        "Word": "casting"
+      },
+      {
+        "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 3.0,
         "Word": "finish"
@@ -753,19 +831,7 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 3.0,
-        "Word": "ace"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 3.0,
         "Word": "gel"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 3.0,
-        "Word": "vali"
       },
       {
         "Count": 1,
@@ -831,7 +897,19 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 3.0,
+        "Word": "vali"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 3.0,
         "Word": "kit"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 3.0,
+        "Word": "molecular"
       },
       {
         "Count": 1,
@@ -909,12 +987,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 4.0,
-        "Word": "stop"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 4.0,
         "Word": "sponsor"
       },
       {
@@ -928,6 +1000,12 @@
         "Lustrum": "1985_1989",
         "Nice_class": 4.0,
         "Word": "club"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 4.0,
+        "Word": "rally"
       },
       {
         "Count": 1,
@@ -1113,19 +1191,13 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 5.0,
+        "Word": "stick"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 5.0,
         "Word": "spray"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 5.0,
-        "Word": "mister"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 5.0,
-        "Word": "baby"
       },
       {
         "Count": 1,
@@ -1137,7 +1209,25 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 5.0,
+        "Word": "air"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 5.0,
+        "Word": "fresh"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 5.0,
         "Word": "drink"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 5.0,
+        "Word": "fluff"
       },
       {
         "Count": 1,
@@ -1173,7 +1263,31 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 5.0,
+        "Word": "carefree"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 5.0,
+        "Word": "dry"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 5.0,
         "Word": "magnesia"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 5.0,
+        "Word": "water"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 5.0,
+        "Word": "spray"
       },
       {
         "Count": 1,
@@ -1191,6 +1305,12 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 5.0,
+        "Word": "magic"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 5.0,
         "Word": "line"
       },
       {
@@ -1198,18 +1318,6 @@
         "Lustrum": "1985_1989",
         "Nice_class": 5.0,
         "Word": "spa"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 5.0,
-        "Word": "spray"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 5.0,
-        "Word": "dry"
       },
       {
         "Count": 1,
@@ -1233,25 +1341,7 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 5.0,
-        "Word": "carefree"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 5.0,
-        "Word": "sine"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 5.0,
-        "Word": "cod"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 5.0,
-        "Word": "doc"
+        "Word": "liquid"
       },
       {
         "Count": 1,
@@ -1275,13 +1365,13 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 5.0,
-        "Word": "pic"
+        "Word": "raid"
       },
       {
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 5.0,
-        "Word": "raid"
+        "Word": "pic"
       },
       {
         "Count": 1,
@@ -1329,6 +1419,12 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 5.0,
+        "Word": "perfume"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 5.0,
         "Word": "well"
       },
       {
@@ -1336,12 +1432,6 @@
         "Lustrum": "1990_1994",
         "Nice_class": 5.0,
         "Word": "selenium"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 5.0,
-        "Word": "ace"
       },
       {
         "Count": 1,
@@ -1360,6 +1450,12 @@
         "Lustrum": "1995_1999",
         "Nice_class": 5.0,
         "Word": "lady"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 5.0,
+        "Word": "micro"
       },
       {
         "Count": 1,
@@ -1384,6 +1480,12 @@
         "Lustrum": "1995_1999",
         "Nice_class": 5.0,
         "Word": "fit"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 5.0,
+        "Word": "glade"
       },
       {
         "Count": 1,
@@ -1479,25 +1581,31 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 5.0,
+        "Word": "carefree"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 5.0,
+        "Word": "black"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 5.0,
         "Word": "easy"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 5.0,
-        "Word": "senna"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 5.0,
-        "Word": "chili"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 5.0,
         "Word": "tantum"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 5.0,
+        "Word": "glade"
       },
       {
         "Count": 1,
@@ -1579,12 +1687,6 @@
       },
       {
         "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 5.0,
-        "Word": "legger"
-      },
-      {
-        "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 5.0,
         "Word": "moment"
@@ -1617,13 +1719,13 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 5.0,
-        "Word": "molly"
+        "Word": "spray"
       },
       {
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 5.0,
-        "Word": "spray"
+        "Word": "molly"
       },
       {
         "Count": 1,
@@ -1665,13 +1767,13 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 5.0,
-        "Word": "headache"
+        "Word": "acetin"
       },
       {
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 5.0,
-        "Word": "problem"
+        "Word": "sin"
       },
       {
         "Count": 1,
@@ -1725,6 +1827,18 @@
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 5.0,
+        "Word": "air"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 5.0,
+        "Word": "wick"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 5.0,
         "Word": "pants"
       },
       {
@@ -1750,18 +1864,6 @@
         "Lustrum": "2015_2019",
         "Nice_class": 5.0,
         "Word": "sleep"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 5.0,
-        "Word": "comfort"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 5.0,
-        "Word": "massage"
       },
       {
         "Count": 1,
@@ -1861,12 +1963,6 @@
       },
       {
         "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 6.0,
-        "Word": "ideal"
-      },
-      {
-        "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 6.0,
         "Word": "design"
@@ -1875,7 +1971,19 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 7.0,
-        "Word": "bar"
+        "Word": "black"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 7.0,
+        "Word": "decker"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 7.0,
+        "Word": "candy"
       },
       {
         "Count": 1,
@@ -1888,6 +1996,24 @@
         "Lustrum": "1980_1984",
         "Nice_class": 7.0,
         "Word": "crowd"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "candy"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "rex"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "cad"
       },
       {
         "Count": 1,
@@ -1917,19 +2043,73 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 7.0,
-        "Word": "bar"
+        "Word": "nelson"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 7.0,
-        "Word": "garage"
+        "Word": "froufrou"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "gecko"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "high"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "tech"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "love"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "yes"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Word": "news"
       },
       {
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 7.0,
-        "Word": "canon"
+        "Word": "candy"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 7.0,
+        "Word": "love"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 7.0,
+        "Word": "new"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 7.0,
+        "Word": "line"
       },
       {
         "Count": 1,
@@ -1947,7 +2127,25 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 7.0,
-        "Word": "magic"
+        "Word": "yes"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 7.0,
+        "Word": "rex"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 7.0,
+        "Word": "imperia"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 7.0,
+        "Word": "yeah"
       },
       {
         "Count": 1,
@@ -1977,19 +2175,31 @@
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 7.0,
-        "Word": "cisco"
+        "Word": "whirlpool"
       },
       {
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 7.0,
-        "Word": "canal"
+        "Word": "bloc"
       },
       {
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 7.0,
-        "Word": "epitome"
+        "Word": "synergy"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 7.0,
+        "Word": "rex"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 7.0,
+        "Word": "rex"
       },
       {
         "Count": 1,
@@ -2001,13 +2211,25 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 7.0,
-        "Word": "canal"
+        "Word": "temperature"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 7.0,
+        "Word": "whirlpool"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 7.0,
-        "Word": "canon"
+        "Word": "whirlpool"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 7.0,
+        "Word": "difference"
       },
       {
         "Count": 1,
@@ -2025,19 +2247,31 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 7.0,
+        "Word": "finish"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 7.0,
+        "Word": "rex"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 7.0,
         "Word": "laser"
       },
       {
         "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 7.0,
-        "Word": "explore"
+        "Lustrum": "1980_1984",
+        "Nice_class": 8.0,
+        "Word": "vapor"
       },
       {
         "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 7.0,
-        "Word": "brew"
+        "Lustrum": "1980_1984",
+        "Nice_class": 8.0,
+        "Word": "sprint"
       },
       {
         "Count": 1,
@@ -2061,12 +2295,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 8.0,
-        "Word": "tracer"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 8.0,
         "Word": "street"
       },
       {
@@ -2074,6 +2302,12 @@
         "Lustrum": "1985_1989",
         "Nice_class": 8.0,
         "Word": "manche"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 8.0,
+        "Word": "jeans"
       },
       {
         "Count": 1,
@@ -2133,6 +2367,24 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 8.0,
+        "Word": "vapor"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 8.0,
+        "Word": "box"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 8.0,
+        "Word": "professional"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 8.0,
         "Word": "duo"
       },
       {
@@ -2149,21 +2401,9 @@
       },
       {
         "Count": 1,
-        "Lustrum": "1990_1994",
+        "Lustrum": "1995_1999",
         "Nice_class": 8.0,
-        "Word": "select"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 8.0,
-        "Word": "jelly"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 8.0,
-        "Word": "microgroove"
+        "Word": "excel"
       },
       {
         "Count": 1,
@@ -2247,24 +2487,6 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 8.0,
-        "Word": "das"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 8.0,
-        "Word": "ist"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 8.0,
-        "Word": "es"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 8.0,
         "Word": "sensor"
       },
       {
@@ -2283,37 +2505,19 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 8.0,
-        "Word": "power"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 8.0,
         "Word": "satin"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 8.0,
-        "Word": "gut"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 8.0,
-        "Word": "die"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 8.0,
-        "Word": "den"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 8.0,
         "Word": "look"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 8.0,
+        "Word": "power"
       },
       {
         "Count": 1,
@@ -2433,12 +2637,6 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 9.0,
-        "Word": "kodak"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 9.0,
         "Word": "sharp"
       },
       {
@@ -2521,6 +2719,12 @@
       },
       {
         "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 9.0,
+        "Word": "boom"
+      },
+      {
+        "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 9.0,
         "Word": "color"
@@ -2535,19 +2739,7 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 9.0,
-        "Word": "kodak"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 9.0,
         "Word": "canon"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 9.0,
-        "Word": "line"
       },
       {
         "Count": 1,
@@ -2559,13 +2751,13 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 9.0,
-        "Word": "disc"
+        "Word": "line"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 9.0,
-        "Word": "blue"
+        "Word": "disc"
       },
       {
         "Count": 1,
@@ -2611,15 +2803,21 @@
       },
       {
         "Count": 1,
-        "Lustrum": "1990_1994",
+        "Lustrum": "1985_1989",
         "Nice_class": 9.0,
-        "Word": "album"
+        "Word": "recorder"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 9.0,
+        "Word": "image"
       },
       {
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 9.0,
-        "Word": "kodak"
+        "Word": "album"
       },
       {
         "Count": 1,
@@ -2631,19 +2829,7 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 9.0,
-        "Word": "black"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 9.0,
         "Word": "disc"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 9.0,
-        "Word": "clock"
       },
       {
         "Count": 1,
@@ -2655,7 +2841,7 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 9.0,
-        "Word": "magic"
+        "Word": "dance"
       },
       {
         "Count": 1,
@@ -2673,19 +2859,13 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 9.0,
+        "Word": "mix"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 9.0,
         "Word": "rock"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 9.0,
-        "Word": "dance"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 9.0,
-        "Word": "tower"
       },
       {
         "Count": 1,
@@ -2698,6 +2878,30 @@
         "Lustrum": "1990_1994",
         "Nice_class": 9.0,
         "Word": "comfort"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 9.0,
+        "Word": "fortis"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 9.0,
+        "Word": "canon"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 9.0,
+        "Word": "personal"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 9.0,
+        "Word": "big"
       },
       {
         "Count": 1,
@@ -2745,12 +2949,6 @@
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 9.0,
-        "Word": "kodak"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 9.0,
         "Word": "virtual"
       },
       {
@@ -2787,7 +2985,13 @@
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 9.0,
-        "Word": "musicale"
+        "Word": "duke"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 9.0,
+        "Word": "digit"
       },
       {
         "Count": 1,
@@ -2818,12 +3022,6 @@
         "Lustrum": "2000_2004",
         "Nice_class": 9.0,
         "Word": "album"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 9.0,
-        "Word": "kodak"
       },
       {
         "Count": 1,
@@ -2881,15 +3079,15 @@
       },
       {
         "Count": 1,
-        "Lustrum": "2005_2009",
+        "Lustrum": "2000_2004",
         "Nice_class": 9.0,
-        "Word": "design"
+        "Word": "historic"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 9.0,
-        "Word": "compilation"
+        "Word": "design"
       },
       {
         "Count": 1,
@@ -2955,7 +3153,7 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 9.0,
-        "Word": "horror"
+        "Word": "canon"
       },
       {
         "Count": 1,
@@ -2968,6 +3166,12 @@
         "Lustrum": "2005_2009",
         "Nice_class": 9.0,
         "Word": "made"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 9.0,
+        "Word": "hit"
       },
       {
         "Count": 1,
@@ -3112,6 +3316,18 @@
         "Lustrum": "1980_1984",
         "Nice_class": 10.0,
         "Word": "personal"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 10.0,
+        "Word": "mister"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 10.0,
+        "Word": "baby"
       },
       {
         "Count": 1,
@@ -3265,12 +3481,6 @@
       },
       {
         "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 10.0,
-        "Word": "commercial"
-      },
-      {
-        "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 10.0,
         "Word": "summer"
@@ -3291,31 +3501,7 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 11.0,
-        "Word": "black"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 11.0,
-        "Word": "decker"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 11.0,
-        "Word": "candy"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 11.0,
-        "Word": "vapor"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 11.0,
-        "Word": "sprint"
+        "Word": "bar"
       },
       {
         "Count": 1,
@@ -3333,13 +3519,13 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 11.0,
-        "Word": "card"
+        "Word": "aha"
       },
       {
         "Count": 1,
-        "Lustrum": "1980_1984",
+        "Lustrum": "1985_1989",
         "Nice_class": 11.0,
-        "Word": "aha"
+        "Word": "castor"
       },
       {
         "Count": 1,
@@ -3357,19 +3543,7 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 11.0,
-        "Word": "castor"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 11.0,
         "Word": "timer"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 11.0,
-        "Word": "cad"
       },
       {
         "Count": 1,
@@ -3387,13 +3561,13 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 11.0,
-        "Word": "system"
+        "Word": "dynamic"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 11.0,
-        "Word": "dynamic"
+        "Word": "bar"
       },
       {
         "Count": 1,
@@ -3405,7 +3579,7 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 11.0,
-        "Word": "froufrou"
+        "Word": "system"
       },
       {
         "Count": 1,
@@ -3417,25 +3591,31 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 11.0,
-        "Word": "gecko"
+        "Word": "ideal"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 11.0,
-        "Word": "high"
+        "Word": "calotte"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 11.0,
-        "Word": "tech"
+        "Word": "sting"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 11.0,
+        "Word": "stop"
       },
       {
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 11.0,
-        "Word": "candy"
+        "Word": "spin"
       },
       {
         "Count": 1,
@@ -3459,49 +3639,13 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 11.0,
-        "Word": "love"
+        "Word": "candy"
       },
       {
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 11.0,
-        "Word": "new"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 11.0,
-        "Word": "line"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 11.0,
-        "Word": "vapor"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 11.0,
-        "Word": "box"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 11.0,
-        "Word": "professional"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 11.0,
-        "Word": "yes"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 11.0,
-        "Word": "yeah"
+        "Word": "magic"
       },
       {
         "Count": 1,
@@ -3519,49 +3663,43 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 11.0,
-        "Word": "design"
+        "Word": "ox"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 11.0,
+        "Word": "jet"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 11.0,
+        "Word": "system"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 11.0,
+        "Word": "split"
       },
       {
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 11.0,
-        "Word": "whirlpool"
+        "Word": "cisco"
       },
       {
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 11.0,
-        "Word": "excel"
+        "Word": "canal"
       },
       {
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 11.0,
-        "Word": "bloc"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 11.0,
-        "Word": "synergy"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 11.0,
-        "Word": "rex"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 11.0,
-        "Word": "rex"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 11.0,
-        "Word": "temperature"
+        "Word": "epitome"
       },
       {
         "Count": 1,
@@ -3573,25 +3711,37 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 11.0,
+        "Word": "glade"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 11.0,
+        "Word": "canal"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 11.0,
         "Word": "ham"
       },
       {
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 11.0,
-        "Word": "whirlpool"
+        "Word": "aqua"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 11.0,
+        "Word": "glade"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 11.0,
         "Word": "whirlpool"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 11.0,
-        "Word": "difference"
       },
       {
         "Count": 1,
@@ -3615,13 +3765,13 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 11.0,
-        "Word": "capsula"
+        "Word": "electric"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 11.0,
-        "Word": "electric"
+        "Word": "difference"
       },
       {
         "Count": 1,
@@ -3651,18 +3801,6 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 11.0,
-        "Word": "finish"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 11.0,
-        "Word": "rex"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 11.0,
         "Word": "express"
       },
       {
@@ -3670,6 +3808,18 @@
         "Lustrum": "2005_2009",
         "Nice_class": 11.0,
         "Word": "cocco"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 11.0,
+        "Word": "explore"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 11.0,
+        "Word": "brew"
       },
       {
         "Count": 1,
@@ -3729,13 +3879,13 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 12.0,
-        "Word": "arna"
+        "Word": "design"
       },
       {
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 12.0,
-        "Word": "design"
+        "Word": "arna"
       },
       {
         "Count": 1,
@@ -3801,12 +3951,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 12.0,
-        "Word": "boxer"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 12.0,
         "Word": "ford"
       },
       {
@@ -3814,6 +3958,12 @@
         "Lustrum": "1985_1989",
         "Nice_class": 12.0,
         "Word": "seat"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 12.0,
+        "Word": "boxer"
       },
       {
         "Count": 1,
@@ -3838,12 +3988,6 @@
         "Lustrum": "1985_1989",
         "Nice_class": 12.0,
         "Word": "new"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 12.0,
-        "Word": "arna"
       },
       {
         "Count": 1,
@@ -3877,6 +4021,12 @@
       },
       {
         "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 12.0,
+        "Word": "jeep"
+      },
+      {
+        "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 12.0,
         "Word": "diesel"
@@ -3892,12 +4042,6 @@
         "Lustrum": "1990_1994",
         "Nice_class": 12.0,
         "Word": "seat"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 12.0,
-        "Word": "cinquecento"
       },
       {
         "Count": 1,
@@ -3964,6 +4108,12 @@
         "Lustrum": "1990_1994",
         "Nice_class": 12.0,
         "Word": "optional"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 12.0,
+        "Word": "junior"
       },
       {
         "Count": 1,
@@ -4101,19 +4251,7 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 12.0,
-        "Word": "new"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 12.0,
         "Word": "fusion"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 12.0,
-        "Word": "ka"
       },
       {
         "Count": 1,
@@ -4137,13 +4275,25 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 12.0,
-        "Word": "land"
+        "Word": "drive"
       },
       {
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 12.0,
-        "Word": "rover"
+        "Word": "station"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 12.0,
+        "Word": "space"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 12.0,
+        "Word": "one"
       },
       {
         "Count": 1,
@@ -4257,13 +4407,13 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 12.0,
-        "Word": "cross"
+        "Word": "duster"
       },
       {
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 12.0,
-        "Word": "duster"
+        "Word": "cross"
       },
       {
         "Count": 1,
@@ -4347,12 +4497,6 @@
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 12.0,
-        "Word": "golf"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 12.0,
         "Word": "performance"
       },
       {
@@ -4377,6 +4521,12 @@
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 12.0,
+        "Word": "golf"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 12.0,
         "Word": "value"
       },
       {
@@ -4384,18 +4534,6 @@
         "Lustrum": "2015_2019",
         "Nice_class": 12.0,
         "Word": "free"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 12.0,
-        "Word": "cruise"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 12.0,
-        "Word": "control"
       },
       {
         "Count": 1,
@@ -4417,6 +4555,18 @@
       },
       {
         "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 12.0,
+        "Word": "carbon"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 12.0,
+        "Word": "look"
+      },
+      {
+        "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 12.0,
         "Word": "hybrid"
@@ -4426,12 +4576,6 @@
         "Lustrum": "2020_2024",
         "Nice_class": 12.0,
         "Word": "electric"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 12.0,
-        "Word": "duster"
       },
       {
         "Count": 1,
@@ -4479,12 +4623,6 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 12.0,
-        "Word": "music"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 12.0,
         "Word": "jeep"
       },
       {
@@ -4504,6 +4642,18 @@
         "Lustrum": "2020_2024",
         "Nice_class": 12.0,
         "Word": "experience"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 12.0,
+        "Word": "grip"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 12.0,
+        "Word": "edition"
       },
       {
         "Count": 1,
@@ -4563,12 +4713,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 14.0,
-        "Word": "calm"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 14.0,
         "Word": "rock"
       },
       {
@@ -4582,6 +4726,12 @@
         "Lustrum": "1985_1989",
         "Nice_class": 14.0,
         "Word": "bank"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 14.0,
+        "Word": "calm"
       },
       {
         "Count": 1,
@@ -4831,18 +4981,6 @@
       },
       {
         "Count": 1,
-        "Lustrum": "2010_2014",
-        "Nice_class": 14.0,
-        "Word": "bracciale"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 14.0,
-        "Word": "bracciale"
-      },
-      {
-        "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 14.0,
         "Word": "timeless"
@@ -4870,12 +5008,6 @@
         "Lustrum": "1990_1994",
         "Nice_class": 15.0,
         "Word": "pianoforte"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 16.0,
-        "Word": "ace"
       },
       {
         "Count": 1,
@@ -5097,6 +5229,18 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 16.0,
+        "Word": "bunny"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 16.0,
+        "Word": "band"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 16.0,
         "Word": "parker"
       },
       {
@@ -5116,18 +5260,6 @@
         "Lustrum": "1990_1994",
         "Nice_class": 16.0,
         "Word": "rock"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 16.0,
-        "Word": "pianoforte"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 16.0,
-        "Word": "bingo"
       },
       {
         "Count": 1,
@@ -5319,6 +5451,12 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 16.0,
+        "Word": "master"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 16.0,
         "Word": "collection"
       },
       {
@@ -5337,6 +5475,12 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 16.0,
+        "Word": "compilation"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 16.0,
         "Word": "regimen"
       },
       {
@@ -5349,6 +5493,12 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 16.0,
+        "Word": "win"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 16.0,
         "Word": "magazine"
       },
       {
@@ -5356,12 +5506,6 @@
         "Lustrum": "2005_2009",
         "Nice_class": 16.0,
         "Word": "king"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 16.0,
-        "Word": "master"
       },
       {
         "Count": 1,
@@ -5389,18 +5533,6 @@
       },
       {
         "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 16.0,
-        "Word": "fly"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 16.0,
-        "Word": "girl"
-      },
-      {
-        "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 16.0,
         "Word": "buzzer"
@@ -5422,6 +5554,42 @@
         "Lustrum": "2020_2024",
         "Nice_class": 16.0,
         "Word": "slash"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 16.0,
+        "Word": "slime"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 16.0,
+        "Word": "shake"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 16.0,
+        "Word": "crunchy"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 16.0,
+        "Word": "hybrid"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 16.0,
+        "Word": "frothy"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 16.0,
+        "Word": "bubbly"
       },
       {
         "Count": 1,
@@ -5488,12 +5656,6 @@
         "Lustrum": "1995_1999",
         "Nice_class": 18.0,
         "Word": "moon"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 18.0,
-        "Word": "nursery"
       },
       {
         "Count": 1,
@@ -5577,6 +5739,18 @@
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 18.0,
+        "Word": "system"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 18.0,
+        "Word": "gang"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 18.0,
         "Word": "princess"
       },
       {
@@ -5584,12 +5758,6 @@
         "Lustrum": "2015_2019",
         "Nice_class": 18.0,
         "Word": "variant"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 18.0,
-        "Word": "system"
       },
       {
         "Count": 1,
@@ -5647,15 +5815,15 @@
       },
       {
         "Count": 1,
-        "Lustrum": "2015_2019",
+        "Lustrum": "2020_2024",
         "Nice_class": 18.0,
-        "Word": "glitter"
+        "Word": "go"
       },
       {
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 18.0,
-        "Word": "go"
+        "Word": "gang"
       },
       {
         "Count": 1,
@@ -5668,6 +5836,12 @@
         "Lustrum": "2020_2024",
         "Nice_class": 18.0,
         "Word": "seven"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 18.0,
+        "Word": "yeah"
       },
       {
         "Count": 1,
@@ -5691,19 +5865,13 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 18.0,
-        "Word": "yeah"
+        "Word": "suit"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 19.0,
         "Word": "atlas"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 19.0,
-        "Word": "colorate"
       },
       {
         "Count": 1,
@@ -5716,12 +5884,6 @@
         "Lustrum": "1980_1984",
         "Nice_class": 20.0,
         "Word": "soleil"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 20.0,
-        "Word": "bistro"
       },
       {
         "Count": 1,
@@ -5751,12 +5913,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 20.0,
-        "Word": "rex"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 20.0,
         "Word": "sprint"
       },
       {
@@ -5770,18 +5926,6 @@
         "Lustrum": "1985_1989",
         "Nice_class": 20.0,
         "Word": "sol"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 20.0,
-        "Word": "capsula"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 20.0,
-        "Word": "pensile"
       },
       {
         "Count": 1,
@@ -5847,13 +5991,25 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 21.0,
+        "Word": "magic"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 21.0,
+        "Word": "soap"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 21.0,
         "Word": "independent"
       },
       {
         "Count": 1,
-        "Lustrum": "1985_1989",
+        "Lustrum": "1980_1984",
         "Nice_class": 21.0,
-        "Word": "dry"
+        "Word": "shampoo"
       },
       {
         "Count": 1,
@@ -5871,25 +6027,7 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 21.0,
-        "Word": "spray"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 21.0,
         "Word": "extra"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 21.0,
-        "Word": "dentale"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 21.0,
-        "Word": "spin"
       },
       {
         "Count": 1,
@@ -5925,12 +6063,6 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 21.0,
-        "Word": "dentale"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 21.0,
         "Word": "minor"
       },
       {
@@ -5943,19 +6075,13 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 21.0,
-        "Word": "manatee"
+        "Word": "son"
       },
       {
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 21.0,
-        "Word": "pyramid"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 21.0,
-        "Word": "spray"
+        "Word": "manatee"
       },
       {
         "Count": 1,
@@ -5967,19 +6093,7 @@
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 21.0,
-        "Word": "micro"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 21.0,
         "Word": "control"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 21.0,
-        "Word": "glade"
       },
       {
         "Count": 1,
@@ -6039,25 +6153,7 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 21.0,
-        "Word": "glade"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 21.0,
         "Word": "freezer"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 21.0,
-        "Word": "marcello"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 21.0,
-        "Word": "glade"
       },
       {
         "Count": 1,
@@ -6076,24 +6172,6 @@
         "Lustrum": "2005_2009",
         "Nice_class": 21.0,
         "Word": "interact"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 21.0,
-        "Word": "stay"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 21.0,
-        "Word": "alive"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 21.0,
-        "Word": "birthday"
       },
       {
         "Count": 1,
@@ -6123,25 +6201,37 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 21.0,
-        "Word": "horror"
+        "Word": "system"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 21.0,
-        "Word": "happy"
+        "Word": "lattice"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 21.0,
-        "Word": "team"
+        "Word": "comfort"
       },
       {
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 21.0,
-        "Word": "hotel"
+        "Word": "extra"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 21.0,
+        "Word": "spray"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 21.0,
+        "Word": "stand"
       },
       {
         "Count": 1,
@@ -6160,12 +6250,6 @@
         "Lustrum": "2020_2024",
         "Nice_class": 21.0,
         "Word": "electric"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 22.0,
-        "Word": "colorate"
       },
       {
         "Count": 1,
@@ -6381,18 +6465,6 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 25.0,
-        "Word": "bunny"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 25.0,
-        "Word": "band"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 25.0,
         "Word": "colmar"
       },
       {
@@ -6411,13 +6483,25 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 25.0,
-        "Word": "class"
+        "Word": "lovable"
       },
       {
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 25.0,
-        "Word": "lovable"
+        "Word": "ring"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 25.0,
+        "Word": "watch"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 25.0,
+        "Word": "lumberjack"
       },
       {
         "Count": 1,
@@ -6454,12 +6538,6 @@
         "Lustrum": "1995_1999",
         "Nice_class": 25.0,
         "Word": "spirit"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 25.0,
-        "Word": "amor"
       },
       {
         "Count": 1,
@@ -6549,18 +6627,6 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 25.0,
-        "Word": "gig"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 25.0,
-        "Word": "puma"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 25.0,
         "Word": "underwear"
       },
       {
@@ -6592,6 +6658,18 @@
         "Lustrum": "2000_2004",
         "Nice_class": 25.0,
         "Word": "hit"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 25.0,
+        "Word": "ground"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 25.0,
+        "Word": "awful"
       },
       {
         "Count": 1,
@@ -6627,12 +6705,6 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 25.0,
-        "Word": "puma"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 25.0,
         "Word": "sise"
       },
       {
@@ -6640,6 +6712,12 @@
         "Lustrum": "2005_2009",
         "Nice_class": 25.0,
         "Word": "robe"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 25.0,
+        "Word": "store"
       },
       {
         "Count": 1,
@@ -6699,12 +6777,6 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 25.0,
-        "Word": "summer"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2010_2014",
-        "Nice_class": 25.0,
         "Word": "silver"
       },
       {
@@ -6729,12 +6801,6 @@
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 25.0,
-        "Word": "gang"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 25.0,
         "Word": "golden"
       },
       {
@@ -6742,18 +6808,6 @@
         "Lustrum": "2015_2019",
         "Nice_class": 25.0,
         "Word": "lady"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 25.0,
-        "Word": "air"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 25.0,
-        "Word": "force"
       },
       {
         "Count": 1,
@@ -6820,12 +6874,6 @@
         "Lustrum": "2020_2024",
         "Nice_class": 25.0,
         "Word": "kelly"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 25.0,
-        "Word": "gang"
       },
       {
         "Count": 1,
@@ -6901,9 +6949,9 @@
       },
       {
         "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 26.0,
-        "Word": "store"
+        "Lustrum": "2020_2024",
+        "Nice_class": 25.0,
+        "Word": "clear"
       },
       {
         "Count": 1,
@@ -6969,25 +7017,7 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 28.0,
-        "Word": "cut"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 28.0,
-        "Word": "play"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 28.0,
         "Word": "shampoo"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 28.0,
-        "Word": "gig"
       },
       {
         "Count": 1,
@@ -7011,12 +7041,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 28.0,
-        "Word": "tag"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 28.0,
         "Word": "joe"
       },
       {
@@ -7029,6 +7053,12 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 28.0,
+        "Word": "gig"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 28.0,
         "Word": "battle"
       },
       {
@@ -7036,12 +7066,6 @@
         "Lustrum": "1985_1989",
         "Nice_class": 28.0,
         "Word": "cobra"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 28.0,
-        "Word": "rodeo"
       },
       {
         "Count": 1,
@@ -7071,7 +7095,19 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 28.0,
+        "Word": "tag"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 28.0,
         "Word": "jeep"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 28.0,
+        "Word": "stinger"
       },
       {
         "Count": 1,
@@ -7161,7 +7197,7 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 28.0,
-        "Word": "ala"
+        "Word": "battler"
       },
       {
         "Count": 1,
@@ -7251,7 +7287,7 @@
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 28.0,
-        "Word": "flipper"
+        "Word": "play"
       },
       {
         "Count": 1,
@@ -7263,13 +7299,13 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 28.0,
-        "Word": "game"
+        "Word": "mag"
       },
       {
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 28.0,
-        "Word": "mag"
+        "Word": "game"
       },
       {
         "Count": 1,
@@ -7287,6 +7323,12 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 28.0,
+        "Word": "gig"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 28.0,
         "Word": "em"
       },
       {
@@ -7294,12 +7336,6 @@
         "Lustrum": "2000_2004",
         "Nice_class": 28.0,
         "Word": "ball"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 28.0,
-        "Word": "gig"
       },
       {
         "Count": 1,
@@ -7341,7 +7377,7 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 28.0,
-        "Word": "blockbuster"
+        "Word": "little"
       },
       {
         "Count": 1,
@@ -7461,18 +7497,6 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 28.0,
-        "Word": "musicale"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2010_2014",
-        "Nice_class": 28.0,
-        "Word": "move"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2010_2014",
-        "Nice_class": 28.0,
         "Word": "controller"
       },
       {
@@ -7515,6 +7539,12 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 28.0,
+        "Word": "move"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2010_2014",
+        "Nice_class": 28.0,
         "Word": "woody"
       },
       {
@@ -7522,6 +7552,12 @@
         "Lustrum": "2010_2014",
         "Nice_class": 28.0,
         "Word": "buzz"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2010_2014",
+        "Nice_class": 28.0,
+        "Word": "sports"
       },
       {
         "Count": 1,
@@ -7719,19 +7755,7 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 29.0,
-        "Word": "ala"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 29.0,
         "Word": "capitan"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 29.0,
-        "Word": "puff"
       },
       {
         "Count": 1,
@@ -7750,18 +7774,6 @@
         "Lustrum": "1980_1984",
         "Nice_class": 29.0,
         "Word": "gim"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 29.0,
-        "Word": "snack"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 29.0,
-        "Word": "commodore"
       },
       {
         "Count": 1,
@@ -7809,12 +7821,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 29.0,
-        "Word": "gourmet"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 29.0,
         "Word": "maya"
       },
       {
@@ -7827,19 +7833,7 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 29.0,
-        "Word": "grand"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 29.0,
         "Word": "soup"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 29.0,
-        "Word": "mayonnaise"
       },
       {
         "Count": 1,
@@ -7852,6 +7846,24 @@
         "Lustrum": "1985_1989",
         "Nice_class": 29.0,
         "Word": "bay"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 29.0,
+        "Word": "run"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 29.0,
+        "Word": "ananas"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 29.0,
+        "Word": "vital"
       },
       {
         "Count": 1,
@@ -7941,7 +7953,7 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 29.0,
-        "Word": "chips"
+        "Word": "big"
       },
       {
         "Count": 1,
@@ -7954,18 +7966,6 @@
         "Lustrum": "1995_1999",
         "Nice_class": 29.0,
         "Word": "light"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 29.0,
-        "Word": "cisco"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 29.0,
-        "Word": "junior"
       },
       {
         "Count": 1,
@@ -8035,6 +8035,18 @@
       },
       {
         "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 29.0,
+        "Word": "alleluia"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 29.0,
+        "Word": "squatter"
+      },
+      {
+        "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 29.0,
         "Word": "light"
@@ -8073,6 +8085,18 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 29.0,
+        "Word": "peter"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 29.0,
+        "Word": "film"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 29.0,
         "Word": "blue"
       },
       {
@@ -8097,6 +8121,12 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 29.0,
+        "Word": "champignon"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 29.0,
         "Word": "craft"
       },
       {
@@ -8104,24 +8134,6 @@
         "Lustrum": "2000_2004",
         "Nice_class": 29.0,
         "Word": "whats"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 29.0,
-        "Word": "love"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 29.0,
-        "Word": "ca"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 29.0,
-        "Word": "mousse"
       },
       {
         "Count": 1,
@@ -8146,6 +8158,12 @@
         "Lustrum": "2005_2009",
         "Nice_class": 29.0,
         "Word": "capitan"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 29.0,
+        "Word": "extra"
       },
       {
         "Count": 1,
@@ -8206,12 +8224,6 @@
         "Lustrum": "2005_2009",
         "Nice_class": 29.0,
         "Word": "dessert"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 29.0,
-        "Word": "golden"
       },
       {
         "Count": 1,
@@ -8409,6 +8421,12 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 30.0,
+        "Word": "royal"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 30.0,
         "Word": "premium"
       },
       {
@@ -8457,19 +8475,13 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 30.0,
+        "Word": "snack"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 30.0,
         "Word": "hag"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 30.0,
-        "Word": "royal"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 30.0,
-        "Word": "go"
       },
       {
         "Count": 1,
@@ -8595,12 +8607,6 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 30.0,
-        "Word": "modena"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 30.0,
         "Word": "plum"
       },
       {
@@ -8653,6 +8659,12 @@
       },
       {
         "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 30.0,
+        "Word": "big"
+      },
+      {
+        "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 30.0,
         "Word": "rocher"
@@ -8680,6 +8692,12 @@
         "Lustrum": "1995_1999",
         "Nice_class": 30.0,
         "Word": "magnum"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 30.0,
+        "Word": "junior"
       },
       {
         "Count": 1,
@@ -8737,12 +8755,6 @@
       },
       {
         "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 30.0,
-        "Word": "large"
-      },
-      {
-        "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 30.0,
         "Word": "good"
@@ -8770,12 +8782,6 @@
         "Lustrum": "2000_2004",
         "Nice_class": 30.0,
         "Word": "gum"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 30.0,
-        "Word": "film"
       },
       {
         "Count": 1,
@@ -8833,9 +8839,9 @@
       },
       {
         "Count": 1,
-        "Lustrum": "2005_2009",
+        "Lustrum": "2000_2004",
         "Nice_class": 30.0,
-        "Word": "extra"
+        "Word": "mon"
       },
       {
         "Count": 1,
@@ -8871,7 +8877,7 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 30.0,
-        "Word": "fresh"
+        "Word": "extra"
       },
       {
         "Count": 1,
@@ -8884,12 +8890,6 @@
         "Lustrum": "2005_2009",
         "Nice_class": 30.0,
         "Word": "fitness"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 30.0,
-        "Word": "modena"
       },
       {
         "Count": 1,
@@ -8920,6 +8920,18 @@
         "Lustrum": "2005_2009",
         "Nice_class": 30.0,
         "Word": "rapid"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 30.0,
+        "Word": "soleil"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 30.0,
+        "Word": "fresh"
       },
       {
         "Count": 1,
@@ -9075,12 +9087,6 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 30.0,
-        "Word": "coach"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 30.0,
         "Word": "extra"
       },
       {
@@ -9159,7 +9165,13 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 30.0,
-        "Word": "smile"
+        "Word": "unique"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 30.0,
+        "Word": "together"
       },
       {
         "Count": 1,
@@ -9171,13 +9183,13 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 31.0,
-        "Word": "pal"
+        "Word": "gourmet"
       },
       {
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 31.0,
-        "Word": "gourmet"
+        "Word": "pal"
       },
       {
         "Count": 1,
@@ -9471,6 +9483,12 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 32.0,
+        "Word": "mousse"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 32.0,
         "Word": "jolly"
       },
       {
@@ -9489,6 +9507,12 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 32.0,
+        "Word": "santal"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 32.0,
         "Word": "sprint"
       },
       {
@@ -9502,12 +9526,6 @@
         "Lustrum": "1985_1989",
         "Nice_class": 32.0,
         "Word": "coke"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 32.0,
-        "Word": "santal"
       },
       {
         "Count": 1,
@@ -9544,12 +9562,6 @@
         "Lustrum": "1985_1989",
         "Nice_class": 32.0,
         "Word": "fruit"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 32.0,
-        "Word": "um"
       },
       {
         "Count": 1,
@@ -10155,6 +10167,12 @@
         "Count": 1,
         "Lustrum": "1980_1984",
         "Nice_class": 33.0,
+        "Word": "ananas"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1980_1984",
+        "Nice_class": 33.0,
         "Word": "lora"
       },
       {
@@ -10162,12 +10180,6 @@
         "Lustrum": "1980_1984",
         "Nice_class": 33.0,
         "Word": "distilled"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1980_1984",
-        "Nice_class": 33.0,
-        "Word": "blended"
       },
       {
         "Count": 1,
@@ -10366,6 +10378,12 @@
         "Lustrum": "1995_1999",
         "Nice_class": 33.0,
         "Word": "carton"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1995_1999",
+        "Nice_class": 33.0,
+        "Word": "cream"
       },
       {
         "Count": 1,
@@ -10605,12 +10623,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 35.0,
-        "Word": "credit"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 35.0,
         "Word": "son"
       },
       {
@@ -10618,12 +10630,6 @@
         "Lustrum": "1985_1989",
         "Nice_class": 35.0,
         "Word": "dos"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 35.0,
-        "Word": "shampoo"
       },
       {
         "Count": 1,
@@ -10660,6 +10666,12 @@
         "Lustrum": "1985_1989",
         "Nice_class": 35.0,
         "Word": "shop"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 35.0,
+        "Word": "shampoo"
       },
       {
         "Count": 1,
@@ -10803,12 +10815,6 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 35.0,
-        "Word": "blockbuster"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 35.0,
         "Word": "kona"
       },
       {
@@ -10869,7 +10875,13 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 35.0,
-        "Word": "ray"
+        "Word": "wireless"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 35.0,
+        "Word": "certificate"
       },
       {
         "Count": 1,
@@ -11253,12 +11265,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 36.0,
-        "Word": "bob"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 36.0,
         "Word": "extra"
       },
       {
@@ -11589,6 +11595,12 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 37.0,
+        "Word": "credit"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 37.0,
         "Word": "remail"
       },
       {
@@ -11703,12 +11715,6 @@
         "Count": 1,
         "Lustrum": "1990_1994",
         "Nice_class": 38.0,
-        "Word": "mix"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 38.0,
         "Word": "tennis"
       },
       {
@@ -11716,12 +11722,6 @@
         "Lustrum": "1990_1994",
         "Nice_class": 38.0,
         "Word": "film"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1990_1994",
-        "Nice_class": 38.0,
-        "Word": "dance"
       },
       {
         "Count": 1,
@@ -11770,6 +11770,18 @@
         "Lustrum": "1990_1994",
         "Nice_class": 38.0,
         "Word": "international"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 38.0,
+        "Word": "network"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 38.0,
+        "Word": "line"
       },
       {
         "Count": 1,
@@ -11823,12 +11835,6 @@
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 38.0,
-        "Word": "squilla"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 38.0,
         "Word": "line"
       },
       {
@@ -11853,12 +11859,6 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 38.0,
-        "Word": "sky"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 38.0,
         "Word": "team"
       },
       {
@@ -11866,6 +11866,12 @@
         "Lustrum": "2000_2004",
         "Nice_class": 38.0,
         "Word": "every"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 38.0,
+        "Word": "sky"
       },
       {
         "Count": 1,
@@ -11979,12 +11985,6 @@
         "Count": 1,
         "Lustrum": "2005_2009",
         "Nice_class": 38.0,
-        "Word": "league"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 38.0,
         "Word": "night"
       },
       {
@@ -11998,6 +11998,12 @@
         "Lustrum": "2005_2009",
         "Nice_class": 38.0,
         "Word": "card"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2005_2009",
+        "Nice_class": 38.0,
+        "Word": "outlet"
       },
       {
         "Count": 1,
@@ -12045,18 +12051,6 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 38.0,
-        "Word": "koala"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2010_2014",
-        "Nice_class": 38.0,
-        "Word": "box"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2010_2014",
-        "Nice_class": 38.0,
         "Word": "gol"
       },
       {
@@ -12087,19 +12081,31 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 38.0,
+        "Word": "koala"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2010_2014",
+        "Nice_class": 38.0,
+        "Word": "box"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2010_2014",
+        "Nice_class": 38.0,
         "Word": "relax"
       },
       {
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 38.0,
-        "Word": "unlimited"
+        "Word": "inclusive"
       },
       {
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 38.0,
-        "Word": "inclusive"
+        "Word": "extra"
       },
       {
         "Count": 1,
@@ -12225,12 +12231,6 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 38.0,
-        "Word": "express"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 38.0,
         "Word": "much"
       },
       {
@@ -12261,25 +12261,31 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 38.0,
+        "Word": "express"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 38.0,
         "Word": "business"
       },
       {
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 38.0,
-        "Word": "excuse"
+        "Word": "appreciate"
       },
       {
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 38.0,
-        "Word": "blue"
+        "Word": "really"
       },
       {
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 38.0,
-        "Word": "hulk"
+        "Word": "way"
       },
       {
         "Count": 1,
@@ -12352,6 +12358,12 @@
         "Lustrum": "1985_1989",
         "Nice_class": 39.0,
         "Word": "express"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 39.0,
+        "Word": "stop"
       },
       {
         "Count": 1,
@@ -12561,6 +12573,12 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 41.0,
+        "Word": "club"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1985_1989",
+        "Nice_class": 41.0,
         "Word": "sponsor"
       },
       {
@@ -12568,6 +12586,12 @@
         "Lustrum": "1990_1994",
         "Nice_class": 41.0,
         "Word": "libretto"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "1990_1994",
+        "Nice_class": 41.0,
+        "Word": "club"
       },
       {
         "Count": 1,
@@ -12621,19 +12645,13 @@
         "Count": 1,
         "Lustrum": "1995_1999",
         "Nice_class": 41.0,
-        "Word": "festival"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 41.0,
-        "Word": "cantar"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1995_1999",
-        "Nice_class": 41.0,
         "Word": "training"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
+        "Word": "blockbuster"
       },
       {
         "Count": 1,
@@ -12651,7 +12669,49 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 41.0,
+        "Word": "ray"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
         "Word": "master"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
+        "Word": "film"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
+        "Word": "matrix"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
+        "Word": "make"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
+        "Word": "night"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
+        "Word": "kung"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
+        "Word": "game"
       },
       {
         "Count": 1,
@@ -12664,12 +12724,6 @@
         "Lustrum": "2005_2009",
         "Nice_class": 41.0,
         "Word": "master"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2005_2009",
-        "Nice_class": 41.0,
-        "Word": "outlet"
       },
       {
         "Count": 1,
@@ -12867,12 +12921,6 @@
         "Count": 1,
         "Lustrum": "1985_1989",
         "Nice_class": 43.0,
-        "Word": "club"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "1985_1989",
-        "Nice_class": 43.0,
         "Word": "death"
       },
       {
@@ -12907,9 +12955,9 @@
       },
       {
         "Count": 1,
-        "Lustrum": "1990_1994",
+        "Lustrum": "1985_1989",
         "Nice_class": 43.0,
-        "Word": "club"
+        "Word": "tour"
       },
       {
         "Count": 1,
@@ -12963,12 +13011,6 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 43.0,
-        "Word": "loving"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 43.0,
         "Word": "fast"
       },
       {
@@ -13005,37 +13047,7 @@
         "Count": 1,
         "Lustrum": "2000_2004",
         "Nice_class": 43.0,
-        "Word": "dont"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 43.0,
-        "Word": "life"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 43.0,
         "Word": "snoopy"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 43.0,
-        "Word": "think"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 43.0,
-        "Word": "kind"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2000_2004",
-        "Nice_class": 43.0,
-        "Word": "funny"
       },
       {
         "Count": 1,
@@ -13203,12 +13215,6 @@
         "Count": 1,
         "Lustrum": "2010_2014",
         "Nice_class": 43.0,
-        "Word": "back"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2010_2014",
-        "Nice_class": 43.0,
         "Word": "city"
       },
       {
@@ -13216,6 +13222,12 @@
         "Lustrum": "2010_2014",
         "Nice_class": 43.0,
         "Word": "film"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2010_2014",
+        "Nice_class": 43.0,
+        "Word": "happy"
       },
       {
         "Count": 1,
@@ -13263,18 +13275,6 @@
         "Count": 1,
         "Lustrum": "2015_2019",
         "Nice_class": 43.0,
-        "Word": "great"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 43.0,
-        "Word": "smoky"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2015_2019",
-        "Nice_class": 43.0,
         "Word": "gourmet"
       },
       {
@@ -13306,6 +13306,18 @@
         "Lustrum": "2015_2019",
         "Nice_class": 43.0,
         "Word": "ovation"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 43.0,
+        "Word": "voucher"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2015_2019",
+        "Nice_class": 43.0,
+        "Word": "film"
       },
       {
         "Count": 1,
@@ -13365,6 +13377,18 @@
         "Count": 1,
         "Lustrum": "2020_2024",
         "Nice_class": 43.0,
+        "Word": "happy"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 43.0,
+        "Word": "meal"
+      },
+      {
+        "Count": 1,
+        "Lustrum": "2020_2024",
+        "Nice_class": 43.0,
         "Word": "mac"
       },
       {
@@ -13384,18 +13408,6 @@
         "Lustrum": "2020_2024",
         "Nice_class": 43.0,
         "Word": "bacon"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 43.0,
-        "Word": "chef"
-      },
-      {
-        "Count": 1,
-        "Lustrum": "2020_2024",
-        "Nice_class": 43.0,
-        "Word": "design"
       },
       {
         "Count": 1,
@@ -13492,13 +13504,13 @@
     ],
     "x": {
       "field": "Lustrum",
-      "title": "Lustrum",
+      "title": "Lustro",
       "type": "ordinal"
     },
     "y": {
       "aggregate": "sum",
       "field": "Count",
-      "title": "Total Count",
+      "title": "Frequenza",
       "type": "quantitative"
     }
   },
@@ -13520,7 +13532,7 @@
     },
     {
       "bind": "scales",
-      "name": "param_24",
+      "name": "param_2",
       "select": {
         "encodings": [
           "x",
@@ -13530,7 +13542,7 @@
       }
     }
   ],
-  "title": "Conteggio delle Top 15 Parole per Lustri e Nice_class",
+  "title": "Conteggio delle 15 parole pi\u00f9 frequenti per Lustri e Nice_class",
   "transform": [
     {
       "filter": "(datum.Nice_class === Nice_class)"
