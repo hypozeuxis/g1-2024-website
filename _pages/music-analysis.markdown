@@ -10,9 +10,8 @@ vega: true
 
 # Analisi della musica
 
-
-Durante gli anni, la proporzione tra spot pubblicitari in cui la musica rappresenta una componente fondamentale 
-dell'audio e quelli in cui la sua presenza è limitata, è rimasta pressoché costante.
+Nel corso degli anni, il rapporto tra spot pubblicitari in cui la musica rappresenta una componente fondamentale 
+dell'audio e quelli in cui la sua presenza è limitata, è rimasto pressoché costante.
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/music_lustrum.json" style="width: 100%"></vegachart>
 
@@ -21,7 +20,7 @@ dell'audio e quelli in cui la sua presenza è limitata, è rimasta pressoché co
 
 ### Analisi temporale
 
-Effettuando un'analisi temporale del genere musicale negli spot televisivi, si nota a partire dagli anni ottanta fino 
+Effettuando un'analisi temporale del genere musicale negli spot televisivi, si nota a partire dagli anni Ottanta fino 
 ad oggi una progressiva riduzione nell’utilizzo della musica classica e 
 della musica elettronica a favore della musica pop, che diventa nell’ultimo decennio il genere caratterizzante per 
 oltre la metà degli spot televisivi. 
@@ -31,27 +30,39 @@ costante, essendo presente in circa uno spot su dieci in tutto il dataset.
 Unica eccezione il lustro 2010-2014 in cui la musica di background mostra un aumento piuttosto significativo. 
 In questi stessi anni, la musica rock rappresenta una percentuale ancora minore delle pubblicità. 
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/streamgraph.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/streamgraph2.json" style="width: 100%"></vegachart>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/lustrum3.json" style="width: 100%"></vegachart>
 
 ### Analisi per classi di Nizza
-Considerando le dieci classi di Nizza più frequenti nel nostro dataset, invece, è possibile osservare la distribuzione
+
+
+Considerando le dieci classi di Nizza più frequenti nel nostro dataset è possibile osservare la distribuzione
 dei generi musicali in base alla tipologia merceologica. Si osserva che la musica elettronica è presente in oltre la 
-metà delle pubblcità per le classi di Nizza relative ad apparecchi scientifici e informatici (9), veicoli (12) e 
+metà delle pubblcità per le classi di Nizza relative ad apparecchi scientifici e informatici (classe 9), veicoli (12) e 
 prodotti realizzati in carta (16).
 
-Il genere pop risulta quello predominante invece per i prodotti per l'igiene (3) e farmaceutici (5), 
-per le pubblicità dei giocattoli (28), per i prodotti alimenteri (29,30) e per i servizi di telecomunicazione (38).
+Il genere pop risulta quello predominante per i prodotti per l'igiene (3) e farmaceutici (5), 
+per le pubblicità dei giocattoli (28), per i prodotti alimentari (29,30) e per i servizi di telecomunicazione (38).
 
-(rock maggiore in 32 e 12)
-
+La musica rock invece rappresenta una frazione molto bassa degli spot televisivi e le classi per cui ha un valore 
+maggiore sono quelle relative ai veicoli (12) e alle birre (32).
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice_top10.json" style="width: 100%"></vegachart>
+
+Per completezza, si riporta la distribuzione dei generi musicali per tutte le classi di Nizza.
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice_all.json" style="width: 100%"></vegachart>
+
+
+
+Si analizza nei grafici seguenti l'andamento dei generi musicali nel tempo per cinque classi di Nizza.
+
+
 
 #### Veicoli (12)
 Per gli spot pubblicitari dei veicoli, si osserva che la musica classica, un tempo abbastanza diffusa, è andata via
-via diminuendo. Il rock invece ha raggiunto un picco di presenza negli anni a inizio duemila, in corrispondenza di 
-un minimo per la musica elettronica, che è poi tornata ad essere negli ultimi anni il genere preponderante nelle 
+via diminuendo. Il rock ha raggiunto un picco di presenza a inizio duemila. Nello stesso periodo si nota 
+un minimo per la musica elettronica, che è tornata ad essere negli ultimi anni il genere preponderante nelle 
 pubblicità delle automobili.
 
 
@@ -67,7 +78,7 @@ fino a scomparire del tutto negli ultimi venti anni.
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice28.json" style="width: 100%"></vegachart>
 
 #### Generi alimentari (29 e 30)
-Per le pubblicità relativi ai generi alimentari (classi 29 e 30) l'andamento del genere musicale è piuttosto simile, 
+Per le pubblicità relative ai generi alimentari (classi 29 e 30) l'andamento della musica è piuttosto simile, 
 con un progressivo aumento della musica pop a discapito di quella elettronica. Per entrambe le classi di Nizza, 
 il lustro 2010-2014 vede un impiego più ridotto della musica pop con un aumento della musica classica per la classe 30 
 e di background per la classe 29.
@@ -79,7 +90,7 @@ e di background per la classe 29.
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice30.json" style="width: 100%"></vegachart>
 
 #### Telecomunicazioni (38)
-Le pubblicità relativi ai servizi di telecomunicazioni hanno un andamento caratteristico rispetto alle altre classi 
+Le pubblicità dei servizi di telecomunicazioni hanno un andamento caratteristico rispetto alle altre classi 
 di Nizza, con una proporzione tra generi molto variabile da un lustro all'altro e con l'unica costante dell'assenza 
 di musica rock. Il genere pop infatti ha avuto un periodo di massima rappresentazione, seguito da un calo e da una 
 ripresa negli ultimi anni.
