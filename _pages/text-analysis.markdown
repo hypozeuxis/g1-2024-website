@@ -28,6 +28,13 @@ Oppure, considerando la classe di Nizza 5, che unisce i diversi tipi di farmaci,
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_topic.json" style="width:100%"></vegachart>  
 
-Infine, l'attenazione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari.
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl.json" style="width:100%"></vegachart> 
+Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari.
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
+
+Di seguito si possono visualizzare gli anglicismi per lustro e per classe di Nizza.
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_word.json" style="width:100%"></vegachart> 
+
+
 
