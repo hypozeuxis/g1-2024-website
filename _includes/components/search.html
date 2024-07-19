@@ -223,6 +223,10 @@
                     this.pipeline.remove(lunr.trimmer);
                     this.pipeline.remove(lunr.stopWordFilter);
 
+                    this.searchPipeline.remove(lunr.stemmer);
+                    this.searchPipeline.remove(lunr.trimmer);
+                    this.searchPipeline.remove(lunr.stopWordFilter);
+
                     this.ref('commercial_id');
                     this.field('brand');
                     this.field('year');
