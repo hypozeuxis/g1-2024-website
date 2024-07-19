@@ -1,8 +1,66 @@
 <div class="container">
-    <h1>Cerca per marchio</h1>
-    <p>Puoi cercare per marchio, categoria di prodotti o anno</p>
+    <h1>Cerca spot</h1>
+    <!--
+        <input type="text" id="search-input" placeholder="Cerca…" value="Mulin">
+        -->
+    <hr>
 
-    <input type="text" id="search-input" placeholder="Cerca…">
+    <div>
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col col-12 col-md-3">
+                    <div class="mb-3">
+                        <label for="input-brand" class="form-label">Marchio</label>
+                        <div class="input-group">
+                            <input class="form-control" id="input-brand">
+                            <button class="btn btn-dark" type="button" id="clear-input-brand">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="position-relative">
+                            <div id="dropdown-brands" class="list-group floating-dropdown">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-7">
+                    <div class="mb-3">
+                        <label for="input-product-type" class="form-label">Tipologia di prodotto</label>
+                        <div class="input-group">
+                            <input class="form-control" id="input-product-type">
+                            <button class="btn btn-dark" type="button" id="clear-input-product-type">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="position-relative">
+                            <div id="dropdown-product-types" class="list-group floating-dropdown">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="col">
+                    <select class="form-select" aria-label="Seleziona la tipologia di prodotto">
+                        <option selected>Scegli</option>
+                        {% for type in site.data.product-types %}
+                            <option value="{{ type.label }}">{{ type.label }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                -->
+                <div class="col col-12 col-md-2">
+                    <div class="mb-3">
+                        <button id="search-button" class="btn btn-light">Cerca</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
 </div>
 
 <div class="container-fluid mt-5">
@@ -10,9 +68,10 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+<div class="modal fade bd-example-modal-xl" id="exampleModalCenter" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalCenterTitle"
      aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
@@ -21,14 +80,31 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="d-flex flex-row">
+                <div id="commercial-content">
                     <div class="d-grid grid-2x2">
-                        <div>Metadata</div>
-                        <div>Marimekko</div>
-                        <div>Classifica</div>
-                        <div>Classifica tf-idf</div>
+                        <div id="metadata">
+                            <dl>
+                                <dt>Titolo</dt>
+                                <dd id="commercial-title"></dd>
+
+                                <dt>Tipologia di prodotto</dt>
+                                <dd id="product-type"></dd>
+
+                                <dt>Durata</dt>
+                                <dd id="duration-in-seconds"></dd>
+
+                                <dt>Fonte</dt>
+                                <dd id="source"></dd>
+                            </dl>
+                        </div>
+                        <div id="marimekko" class="chart"></div>
+                        <div id="color-lb" class="chart"></div>
+                        <div id="color-lb-tfidf" class="chart"></div>
                     </div>
-                    <div>Masonry</div>
+                    <div id="masonry">
+
+
+                    </div>
                 </div>
             </div>
             <div class="modal-footer">
@@ -46,57 +122,203 @@
     }
 
     .modal-body div div {
-        width: 100%;
-        border: 1px solid yellow;
-        padding: 0.25rem;
+        border: 0px solid yellow;
+        padding: 1rem;
+    }
+
+    #commercial-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
 
     .grid-2x2 {
+        width: 67%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(min(100% / 3, max(64px, 100% / 5)), 1fr));
-        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(max(10rem, 100% / 2), 1fr));
+    }
+
+    vegachart {
+        width: 100%;
+        height: 16rem;
+    }
+
+    #masonry {
+        width: 33%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 0.5rem;
+        padding: 1rem;
+    }
+
+    dl {
+
+    }
+
+    dt {
+        font-weight: bold;
+        font-size: 0.875rem;
+        line-height: 1.2;
+        font-feature-settings: 'smcp', 'c2sc';
+    }
+
+    dd {
+        margin: 0 0 1rem 0;
+        line-height: 1.2;
+    }
+
+    .card-body h2 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        margin: 0 0 1rem 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 0.875rem;
+        line-height: 1.2;
+    }
+
+    .floating-dropdown {
+        width: 100%;
+        max-height: 200px;
+        background: blueviolet;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
     }
 </style>
 <script>
-    /*
-     "commercial_id": "qlT0fzmhays",
-    "brand": "Mediafriends",
-    "year": 2023,
-    "title": "Mediafriends e Fondazione AlberItalia: uno degli spot dedicati alla prevenzione degli incendi",
-    "product_type": "Raccolta di fondi e sponsorizzazione finanziaria",
-    "nice_class": 36,
-    "duration_in_seconds": 30.0,
-    "source": "Engage.it (YouTube)"
-     */
+
+    function getExactMatchingQuery(query, field, asterisk) {
+        query = query.trim();
+        if (query == '') {
+            return '';
+        }
+        const terms = query.split(/ +/g);
+        console.log(terms);
+        console.log(terms.length);
+        const w = terms.map((x) => `+${field}:${x}${asterisk ? '*' : ''}`);
+        console.log(w.join(' '));
+        return w.join(' ');
+    }
+
+    let baseurl = '';
+    {%- if site.baseurl -%}
+    baseurl = '{{ site.baseurl }}';
+    {% endif %}
+    console.log(baseurl);
+
+    lunr.tokenizer.separator = /[ ’]/;
+
     document.addEventListener("DOMContentLoaded", function () {
-        fetch('{{ site.baseurl }}/assets/commercial_db.json')
+        fetch(`${baseurl}/assets/commercial-db.json`)
             .then(response => response.json())
             .then(data => {
                 const idx = lunr(function () {
+
+                    this.pipeline.remove(lunr.stemmer);
+                    this.pipeline.remove(lunr.trimmer);
+                    this.pipeline.remove(lunr.stopWordFilter);
+
                     this.ref('commercial_id');
                     this.field('brand');
                     this.field('year');
-                    this.field('title');
                     this.field('product_type');
-                    this.field('nice_class');
-                    this.field('duration_in_seconds');
-                    this.field('source');
 
                     data.forEach(function (doc) {
                         this.add(doc);
                     }, this);
                 });
 
-                document.getElementById('search-input').addEventListener('input', function () {
-                    const resultDiv = document.getElementById('search-results');
+                console.log(idx);
+
+                const inputBrand = document.getElementById('input-brand');
+
+                inputBrand.addEventListener('input', function () {
+                    const brandResultDiv = document.getElementById('dropdown-brands');
                     const query = this.value;
                     if (query === '') {
-                        resultDiv.innerHTML = '';
+                        brandResultDiv.innerHTML = '';
                         return;
                     }
+                    const results = [...new Set(idx.search(getExactMatchingQuery(query, 'brand', true)))];
+                    brandResultDiv.innerHTML = '';
 
-                    const results = idx.search(`*${query}*`);
+                    if (results.length > 0) {
+                        const uniqueItems = new Set();
+                        results.forEach(function (result) {
+                            const item = data.find(d => d.commercial_id === result.ref);
+                            if (uniqueItems.has(item.brand)) {
+                                return;
+                            }
+                            uniqueItems.add(item.brand);
+                            const tile = document.createElement('button');
+                            tile.setAttribute('type', 'button');
+                            tile.classList.add('list-group-item',
+                                'list-group-item-action');
+                            tile.innerText = item.brand;
+                            tile.addEventListener('click', function (e) {
+                                inputBrand.value = item.brand;
+                                uniqueItems.clear();
+                                brandResultDiv.innerHTML = '';
+                            });
+                            brandResultDiv.append(tile);
+                        });
+                    }
+                });
+
+
+                const inputProductType = document.getElementById('input-product-type');
+
+                inputProductType.addEventListener('input', function () {
+                    const productTypeDiv = document.getElementById('dropdown-product-types');
+                    const query = this.value;
+                    if (query === '') {
+                        productTypeDiv.innerHTML = '';
+                        return;
+                    }
+                    const results = [...new Set(idx.search(getExactMatchingQuery(query, 'product_type', true)))];
+                    productTypeDiv.innerHTML = '';
+
+                    if (results.length > 0) {
+                        const uniqueItems = new Set();
+                        results.forEach(function (result) {
+                            const item = data.find(d => d.commercial_id === result.ref);
+                            if (uniqueItems.has(item.product_type)) {
+                                return;
+                            }
+                            uniqueItems.add(item.product_type);
+                            const tile = document.createElement('button');
+                            tile.setAttribute('type', 'button');
+                            tile.classList.add('list-group-item',
+                                'list-group-item-action');
+                            tile.innerText = item.product_type;
+                            tile.addEventListener('click', function (e) {
+                                inputProductType.value = item.product_type;
+                                uniqueItems.clear();
+                                productTypeDiv.innerHTML = '';
+                            });
+                            productTypeDiv.append(tile);
+                        });
+                    }
+                });
+
+
+                document.getElementById('search-button').addEventListener('click', function () {
+                    const brand = document.getElementById('input-brand').value;
+                    const productType = document.getElementById('input-product-type').value;
+
+                    const resultDiv = document.getElementById('search-results');
+
+                    const results = idx.search(
+                        getExactMatchingQuery(brand.replaceAll('-', '\\-'), 'brand', false) + ' ' +
+                        getExactMatchingQuery(productType, 'product_type', false)
+                    );
                     resultDiv.innerHTML = '';
+                    console.log(results);
 
                     if (results.length > 0) {
                         results.forEach(function (result) {
@@ -108,15 +330,56 @@
                             card.addEventListener('click', function () {
                                 const modalTitle = document.getElementById('exampleModalLongTitle');
                                 modalTitle.innerText = `${item.brand}, ${item.year}`;
+                                const commercialTitle = document.getElementById('commercial-title');
+                                commercialTitle.innerText = `${item.title}`;
+                                const productType = document.getElementById('product-type');
+                                productType.innerText = `${item.product_type}`;
+                                const durationInSeconds = document.getElementById('duration-in-seconds');
+                                durationInSeconds.innerText = `${item.duration_in_seconds}″`;
+                                const source = document.getElementById('source');
+                                source.innerText = `${item.source}`;
+
+                                const marimekkoDiv = document.getElementById('marimekko');
+                                const marimekkoChart = document.createElement('vegachart');
+                                marimekkoChart.setAttribute('schema-url', `${baseurl}/assets/marimekko-charts/${item.commercial_id}.marimekko.json`);
+                                marimekkoDiv.innerHTML = `<h6>Tavolozza dei colori</h6>`;
+                                marimekkoDiv.appendChild(marimekkoChart);
+
+                                const colorLbDiv = document.getElementById('color-lb');
+                                const colorLbChart = document.createElement('vegachart');
+                                colorLbChart.setAttribute('schema-url', `${baseurl}/assets/color-lb-charts/${item.commercial_id}.lb.json`);
+                                colorLbDiv.innerHTML = `<h6>I 5 colori dominanti</h6>`;
+                                colorLbDiv.appendChild(colorLbChart);
+
+                                const colorLbTfidfDiv = document.getElementById('color-lb-tfidf');
+                                const colorLbTfidfChart = document.createElement('vegachart');
+                                colorLbTfidfChart.setAttribute('schema-url', `${baseurl}/assets/color-lb-tfidf-charts/${item.commercial_id}.lb_tfidf.json`);
+                                colorLbTfidfDiv.innerHTML = `<h6>I 5 colori dominanti (tf-idf)</h6>`;
+                                colorLbTfidfDiv.appendChild(colorLbTfidfChart);
+
+                                const masonryDiv = document.getElementById('masonry');
+                                masonryDiv.innerHTML = ``;
+                                item.scenes.forEach((v, i, a) => {
+                                    v = v.toString().padStart(3, '0');
+                                    const img = document.createElement('img');
+                                    img.setAttribute('src', `${baseurl}/assets/thumbnails/${item.commercial_id}.ss${v}.jpg`);
+                                    masonryDiv.appendChild(img);
+                                });
+
+                                setTimeout(() => {
+                                    parseSchema(marimekkoChart).then(schema => vegaEmbed(marimekkoChart, schema, {'actions': false}));
+                                    parseSchema(colorLbChart).then(schema => vegaEmbed(colorLbChart, schema, {'actions': false}));
+                                    parseSchema(colorLbTfidfChart).then(schema => vegaEmbed(colorLbTfidfChart, schema, {'actions': false}));
+                                }, 500);
                             });
 
-                            const vegaChart = document.createElement('vegachart');
-                            vegaChart.classList.add('card-img-top');
-                            vegaChart.setAttribute('schema-url', `/assets/marimekko_charts/${item.commercial_id}.marimekko.json`);
-                            vegaChart.style.width = '100%';
-                            vegaChart.style.height = '10rem';
-                            vegaChart.style.pointerEvents = 'none';
-                            card.appendChild(vegaChart);
+                            const commercialThumb = document.createElement('vegachart');
+                            commercialThumb.classList.add('card-img-top');
+                            commercialThumb.setAttribute('schema-url', `${baseurl}/assets/marimekko-charts/${item.commercial_id}.marimekko.json`);
+                            commercialThumb.style.width = '100%';
+                            commercialThumb.style.height = '10rem';
+                            commercialThumb.style.pointerEvents = 'none';
+                            card.appendChild(commercialThumb);
 
                             const cardBody = document.createElement('div');
                             cardBody.classList.add('card-body');
@@ -136,12 +399,14 @@
                             card.appendChild(cardBody);
 
                             resultDiv.appendChild(card);
-                            parseSchema(vegaChart).then(schema => vegaEmbed(vegaChart, schema, {"actions": false}));
+
+                            parseSchema(commercialThumb).then(schema => vegaEmbed(commercialThumb, schema, {'actions': false}));
                         });
                     } else {
                         resultDiv.innerHTML = '<p>Nessun risultato trovato</p>';
                     }
                 });
+
             });
     });
 
