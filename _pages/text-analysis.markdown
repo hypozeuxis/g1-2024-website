@@ -32,9 +32,7 @@ Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi prese
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
 
-Di seguito si possono visualizzare gli anglicismi per lustro e per classe di Nizza.
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_word.json" style="width:100%"></vegachart> 
 
 
 
