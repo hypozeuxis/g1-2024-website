@@ -45,7 +45,7 @@ github_repo:
 navbar:
   style: dual # non modificare
   brand: # è il titolo del sito e funziona da bottone (tipicamente per la homepage).
-    title: ""
+    title: "Spot TV"
     img: "./assets/images/Logo_masthead.png"
     url: /
   nav:
@@ -77,20 +77,20 @@ navbar:
     #       url: /kramdown #url
     # - title: Tempo
     #   url: /time-analysis
-    - title: One page demo
-      child:
-        - title: Demo
-          url: /single
-        - title: "Sezione 1" #Label
-          url: /single#sezione-1 #url
-        - title: "Sezione 1.1" #Label
-          url: /single#sezione-11 #url
-        - title: "Sezione 1.2" #Label
-          url: /single#sezione-12 #url
-        - title: "Gallerie" #Label
-          url: /single#galleria #url
-        - title: "Mappa delle stragi" #Label
-          url: /single#mappa-delle-stragi #url
+    # - title: One page demo
+    #   child:
+    #     - title: Demo
+    #       url: /single
+    #     - title: "Sezione 1" #Label
+    #       url: /single#sezione-1 #url
+    #     - title: "Sezione 1.1" #Label
+    #       url: /single#sezione-11 #url
+    #     - title: "Sezione 1.2" #Label
+    #       url: /single#sezione-12 #url
+    #     - title: "Gallerie" #Label
+    #       url: /single#galleria #url
+    #     - title: "Mappa delle stragi" #Label
+    #       url: /single#mappa-delle-stragi #url
 
 
 
