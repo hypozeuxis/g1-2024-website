@@ -29628,20 +29628,19 @@
         "min": 1.0,
         "step": 1
       },
-      "name": "Select",
+      "name": "Seleziona",
       "select": {
         "fields": [
-          "Nice_class"
+          "classe di Nizza"
         ],
         "type": "point"
       }
     }
   ],
-  "title": "Topic per Lustro e Classe di Nizza",
   "transform": [
     {
       "filter": {
-        "param": "Select"
+        "param": "Seleziona"
       }
     }
   ],
