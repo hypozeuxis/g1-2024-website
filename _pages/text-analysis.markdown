@@ -8,8 +8,6 @@ header_title: "Analisi del testo"
 vega: true
 ---
 
-# Analisi del testo
-
 ## Analisi
 
 
