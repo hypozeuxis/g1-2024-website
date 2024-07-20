@@ -62,6 +62,9 @@
     ]
   },
   "encoding": {
+    "color": {
+      "value": "#F3CC94"
+    },
     "x": {
       "field": "Period",
       "title": "Lustro",
