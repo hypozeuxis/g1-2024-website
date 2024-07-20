@@ -2040,7 +2040,7 @@
       "type": "quantitative"
     }
   },
-  "height": "container",
+  "height": 300,
   "mark": {
     "clip": true,
     "type": "bar"
