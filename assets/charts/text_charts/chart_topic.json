@@ -29615,7 +29615,7 @@
       "type": "quantitative"
     }
   },
-  "height": 400,
+  "height": 300,
   "mark": {
     "size": 60,
     "type": "circle"
@@ -29645,5 +29645,5 @@
       }
     }
   ],
-  "width": 600
+  "width": "container"
 }
