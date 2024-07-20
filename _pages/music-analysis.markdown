@@ -9,6 +9,10 @@ vega: true
 ---
 
 # Analisi della musica
+La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali principali per rendere il messaggio dello spot efficace e accattivante.  
+Analizzare l’evoluzione temporale della musica della pubblicità italiana permette quindi di comprendere come le strategie di marketing siano cambiate.
+
+
 
 Nel corso degli anni, il rapporto tra spot pubblicitari in cui la musica rappresenta una componente fondamentale 
 dell'audio e quelli in cui la sua presenza è limitata, è rimasto pressoché costante.
@@ -75,7 +79,7 @@ Per completezza, si riporta la distribuzione dei generi musicali per tutte le cl
 Genere musicale per Classe di Nizza
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice_all_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice_all_f_2.json" style="width: 100%"></vegachart>
 
 
 
