@@ -283,6 +283,25 @@ body::after {
   font-weight: bold;
   padding: 0;
   margin: 3em 0 1em 0;
+  font-size: 0.875em;
+}
+
+/* Vega charts */
+
+.vega-bind {
+  font-size: 0.875em;
+  font-family: $font-family-monospace;
+  label {
+    display: flex;
+
+    .vega-bind-name {
+      margin-inline-end: 1em;
+    }
+
+    input {
+      margin-inline-end: 0.5em;
+    }
+  }
 }
 
 vegachart + p {
