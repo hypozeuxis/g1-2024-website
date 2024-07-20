@@ -1,0 +1,173 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json",
+  "config": {
+    "axis": {
+      "domainColor": "#313338",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
+    }
+  },
+  "data": {
+    "name": "data-dea852b0e5a508ae059ab85683bb8320"
+  },
+  "datasets": {
+    "data-dea852b0e5a508ae059ab85683bb8320": [
+      {
+        "lustrum": "1980_1984",
+        "music": "No",
+        "percentage": 0.49045521292217326
+      },
+      {
+        "lustrum": "1985_1989",
+        "music": "No",
+        "percentage": 0.42805026347790837
+      },
+      {
+        "lustrum": "1990_1994",
+        "music": "No",
+        "percentage": 0.4219948849104859
+      },
+      {
+        "lustrum": "1995_1999",
+        "music": "No",
+        "percentage": 0.4914586070959264
+      },
+      {
+        "lustrum": "2000_2004",
+        "music": "No",
+        "percentage": 0.4765886287625418
+      },
+      {
+        "lustrum": "2005_2009",
+        "music": "No",
+        "percentage": 0.44666666666666666
+      },
+      {
+        "lustrum": "2010_2014",
+        "music": "No",
+        "percentage": 0.49736842105263157
+      },
+      {
+        "lustrum": "2015_2019",
+        "music": "No",
+        "percentage": 0.4152046783625731
+      },
+      {
+        "lustrum": "2020_2024",
+        "music": "No",
+        "percentage": 0.40039447731755423
+      },
+      {
+        "lustrum": "1980_1984",
+        "music": "Yes",
+        "percentage": 0.5095447870778267
+      },
+      {
+        "lustrum": "1985_1989",
+        "music": "Yes",
+        "percentage": 0.5719497365220916
+      },
+      {
+        "lustrum": "1990_1994",
+        "music": "Yes",
+        "percentage": 0.578005115089514
+      },
+      {
+        "lustrum": "1995_1999",
+        "music": "Yes",
+        "percentage": 0.5085413929040736
+      },
+      {
+        "lustrum": "2000_2004",
+        "music": "Yes",
+        "percentage": 0.5234113712374582
+      },
+      {
+        "lustrum": "2005_2009",
+        "music": "Yes",
+        "percentage": 0.5533333333333333
+      },
+      {
+        "lustrum": "2010_2014",
+        "music": "Yes",
+        "percentage": 0.5026315789473684
+      },
+      {
+        "lustrum": "2015_2019",
+        "music": "Yes",
+        "percentage": 0.5847953216374269
+      },
+      {
+        "lustrum": "2020_2024",
+        "music": "Yes",
+        "percentage": 0.5996055226824457
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "music",
+      "legend": {
+        "title": "Music"
+      },
+      "scale": {
+        "scheme": "blueorange",
+        "type": "quantize"
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "lustrum",
+        "title": "Lustro",
+        "type": "nominal"
+      },
+      {
+        "field": "music",
+        "title": "Music",
+        "type": "nominal"
+      },
+      {
+        "field": "percentage",
+        "format": ".2f",
+        "title": "Percentuale",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "labelAngle": 0,
+        "title": "Lustro"
+      },
+      "field": "lustrum",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "percentage",
+      "scale": {
+        "domain": [
+          0,
+          1
+        ]
+      },
+      "title": null,
+      "type": "quantitative"
+    }
+  },
+  "height": 250,
+  "mark": {
+    "type": "bar"
+  },
+  "width": "container"
+}
