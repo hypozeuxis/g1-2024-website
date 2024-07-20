@@ -32,9 +32,9 @@ $code-color: #E75CA2 !default;
 
 // Typography
 
-$headings-font-family: 'Sofia Sans', Roboto !default;
-$page-title-font-family: 'Sofia Sans Extra Condensed', Roboto !default;
-$font-family-base: 'Sofia Sans', Roboto !default;
+$headings-font-family: 'Montserrat', Roboto !default;
+$page-title-font-family: 'Montserrat', Roboto !default;
+$font-family-base: 'Montserrat', Roboto !default;
 $font-family-monospace: 'Space Mono', monospace !default;
 $headings-font-weight: 700 !default;
 $text-muted: #8b949e !default;
@@ -124,9 +124,12 @@ h1, h2, h3, h4, h5, h6,
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 /* Custom rules. */
+$frame-width: 32px;
+$frame-width-sm: 16px;
 
 body {
   letter-spacing: 0.025rem;
+  font-feature-settings: 'tnum';
 }
 
 $test-colors: white, yellow, cyan, lime, magenta, red, blue, black;
@@ -139,8 +142,10 @@ $test-color-stops: null;
   $test-color-stops: list.append($test-color-stops, $test-color-stop, comma);
 }
 
-
 @keyframes rotate {
+  from {
+    --angle: 90deg;
+  }
   to {
     --angle: 450deg;
   }
@@ -152,21 +157,92 @@ $test-color-stops: null;
   inherits: false;
 }
 
-.hero-chulapa-image {
-  border: 48px solid;
-  // border-image: conic-gradient(from var(--angle), $test-color-stops) 1;
-  border-image: linear-gradient(var(--angle), $test-color-stops) 1;
-  // border-image-repeat: round;
-  animation: 480s rotate linear infinite;
-  border-radius: 48px;
-  margin: 48px;
+body {
+  margin: $frame-width;
+}
 
-  h1 {
-    // font-family: 'Space Mono', 'Roboto' !important;
-    text-transform: uppercase;
-    font-weight: 1000 !important;
-    font-style: italic;
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border-width: $frame-width;
+  border-style: solid;
+  border-image: linear-gradient(var(--angle), $test-color-stops) 1;
+  animation: 480s rotate linear infinite;
+  // box-shadow: 10px 10px 10px white;
+  pointer-events: none;
+}
+
+
+.hero-chulapa-image {
+  border-radius: $frame-width;
+  margin: $frame-width;
+  background-origin: content-box;
+  align-items: flex-end !important;
+  justify-content: center !important;
+
+  .title-container {
+    padding: $frame-width;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 1000 !important;
+      font-family: 'Press Start 2P', 'Roboto', sans-serif !important;
+      text-align: center;
+      font-size: 2rem;
+      line-height: 1;
+      padding: 0.25em 1em;
+      margin: 0;
+      background-color: $body-bg;
+      text-shadow: none;
+      max-width: 100%;
+    }
+
+    p {
+      font-family: 'Press Start 2P', 'Roboto', sans-serif !important;
+      font-size: 1rem;
+      line-height: 1;
+      text-shadow: none;
+      background-color: $body-bg;
+      padding: 0.25em 1em;
+      margin: 0;
+      max-width: 100%;
+    }
   }
+}
+
+@media (max-width: 575px) {
+  body {
+    margin: $frame-width-sm;
+  }
+  body::after {
+    border-width: $frame-width-sm;
+  }
+  .hero-chulapa-image {
+    border-radius: $frame-width-sm;
+    margin: $frame-width-sm;
+
+    .title-container {
+      width: 100%;
+      padding: $frame-width-sm;
+
+      h1 {
+        font-size: 1.6rem;
+        // background-color: rgba($body-bg, .5);
+      }
+    }
+  }
+}
+
+// Sticky nav
+.sticky-top {
+  top: $frame-width;
 }
 
 /* Cards */
@@ -181,6 +257,21 @@ $test-color-stops: null;
     margin: 0;
     font-size: 1.5rem;
   }
+}
+
+/* Chart tooltip */
+#vg-tooltip-element {
+  background-color: $body-bg;
+  border: 1px solid #d9d9d9;
+  color: black;
+}
+
+.list-group-item-action:hover,
+.list-group-item-action:focus {
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  background-color: #3a424c;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
