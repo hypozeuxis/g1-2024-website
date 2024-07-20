@@ -200,6 +200,10 @@
         return w.join(' ');
     }
 
+    function getAllResults(field) {
+        return `${field}:*`;
+    }
+
     let baseurl = '';
     {%- if site.baseurl -%}
     baseurl = '{{ site.baseurl }}';
@@ -236,10 +240,10 @@
 
                 const inputBrand = document.getElementById('input-brand');
 
-                inputBrand.addEventListener('input', function () {
+                const showDropdownBrandsResults = function (e) {
                     const brandResultDiv = document.getElementById('dropdown-brands');
                     const query = this.value;
-                    if (query === '') {
+                    if (query === '' && e.type !== 'focus') {
                         brandResultDiv.innerHTML = '';
                         return;
                     }
@@ -267,15 +271,18 @@
                             brandResultDiv.append(tile);
                         });
                     }
-                });
+                };
+
+                inputBrand.addEventListener('input', showDropdownBrandsResults);
+                inputBrand.addEventListener('focus', showDropdownBrandsResults);
 
 
                 const inputProductType = document.getElementById('input-product-type');
 
-                inputProductType.addEventListener('input', function () {
+                const showDropdownProductTypesResults = function (e) {
                     const productTypeDiv = document.getElementById('dropdown-product-types');
                     const query = this.value;
-                    if (query === '') {
+                    if (query === '' && e.type !== 'focus') {
                         productTypeDiv.innerHTML = '';
                         return;
                     }
@@ -303,7 +310,11 @@
                             productTypeDiv.append(tile);
                         });
                     }
-                });
+                };
+
+
+                inputProductType.addEventListener('input', showDropdownProductTypesResults);
+                inputProductType.addEventListener('focus', showDropdownProductTypesResults);
 
 
                 document.getElementById('search-button').addEventListener('click', function () {
