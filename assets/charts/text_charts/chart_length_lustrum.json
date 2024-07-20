@@ -73,7 +73,7 @@
       "type": "quantitative"
     }
   },
-  "height": "container",
+  "height": 300,
   "mark": {
     "type": "bar"
   },
