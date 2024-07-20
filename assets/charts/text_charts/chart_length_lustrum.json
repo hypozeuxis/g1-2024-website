@@ -1,50 +1,62 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
   "config": {
-    "view": {
-      "continuousHeight": 300,
-      "continuousWidth": 300
+    "axis": {
+      "domainColor": "#313338",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
     }
   },
   "data": {
-    "name": "data-1d0ff2ade7d2688091a8414f61940938"
+    "name": "data-b3e2f9fbc1f81ab220ea2a17e6a62ce7"
   },
   "datasets": {
-    "data-1d0ff2ade7d2688091a8414f61940938": [
+    "data-b3e2f9fbc1f81ab220ea2a17e6a62ce7": [
       {
-        "Average Length": 45.50319488817891,
+        "Average Length": 45.515248796147674,
         "Period": "1980_1984"
       },
       {
-        "Average Length": 42.375738300772376,
+        "Average Length": 42.55131155085136,
         "Period": "1985_1989"
       },
       {
-        "Average Length": 41.13196760362077,
+        "Average Length": 41.056061332055585,
         "Period": "1990_1994"
       },
       {
-        "Average Length": 43.989644970414204,
+        "Average Length": 43.986627043090635,
         "Period": "1995_1999"
       },
       {
-        "Average Length": 39.04625984251968,
+        "Average Length": 39.252024291497975,
         "Period": "2000_2004"
       },
       {
-        "Average Length": 38.847192608386635,
+        "Average Length": 39.21849963583394,
         "Period": "2005_2009"
       },
       {
-        "Average Length": 45.1319018404908,
+        "Average Length": 46.18006430868167,
         "Period": "2010_2014"
       },
       {
-        "Average Length": 45.45874587458746,
+        "Average Length": 46.10884353741496,
         "Period": "2015_2019"
       },
       {
-        "Average Length": 44.15981735159817,
+        "Average Length": 44.235431235431236,
         "Period": "2020_2024"
       }
     ]
@@ -61,10 +73,9 @@
       "type": "quantitative"
     }
   },
-  "height": 400,
+  "height": "container",
   "mark": {
     "type": "bar"
   },
-  "title": "Lunghezza media delle trascrizioni per lustro",
-  "width": 600
+  "width": "container"
 }
