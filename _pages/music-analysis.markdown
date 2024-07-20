@@ -8,10 +8,41 @@ header_title: "Analisi della musica"
 vega: true
 ---
 
-La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali principali per rendere il messaggio dello spot efficace e accattivante.  
-Analizzare l’evoluzione temporale della musica della pubblicità italiana permette quindi di comprendere come le strategie di marketing siano cambiate.
+## Dettagli tecnici
+
+Tutti gli spot televisivi sono stati analizzati con **YAMNet**, una deep neural network che predice 521 classi di 
+eventi audio. Dopo un campionamento a 16 KHz, per ogni video sono state memorizzate le cinque classi predette con 
+maggiore confidenza dal modello. 
+
+Un problema riscontrato consiste nel fatto che YAMNet è maggiormente efficiente nel riconoscimento di segmenti audio 
+di breve durata. Avendo noi spot pubblicitari di lunghezza variabile spesso dava evidenti errori nei primi due 
+risultati, garantendo tuttavia risultati attendibili per quelli successivi. Da qui la decisione di utilizzare le cinque classi predette con maggiore confidenza. 
+
+Per la successiva analisi della musica, sono stati selezionati solo gli spot in cui una delle cinque classi predette 
+era relativa a un genere o a uno strumento musicale.
 
 
+L’analisi del genere musicale è stata effettuata con il modello **Musicnn**, che ha mostrato un’accuratezza migliore 
+di YAMNet nella predizione. 
+Musicnn è una rete neurale convoluzionale per la classificazione di eventi musicali. Predice cinquanta possibili classi,
+comprendenti generi musicali (_classical_, _techno_, _rock_, ...), strumenti musicali (_piano_, _violin_, _electric 
+guitar_, ...) e caratteristiche della musica (_slow_, _quiet_, _vocal_, ...). Questi tag sono stati raggruppati in 
+cinque generi musicali: **classical, background, pop, rock** ed **electronic**. 
+
+Musicnn è dotata di due modelli, MTT e MSD, allenati su due dataset differenti. Per l’analisi della musica negli spot 
+televisivi, è stato preferito il modello MTT che ha fornito predizioni più accurate. 
+
+Ogni video per cui YAMNet aveva rilevato suoni riconducibili a musica è stato quindi analizzato con Musicnn e sono
+state salvate le tre classi con punteggio più elevato e per ogni spot è stato individuato il genere musicale 
+predominante.
+
+---
+
+## Analisi dell'audio
+La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali 
+principali per rendere il messaggio dello spot efficace e accattivante.  
+Analizzare l’evoluzione temporale della musica della pubblicità italiana permette quindi di comprendere come le 
+strategie di marketing siano cambiate.
 
 Nel corso degli anni, il rapporto tra spot pubblicitari in cui la musica rappresenta una componente fondamentale 
 dell'audio e quelli in cui la sua presenza è limitata, è rimasto pressoché costante.
@@ -24,7 +55,6 @@ Presenza di musica per lustro
 
 
 ## Analisi del genere musicale
-
 ### Analisi temporale
 
 Effettuando un'analisi temporale del genere musicale negli spot televisivi, si nota a partire dagli anni Ottanta fino 
