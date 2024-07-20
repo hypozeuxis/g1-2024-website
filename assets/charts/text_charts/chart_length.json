@@ -2008,6 +2008,7 @@
   "encoding": {
     "color": {
       "field": "Nice_class",
+      "legend": null,
       "type": "nominal"
     },
     "x": {
@@ -2053,10 +2054,10 @@
         "min": 1.0,
         "step": 1
       },
-      "name": "Select",
+      "name": "Seleziona",
       "select": {
         "fields": [
-          "Nice_class"
+          "classe di Nizza"
         ],
         "type": "point"
       }
@@ -2065,7 +2066,7 @@
   "transform": [
     {
       "filter": {
-        "param": "Select"
+        "param": "Seleziona"
       }
     }
   ],
