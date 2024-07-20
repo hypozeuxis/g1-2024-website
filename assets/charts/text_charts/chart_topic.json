@@ -28880,6 +28880,12 @@
     },
     "y": {
       "field": "Weight",
+      "scale": {
+        "domain": [
+          0.3335128606077501,
+          120.07631748433367
+        ]
+      },
       "title": "Peso",
       "type": "quantitative"
     }
@@ -28898,7 +28904,7 @@
         "name": "Classe di Nizza",
         "step": 1
       },
-      "name": "param_4",
+      "name": "param_7",
       "select": {
         "fields": [
           "Nice_class"
@@ -28915,7 +28921,7 @@
   "transform": [
     {
       "filter": {
-        "param": "param_4"
+        "param": "param_7"
       }
     }
   ],
