@@ -8,7 +8,6 @@ header_title: "Analisi della musica"
 vega: true
 ---
 
-# Analisi della musica
 La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali principali per rendere il messaggio dello spot efficace e accattivante.  
 Analizzare l’evoluzione temporale della musica della pubblicità italiana permette quindi di comprendere come le strategie di marketing siano cambiate.
 
@@ -24,7 +23,7 @@ Presenza di musica per lustro
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/music_lustrum_f.json" style="width: 100%"></vegachart>
 
 
-# Analisi del genere musicale
+## Analisi del genere musicale
 
 ### Analisi temporale
 
