@@ -3,12 +3,12 @@ layout: home
 title: "Raccolta dati"
 # subtitle: ""
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/miro_2.jpg
+header_img: assets/images/hero/miro_a.jpg
 header_title: "Raccolta dati"
 vega: true
 ---
 
-# Raccolta dati
+## Titolo 2º livello
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, lectus laoreet mattis maximus, enim orci
 vulputate risus, nec scelerisque lectus nulla sed ex. Nam ullamcorper cursus tellus, vel venenatis magna. Pellentesque

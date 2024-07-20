@@ -4,11 +4,11 @@
 
 layout: default-full
 title: "Home"
-subtitle: "un template per i progetti del master SoBigData"
+header_title: "Spot TV"
+subtitle: "La comunicazione pubblicitaria televisiva dal 1980 a oggi"
 show_sidetoc: true
-header_type: hero #base, post, hero,image, splash
-header_img: assets/images/miro_1.jpg
-header_title: "Progettone Template"
+header_type: hero #base, post, hero, image, splash
+header_img: assets/images/hero/vangogh.jpg
 ---
 
 <div class="container py-3">

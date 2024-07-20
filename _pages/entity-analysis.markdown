@@ -3,12 +3,12 @@ layout: home
 title: "Analisi delle entità"
 # subtitle: ""
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/folium_map.webp
+header_img: assets/images/hero/scacchiera.jpg
 header_title: "Analisi delle entità"
 vega: true
 ---
 
-# Analisi delle entità
+## Titolo 2º livello
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, lectus laoreet mattis maximus, enim orci
 vulputate risus, nec scelerisque lectus nulla sed ex. Nam ullamcorper cursus tellus, vel venenatis magna. Pellentesque

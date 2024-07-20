@@ -1,9 +1,10 @@
 ---
 layout: default-full
-title: Search
-subtitle: Search Tool
+title: Cerca spot
+# subtitle: Search Tool
 vega: true
 lunr: true
 ---
-{% include components/search.html datasource=site.data.data %}
+
+{% include components/search.html %}
 

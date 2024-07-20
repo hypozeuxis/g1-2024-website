@@ -3,12 +3,12 @@ layout: home
 title: "Analisi del colore"
 # subtitle: ""
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/folium_map.webp
+header_img: assets/images/hero/miro_b.jpg
 header_title: "Analisi del colore"
 vega: true
 ---
 
-# Analisi del colore
+## Titolo 2º livello
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, lectus laoreet mattis maximus, enim orci
 vulputate risus, nec scelerisque lectus nulla sed ex. Nam ullamcorper cursus tellus, vel venenatis magna. Pellentesque

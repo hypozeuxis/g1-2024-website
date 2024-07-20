@@ -3,7 +3,7 @@ layout: home
 title: "Analisi della musica"
 # subtitle: ""
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/fantasy.jpg
+header_img: assets/images/hero/fantasy.jpg
 header_title: "Analisi della musica"
 vega: true
 ---
