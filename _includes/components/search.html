@@ -1,8 +1,5 @@
 <div class="container">
     <h1>Cerca spot</h1>
-    <!--
-        <input type="text" id="search-input" placeholder="Cerca…" value="Mulin">
-        -->
     <hr>
 
     <div>
@@ -12,7 +9,7 @@
                     <div class="mb-3">
                         <label for="input-brand" class="form-label">Marchio</label>
                         <div class="input-group">
-                            <input class="form-control" id="input-brand">
+                            <input class="form-control" id="input-brand" autocomplete="off">
                             <button class="btn btn-dark" type="button" id="clear-input-brand">
                                 <i class="fa fa-times"></i>
                             </button>
@@ -28,7 +25,7 @@
                     <div class="mb-3">
                         <label for="input-product-type" class="form-label">Tipologia di prodotto</label>
                         <div class="input-group">
-                            <input class="form-control" id="input-product-type">
+                            <input class="form-control" id="input-product-type" autocomplete="off">
                             <button class="btn btn-dark" type="button" id="clear-input-product-type">
                                 <i class="fa fa-times"></i>
                             </button>
@@ -192,11 +189,11 @@
 <script>
 
     function getExactMatchingQuery(query, field, asterisk) {
-        query = query.trim();
+        query = query.trim().replaceAll(/ +/g, ' ');
         if (query == '') {
             return '';
         }
-        const terms = query.split(/ +/g);
+        const terms = query.split(/[ ’]/g);
         console.log(terms);
         console.log(terms.length);
         const w = terms.map((x) => `+${field}:${x}${asterisk ? '*' : ''}`);
