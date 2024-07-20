@@ -1,19 +1,178 @@
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* Overrides gitdev-dark.scss */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-.hero-chulapa-image h1 {
-  text-transform: uppercase;
-  font-weight: 1000;
-  font-style: italic;
+.hero-chulapa h1,
+.hero-chulapa-image h1,
+.splash-chulapa h1,
+.splash-chulapa-image h1 {
+  font-family: "Montserrat", Roboto;
+  font-weight: 1000 !important;
 }
 
-.test-card {
+nav, .navbar, .navbar-chulapa-fab .nav-item, .navbar-chulapa, .footer-chulapa {
+  font-family: "Montserrat", Roboto;
+  font-weight: 700 !important;
+}
+
+.navbar-chulapa .active, .navbar-chulapa-fab .active {
+  color: #d2d3d3 !important;
+}
+
+.chulapa-links-hover-only i {
+  color: #2B8FFD;
+}
+
+.chulapaDateSocial time, .chulapaDateSocial .chulapa-text-line-through {
+  font-family: "Space Mono", monospace;
+}
+
+time {
+  font-family: "Space Mono", monospace;
+  font-style: normal !important;
+}
+
+blockquote {
+  border-radius: 0 !important;
+  border-left: solid #2B8FFD !important;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* Overrides _type.scss */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Montserrat", Roboto;
+  font-weight: 700;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* Custom rules. */
+body {
+  letter-spacing: 0.025rem;
+  font-feature-settings: "tnum";
+}
+
+@keyframes rotate {
+  from {
+    --angle: 90deg;
+  }
+  to {
+    --angle: 450deg;
+  }
+}
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 90deg;
+  inherits: false;
+}
+body {
+  margin: 32px;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border-width: 32px;
+  border-style: solid;
+  border-image: linear-gradient(var(--angle), white 0%, white 12.5%, yellow 12.5%, yellow 25%, cyan 25%, cyan 37.5%, lime 37.5%, lime 50%, magenta 50%, magenta 62.5%, red 62.5%, red 75%, blue 75%, blue 87.5%, black 87.5%, black 100%) 1;
+  animation: 480s rotate linear infinite;
+  pointer-events: none;
+}
+
+.hero-chulapa-image {
+  border-radius: 32px;
+  margin: 32px;
+  background-origin: content-box;
+  align-items: flex-end !important;
+  justify-content: center !important;
+}
+.hero-chulapa-image .title-container {
+  padding: 32px;
   display: flex;
-  width: 50%;
-  height: 48px;
-  margin: 0 auto;
-  background-color: red;
-  background-image: linear-gradient(90deg, white 0%, white 12.5%, yellow 12.5%, yellow 25%, cyan 25%, cyan 37.5%, lime 37.5%, lime 50%, magenta 50%, magenta 62.5%, red 62.5%, red 75%, blue 75%, blue 87.5%, black 87.5%, black 100%);
+  flex-direction: column;
+  align-items: center;
+}
+.hero-chulapa-image .title-container h1 {
+  text-transform: uppercase;
+  font-weight: 1000 !important;
+  font-family: "Press Start 2P", "Roboto", sans-serif !important;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1;
+  padding: 0.25em 1em;
+  margin: 0;
+  background-color: #1D2225;
+  text-shadow: none;
+  max-width: 100%;
+}
+.hero-chulapa-image .title-container p {
+  font-family: "Press Start 2P", "Roboto", sans-serif !important;
+  font-size: 1rem;
+  line-height: 1;
+  text-shadow: none;
+  background-color: #1D2225;
+  padding: 0.25em 1em;
+  margin: 0;
+  max-width: 100%;
 }
 
+@media (max-width: 575px) {
+  body {
+    margin: 16px;
+  }
+  body::after {
+    border-width: 16px;
+  }
+  .hero-chulapa-image {
+    border-radius: 16px;
+    margin: 16px;
+  }
+  .hero-chulapa-image .title-container {
+    width: 100%;
+    padding: 16px;
+  }
+  .hero-chulapa-image .title-container h1 {
+    font-size: 1.6rem;
+  }
+}
+.sticky-top {
+  top: 32px;
+}
+
+/* Cards */
+.card-body p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+.card-body h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Chart tooltip */
+#vg-tooltip-element {
+  background-color: #1D2225;
+  border: 1px solid #d9d9d9;
+  color: black;
+}
+
+.list-group-item-action:hover,
+.list-group-item-action:focus {
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  background-color: #3a424c;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 #sezione-1, #sezione-11, #sezione-12, #mappa-delle-stragi, #galleria {
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
 }

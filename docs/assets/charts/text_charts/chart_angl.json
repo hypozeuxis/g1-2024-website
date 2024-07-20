@@ -1,0 +1,1263 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-028c7937f826e0968c40b59ec1bc130f"
+  },
+  "datasets": {
+    "data-028c7937f826e0968c40b59ec1bc130f": [
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 1.0,
+        "Value": 11
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 1.0,
+        "Value": 26
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 1.0,
+        "Value": 37
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 1.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 1.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 3.0,
+        "Value": 191
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 3.0,
+        "Value": 651
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 3.0,
+        "Value": 669
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 3.0,
+        "Value": 185
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 3.0,
+        "Value": 335
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 3.0,
+        "Value": 365
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 3.0,
+        "Value": 149
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 3.0,
+        "Value": 120
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 3.0,
+        "Value": 133
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 4.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 4.0,
+        "Value": 27
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 4.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 4.0,
+        "Value": 10
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 4.0,
+        "Value": 19
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 4.0,
+        "Value": 12
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 5.0,
+        "Value": 31
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 5.0,
+        "Value": 116
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 5.0,
+        "Value": 64
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 5.0,
+        "Value": 35
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 5.0,
+        "Value": 62
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 5.0,
+        "Value": 91
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 5.0,
+        "Value": 43
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 5.0,
+        "Value": 61
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 5.0,
+        "Value": 43
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 6.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 6.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 7.0,
+        "Value": 15
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 7.0,
+        "Value": 55
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 7.0,
+        "Value": 32
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 7.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 7.0,
+        "Value": 10
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 7.0,
+        "Value": 7
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 8.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 8.0,
+        "Value": 19
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 8.0,
+        "Value": 57
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 8.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 8.0,
+        "Value": 14
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 8.0,
+        "Value": 15
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 8.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 8.0,
+        "Value": 30
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 9.0,
+        "Value": 78
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 9.0,
+        "Value": 235
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 9.0,
+        "Value": 233
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 9.0,
+        "Value": 62
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 9.0,
+        "Value": 86
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 9.0,
+        "Value": 61
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 9.0,
+        "Value": 12
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 9.0,
+        "Value": 80
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 10.0,
+        "Value": 11
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 10.0,
+        "Value": 29
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 10.0,
+        "Value": 21
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 10.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 10.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 10.0,
+        "Value": 5
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 11.0,
+        "Value": 5
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 11.0,
+        "Value": 52
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 11.0,
+        "Value": 44
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 11.0,
+        "Value": 12
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 11.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 11.0,
+        "Value": 27
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 11.0,
+        "Value": 7
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 12.0,
+        "Value": 41
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 12.0,
+        "Value": 266
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 12.0,
+        "Value": 203
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 12.0,
+        "Value": 48
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 12.0,
+        "Value": 188
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 12.0,
+        "Value": 189
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 12.0,
+        "Value": 38
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 12.0,
+        "Value": 59
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 12.0,
+        "Value": 125
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 14.0,
+        "Value": 10
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 14.0,
+        "Value": 45
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 14.0,
+        "Value": 23
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 14.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 14.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 14.0,
+        "Value": 42
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 14.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 15.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 15.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 16.0,
+        "Value": 16
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 16.0,
+        "Value": 88
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 16.0,
+        "Value": 124
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 16.0,
+        "Value": 86
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 16.0,
+        "Value": 128
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 16.0,
+        "Value": 176
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 16.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 16.0,
+        "Value": 7
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 17.0,
+        "Value": 5
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 17.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 18.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 18.0,
+        "Value": 7
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 18.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 18.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 18.0,
+        "Value": 9
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 18.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 18.0,
+        "Value": 33
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 18.0,
+        "Value": 37
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 19.0,
+        "Value": 5
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 20.0,
+        "Value": 16
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 20.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 20.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 20.0,
+        "Value": 11
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 20.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 20.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 20.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 21.0,
+        "Value": 11
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 21.0,
+        "Value": 5
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 21.0,
+        "Value": 18
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 21.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 21.0,
+        "Value": 14
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 21.0,
+        "Value": 22
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 21.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 23.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 24.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 25.0,
+        "Value": 12
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 25.0,
+        "Value": 111
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 25.0,
+        "Value": 75
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 25.0,
+        "Value": 30
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 25.0,
+        "Value": 52
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 25.0,
+        "Value": 22
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 25.0,
+        "Value": 19
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 25.0,
+        "Value": 18
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 25.0,
+        "Value": 73
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 27.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 28.0,
+        "Value": 29
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 28.0,
+        "Value": 47
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 28.0,
+        "Value": 145
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 28.0,
+        "Value": 110
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 28.0,
+        "Value": 166
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 28.0,
+        "Value": 150
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 28.0,
+        "Value": 55
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 28.0,
+        "Value": 66
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 28.0,
+        "Value": 79
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 29.0,
+        "Value": 13
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 29.0,
+        "Value": 125
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 29.0,
+        "Value": 154
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 29.0,
+        "Value": 38
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 29.0,
+        "Value": 53
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 29.0,
+        "Value": 56
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 29.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 29.0,
+        "Value": 12
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 29.0,
+        "Value": 34
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 30.0,
+        "Value": 136
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 30.0,
+        "Value": 464
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 30.0,
+        "Value": 347
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 30.0,
+        "Value": 99
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 30.0,
+        "Value": 146
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 30.0,
+        "Value": 194
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 30.0,
+        "Value": 29
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 30.0,
+        "Value": 13
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 30.0,
+        "Value": 39
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 31.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 31.0,
+        "Value": 22
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 31.0,
+        "Value": 18
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 31.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 31.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 31.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 31.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 32.0,
+        "Value": 38
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 32.0,
+        "Value": 81
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 32.0,
+        "Value": 50
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 32.0,
+        "Value": 10
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 32.0,
+        "Value": 35
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 32.0,
+        "Value": 94
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 32.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 32.0,
+        "Value": 25
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 32.0,
+        "Value": 46
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 33.0,
+        "Value": 64
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 33.0,
+        "Value": 109
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 33.0,
+        "Value": 53
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 33.0,
+        "Value": 10
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 33.0,
+        "Value": 16
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 33.0,
+        "Value": 36
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 34.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 35.0,
+        "Value": 7
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 35.0,
+        "Value": 23
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 35.0,
+        "Value": 60
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 35.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 35.0,
+        "Value": 36
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 35.0,
+        "Value": 61
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 35.0,
+        "Value": 17
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 35.0,
+        "Value": 7
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 35.0,
+        "Value": 31
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 36.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 36.0,
+        "Value": 30
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 36.0,
+        "Value": 26
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 36.0,
+        "Value": 5
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 36.0,
+        "Value": 26
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 36.0,
+        "Value": 26
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 36.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 36.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 36.0,
+        "Value": 7
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 37.0,
+        "Value": 13
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 37.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 37.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 38.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 38.0,
+        "Value": 18
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 38.0,
+        "Value": 32
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 38.0,
+        "Value": 10
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 38.0,
+        "Value": 121
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 38.0,
+        "Value": 223
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 38.0,
+        "Value": 76
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 38.0,
+        "Value": 55
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 38.0,
+        "Value": 112
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 39.0,
+        "Value": 15
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 39.0,
+        "Value": 10
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 39.0,
+        "Value": 17
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 39.0,
+        "Value": 12
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 39.0,
+        "Value": 10
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 39.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 39.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 40.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 41.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 41.0,
+        "Value": 15
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 41.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 41.0,
+        "Value": 22
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 41.0,
+        "Value": 17
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 42.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 42.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 42.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 42.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 43.0,
+        "Value": 8
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 43.0,
+        "Value": 79
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 43.0,
+        "Value": 6
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 43.0,
+        "Value": 32
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 43.0,
+        "Value": 23
+      },
+      {
+        "Lustrum": "2010_2014",
+        "Nice_class": 43.0,
+        "Value": 60
+      },
+      {
+        "Lustrum": "2015_2019",
+        "Nice_class": 43.0,
+        "Value": 37
+      },
+      {
+        "Lustrum": "2020_2024",
+        "Nice_class": 43.0,
+        "Value": 57
+      },
+      {
+        "Lustrum": "1980_1984",
+        "Nice_class": 44.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1995_1999",
+        "Nice_class": 44.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "2000_2004",
+        "Nice_class": 44.0,
+        "Value": 2
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 44.0,
+        "Value": 1
+      },
+      {
+        "Lustrum": "1985_1989",
+        "Nice_class": 45.0,
+        "Value": 4
+      },
+      {
+        "Lustrum": "1990_1994",
+        "Nice_class": 45.0,
+        "Value": 3
+      },
+      {
+        "Lustrum": "2005_2009",
+        "Nice_class": 45.0,
+        "Value": 2
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "Lustrum",
+      "title": "Lustro",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Value",
+      "title": "Numero di Anglicismi",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "mark": {
+    "type": "line"
+  },
+  "params": [
+    {
+      "bind": {
+        "input": "range",
+        "max": 45.0,
+        "min": 1.0,
+        "step": 1
+      },
+      "name": "Select",
+      "select": {
+        "fields": [
+          "Nice_class"
+        ],
+        "type": "point"
+      }
+    }
+  ],
+  "title": "Numero di Anglicismi per Lustro e classe di Nizza",
+  "transform": [
+    {
+      "filter": {
+        "param": "Select"
+      }
+    }
+  ],
+  "width": 600
+}

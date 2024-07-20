@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-1d0ff2ade7d2688091a8414f61940938"
+  },
+  "datasets": {
+    "data-1d0ff2ade7d2688091a8414f61940938": [
+      {
+        "Average Length": 45.50319488817891,
+        "Period": "1980_1984"
+      },
+      {
+        "Average Length": 42.375738300772376,
+        "Period": "1985_1989"
+      },
+      {
+        "Average Length": 41.13196760362077,
+        "Period": "1990_1994"
+      },
+      {
+        "Average Length": 43.989644970414204,
+        "Period": "1995_1999"
+      },
+      {
+        "Average Length": 39.04625984251968,
+        "Period": "2000_2004"
+      },
+      {
+        "Average Length": 38.847192608386635,
+        "Period": "2005_2009"
+      },
+      {
+        "Average Length": 45.1319018404908,
+        "Period": "2010_2014"
+      },
+      {
+        "Average Length": 45.45874587458746,
+        "Period": "2015_2019"
+      },
+      {
+        "Average Length": 44.15981735159817,
+        "Period": "2020_2024"
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "Period",
+      "title": "Lustro",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Average Length",
+      "title": "Lunghezza media delle trascrizioni",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "mark": {
+    "type": "bar"
+  },
+  "title": "Lunghezza media delle trascrizioni per lustro",
+  "width": 600
+}

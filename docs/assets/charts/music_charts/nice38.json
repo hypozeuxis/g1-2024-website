@@ -1,0 +1,310 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-8e52d5665bdfa9490eac38f38759edaf"
+  },
+  "datasets": {
+    "data-8e52d5665bdfa9490eac38f38759edaf": [
+      {
+        "genre": "background",
+        "lustrum": "1980_1984",
+        "percentage": null
+      },
+      {
+        "genre": "background",
+        "lustrum": "1985_1989",
+        "percentage": 0.375
+      },
+      {
+        "genre": "background",
+        "lustrum": "1990_1994",
+        "percentage": 0.07692307692307693
+      },
+      {
+        "genre": "background",
+        "lustrum": "1995_1999",
+        "percentage": null
+      },
+      {
+        "genre": "background",
+        "lustrum": "2000_2004",
+        "percentage": 0.05
+      },
+      {
+        "genre": "background",
+        "lustrum": "2005_2009",
+        "percentage": 0.03
+      },
+      {
+        "genre": "background",
+        "lustrum": "2010_2014",
+        "percentage": 0.16666666666666666
+      },
+      {
+        "genre": "background",
+        "lustrum": "2015_2019",
+        "percentage": 0.125
+      },
+      {
+        "genre": "background",
+        "lustrum": "2020_2024",
+        "percentage": 0.05263157894736842
+      },
+      {
+        "genre": "classical",
+        "lustrum": "1980_1984",
+        "percentage": 0.5
+      },
+      {
+        "genre": "classical",
+        "lustrum": "1985_1989",
+        "percentage": null
+      },
+      {
+        "genre": "classical",
+        "lustrum": "1990_1994",
+        "percentage": null
+      },
+      {
+        "genre": "classical",
+        "lustrum": "1995_1999",
+        "percentage": 0.125
+      },
+      {
+        "genre": "classical",
+        "lustrum": "2000_2004",
+        "percentage": 0.15
+      },
+      {
+        "genre": "classical",
+        "lustrum": "2005_2009",
+        "percentage": 0.03
+      },
+      {
+        "genre": "classical",
+        "lustrum": "2010_2014",
+        "percentage": null
+      },
+      {
+        "genre": "classical",
+        "lustrum": "2015_2019",
+        "percentage": 0.25
+      },
+      {
+        "genre": "classical",
+        "lustrum": "2020_2024",
+        "percentage": null
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "1980_1984",
+        "percentage": 0.5
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "1985_1989",
+        "percentage": 0.25
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "1990_1994",
+        "percentage": 0.5384615384615384
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "1995_1999",
+        "percentage": 0.75
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "2000_2004",
+        "percentage": 0.4
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "2005_2009",
+        "percentage": 0.2
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "2010_2014",
+        "percentage": 0.25
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "2015_2019",
+        "percentage": 0.375
+      },
+      {
+        "genre": "electronic",
+        "lustrum": "2020_2024",
+        "percentage": 0.47368421052631576
+      },
+      {
+        "genre": "pop",
+        "lustrum": "1980_1984",
+        "percentage": null
+      },
+      {
+        "genre": "pop",
+        "lustrum": "1985_1989",
+        "percentage": 0.375
+      },
+      {
+        "genre": "pop",
+        "lustrum": "1990_1994",
+        "percentage": 0.38461538461538464
+      },
+      {
+        "genre": "pop",
+        "lustrum": "1995_1999",
+        "percentage": 0.125
+      },
+      {
+        "genre": "pop",
+        "lustrum": "2000_2004",
+        "percentage": 0.375
+      },
+      {
+        "genre": "pop",
+        "lustrum": "2005_2009",
+        "percentage": 0.73
+      },
+      {
+        "genre": "pop",
+        "lustrum": "2010_2014",
+        "percentage": 0.5833333333333334
+      },
+      {
+        "genre": "pop",
+        "lustrum": "2015_2019",
+        "percentage": 0.25
+      },
+      {
+        "genre": "pop",
+        "lustrum": "2020_2024",
+        "percentage": 0.47368421052631576
+      },
+      {
+        "genre": "rock",
+        "lustrum": "1980_1984",
+        "percentage": null
+      },
+      {
+        "genre": "rock",
+        "lustrum": "1985_1989",
+        "percentage": null
+      },
+      {
+        "genre": "rock",
+        "lustrum": "1990_1994",
+        "percentage": null
+      },
+      {
+        "genre": "rock",
+        "lustrum": "1995_1999",
+        "percentage": null
+      },
+      {
+        "genre": "rock",
+        "lustrum": "2000_2004",
+        "percentage": 0.025
+      },
+      {
+        "genre": "rock",
+        "lustrum": "2005_2009",
+        "percentage": 0.01
+      },
+      {
+        "genre": "rock",
+        "lustrum": "2010_2014",
+        "percentage": null
+      },
+      {
+        "genre": "rock",
+        "lustrum": "2015_2019",
+        "percentage": null
+      },
+      {
+        "genre": "rock",
+        "lustrum": "2020_2024",
+        "percentage": null
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "genre",
+      "legend": {
+        "title": "Music Genre"
+      },
+      "scale": {
+        "scheme": "blueorange",
+        "type": "quantize"
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "lustrum",
+        "title": "Lustrum",
+        "type": "nominal"
+      },
+      {
+        "field": "genre",
+        "title": "Music Genre",
+        "type": "nominal"
+      },
+      {
+        "field": "percentage",
+        "format": ".2f",
+        "title": "Percentage",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "labelAngle": 0,
+        "title": "Lustrum"
+      },
+      "field": "lustrum",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "percentage",
+      "scale": {
+        "domain": [
+          0,
+          1
+        ]
+      },
+      "title": "Percentage",
+      "type": "quantitative"
+    }
+  },
+  "height": 250,
+  "mark": {
+    "type": "bar"
+  },
+  "params": [
+    {
+      "bind": "scales",
+      "name": "param_31",
+      "select": {
+        "encodings": [
+          "x",
+          "y"
+        ],
+        "type": "interval"
+      }
+    }
+  ],
+  "title": "Music Genre by Lustrum for Nice Class 38",
+  "width": "container"
+}
