@@ -75,8 +75,8 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Chiudi">
+                    <i class="fa fa-times"></i>
                 </button>
             </div>
             <div class="modal-body">
@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
             </div>
         </div>
     </div>
@@ -182,7 +182,6 @@
     .floating-dropdown {
         width: 100%;
         max-height: 200px;
-        background: blueviolet;
         overflow: auto;
         position: absolute;
         top: 0;
@@ -312,6 +311,9 @@
 
 
                 document.getElementById('search-button').addEventListener('click', function () {
+                    if (inputBrand.value === '' && inputProductType.value === '') {
+                        return;
+                    }
                     const brand = document.getElementById('input-brand').value;
                     const productType = document.getElementById('input-product-type').value;
 
@@ -374,7 +376,7 @@
                                     parseSchema(marimekkoChart).then(schema => vegaEmbed(marimekkoChart, schema, {'actions': false}));
                                     parseSchema(colorLbChart).then(schema => vegaEmbed(colorLbChart, schema, {'actions': false}));
                                     parseSchema(colorLbTfidfChart).then(schema => vegaEmbed(colorLbTfidfChart, schema, {'actions': false}));
-                                }, 500);
+                                }, 250);
                             });
 
                             const commercialThumb = document.createElement('vegachart');
@@ -409,6 +411,14 @@
                     } else {
                         resultDiv.innerHTML = '<p>Nessun risultato trovato</p>';
                     }
+                });
+
+                document.getElementById('clear-input-brand').addEventListener('click', function () {
+                    inputBrand.value = '';
+                });
+
+                document.getElementById('clear-input-product-type').addEventListener('click', function () {
+                    inputProductType.value = '';
                 });
 
             });
