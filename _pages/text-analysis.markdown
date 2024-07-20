@@ -31,8 +31,4 @@ seguiti da periodi di maggiore chiusura. Inoltre, si nota come, a partire dal 20
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
 
-Nel grafico interattivo sono stati riportati gli anglicismi più frequenti per lustro e classe di Nizza.
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_word.json" style="width:100%"></vegachart> 
-
-
 
