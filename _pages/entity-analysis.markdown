@@ -9,14 +9,18 @@ vega: true
 ---
 
 
-L'obiettivo dell' analisi delle entità è quello di individuare all'interno di un'immagine la presenza di una o più entità, ovvero oggetti, animali o persone, mettendola in relazione con diversi periodi storici, divisi in lustri.
+L'obiettivo dell'analisi delle entità è quello di individuare all'interno di un'immagine la presenza di una o più entità, ovvero oggetti, animali o persone, mettendola in relazione con diversi periodi storici, divisi in lustri.
 
 
 ## Analisi delle classi di YOLO
 
 YOLO è un framework di intelligenza artificiale che permette di svolgere varie operazioni di computer vision; in questo caso ha classificato le scene in cui sono stati divisi i video analizzati.
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/class_distribution_lustrum.json" style="width:100%"></vegachart>  
+<p class="caption">
+Distribuzione classi nel tempo
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/class_distribution_lustrum.json" style="width:100%;height:600px;"></vegachart>  
 
 
 
@@ -27,7 +31,11 @@ _Nell'immagine si osserva come la classe più rappresentata sia quella delle "pe
 
 Per comprendere l'andamento dell'utilizzo di certe classi nei lustri di tempo, si possono prendere in considerazione le 10 classi più rappresentate, escludendo quella delle "persone", che avrebbe una presenza preponderante rispetto alle altre.
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_classes_evolution_lustrum.json" style="width:100%"></vegachart>  
+<p class="caption">
+Evoluzione delle classi nel tempo
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_classes_evolution_lustrum.json" style="width:100%;height:400px;"></vegachart>  
 
 
 
@@ -38,8 +46,11 @@ _Si osserva come, a un certo punto, la classe "macchine" abbia un'impennata di p
 
 Le stesse categorizzazioni precedentemente analizzate sono state trasformate in categorie di Nizza, per osservare l'andamento nel tempo delle tipologie merceologiche definite da questa particolare classificazione.
 
+<p class="caption">
+Evoluzione delle classi di Nizza nel tempo
+</p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_Nizza_evolution_lustrum.json" style="width:100%"></vegachart>  
+<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_Nizza_evolution_lustrum.json" style="width:100%;height:600px;"></vegachart>  
 
 
 _Anche in queste analisi la categoria "persona" non è stata inclusa, in quanto le avrebbe falsate. Nell'immagine si osserva come la classe di Nizza 21 (Utensili e recipienti per uso domestico o di cucina) abbia avuto un'impennata di rappresentazioni all'interno della pubblicità a partire dal lustro 2005-2009, arrivando a essere la più rappresentata per tutto il restante periodo preso in esame. Si osserva inoltre una generale superiorità rappresentativa per quanto riguarda la classe 12 (Veicoli e apparecchi di locomozione), così come anche un progressivo aumento della classe 20 (Mobili e loro parti) partendo dal lustro 1995-1999._
