@@ -3,7 +3,7 @@ layout: home
 title: "Analisi del testo"
 # subtitle: ""
 header_type: hero #base, post, hero,image, splash
-header_img: assets/images/folium_map.webp
+header_img: assets/images/hero/ghirigori.jpg
 header_title: "Analisi del testo"
 vega: true
 ---
