@@ -30,7 +30,8 @@ In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del 
 Una volta ottenute le trascrizioni, la prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
 Le analisi sulla durata media degli spot hanno confermato questo andamento. 
-Anche in quel caso, infatti, è stata riscontrata una riduzione della durata che coinvolge lo stesso decennio.
+Anche in quel caso, infatti, è stata riscontrata una riduzione della durata 
+che coinvolge lo stesso decennio.
 
 <p class="caption">
 Lunghezza media delle trascrizioni per lustro
