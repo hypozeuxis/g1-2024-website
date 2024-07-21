@@ -29,7 +29,7 @@ In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del 
 Ottenute le trascrizioni, abbiamo proseguito con le analisi dei testi.
 
 ### Analisi quantitative 
-la prima analisi si è concentrata sul misurare la lunghezza media per lustro.
+La prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
 
 <p class="caption">
