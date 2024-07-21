@@ -29,7 +29,7 @@ In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del 
 Ottenute le trascrizioni, abbiamo proseguito con le analisi dei testi.
 
 ### Analisi quantitative 
-la prima analisi si è concentrata sul misurare la lunghezza media per lustro.
+La prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
 
 <p class="caption">
@@ -55,7 +55,7 @@ Numero di parole per secondo
 Adattandosi a un ritmo sempre più incalzante tipico degli ultimi quindici anni, il numero di parole per secondo aumenta.
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
 
-Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta ma considerando anche la classe di Nizza. In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notre, inoltre, come ogni classe segua un proprio andamento indipendente.
+Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta ma considerando anche la classe di Nizza. In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
 
 
 <p class="caption">
