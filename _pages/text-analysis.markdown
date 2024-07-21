@@ -98,6 +98,13 @@ Numero di anglicismi per lustro
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
 
+### Conclusioni sulla text-analysis
+
+In generale, dai nostri risultati, sembra che, nei primi anni 2000, per superare le difficoltà di un pubblico sempre meno attento e
+interessato, la pubblicità abbia optato per essere più corta e più dinamica. Infatti, risulta essere caratterizzata da una durata media ridotta e da un numero di parole piuttosto basso, 
+con un elevato numero di scene per secondo. Negli ultimi anni, però, il ritmo delle pubblicità sembra essere rallentato nuovamente. 
+L'adattamento della pubblicità alla società si nota anche nella scelta delle parole e dalla presenza di anglicismi.
+
 # Clusterizzazione delle Trascrizioni
 <p class="caption">
 Metodo del gomito
