@@ -58,7 +58,7 @@
         "signal": "ceil(height/40)"
       },
       "title": "SSE",
-      "titleColor": "blue",
+      "titleColor": "#5F92BF",
       "zindex": 0
     },
     {
@@ -70,14 +70,14 @@
         "signal": "ceil(height/40)"
       },
       "title": "Silhouette Score",
-      "titleColor": "red",
+      "titleColor": "#F3CC94",
       "zindex": 0
     }
   ],
   "background": "transparent",
   "config": {
     "axis": {
-      "domainColor": "#313338",
+      "domainColor": "#666666",
       "gridColor": "#666666",
       "labelColor": "#DBDEE1",
       "tickColor": "#DBDEE1",
@@ -136,7 +136,7 @@
         {
           "k": 9,
           "silhouette": 0.29468071460723877,
-          "sse": 0.6424143986604975
+          "sse": 0.6424140890491712
         },
         {
           "k": 10,
@@ -166,7 +166,7 @@
         {
           "k": 15,
           "silhouette": 0.42502546310424805,
-          "sse": 0.5052497696491733
+          "sse": 0.505249460037847
         },
         {
           "k": 16,
@@ -206,7 +206,7 @@
         {
           "k": 23,
           "silhouette": 0.6019265651702881,
-          "sse": 0.38872104514876193
+          "sse": 0.3887207355374356
         },
         {
           "k": 24,
@@ -326,7 +326,7 @@
         {
           "k": 47,
           "silhouette": 0.3879377841949463,
-          "sse": 0.1966316764586411
+          "sse": 0.19663198606996746
         },
         {
           "k": 48,
@@ -381,7 +381,7 @@
         {
           "k": 58,
           "silhouette": 0.6442148685455322,
-          "sse": 0.14505135832681093
+          "sse": 0.14505104871548458
         },
         {
           "k": 59,
@@ -416,7 +416,7 @@
         {
           "k": 65,
           "silhouette": 0.4151116609573364,
-          "sse": 0.11556800055482341
+          "sse": 0.11556769094349706
         },
         {
           "k": 66,
@@ -466,7 +466,7 @@
         {
           "k": 75,
           "silhouette": 0.13943326473236084,
-          "sse": 0.07835612485510213
+          "sse": 0.07835643446642804
         },
         {
           "k": 76,
@@ -486,12 +486,12 @@
         {
           "k": 79,
           "silhouette": 0.17848670482635498,
-          "sse": 0.05882955772641241
+          "sse": 0.05882924811508605
         },
         {
           "k": 80,
           "silhouette": 0.2490309476852417,
-          "sse": 0.0623117563135942
+          "sse": 0.06231144670226785
         },
         {
           "k": 81,
@@ -521,7 +521,7 @@
         {
           "k": 86,
           "silhouette": 0.5446348190307617,
-          "sse": 0.03379872043831078
+          "sse": 0.033798410826984426
         },
         {
           "k": 87,
@@ -571,12 +571,12 @@
         {
           "k": 96,
           "silhouette": 0.48373889923095703,
-          "sse": 0.005442967116800368
+          "sse": 0.005442657505474013
         },
         {
           "k": 97,
           "silhouette": 0.6083230972290039,
-          "sse": 0.001159184805762159
+          "sse": 0.0011588751944358044
         },
         {
           "k": 98,
@@ -627,7 +627,7 @@
             "signal": "isValid(datum[\"k\"]) && isFinite(+datum[\"k\"]) && isValid(datum[\"sse\"]) && isFinite(+datum[\"sse\"])"
           },
           "stroke": {
-            "value": "blue"
+            "value": "#5F92BF"
           },
           "tooltip": {
             "signal": "{\"k\": format(datum[\"k\"], \"\"), \"sse\": format(datum[\"sse\"], \"\")}"
@@ -661,7 +661,7 @@
             "signal": "isValid(datum[\"k\"]) && isFinite(+datum[\"k\"]) && isValid(datum[\"silhouette\"]) && isFinite(+datum[\"silhouette\"])"
           },
           "stroke": {
-            "value": "red"
+            "value": "#F3CC94"
           },
           "tooltip": {
             "signal": "{\"k\": format(datum[\"k\"], \"\"), \"silhouette\": format(datum[\"silhouette\"], \"\")}"

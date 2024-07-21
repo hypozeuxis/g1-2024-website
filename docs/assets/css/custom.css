@@ -208,6 +208,12 @@ code {
   color: #fff;
 }
 
+/* Nav bar */
+.navbar-expand .navbar-nav .nav-link {
+  padding: 0.25em !important;
+  font-size: 0.75rem;
+}
+
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 #sezione-1, #sezione-11, #sezione-12, #mappa-delle-stragi, #galleria {
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
