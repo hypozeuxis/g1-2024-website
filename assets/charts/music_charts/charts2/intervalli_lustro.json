@@ -1,0 +1,384 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "axis": {
+      "domainColor": "#666666",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
+    }
+  },
+  "data": {
+    "name": "data-cc0357b6e1c78e35e4d864b53bce23f5"
+  },
+  "datasets": {
+    "data-cc0357b6e1c78e35e4d864b53bce23f5": [
+      {
+        "Count": 30,
+        "Durata Intervallo": "08-12",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.04405286343612335
+      },
+      {
+        "Count": 133,
+        "Durata Intervallo": "08-12",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.05384615384615385
+      },
+      {
+        "Count": 204,
+        "Durata Intervallo": "08-12",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.08680851063829788
+      },
+      {
+        "Count": 77,
+        "Durata Intervallo": "08-12",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.1010498687664042
+      },
+      {
+        "Count": 95,
+        "Durata Intervallo": "08-12",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.07923269391159299
+      },
+      {
+        "Count": 166,
+        "Durata Intervallo": "08-12",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.10042347247428918
+      },
+      {
+        "Count": 22,
+        "Durata Intervallo": "08-12",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.05774278215223097
+      },
+      {
+        "Count": 13,
+        "Durata Intervallo": "08-12",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.038011695906432746
+      },
+      {
+        "Count": 9,
+        "Durata Intervallo": "08-12",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.017716535433070866
+      },
+      {
+        "Count": 79,
+        "Durata Intervallo": "13-17",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.11600587371512482
+      },
+      {
+        "Count": 403,
+        "Durata Intervallo": "13-17",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.1631578947368421
+      },
+      {
+        "Count": 611,
+        "Durata Intervallo": "13-17",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.26
+      },
+      {
+        "Count": 173,
+        "Durata Intervallo": "13-17",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.22703412073490814
+      },
+      {
+        "Count": 406,
+        "Durata Intervallo": "13-17",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.3386155129274395
+      },
+      {
+        "Count": 605,
+        "Durata Intervallo": "13-17",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.3660012099213551
+      },
+      {
+        "Count": 69,
+        "Durata Intervallo": "13-17",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.18110236220472442
+      },
+      {
+        "Count": 91,
+        "Durata Intervallo": "13-17",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.26608187134502925
+      },
+      {
+        "Count": 146,
+        "Durata Intervallo": "13-17",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.2874015748031496
+      },
+      {
+        "Count": 129,
+        "Durata Intervallo": "18-27",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.1894273127753304
+      },
+      {
+        "Count": 347,
+        "Durata Intervallo": "18-27",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.14048582995951417
+      },
+      {
+        "Count": 309,
+        "Durata Intervallo": "18-27",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.13148936170212766
+      },
+      {
+        "Count": 94,
+        "Durata Intervallo": "18-27",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.12335958005249344
+      },
+      {
+        "Count": 140,
+        "Durata Intervallo": "18-27",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.11676396997497915
+      },
+      {
+        "Count": 221,
+        "Durata Intervallo": "18-27",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.1336963097398669
+      },
+      {
+        "Count": 76,
+        "Durata Intervallo": "18-27",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.1994750656167979
+      },
+      {
+        "Count": 65,
+        "Durata Intervallo": "18-27",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.19005847953216373
+      },
+      {
+        "Count": 113,
+        "Durata Intervallo": "18-27",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.22244094488188976
+      },
+      {
+        "Count": 200,
+        "Durata Intervallo": "28-32",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.2936857562408223
+      },
+      {
+        "Count": 1125,
+        "Durata Intervallo": "28-32",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.45546558704453444
+      },
+      {
+        "Count": 1080,
+        "Durata Intervallo": "28-32",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.4595744680851064
+      },
+      {
+        "Count": 368,
+        "Durata Intervallo": "28-32",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.48293963254593175
+      },
+      {
+        "Count": 452,
+        "Durata Intervallo": "28-32",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.3769808173477898
+      },
+      {
+        "Count": 557,
+        "Durata Intervallo": "28-32",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.3369630973986691
+      },
+      {
+        "Count": 161,
+        "Durata Intervallo": "28-32",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.4225721784776903
+      },
+      {
+        "Count": 132,
+        "Durata Intervallo": "28-32",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.38596491228070173
+      },
+      {
+        "Count": 161,
+        "Durata Intervallo": "28-32",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.3169291338582677
+      },
+      {
+        "Count": 216,
+        "Durata Intervallo": "33-37",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.31718061674008813
+      },
+      {
+        "Count": 309,
+        "Durata Intervallo": "33-37",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.12510121457489878
+      },
+      {
+        "Count": 61,
+        "Durata Intervallo": "33-37",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.02595744680851064
+      },
+      {
+        "Count": 14,
+        "Durata Intervallo": "33-37",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.01837270341207349
+      },
+      {
+        "Count": 41,
+        "Durata Intervallo": "33-37",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.03419516263552961
+      },
+      {
+        "Count": 26,
+        "Durata Intervallo": "33-37",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.01572897761645493
+      },
+      {
+        "Count": 14,
+        "Durata Intervallo": "33-37",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.03674540682414698
+      },
+      {
+        "Count": 16,
+        "Durata Intervallo": "33-37",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.04678362573099415
+      },
+      {
+        "Count": 10,
+        "Durata Intervallo": "33-37",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.01968503937007874
+      }
+    ]
+  },
+  "height": 400,
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Durata Intervallo",
+          "scale": {
+            "scheme": "blueorange"
+          },
+          "title": "Intervallo di tempo",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Durata Intervallo",
+            "type": "nominal"
+          },
+          {
+            "field": "Lustro",
+            "type": "nominal"
+          },
+          {
+            "field": "Percentuale",
+            "format": ".3f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Lustro",
+          "title": "Lustro",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "title": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "line"
+      },
+      "title": "Distribuzione normalizzata degli intervalli di tempo per lustro"
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "Durata Intervallo",
+          "scale": {
+            "scheme": "blueorange"
+          },
+          "title": "Intervallo di tempo",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Durata Intervallo",
+            "type": "nominal"
+          },
+          {
+            "field": "Lustro",
+            "type": "nominal"
+          },
+          {
+            "field": "Percentuale",
+            "format": ".3f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Lustro",
+          "title": "Lustro",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "title": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "point"
+      },
+      "title": "Distribuzione normalizzata degli intervalli di tempo per lustro"
+    }
+  ],
+  "width": 600
+}

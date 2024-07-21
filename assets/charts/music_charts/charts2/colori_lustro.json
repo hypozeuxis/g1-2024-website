@@ -1,0 +1,636 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "axis": {
+      "domainColor": "#666666",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
+    }
+  },
+  "data": {
+    "name": "data-9c6a6a6894c0552357b7b9386b4640e1"
+  },
+  "datasets": {
+    "data-9c6a6a6894c0552357b7b9386b4640e1": [
+      {
+        "Colore": "black",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.045655
+      },
+      {
+        "Colore": "black",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.030438
+      },
+      {
+        "Colore": "black",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.019599
+      },
+      {
+        "Colore": "black",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.023684
+      },
+      {
+        "Colore": "black",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.063386
+      },
+      {
+        "Colore": "black",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.066181
+      },
+      {
+        "Colore": "black",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.026247
+      },
+      {
+        "Colore": "black",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.076023
+      },
+      {
+        "Colore": "black",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.084646
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.166421
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.196429
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.201108
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.213158
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.246872
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.168185
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.131234
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.149123
+      },
+      {
+        "Colore": "blue",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.102362
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.254786
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.255682
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.309757
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.357895
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.270225
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.287796
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.238845
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.236842
+      },
+      {
+        "Colore": "brown",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.261811
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.325479
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.330357
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.210908
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.161842
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.151793
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.196114
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.265092
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.245614
+      },
+      {
+        "Colore": "gray",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.255906
+      },
+      {
+        "Colore": "green",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.025037
+      },
+      {
+        "Colore": "green",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.010958
+      },
+      {
+        "Colore": "green",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.012782
+      },
+      {
+        "Colore": "green",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.035526
+      },
+      {
+        "Colore": "green",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.049208
+      },
+      {
+        "Colore": "green",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.039466
+      },
+      {
+        "Colore": "green",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.034121
+      },
+      {
+        "Colore": "green",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.020468
+      },
+      {
+        "Colore": "green",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.049213
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.017673
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.010958
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.024712
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.034211
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.027523
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.012143
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.0
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.008772
+      },
+      {
+        "Colore": "orange",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.011811
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.014728
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.013799
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.017469
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.010526
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.00834
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.009715
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.018373
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.020468
+      },
+      {
+        "Colore": "pink",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.019685
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.008837
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.02151
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.029399
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.005263
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.00417
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.010322
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.026247
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.032164
+      },
+      {
+        "Colore": "purple",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.023622
+      },
+      {
+        "Colore": "red",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.027982
+      },
+      {
+        "Colore": "red",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.028815
+      },
+      {
+        "Colore": "red",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.026417
+      },
+      {
+        "Colore": "red",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.031579
+      },
+      {
+        "Colore": "red",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.019183
+      },
+      {
+        "Colore": "red",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.03643
+      },
+      {
+        "Colore": "red",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.034121
+      },
+      {
+        "Colore": "red",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.032164
+      },
+      {
+        "Colore": "red",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.033465
+      },
+      {
+        "Colore": "white",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.100147
+      },
+      {
+        "Colore": "white",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.082386
+      },
+      {
+        "Colore": "white",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.124414
+      },
+      {
+        "Colore": "white",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.102632
+      },
+      {
+        "Colore": "white",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.117598
+      },
+      {
+        "Colore": "white",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.144505
+      },
+      {
+        "Colore": "white",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.2021
+      },
+      {
+        "Colore": "white",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.160819
+      },
+      {
+        "Colore": "white",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.129921
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "1980_1984",
+        "Percentuale": 0.013255
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "1985_1989",
+        "Percentuale": 0.018669
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "1990_1994",
+        "Percentuale": 0.023434
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "1995_1999",
+        "Percentuale": 0.023684
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "2000_2004",
+        "Percentuale": 0.041701
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "2005_2009",
+        "Percentuale": 0.029144
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "2010_2014",
+        "Percentuale": 0.023622
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "2015_2019",
+        "Percentuale": 0.017544
+      },
+      {
+        "Colore": "yellow",
+        "Lustro": "2020_2024",
+        "Percentuale": 0.027559
+      }
+    ]
+  },
+  "height": 400,
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Colore",
+          "scale": {
+            "domain": [
+              "black",
+              "blue",
+              "brown",
+              "gray",
+              "green",
+              "orange",
+              "pink",
+              "purple",
+              "red",
+              "white",
+              "yellow"
+            ],
+            "range": [
+              "black",
+              "blue",
+              "brown",
+              "gray",
+              "green",
+              "orange",
+              "pink",
+              "purple",
+              "red",
+              "white",
+              "yellow"
+            ]
+          },
+          "type": "nominal"
+        },
+        "x": {
+          "field": "Lustro",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "line"
+      }
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "Colore",
+          "scale": {
+            "domain": [
+              "black",
+              "blue",
+              "brown",
+              "gray",
+              "green",
+              "orange",
+              "pink",
+              "purple",
+              "red",
+              "white",
+              "yellow"
+            ],
+            "range": [
+              "black",
+              "blue",
+              "brown",
+              "gray",
+              "green",
+              "orange",
+              "pink",
+              "purple",
+              "red",
+              "white",
+              "yellow"
+            ]
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Lustro",
+            "type": "nominal"
+          },
+          {
+            "field": "Colore",
+            "type": "nominal"
+          },
+          {
+            "field": "Percentuale",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Lustro",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "point"
+      }
+    }
+  ],
+  "title": "Evoluzione dei Colori nel Tempo",
+  "width": 600
+}

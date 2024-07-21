@@ -1,0 +1,372 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "axis": {
+      "domainColor": "#666666",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
+    }
+  },
+  "data": {
+    "name": "data-0561cb78698f84cf5adbe355ed1b4ff2"
+  },
+  "datasets": {
+    "data-0561cb78698f84cf5adbe355ed1b4ff2": [
+      {
+        "Count": 3,
+        "Durata Intervallo": "00-07",
+        "Genere": "classical",
+        "Percentuale": 0.13636363636363635
+      },
+      {
+        "Count": 4,
+        "Durata Intervallo": "00-07",
+        "Genere": "electronic",
+        "Percentuale": 0.18181818181818182
+      },
+      {
+        "Count": 15,
+        "Durata Intervallo": "00-07",
+        "Genere": "pop",
+        "Percentuale": 0.6818181818181818
+      },
+      {
+        "Count": 47,
+        "Durata Intervallo": "08-12",
+        "Genere": "background",
+        "Percentuale": 0.12020460358056266
+      },
+      {
+        "Count": 32,
+        "Durata Intervallo": "08-12",
+        "Genere": "classical",
+        "Percentuale": 0.08184143222506395
+      },
+      {
+        "Count": 145,
+        "Durata Intervallo": "08-12",
+        "Genere": "electronic",
+        "Percentuale": 0.37084398976982097
+      },
+      {
+        "Count": 163,
+        "Durata Intervallo": "08-12",
+        "Genere": "pop",
+        "Percentuale": 0.41687979539641945
+      },
+      {
+        "Count": 4,
+        "Durata Intervallo": "08-12",
+        "Genere": "rock",
+        "Percentuale": 0.010230179028132993
+      },
+      {
+        "Count": 121,
+        "Durata Intervallo": "13-17",
+        "Genere": "background",
+        "Percentuale": 0.08642857142857142
+      },
+      {
+        "Count": 77,
+        "Durata Intervallo": "13-17",
+        "Genere": "classical",
+        "Percentuale": 0.055
+      },
+      {
+        "Count": 543,
+        "Durata Intervallo": "13-17",
+        "Genere": "electronic",
+        "Percentuale": 0.38785714285714284
+      },
+      {
+        "Count": 631,
+        "Durata Intervallo": "13-17",
+        "Genere": "pop",
+        "Percentuale": 0.45071428571428573
+      },
+      {
+        "Count": 28,
+        "Durata Intervallo": "13-17",
+        "Genere": "rock",
+        "Percentuale": 0.02
+      },
+      {
+        "Count": 65,
+        "Durata Intervallo": "18-27",
+        "Genere": "background",
+        "Percentuale": 0.08655126498002663
+      },
+      {
+        "Count": 54,
+        "Durata Intervallo": "18-27",
+        "Genere": "classical",
+        "Percentuale": 0.07190412782956059
+      },
+      {
+        "Count": 304,
+        "Durata Intervallo": "18-27",
+        "Genere": "electronic",
+        "Percentuale": 0.4047936085219707
+      },
+      {
+        "Count": 321,
+        "Durata Intervallo": "18-27",
+        "Genere": "pop",
+        "Percentuale": 0.4274300932090546
+      },
+      {
+        "Count": 7,
+        "Durata Intervallo": "18-27",
+        "Genere": "rock",
+        "Percentuale": 0.009320905459387484
+      },
+      {
+        "Count": 256,
+        "Durata Intervallo": "28-32",
+        "Genere": "background",
+        "Percentuale": 0.10343434343434343
+      },
+      {
+        "Count": 234,
+        "Durata Intervallo": "28-32",
+        "Genere": "classical",
+        "Percentuale": 0.09454545454545454
+      },
+      {
+        "Count": 1012,
+        "Durata Intervallo": "28-32",
+        "Genere": "electronic",
+        "Percentuale": 0.4088888888888889
+      },
+      {
+        "Count": 934,
+        "Durata Intervallo": "28-32",
+        "Genere": "pop",
+        "Percentuale": 0.37737373737373736
+      },
+      {
+        "Count": 39,
+        "Durata Intervallo": "28-32",
+        "Genere": "rock",
+        "Percentuale": 0.01575757575757576
+      },
+      {
+        "Count": 48,
+        "Durata Intervallo": "33-37",
+        "Genere": "background",
+        "Percentuale": 0.13008130081300814
+      },
+      {
+        "Count": 49,
+        "Durata Intervallo": "33-37",
+        "Genere": "classical",
+        "Percentuale": 0.13279132791327913
+      },
+      {
+        "Count": 158,
+        "Durata Intervallo": "33-37",
+        "Genere": "electronic",
+        "Percentuale": 0.4281842818428184
+      },
+      {
+        "Count": 110,
+        "Durata Intervallo": "33-37",
+        "Genere": "pop",
+        "Percentuale": 0.2981029810298103
+      },
+      {
+        "Count": 4,
+        "Durata Intervallo": "33-37",
+        "Genere": "rock",
+        "Percentuale": 0.01084010840108401
+      },
+      {
+        "Count": 21,
+        "Durata Intervallo": "38-48",
+        "Genere": "background",
+        "Percentuale": 0.13636363636363635
+      },
+      {
+        "Count": 12,
+        "Durata Intervallo": "38-48",
+        "Genere": "classical",
+        "Percentuale": 0.07792207792207792
+      },
+      {
+        "Count": 65,
+        "Durata Intervallo": "38-48",
+        "Genere": "electronic",
+        "Percentuale": 0.42207792207792205
+      },
+      {
+        "Count": 55,
+        "Durata Intervallo": "38-48",
+        "Genere": "pop",
+        "Percentuale": 0.35714285714285715
+      },
+      {
+        "Count": 1,
+        "Durata Intervallo": "38-48",
+        "Genere": "rock",
+        "Percentuale": 0.006493506493506494
+      },
+      {
+        "Count": 21,
+        "Durata Intervallo": "49-63",
+        "Genere": "background",
+        "Percentuale": 0.20192307692307693
+      },
+      {
+        "Count": 18,
+        "Durata Intervallo": "49-63",
+        "Genere": "classical",
+        "Percentuale": 0.17307692307692307
+      },
+      {
+        "Count": 32,
+        "Durata Intervallo": "49-63",
+        "Genere": "electronic",
+        "Percentuale": 0.3076923076923077
+      },
+      {
+        "Count": 30,
+        "Durata Intervallo": "49-63",
+        "Genere": "pop",
+        "Percentuale": 0.28846153846153844
+      },
+      {
+        "Count": 3,
+        "Durata Intervallo": "49-63",
+        "Genere": "rock",
+        "Percentuale": 0.028846153846153848
+      },
+      {
+        "Count": 13,
+        "Durata Intervallo": "64-255",
+        "Genere": "background",
+        "Percentuale": 0.2708333333333333
+      },
+      {
+        "Count": 5,
+        "Durata Intervallo": "64-255",
+        "Genere": "classical",
+        "Percentuale": 0.10416666666666667
+      },
+      {
+        "Count": 17,
+        "Durata Intervallo": "64-255",
+        "Genere": "electronic",
+        "Percentuale": 0.3541666666666667
+      },
+      {
+        "Count": 11,
+        "Durata Intervallo": "64-255",
+        "Genere": "pop",
+        "Percentuale": 0.22916666666666666
+      },
+      {
+        "Count": 2,
+        "Durata Intervallo": "64-255",
+        "Genere": "rock",
+        "Percentuale": 0.041666666666666664
+      }
+    ]
+  },
+  "height": 400,
+  "layer": [
+    {
+      "encoding": {
+        "color": {
+          "field": "Genere",
+          "scale": {
+            "scheme": "blueorange"
+          },
+          "title": "Generi",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Durata Intervallo",
+            "type": "nominal"
+          },
+          {
+            "field": "Genere",
+            "type": "nominal"
+          },
+          {
+            "field": "Percentuale",
+            "format": ".3f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Durata Intervallo",
+          "title": "Tempo",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "title": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "line"
+      },
+      "title": "Distribuzione dei generi in base alla Durata Spot"
+    },
+    {
+      "encoding": {
+        "color": {
+          "field": "Genere",
+          "scale": {
+            "scheme": "blueorange"
+          },
+          "title": "Generi",
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Durata Intervallo",
+            "type": "nominal"
+          },
+          {
+            "field": "Genere",
+            "type": "nominal"
+          },
+          {
+            "field": "Percentuale",
+            "format": ".3f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Durata Intervallo",
+          "title": "Tempo",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "title": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "type": "point"
+      },
+      "title": "Distribuzione dei generi in base alla Durata Spot"
+    }
+  ],
+  "width": 600
+}
