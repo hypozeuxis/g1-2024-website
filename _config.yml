@@ -19,8 +19,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "La comunicazione pubblicitaria televisiva"
-subtitle: "Evoluzione nel tempo"
+title: "Spot TV"
+subtitle: "La comunicazione pubblicitaria televisiva dal 1980 a oggi"
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Analizzare l’evoluzione dei diversi aspetti della comunicazione pubblicitaria

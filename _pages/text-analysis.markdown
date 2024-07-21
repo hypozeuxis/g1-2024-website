@@ -26,12 +26,11 @@ In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del 
 
 ## Analisi delle trascrizioni
 
+Ottenute le trascrizioni, abbiamo proseguito con le analisi dei testi.
 
-Una volta ottenute le trascrizioni, la prima analisi si è concentrata sul misurare la lunghezza media per lustro.
+### Analisi quantitative 
+La prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
-Le analisi sulla durata media degli spot hanno confermato questo andamento. 
-Anche in quel caso, infatti, è stata riscontrata una riduzione della durata 
-che coinvolge lo stesso decennio.
 
 <p class="caption">
 Lunghezza media delle trascrizioni per lustro
@@ -39,7 +38,31 @@ Lunghezza media delle trascrizioni per lustro
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length_lustrum.json" style="width:100%"></vegachart> 
 
-Successivamente, la stessa analisi è stata ripetuta ma considerando anche la classe di Nizza. In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notre, inoltre, come ogni classe segua un proprio andamento indipendente.
+Le analisi sulla durata media degli spot confermano questo andamento. 
+Anche in questo caso, infatti, si riscontra una riduzione della durata 
+che coinvolge lo stesso decennio.
+
+<p class="caption">
+Durata media dei video per lustro
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/durata_media.json" style="width:100%"></vegachart> 
+
+Adattandosi a un ritmo sempre più incalzante, 
+il numero di parole per secondo aumenta a partire dal 2000, per poi diminuire negli ultimi cinque anni.
+<p class="caption">
+Numero di parole per secondo
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
+
+Anche il numero di scene per secondo aumenta nel corso dei lustri, la pubblicità sembra adattarsi a una società sempre più dinamica.
+<p class="caption">
+Numero di scene per secondo
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%"></vegachart> 
+Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta ma considerando anche la classe di Nizza. In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
 
 
 <p class="caption">
@@ -47,6 +70,8 @@ Lunghezza media delle trascrizioni per lustro e classe di Nizza
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length.json" style="width:100%"></vegachart>  
 
+
+### Topic
 Come ulteriore analisi, sono stati ricercati i cosiddetti 'topic' più rilevanti divisi, ancora una volta, per lustro e classe di Nizza. 
 Questa analisi permette di osservare l'eventuale insorgenza di parole chiave. 
 Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerge la parola 
@@ -61,6 +86,8 @@ Topic per lustro e classe di Nizza
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_topic.json" style="width:100%"></vegachart>  
 
+
+### Anglicismi
 Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari. Dal grafico sembrerebbe emergere una tendenza altalenante fra periodi di apertura verso gli anglicismi, 
 seguiti da periodi di maggiore chiusura. Inoltre, si nota come a partire dagli anni 2000
 il numero di parole inglesi aumenti consistentemente, probabilmente anche per l'arrivo del canale MTV. 
@@ -70,6 +97,13 @@ Tuttavia, dal 2010 l'equilibrio cambia di nuovo, andando verso una diminuzione d
 Numero di anglicismi per lustro
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
+
+### Conclusioni sulla text-analysis
+
+In generale, dai nostri risultati, sembra che, nei primi anni 2000, per superare le difficoltà di un pubblico sempre meno attento e
+interessato, la pubblicità abbia optato per essere più corta e più dinamica. Infatti, risulta essere caratterizzata da una durata media ridotta e da un numero di parole piuttosto basso, 
+con un elevato numero di scene per secondo. Negli ultimi anni, però, il ritmo delle pubblicità sembra essere rallentato nuovamente. 
+L'adattamento della pubblicità alla società si nota anche nella scelta delle parole e dalla presenza di anglicismi.
 
 # Clusterizzazione delle Trascrizioni
 <p class="caption">
