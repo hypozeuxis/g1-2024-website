@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
   "config": {
     "axis": {
-      "domainColor": "#313338",
+      "domainColor": "#666666",
       "gridColor": "#666666",
       "labelColor": "#DBDEE1",
       "tickColor": "#DBDEE1",
