@@ -170,3 +170,17 @@ Genere musicale per lustro per Classe di Nizza 38
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice38_f.json" style="width: 100%"></vegachart>
 
 
+#### TEST
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/genere_intervallo.json" style="width: 100%"></vegachart>
+
+
+
+
+
