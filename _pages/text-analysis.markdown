@@ -26,8 +26,10 @@ In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del 
 
 ## Analisi delle trascrizioni
 
+Ottenute le trascrizioni, abbiamo proseguito con le analisi dei testi.
 
-Una volta ottenute le trascrizioni, la prima analisi si è concentrata sul misurare la lunghezza media per lustro.
+### Analisi quantitative 
+la prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
 
 <p class="caption">
@@ -61,6 +63,8 @@ Lunghezza media delle trascrizioni per lustro e classe di Nizza
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length.json" style="width:100%"></vegachart>  
 
+
+### Topic
 Come ulteriore analisi, sono stati ricercati i cosiddetti 'topic' più rilevanti divisi, ancora una volta, per lustro e classe di Nizza. 
 Questa analisi permette di osservare l'eventuale insorgenza di parole chiave. 
 Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerge la parola 
@@ -75,6 +79,8 @@ Topic per lustro e classe di Nizza
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_topic.json" style="width:100%"></vegachart>  
 
+
+### Anglicismi
 Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari. Dal grafico sembrerebbe emergere una tendenza altalenante fra periodi di apertura verso gli anglicismi, 
 seguiti da periodi di maggiore chiusura. Inoltre, si nota come a partire dagli anni 2000
 il numero di parole inglesi aumenti consistentemente, probabilmente anche per l'arrivo del canale MTV. 
