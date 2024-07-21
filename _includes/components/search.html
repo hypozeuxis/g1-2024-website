@@ -370,7 +370,7 @@
                                 colorLbTfidfDiv.appendChild(colorLbTfidfChart);
 
                                 const masonryDiv = document.getElementById('masonry');
-                                masonryDiv.innerHTML = `<h6 style="grid-column: span 2;">Scene (fotogrammi mediani)</h6>`;
+                                masonryDiv.innerHTML = `<h6>Scene</h6><div/>`;
                                 item.scenes.forEach((v, i, a) => {
                                     v = v.toString().padStart(3, '0');
                                     const img = document.createElement('img');
