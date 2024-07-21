@@ -168,3 +168,32 @@ Genere musicale per lustro per Classe di Nizza 38
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice38_f.json" style="width: 100%"></vegachart>
+
+
+#### Test charts
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/colori_lustro.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/distribuzione_musica.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/durata_media.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/genere_intervallo.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/intervalli.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/intervalli_lustro.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/parole_secondo.json" style="width: 100%"></vegachart>
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/scene_sec.json" style="width: 100%"></vegachart>
