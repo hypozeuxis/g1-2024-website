@@ -8,6 +8,11 @@ header_title: "Analisi delle entità"
 vega: true
 ---
 
+<button id="showSectionButton">Dettagli Tecnici</button>
+
+<div id="hiddenSection" class="hidden">
+{% capture hidden_content %}
+
 ### Dettagli tecnici
 
 ##### Fase 1: Dividere i video in scene
@@ -79,10 +84,24 @@ E' stato aggiunto l'elemento "interactive" dopo i parametri per poter visualizza
 ##### Fase 6: utilizzo di Jekyll per la creazione del sito web
 Per l'implementazione dei grafici sono stati presi degli accorgimenti in quanto questi non venivano visualizzati correttamente, infatti si sono dovute specificare le dimensioni di width e height, con quest'ultima avente una dimensione in pixel, per poter visualizzare i grafici.
 
+{% endcapture %}
 
-<hr>
+{{ hidden_content | markdownify }}
+</div>
 
+<style>
+.hidden { display: none; }
+</style>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('showSectionButton');
+    const hiddenSection = document.getElementById('hiddenSection');
+    button.addEventListener('click', function() {
+        hiddenSection.classList.toggle('hidden');
+    });
+});
+</script>
 
 ## Analisi delle classi di YOLO
 
