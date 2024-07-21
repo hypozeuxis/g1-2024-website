@@ -48,8 +48,8 @@ Durata media dei video per lustro
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/durata_media.json" style="width:100%"></vegachart> 
 
-Adattandosi a un ritmo sempre più incalzante tipico degli ultimi quindici anni, 
-il numero di parole per secondo aumenta.
+Adattandosi a un ritmo sempre più incalzante, 
+il numero di parole per secondo aumenta a partire dal 2000, per poi diminuire negli ultimi cinque anni.
 <p class="caption">
 Numero di parole per secondo
 </p>
