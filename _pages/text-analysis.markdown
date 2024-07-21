@@ -78,4 +78,37 @@ Numero di anglicismi per lustro
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
 
+# Clusterizzazione delle Trascrizioni
+<p class="caption">
+Metodo del gomito
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/elbow_chart.json" style="width: 100%; height:640px;"></vegachart>
+
+### Interpretazione
+Osservando il grafico, si nota un significativo calo nella SSE inizialmente con l'aumento del numero di cluster, ma questo calo rallenta a un certo punto, creando una sorta di "gomito". In questo caso, il "gomito" appare chiaramente attorno al valore di 26 cluster. Questo punto rappresenta un buon compromesso tra la minimizzazione della SSE e l'evitare la sovrapartizione dei dati.
+Il Silhouette Score aggiunge un ulteriore livello di comprensione, indicando la qualità del clustering. In generale, un Silhouette Score più alto indica cluster più distinti. Tuttavia, notiamo che il punteggio varia considerevolmente, suggerendo che la qualità dei cluster può variare.
+
+<p class="caption">
+Rappresentazione della Clusterizzazione delle Trascrizioni degli Spot con il t-SNE
+</p>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/chart_cluster_text.json" style="width: 100%; height:640px;"></vegachart>
+
+### Interpretazione
+
+Il grafico sopra rappresenta la visualizzazione dei dati ridotti in due dimensioni usando il t-SNE. Ogni punto rappresenta un dato, con la posizione determinata dalle prime due componenti t-SNE.
+
+Con 26 cluster, notiamo una distribuzione piuttosto dispersa dei punti. Alcuni cluster sono chiaramente distinti, mentre altri appaiono sovrapposti. Questo suggerisce che, mentre il numero di cluster scelto è ottimale secondo il Metodo dell'Elbow, la separabilità dei cluster potrebbe non essere perfetta.
+
+La densità dei punti in alcune aree indica che ci sono gruppi ben definiti, ma la presenza di punti distanti suggerisce anche la presenza di cluster meno ben definiti.
+Con 26 cluster, possiamo osservare una distribuzione abbastanza sparsa dei punti:
+
+- Cluster Distinti: Alcuni cluster sono chiaramente separati, indicando gruppi di trascrizioni che condividono caratteristiche simili.
+- Cluster Sovrapposti: In alcune regioni del grafico, i cluster appaiono sovrapposti, suggerendo che ci sono trascrizioni che potrebbero avere somiglianze con più di un cluster o che i confini tra i cluster non sono netti.
+- Densità dei Punti: La densità varia tra le diverse aree del grafico. Aree con alta densità di punti indicano gruppi di trascrizioni molto simili tra loro, mentre le aree con punti più distanti possono indicare trascrizioni uniche o outliers.
+
+### Conclusione 
+ - In conclusione, il numero ottimale di cluster, come indicato dal Metodo dell'Elbow in questo esempio, è 26. Questa scelta bilancia efficacemente la riduzione degli errori e la qualità del clustering, fornendo una partizione ragionevole dei dati.
+ - Il metodo di t-SNE fornisce una visione utile della struttura dei dati e dei risultati del clustering. Sebbene il numero di cluster scelto sia 26, è evidente che la qualità del clustering varia. Questo insight visivo è cruciale per comprendere meglio la distribuzione dei dati.
+Alcuni cluster sono ben definiti, mentre altri potrebbero richiedere ulteriori dati per migliorare la distinzione.
 
