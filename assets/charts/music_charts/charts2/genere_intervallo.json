@@ -324,8 +324,7 @@
       },
       "mark": {
         "type": "line"
-      },
-      "title": "Distribuzione dei generi in base alla Durata Spot"
+      }
     },
     {
       "encoding": {
@@ -365,8 +364,7 @@
       },
       "mark": {
         "type": "point"
-      },
-      "title": "Distribuzione dei generi in base alla Durata Spot"
+      }
     }
   ],
   "width": 600

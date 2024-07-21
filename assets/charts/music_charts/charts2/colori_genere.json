@@ -363,7 +363,5 @@
   "height": 400,
   "mark": {
     "type": "bar"
-  },
-  "title": "Percentuale di Colore per Genere",
-  "width": 600
+  }
 }

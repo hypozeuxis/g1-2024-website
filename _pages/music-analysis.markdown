@@ -169,16 +169,37 @@ Genere musicale per lustro per Classe di Nizza 38
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice38_f.json" style="width: 100%"></vegachart>
 
+### Analisi in base alla durata degli spot
+I generi musicali si distribuiscono in maniera differente rispetto alla durata degli spot. Si può infatti notare 
+come la quasi totali degli spot inferiori ai 7 secondi contenga musica pop, probabilmente associata brevi jingle 
+mentre gli altri generi sono poco presenti. La musica pop tende poi a diminuire all'aumentare della durata andando 
+a favorire la presenza degli altri generi musicali.
 
-#### TEST
+<p class="caption">
+Distribuzione dei Generi in base alla Durata dello Spot
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/genere_intervallo.json" style="width: 100%"></vegachart>
+
+### Analisi del Colore in base al Genere Musicale
+
+Il colore associato al genere musicale presente nei video sembre sempre ben bilanciato. Il colore marrone infatti 
+è sempre il più presente seguito poi dal grigio seguito poi dal blu, tuttavia negli spot contenenti musica 
+elettronica squesti tre colori risultano essere più bilanciati. Eccezzione particolare sono i video contenenti 
+musica rock, questi sono quelli presenti in minor numero e qua possiamo ntoare come il blue sia il colore 
+più rappresentativo seguito da marrone, grigio e bianco con valori molto simili tra loro. 
+
+<p class="caption">
+Distribuzione del colore per Genere Musicale
+</p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%"></vegachart>
 
 
+
+
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%"></vegachart>
 
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/genere_intervallo.json" style="width: 100%"></vegachart>
 
 
 
