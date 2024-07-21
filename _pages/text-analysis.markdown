@@ -34,7 +34,7 @@ Come ulteriore analisi, sono stati ricercati i cosiddetti 'topic' più rilevanti
 Questa analisi permette di osservare l'eventuale insorgenza di parole chiave. 
 Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerge la parola 
 'italiano'. Un simile aggettivo potrebbe essere emblematico della emergenza sanitaria dovuta al COVID.
-Oppure, considerando la classe di Nizza 5, lustro 2020-2024 è possibile notare la comparsa del topic 'ciclo'.
+Oppure, spostando l'attenzione sulla classe di Nizza 5 e sul lustro 2020-2024, è possibile notare la comparsa del sostantivo 'ciclo'.
 Questo topic diventa preponderane solo negli ultimi anni, in linea con le nuove idee della società.
 
 <p class="caption">
@@ -43,7 +43,10 @@ Topic per lustro e classe di Nizza
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_topic.json" style="width:100%"></vegachart>  
 
 Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari. Dal grafico sembrerebbe emergere una tendenza altalenante fra periodi di apertura verso gli anglicismi, 
-seguiti da periodi di maggiore chiusura. Inoltre, si nota come, a partire dal 2010 e fino al 2019, la presenza di anglicismi diminuisca vertiginosamente per poi aumentare di nuovo intorno al 2020.
+seguiti da periodi di maggiore chiusura. Inoltre, si nota come, a partire dagli anni 2000 
+la presenza di anglicismi aumenti consistentemente probabilmente anche per l'arrivo del canale MTV. 
+Tuttavia, a partire dal 2010 l'equilibrio cambia di nuovo, andando verso una situazione di maggiore chiusura 
+verso gli anglicismi.
 
 <p class="caption">
 Numero di anglicismi per lustro
