@@ -174,26 +174,34 @@ Genere musicale per lustro per Classe di Nizza 38
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%"></vegachart>
 
+#### 1
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/colori_lustro.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_lustro.json" style="width: 100%"></vegachart>
 
+#### 2
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/distribuzione_musica.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%"></vegachart>
 
+#### 3
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/durata_media.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/durata_media.json" style="width: 100%"></vegachart>
 
+#### 4
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/genere_intervallo.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/genere_intervallo.json" style="width: 100%"></vegachart>
 
+#### 5
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/intervalli.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/intervalli.json" style="width: 100%"></vegachart>
 
+#### 6
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/intervalli_lustro.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/intervalli_lustro.json" style="width: 100%"></vegachart>
 
+#### 7
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/parole_secondo.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/parole_secondo.json" style="width: 100%"></vegachart>
 
+#### 8
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/chart2/scene_sec.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/scene_sec.json" style="width: 100%"></vegachart>
