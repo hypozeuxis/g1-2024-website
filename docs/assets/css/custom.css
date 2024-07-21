@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", Roboto;
   font-weight: 700;
+  margin-top: 2em;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -164,12 +165,47 @@ body::after {
   color: black;
 }
 
+/* Search page */
 .list-group-item-action:hover,
 .list-group-item-action:focus {
   z-index: 1;
   color: white;
   text-decoration: none;
   background-color: #3a424c;
+}
+
+/* Caption */
+.caption {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  padding: 0;
+  margin: 3em 0 1em 0;
+  font-size: 0.875em;
+}
+
+/* Vega charts */
+.vega-bind {
+  font-size: 0.875em;
+  font-family: "Space Mono", monospace;
+}
+.vega-bind label {
+  display: flex;
+  align-items: center;
+}
+.vega-bind label .vega-bind-name {
+  margin-inline-end: 1em;
+}
+.vega-bind label input {
+  margin-inline-end: 0.5em;
+}
+
+vegachart + p {
+  margin-top: 3em;
+}
+
+/* Code */
+code {
+  color: #fff;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
