@@ -54,7 +54,18 @@ inizia a essere usata con una frequenza piuttosto elevata solo dal 2020. Oppure,
 dell’aggettivo ‘italiano’ che, ancora dal 2020, compare fra le parole più frequenti negli spot di prodotti alimentari.
 Il ‘Made in Italy’ sembra diventare un requisito fondamentale proprio in questi anni successivi alla pandemia mondiale.
 
-I colori invece.....
+Per quanto riguarda i colori si nota come questi siano passati dall’essere molto saturi e ad alto contrasto negli anni
+Ottanta e Novanta a esserlo invece meno dalla metà del 2000 in poi.
+
+Un motivo potrebbe essere quello tecnologico: la trasmissione delle immagini da parte delle emittenti è passata da una
+tecnologia analogica (soggetta quindi a disturbo e ad alterazione del segnale) a una digitale (in cui disturbo e
+alterazione non sussistono).
+
+Un altro motivo è poi dato dal mezzo di ricezione e di quello di registrazione che hanno ulteriormente contribuito a 
+deteriorare qualità e colore dell’immagine.
+
+Ci teniamo a precisare che in ogni caso il nostro studio si focalizza proprio sui colori percepiti dall’utente finale
+attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui non abbiamo accesso).
 
 Ulteriore aspetto che è stato preso in considerazione in queste analisi è stato "chi" e "cosa" effettivamente comparisse
 negli spot. Va infatti preso in considerazione anche chi sono i protagonisti dei brevi sipari che ci fanno compagnia
