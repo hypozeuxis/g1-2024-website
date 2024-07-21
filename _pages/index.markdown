@@ -45,6 +45,7 @@ riduzione nell’utilizzo della musica classica e della musica elettronica a fav
 in voga grazie a MTV, diventa nell’ultimo decennio il genere caratterizzante per oltre la metà degli spot televisivi.
 Sulla scia di questa novità, si nota anche un progressivo aumento delle parole inglesi negli spot. Tuttavia, la
 rivendicazione della nostra italianità si manifesta con una rapida diminuzione di queste negli ultimi quindici anni.
+
 Anche le semplici parole sembrano non essere mai casuali. ‘Assistiamo a un ribaltamento di ciò che la società considera
 scandaloso: negli anni Ottanta e Novanta erano facilmente concesse battutine sessuali e di genere, ma non si potevano
 assolutamente pronunciare determinate parole. Se ci pensate, oggi, è esattamente il contrario’, continua Michele.
