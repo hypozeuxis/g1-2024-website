@@ -56,7 +56,7 @@ Numero di parole per secondo
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
 
-Anche il numero di scene per secondo aumenta nel corso dei lustri, la pubblicità si adatta a una società sempre più dinamica.
+Anche il numero di scene per secondo aumenta nel corso dei lustri, la pubblicità sembra adattarsi a una società sempre più dinamica.
 <p class="caption">
 Numero di scene per secondo
 </p>
