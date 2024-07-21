@@ -291,8 +291,10 @@ body::after {
 .vega-bind {
   font-size: 0.875em;
   font-family: $font-family-monospace;
+
   label {
     display: flex;
+    align-items: center;
 
     .vega-bind-name {
       margin-inline-end: 1em;
@@ -306,6 +308,11 @@ body::after {
 
 vegachart + p {
   margin-top: 3em;
+}
+
+/* Code */
+code {
+  color: $body-color;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
