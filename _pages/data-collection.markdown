@@ -8,23 +8,51 @@ header_title: "Raccolta dati"
 vega: true
 ---
 
-## Titolo 2º livello
+## Individuazione delle fonti
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, lectus laoreet mattis maximus, enim orci
-vulputate risus, nec scelerisque lectus nulla sed ex. Nam ullamcorper cursus tellus, vel venenatis magna. Pellentesque
-felis dolor, egestas et auctor ut, tincidunt vel augue. Donec vitae mollis orci. Donec cursus lacus vel dui dignissim
-consectetur. Aliquam ultrices justo massa, id ultrices sapien aliquet eu. Mauris porta vehicula nulla a volutpat.
-Quisque bibendum elit et porttitor porta. Curabitur efficitur arcu eu enim iaculis consequat. Nunc ut nunc nec augue
-laoreet aliquam. Ut nec lacus sit amet sapien fringilla rhoncus a et mi.
+Le nostre fonti per il recupero di spot televisivi andati in onda sulla TV italiana dal 1980 al 2024 sono state:
 
-Fusce at varius lectus. Suspendisse eu magna consectetur, lobortis justo non, viverra nisl. Vestibulum ultricies nibh
-lacus, vitae dictum augue bibendum vitae. Curabitur in urna accumsan, porta nulla non, vulputate sapien. Nam porttitor
-felis orci, quis interdum lectus cursus a. Suspendisse potenti. Curabitur fringilla magna sed tortor euismod porta sed
-ac elit. Mauris at pharetra ante. Sed at condimentum odio. Sed vulputate urna et justo efficitur, non tincidunt mi
-congue. Donec ultricies dolor in mauris pellentesque eleifend. In felis nunc, hendrerit hendrerit fringilla eget,
-posuere vitae nisl.
+1. **Spot80**: un sito amatoriale che raccoglie spot italiani andati in onda dal 1977 al 1999.
+    - 1.734 spot
+2. Selezione da **YouTube** di spot pubblicitari dal 1983 a oggi:
+    - **mDeplo**: 6.755 spot (raggruppati in sequenze)
+    - **Engage.it**: 199 spot
+    - altri account: 1.662 spot
 
-Sed purus est, sollicitudin a commodo vitae, molestie non orci. Vivamus ac sagittis dolor. Sed fermentum, ipsum at
-sodales porta, turpis dui euismod arcu, id fringilla eros nunc vulputate justo. Mauris congue enim in orci maximus
-viverra. Ut dignissim interdum lacus, non posuere quam aliquet quis. Nam sodales nulla sed justo ullamcorper feugiat.
-Cras ipsum augue, cursus et gravida id, fermentum vel tellus.
+In totale sono stati analizzati **10.350 spot**.
+
+## Caratteristiche dei video
+
+I video reperibili in rete erano suddivisi in
+
+- spot singoli
+- sequenze di spot (registrazioni di interruzioni pubblicitarie comprendenti, oltre agli spot, anche brevi sigle,
+  bumper e i cosiddetti spot «inframe», cioè incorniciati dalla grafica identificativa dell’emittente)
+
+Nel caso delle sequenze, è stato anche selezionato il timecode presente nella loro descrizione:
+questo è stato utile successivamente per la suddivisione in spot singoli.
+
+## Raccolta dati
+
+Librerie principali utilizzate
+
+- `selenium`
+- `pytube`
+- `ffmpeg`
+
+I dati sono stati sistemati in un dataframe con le seguenti proprietà:
+
+- `commercial_id`
+    - file name
+    - YouTube video ID (when the video contains a single commercial)
+    - concatenation of YouTube video ID and a progressive ID (when the video contains a sequence of commercials)
+- `title`
+    - titolo assegnato dall’account che ha caricato il video
+- `description`
+    - la didascalia presente appena dopo il video (Spot 80)
+    - la descrizione (non sempre presente) del video su YouTube
+- `airing_date`
+    - data di messa in onda, estrapolata dal titolo o dalla descrizione
+- `duration_in_seconds`
+  - durata in secondi
+

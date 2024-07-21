@@ -1,70 +1,84 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.6.1.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
   "config": {
-    "view": {
-      "continuousHeight": 300,
-      "continuousWidth": 300
+    "axis": {
+      "domainColor": "#666666",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
     }
   },
   "data": {
-    "name": "data-0d3f05f79eb7ff6e948c1ad32c2e7cb0"
+    "name": "data-db59d7e25659fe9d182e03b8d659760f"
   },
   "datasets": {
-    "data-0d3f05f79eb7ff6e948c1ad32c2e7cb0": [
+    "data-db59d7e25659fe9d182e03b8d659760f": [
       {
-        "Anglicism": 778,
-        "Period": "1980_1984"
+        "Class": "1980_1984",
+        "Word Count": 778
       },
       {
-        "Anglicism": 2786,
-        "Period": "1985_1989"
+        "Class": "1985_1989",
+        "Word Count": 2786
       },
       {
-        "Anglicism": 2551,
-        "Period": "1990_1994"
+        "Class": "1990_1994",
+        "Word Count": 2551
       },
       {
-        "Anglicism": 827,
-        "Period": "1995_1999"
+        "Class": "1995_1999",
+        "Word Count": 827
       },
       {
-        "Anglicism": 1602,
-        "Period": "2000_2004"
+        "Class": "2000_2004",
+        "Word Count": 1602
       },
       {
-        "Anglicism": 1937,
-        "Period": "2005_2009"
+        "Class": "2005_2009",
+        "Word Count": 1937
       },
       {
-        "Anglicism": 519,
-        "Period": "2010_2014"
+        "Class": "2010_2014",
+        "Word Count": 519
       },
       {
-        "Anglicism": 527,
-        "Period": "2015_2019"
+        "Class": "2015_2019",
+        "Word Count": 527
       },
       {
-        "Anglicism": 963,
-        "Period": "2020_2024"
+        "Class": "2020_2024",
+        "Word Count": 963
       }
     ]
   },
   "encoding": {
+    "color": {
+      "value": "#F3CC94"
+    },
     "x": {
-      "field": "Period",
+      "field": "Class",
       "title": "Lustro",
       "type": "nominal"
     },
     "y": {
-      "field": "Anglicism",
+      "field": "Word Count",
       "title": "Numero di Anglicismi",
       "type": "quantitative"
     }
   },
-  "height": 400,
+  "height": 300,
   "mark": {
     "type": "bar"
   },
-  "title": "Numero di anglicismi per lustro",
-  "width": 600
+  "width": "container"
 }
