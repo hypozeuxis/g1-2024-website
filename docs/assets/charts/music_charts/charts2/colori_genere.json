@@ -1,0 +1,369 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "axis": {
+      "labelAngle": 0,
+      "domainColor": "#666666",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
+    }
+  },
+  "data": {
+    "name": "data-c4043c2359094259758aaba27fe984fe"
+  },
+  "datasets": {
+    "data-c4043c2359094259758aaba27fe984fe": [
+      {
+        "Colore": "black",
+        "Genere": "background",
+        "Percentuale": 0.06101695
+      },
+      {
+        "Colore": "black",
+        "Genere": "classical",
+        "Percentuale": 0.05383023
+      },
+      {
+        "Colore": "black",
+        "Genere": "electronic",
+        "Percentuale": 0.049561400000000005
+      },
+      {
+        "Colore": "black",
+        "Genere": "pop",
+        "Percentuale": 0.03349493
+      },
+      {
+        "Colore": "black",
+        "Genere": "rock",
+        "Percentuale": 0.045454549999999996
+      },
+      {
+        "Colore": "blue",
+        "Genere": "background",
+        "Percentuale": 0.1440678
+      },
+      {
+        "Colore": "blue",
+        "Genere": "classical",
+        "Percentuale": 0.13871636
+      },
+      {
+        "Colore": "blue",
+        "Genere": "electronic",
+        "Percentuale": 0.21535088
+      },
+      {
+        "Colore": "blue",
+        "Genere": "pop",
+        "Percentuale": 0.17276333000000002
+      },
+      {
+        "Colore": "blue",
+        "Genere": "rock",
+        "Percentuale": 0.28409091
+      },
+      {
+        "Colore": "brown",
+        "Genere": "background",
+        "Percentuale": 0.32033898
+      },
+      {
+        "Colore": "brown",
+        "Genere": "classical",
+        "Percentuale": 0.36645963000000004
+      },
+      {
+        "Colore": "brown",
+        "Genere": "electronic",
+        "Percentuale": 0.26885965
+      },
+      {
+        "Colore": "brown",
+        "Genere": "pop",
+        "Percentuale": 0.31467607000000003
+      },
+      {
+        "Colore": "brown",
+        "Genere": "rock",
+        "Percentuale": 0.18181818
+      },
+      {
+        "Colore": "gray",
+        "Genere": "background",
+        "Percentuale": 0.25254237
+      },
+      {
+        "Colore": "gray",
+        "Genere": "classical",
+        "Percentuale": 0.24637681
+      },
+      {
+        "Colore": "gray",
+        "Genere": "electronic",
+        "Percentuale": 0.23114035000000002
+      },
+      {
+        "Colore": "gray",
+        "Genere": "pop",
+        "Percentuale": 0.21903922
+      },
+      {
+        "Colore": "gray",
+        "Genere": "rock",
+        "Percentuale": 0.17045455
+      },
+      {
+        "Colore": "green",
+        "Genere": "background",
+        "Percentuale": 0.01355932
+      },
+      {
+        "Colore": "green",
+        "Genere": "classical",
+        "Percentuale": 0.006211179999999999
+      },
+      {
+        "Colore": "green",
+        "Genere": "electronic",
+        "Percentuale": 0.022368420000000003
+      },
+      {
+        "Colore": "green",
+        "Genere": "pop",
+        "Percentuale": 0.02468048
+      },
+      {
+        "Colore": "green",
+        "Genere": "rock",
+        "Percentuale": 0.03409091
+      },
+      {
+        "Colore": "orange",
+        "Genere": "background",
+        "Percentuale": 0.01864407
+      },
+      {
+        "Colore": "orange",
+        "Genere": "classical",
+        "Percentuale": 0.03519669
+      },
+      {
+        "Colore": "orange",
+        "Genere": "electronic",
+        "Percentuale": 0.01973684
+      },
+      {
+        "Colore": "orange",
+        "Genere": "pop",
+        "Percentuale": 0.01674747
+      },
+      {
+        "Colore": "orange",
+        "Genere": "rock",
+        "Percentuale": 0.0
+      },
+      {
+        "Colore": "pink",
+        "Genere": "background",
+        "Percentuale": 0.00508475
+      },
+      {
+        "Colore": "pink",
+        "Genere": "classical",
+        "Percentuale": 0.01656315
+      },
+      {
+        "Colore": "pink",
+        "Genere": "electronic",
+        "Percentuale": 0.01184211
+      },
+      {
+        "Colore": "pink",
+        "Genere": "pop",
+        "Percentuale": 0.01674747
+      },
+      {
+        "Colore": "pink",
+        "Genere": "rock",
+        "Percentuale": 0.03409091
+      },
+      {
+        "Colore": "purple",
+        "Genere": "background",
+        "Percentuale": 0.01694915
+      },
+      {
+        "Colore": "purple",
+        "Genere": "classical",
+        "Percentuale": 0.01449275
+      },
+      {
+        "Colore": "purple",
+        "Genere": "electronic",
+        "Percentuale": 0.01973684
+      },
+      {
+        "Colore": "purple",
+        "Genere": "pop",
+        "Percentuale": 0.01895108
+      },
+      {
+        "Colore": "purple",
+        "Genere": "rock",
+        "Percentuale": 0.03409091
+      },
+      {
+        "Colore": "red",
+        "Genere": "background",
+        "Percentuale": 0.022033900000000002
+      },
+      {
+        "Colore": "red",
+        "Genere": "classical",
+        "Percentuale": 0.02277433
+      },
+      {
+        "Colore": "red",
+        "Genere": "electronic",
+        "Percentuale": 0.0245614
+      },
+      {
+        "Colore": "red",
+        "Genere": "pop",
+        "Percentuale": 0.028646980000000002
+      },
+      {
+        "Colore": "red",
+        "Genere": "rock",
+        "Percentuale": 0.01136364
+      },
+      {
+        "Colore": "white",
+        "Genere": "background",
+        "Percentuale": 0.11525424
+      },
+      {
+        "Colore": "white",
+        "Genere": "classical",
+        "Percentuale": 0.07867495
+      },
+      {
+        "Colore": "white",
+        "Genere": "electronic",
+        "Percentuale": 0.11228070000000001
+      },
+      {
+        "Colore": "white",
+        "Genere": "pop",
+        "Percentuale": 0.12780961
+      },
+      {
+        "Colore": "white",
+        "Genere": "rock",
+        "Percentuale": 0.17045455
+      },
+      {
+        "Colore": "yellow",
+        "Genere": "background",
+        "Percentuale": 0.03050847
+      },
+      {
+        "Colore": "yellow",
+        "Genere": "classical",
+        "Percentuale": 0.020703930000000002
+      },
+      {
+        "Colore": "yellow",
+        "Genere": "electronic",
+        "Percentuale": 0.0245614
+      },
+      {
+        "Colore": "yellow",
+        "Genere": "pop",
+        "Percentuale": 0.02644337
+      },
+      {
+        "Colore": "yellow",
+        "Genere": "rock",
+        "Percentuale": 0.03409091
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "Colore",
+      "scale": {
+        "domain": [
+          "black",
+          "blue",
+          "brown",
+          "gray",
+          "green",
+          "orange",
+          "pink",
+          "purple",
+          "red",
+          "white",
+          "yellow"
+        ],
+        "range": [
+          "black",
+          "blue",
+          "brown",
+          "gray",
+          "green",
+          "orange",
+          "pink",
+          "purple",
+          "red",
+          "white",
+          "yellow"
+        ]
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "Genere",
+        "type": "nominal"
+      },
+      {
+        "field": "Colore",
+        "type": "nominal"
+      },
+      {
+        "field": "Percentuale",
+        "format": ".2f",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "field": "Genere",
+      "title": "Genere",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "Percentuale",
+      "title": "Percentuale",
+      "type": "quantitative"
+    }
+  },
+  "height": 400,
+  "mark": {
+    "type": "bar"
+  },
+  "title": "Percentuale di Colore per Genere",
+  "width": 600
+}

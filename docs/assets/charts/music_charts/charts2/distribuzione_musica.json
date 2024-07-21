@@ -1,0 +1,311 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
+  "config": {
+    "axis": {
+      "labelAngle": 0,
+      "domainColor": "#666666",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
+    }
+  },
+  "datasets": {
+    "data-9f260ba2ba9ca59601691fbf62751cdd": [
+      {
+        "Durata Intervallo": "00-07",
+        "Percentuale": 0.43137254901960786,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "08-12",
+        "Percentuale": 0.5220293724966623,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "13-17",
+        "Percentuale": 0.5420054200542005,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "18-27",
+        "Percentuale": 0.5026773761713521,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "28-32",
+        "Percentuale": 0.5842776203966006,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "33-37",
+        "Percentuale": 0.521923620933522,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "38-48",
+        "Percentuale": 0.5403508771929825,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "49-63",
+        "Percentuale": 0.65,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "64-255",
+        "Percentuale": 0.5925925925925926,
+        "Presenza_musica": "Si"
+      }
+    ],
+    "data-a01dfcbaaa81fbad60566a96d79c62e9": [
+      {
+        "Durata Intervallo": "00-07",
+        "Percentuale": 0.5686274509803921,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "08-12",
+        "Percentuale": 0.4779706275033378,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "13-17",
+        "Percentuale": 0.45799457994579945,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "18-27",
+        "Percentuale": 0.49732262382864795,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "28-32",
+        "Percentuale": 0.4157223796033994,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "33-37",
+        "Percentuale": 0.4780763790664781,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "38-48",
+        "Percentuale": 0.45964912280701753,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "49-63",
+        "Percentuale": 0.35,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "64-255",
+        "Percentuale": 0.4074074074074074,
+        "Presenza_musica": "No"
+      }
+    ],
+    "data-acf282d54d1ed83acbfc459a1733247d": [
+      {
+        "Durata Intervallo": "00-07",
+        "Percentuale": 0.5686274509803921,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "08-12",
+        "Percentuale": 0.4779706275033378,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "13-17",
+        "Percentuale": 0.45799457994579945,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "18-27",
+        "Percentuale": 0.49732262382864795,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "28-32",
+        "Percentuale": 0.4157223796033994,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "33-37",
+        "Percentuale": 0.4780763790664781,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "38-48",
+        "Percentuale": 0.45964912280701753,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "49-63",
+        "Percentuale": 0.35,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "64-255",
+        "Percentuale": 0.4074074074074074,
+        "Presenza_musica": "No"
+      },
+      {
+        "Durata Intervallo": "00-07",
+        "Percentuale": 0.43137254901960786,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "08-12",
+        "Percentuale": 0.5220293724966623,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "13-17",
+        "Percentuale": 0.5420054200542005,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "18-27",
+        "Percentuale": 0.5026773761713521,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "28-32",
+        "Percentuale": 0.5842776203966006,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "33-37",
+        "Percentuale": 0.521923620933522,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "38-48",
+        "Percentuale": 0.5403508771929825,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "49-63",
+        "Percentuale": 0.65,
+        "Presenza_musica": "Si"
+      },
+      {
+        "Durata Intervallo": "64-255",
+        "Percentuale": 0.5925925925925926,
+        "Presenza_musica": "Si"
+      }
+    ]
+  },
+  "height": 400,
+  "layer": [
+    {
+      "data": {
+        "name": "data-acf282d54d1ed83acbfc459a1733247d"
+      },
+      "encoding": {
+        "color": {
+          "field": "Presenza_musica",
+          "scale": {
+            "scheme": "blueorange"
+          },
+          "type": "nominal"
+        },
+        "tooltip": [
+          {
+            "field": "Durata Intervallo",
+            "type": "nominal"
+          },
+          {
+            "field": "Presenza_musica",
+            "type": "nominal"
+          },
+          {
+            "field": "Percentuale",
+            "format": ".2f",
+            "type": "quantitative"
+          }
+        ],
+        "x": {
+          "field": "Durata Intervallo",
+          "title": "Intervalli lunghezza video (s)",
+          "type": "nominal"
+        },
+        "xOffset": {
+          "field": "Presenza_musica",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "scale": {
+            "domain": [
+              0,
+              1
+            ]
+          },
+          "title": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "opacity": 0.6,
+        "type": "bar"
+      },
+      "title": "Distribuzione Della Presenza di Musica"
+    },
+    {
+      "data": {
+        "name": "data-9f260ba2ba9ca59601691fbf62751cdd"
+      },
+      "encoding": {
+        "x": {
+          "field": "Durata Intervallo",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "color": "#ff7f0e",
+        "type": "line"
+      }
+    },
+    {
+      "data": {
+        "name": "data-a01dfcbaaa81fbad60566a96d79c62e9"
+      },
+      "encoding": {
+        "x": {
+          "field": "Durata Intervallo",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Percentuale",
+          "type": "quantitative"
+        }
+      },
+      "mark": {
+        "color": "#1f77b4",
+        "type": "line"
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "shared"
+    }
+  },
+  "width": 600
+}
