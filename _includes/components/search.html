@@ -163,6 +163,10 @@
         line-height: 1.2;
     }
 
+    .card {
+        cursor: pointer;
+    }
+
     .card-body h2 {
         font-size: 1rem;
     }
@@ -370,7 +374,7 @@
                                 colorLbTfidfDiv.appendChild(colorLbTfidfChart);
 
                                 const masonryDiv = document.getElementById('masonry');
-                                masonryDiv.innerHTML = `<h6>Scene</h6><div/>`;
+                                masonryDiv.innerHTML = `<h6 style="grid-column: 1/-1;">Scene</h6>`;
                                 item.scenes.forEach((v, i, a) => {
                                     v = v.toString().padStart(3, '0');
                                     const img = document.createElement('img');
