@@ -45,6 +45,7 @@ riduzione nell’utilizzo della musica classica e della musica elettronica a fav
 in voga grazie a MTV, diventa nell’ultimo decennio il genere caratterizzante per oltre la metà degli spot televisivi.
 Sulla scia di questa novità, si nota anche un progressivo aumento delle parole inglesi negli spot. Tuttavia, la
 rivendicazione della nostra italianità si manifesta con una rapida diminuzione di queste negli ultimi quindici anni.
+
 Anche le semplici parole sembrano non essere mai casuali. ‘Assistiamo a un ribaltamento di ciò che la società considera
 scandaloso: negli anni Ottanta e Novanta erano facilmente concesse battutine sessuali e di genere, ma non si potevano
 assolutamente pronunciare determinate parole. Se ci pensate, oggi, è esattamente il contrario’, continua Michele.
@@ -78,7 +79,8 @@ comunque a qualcosa di immobile, fermo; non è ancora ai livelli di rappresentaz
 sono state osservate, tuttavia può rappresentare un futuro spunto, un segnale, che qualcuno cerchi di tornare alla calma
 della propria dimora.
 
-In generale, dai nostri risultati, sembra che per superare le difficoltà di un pubblico sempre meno attento e
-interessato, la pubblicità abbia optato per essere più corta ma anche più dinamica incisiva. È una pubblicità, quella
-contemporanea, che non mira a insegnare né tantomeno a emozionare ma, piuttosto, a modellarsi e a plasmarsi alla società
+In generale, dai nostri risultati, sembra che, nei primi anni 2000, per superare le difficoltà di un pubblico sempre meno attento e
+interessato, la pubblicità abbia optato per essere più corta ma anche più dinamica e incisiva. Negli ultimi anni, però, il ritmo delle pubblicità sembra essere rallentato nuovamente,
+per adattarsi, forse, a un nuovo pubblico. Sicuramente, quella
+contemporanea, è una pubblicità che non mira a insegnare né tantomeno a emozionare ma, piuttosto, a modellarsi e a plasmarsi alla società
 a cui si rivolge.
