@@ -37,7 +37,9 @@ Questa analisi permette di osservare l'eventuale insorgenza di parole chiave.
 Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerge la parola 
 'italiano'. Un simile aggettivo potrebbe essere emblematico della emergenza sanitaria dovuta al COVID.
 Oppure, spostando l'attenzione sulla classe di Nizza 5 e sul lustro 2020-2024, è possibile notare la comparsa del sostantivo 'ciclo'.
-Questo topic diventa preponderane solo negli ultimi anni, in linea con i nuovi ideali e la maggiore sensibilità della società.
+Questo topic diventa preponderante solo negli ultimi anni, in linea con i nuovi ideali e la maggiore sensibilità della società.
+Un confronto fra le diverse classi di Nizza e i lustri mette, però, in evidenza la presenza quasi costante dell'aggettivo
+'nuovo'.
 
 <p class="caption">
 Topic per lustro e classe di Nizza
