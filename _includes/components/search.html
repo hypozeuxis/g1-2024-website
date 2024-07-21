@@ -193,10 +193,7 @@
             return '';
         }
         const terms = query.split(/[ ’]/g);
-        console.log(terms);
-        console.log(terms.length);
         const w = terms.map((x) => `+${field}:${x}${asterisk ? '*' : ''}`);
-        console.log(w.join(' '));
         return w.join(' ');
     }
 
@@ -208,7 +205,11 @@
     {%- if site.baseurl -%}
     baseurl = '{{ site.baseurl }}';
     {% endif %}
-    console.log(baseurl);
+
+    let exturl = '';
+    {%- if site.exturl -%}
+    exturl = '{{ site.exturl }}';
+    {% endif %}
 
     lunr.tokenizer.separator = /[ ’]/;
 
@@ -235,8 +236,6 @@
                         this.add(doc);
                     }, this);
                 });
-
-                console.log(idx);
 
                 const inputBrand = document.getElementById('input-brand');
 
@@ -331,7 +330,6 @@
                         getExactMatchingQuery(productType, 'product_type', false)
                     );
                     resultDiv.innerHTML = '';
-                    console.log(results);
 
                     if (results.length > 0) {
                         results.forEach(function (result) {
@@ -360,13 +358,13 @@
 
                                 const colorLbDiv = document.getElementById('color-lb');
                                 const colorLbChart = document.createElement('vegachart');
-                                colorLbChart.setAttribute('schema-url', `${baseurl}/assets/color-lb-charts/${item.commercial_id}.lb.json`);
+                                colorLbChart.setAttribute('schema-url', `${exturl}/color-lb-charts/${item.commercial_id}.lb.json`);
                                 colorLbDiv.innerHTML = `<h6>I 5 colori dominanti</h6>`;
                                 colorLbDiv.appendChild(colorLbChart);
 
                                 const colorLbTfidfDiv = document.getElementById('color-lb-tfidf');
                                 const colorLbTfidfChart = document.createElement('vegachart');
-                                colorLbTfidfChart.setAttribute('schema-url', `${baseurl}/assets/color-lb-tfidf-charts/${item.commercial_id}.lb_tfidf.json`);
+                                colorLbTfidfChart.setAttribute('schema-url', `${exturl}/color-lb-tfidf-charts/${item.commercial_id}.lb_tfidf.json`);
                                 colorLbTfidfDiv.innerHTML = `<h6>I 5 colori dominanti (tf-idf)</h6>`;
                                 colorLbTfidfDiv.appendChild(colorLbTfidfChart);
 
@@ -375,7 +373,7 @@
                                 item.scenes.forEach((v, i, a) => {
                                     v = v.toString().padStart(3, '0');
                                     const img = document.createElement('img');
-                                    img.setAttribute('src', `${baseurl}/assets/thumbnails/${item.commercial_id}.ss${v}.jpg`);
+                                    img.setAttribute('src', `${exturl}/thumbnails/${item.commercial_id}.ss${v}.webp`);
                                     masonryDiv.appendChild(img);
                                 });
 
@@ -388,7 +386,7 @@
 
                             const commercialThumb = document.createElement('vegachart');
                             commercialThumb.classList.add('card-img-top');
-                            commercialThumb.setAttribute('schema-url', `${baseurl}/assets/marimekko-charts/${item.commercial_id}.marimekko.json`);
+                            commercialThumb.setAttribute('schema-url', `${exturl}/marimekko-charts/${item.commercial_id}.marimekko.json`);
                             commercialThumb.style.width = '100%';
                             commercialThumb.style.height = '10rem';
                             commercialThumb.style.pointerEvents = 'none';
