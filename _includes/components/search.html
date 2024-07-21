@@ -118,10 +118,6 @@
         gap: 1rem;
     }
 
-    .modal-body div div {
-        padding: 1rem;
-    }
-
     #commercial-content {
         display: flex;
         flex-wrap: wrap;
@@ -132,6 +128,10 @@
         width: 67%;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(max(10rem, 100% / 2), 1fr));
+    }
+
+    .grid-2x2 div {
+        padding: 1rem;
     }
 
     vegachart {
@@ -168,6 +168,7 @@
     }
 
     h6 {
+        font-family: 'Space Mono', monospace !important;
         margin: 0 0 1rem 0;
         padding: 0;
         font-weight: bold;
@@ -369,7 +370,7 @@
                                 colorLbTfidfDiv.appendChild(colorLbTfidfChart);
 
                                 const masonryDiv = document.getElementById('masonry');
-                                masonryDiv.innerHTML = ``;
+                                masonryDiv.innerHTML = `<h6 style="grid-column: span 2;">Scene (fotogrammi mediani)</h6>`;
                                 item.scenes.forEach((v, i, a) => {
                                     v = v.toString().padStart(3, '0');
                                     const img = document.createElement('img');
