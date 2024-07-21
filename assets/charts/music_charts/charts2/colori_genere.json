@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
   "config": {
     "axis": {
+      "labelAngle": 0,
       "domainColor": "#666666",
       "gridColor": "#666666",
       "labelColor": "#DBDEE1",
@@ -19,154 +20,154 @@
     }
   },
   "data": {
-    "name": "data-2c9a8c572321450566e79bd567369e9f"
+    "name": "data-c4043c2359094259758aaba27fe984fe"
   },
   "datasets": {
-    "data-2c9a8c572321450566e79bd567369e9f": [
+    "data-c4043c2359094259758aaba27fe984fe": [
       {
         "Colore": "black",
         "Genere": "background",
-        "Percentuale": 6.101695
+        "Percentuale": 0.06101695
       },
       {
         "Colore": "black",
         "Genere": "classical",
-        "Percentuale": 5.383023
+        "Percentuale": 0.05383023
       },
       {
         "Colore": "black",
         "Genere": "electronic",
-        "Percentuale": 4.95614
+        "Percentuale": 0.049561400000000005
       },
       {
         "Colore": "black",
         "Genere": "pop",
-        "Percentuale": 3.349493
+        "Percentuale": 0.03349493
       },
       {
         "Colore": "black",
         "Genere": "rock",
-        "Percentuale": 4.545455
+        "Percentuale": 0.045454549999999996
       },
       {
         "Colore": "blue",
         "Genere": "background",
-        "Percentuale": 14.40678
+        "Percentuale": 0.1440678
       },
       {
         "Colore": "blue",
         "Genere": "classical",
-        "Percentuale": 13.871636
+        "Percentuale": 0.13871636
       },
       {
         "Colore": "blue",
         "Genere": "electronic",
-        "Percentuale": 21.535088
+        "Percentuale": 0.21535088
       },
       {
         "Colore": "blue",
         "Genere": "pop",
-        "Percentuale": 17.276333
+        "Percentuale": 0.17276333000000002
       },
       {
         "Colore": "blue",
         "Genere": "rock",
-        "Percentuale": 28.409091
+        "Percentuale": 0.28409091
       },
       {
         "Colore": "brown",
         "Genere": "background",
-        "Percentuale": 32.033898
+        "Percentuale": 0.32033898
       },
       {
         "Colore": "brown",
         "Genere": "classical",
-        "Percentuale": 36.645963
+        "Percentuale": 0.36645963000000004
       },
       {
         "Colore": "brown",
         "Genere": "electronic",
-        "Percentuale": 26.885965
+        "Percentuale": 0.26885965
       },
       {
         "Colore": "brown",
         "Genere": "pop",
-        "Percentuale": 31.467607
+        "Percentuale": 0.31467607000000003
       },
       {
         "Colore": "brown",
         "Genere": "rock",
-        "Percentuale": 18.181818
+        "Percentuale": 0.18181818
       },
       {
         "Colore": "gray",
         "Genere": "background",
-        "Percentuale": 25.254237
+        "Percentuale": 0.25254237
       },
       {
         "Colore": "gray",
         "Genere": "classical",
-        "Percentuale": 24.637681
+        "Percentuale": 0.24637681
       },
       {
         "Colore": "gray",
         "Genere": "electronic",
-        "Percentuale": 23.114035
+        "Percentuale": 0.23114035000000002
       },
       {
         "Colore": "gray",
         "Genere": "pop",
-        "Percentuale": 21.903922
+        "Percentuale": 0.21903922
       },
       {
         "Colore": "gray",
         "Genere": "rock",
-        "Percentuale": 17.045455
+        "Percentuale": 0.17045455
       },
       {
         "Colore": "green",
         "Genere": "background",
-        "Percentuale": 1.355932
+        "Percentuale": 0.01355932
       },
       {
         "Colore": "green",
         "Genere": "classical",
-        "Percentuale": 0.621118
+        "Percentuale": 0.006211179999999999
       },
       {
         "Colore": "green",
         "Genere": "electronic",
-        "Percentuale": 2.236842
+        "Percentuale": 0.022368420000000003
       },
       {
         "Colore": "green",
         "Genere": "pop",
-        "Percentuale": 2.468048
+        "Percentuale": 0.02468048
       },
       {
         "Colore": "green",
         "Genere": "rock",
-        "Percentuale": 3.409091
+        "Percentuale": 0.03409091
       },
       {
         "Colore": "orange",
         "Genere": "background",
-        "Percentuale": 1.864407
+        "Percentuale": 0.01864407
       },
       {
         "Colore": "orange",
         "Genere": "classical",
-        "Percentuale": 3.519669
+        "Percentuale": 0.03519669
       },
       {
         "Colore": "orange",
         "Genere": "electronic",
-        "Percentuale": 1.973684
+        "Percentuale": 0.01973684
       },
       {
         "Colore": "orange",
         "Genere": "pop",
-        "Percentuale": 1.674747
+        "Percentuale": 0.01674747
       },
       {
         "Colore": "orange",
@@ -176,127 +177,127 @@
       {
         "Colore": "pink",
         "Genere": "background",
-        "Percentuale": 0.508475
+        "Percentuale": 0.00508475
       },
       {
         "Colore": "pink",
         "Genere": "classical",
-        "Percentuale": 1.656315
+        "Percentuale": 0.01656315
       },
       {
         "Colore": "pink",
         "Genere": "electronic",
-        "Percentuale": 1.184211
+        "Percentuale": 0.01184211
       },
       {
         "Colore": "pink",
         "Genere": "pop",
-        "Percentuale": 1.674747
+        "Percentuale": 0.01674747
       },
       {
         "Colore": "pink",
         "Genere": "rock",
-        "Percentuale": 3.409091
+        "Percentuale": 0.03409091
       },
       {
         "Colore": "purple",
         "Genere": "background",
-        "Percentuale": 1.694915
+        "Percentuale": 0.01694915
       },
       {
         "Colore": "purple",
         "Genere": "classical",
-        "Percentuale": 1.449275
+        "Percentuale": 0.01449275
       },
       {
         "Colore": "purple",
         "Genere": "electronic",
-        "Percentuale": 1.973684
+        "Percentuale": 0.01973684
       },
       {
         "Colore": "purple",
         "Genere": "pop",
-        "Percentuale": 1.895108
+        "Percentuale": 0.01895108
       },
       {
         "Colore": "purple",
         "Genere": "rock",
-        "Percentuale": 3.409091
+        "Percentuale": 0.03409091
       },
       {
         "Colore": "red",
         "Genere": "background",
-        "Percentuale": 2.20339
+        "Percentuale": 0.022033900000000002
       },
       {
         "Colore": "red",
         "Genere": "classical",
-        "Percentuale": 2.277433
+        "Percentuale": 0.02277433
       },
       {
         "Colore": "red",
         "Genere": "electronic",
-        "Percentuale": 2.45614
+        "Percentuale": 0.0245614
       },
       {
         "Colore": "red",
         "Genere": "pop",
-        "Percentuale": 2.864698
+        "Percentuale": 0.028646980000000002
       },
       {
         "Colore": "red",
         "Genere": "rock",
-        "Percentuale": 1.136364
+        "Percentuale": 0.01136364
       },
       {
         "Colore": "white",
         "Genere": "background",
-        "Percentuale": 11.525424
+        "Percentuale": 0.11525424
       },
       {
         "Colore": "white",
         "Genere": "classical",
-        "Percentuale": 7.867495
+        "Percentuale": 0.07867495
       },
       {
         "Colore": "white",
         "Genere": "electronic",
-        "Percentuale": 11.22807
+        "Percentuale": 0.11228070000000001
       },
       {
         "Colore": "white",
         "Genere": "pop",
-        "Percentuale": 12.780961
+        "Percentuale": 0.12780961
       },
       {
         "Colore": "white",
         "Genere": "rock",
-        "Percentuale": 17.045455
+        "Percentuale": 0.17045455
       },
       {
         "Colore": "yellow",
         "Genere": "background",
-        "Percentuale": 3.050847
+        "Percentuale": 0.03050847
       },
       {
         "Colore": "yellow",
         "Genere": "classical",
-        "Percentuale": 2.070393
+        "Percentuale": 0.020703930000000002
       },
       {
         "Colore": "yellow",
         "Genere": "electronic",
-        "Percentuale": 2.45614
+        "Percentuale": 0.0245614
       },
       {
         "Colore": "yellow",
         "Genere": "pop",
-        "Percentuale": 2.644337
+        "Percentuale": 0.02644337
       },
       {
         "Colore": "yellow",
         "Genere": "rock",
-        "Percentuale": 3.409091
+        "Percentuale": 0.03409091
       }
     ]
   },
