@@ -8,7 +8,9 @@ header_title: "Analisi del testo"
 vega: true
 ---
 
-## Analisi
+## Trascrizioni
+
+## Analisi delle trascrizioni
 
 
 Una volta ottenute le trascrizioni, una prima analisi si è concentrata sul misurare la lunghezza media per lustro.
@@ -35,7 +37,7 @@ Questa analisi permette di osservare l'eventuale insorgenza di parole chiave.
 Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerge la parola 
 'italiano'. Un simile aggettivo potrebbe essere emblematico della emergenza sanitaria dovuta al COVID.
 Oppure, spostando l'attenzione sulla classe di Nizza 5 e sul lustro 2020-2024, è possibile notare la comparsa del sostantivo 'ciclo'.
-Questo topic diventa preponderane solo negli ultimi anni, in linea con le nuove idee della società.
+Questo topic diventa preponderane solo negli ultimi anni, in linea con i nuovi ideali e la maggiore sensibilità della società.
 
 <p class="caption">
 Topic per lustro e classe di Nizza
