@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
   "config": {
     "axis": {
+      "labelAngle": 0,
       "domainColor": "#666666",
       "gridColor": "#666666",
       "labelColor": "#DBDEE1",
