@@ -61,8 +61,6 @@ navbar:
       url: /entity-analysis
     - title: Cerca
       url: /search
-    # - title: Bootstrap
-    #   url: /bootstrap # equivale alla pagina `/_pages/bootstrap.markdown
     # - title: Jekyll
     #   url: /jekyll-ssg
     # - title: Charts
