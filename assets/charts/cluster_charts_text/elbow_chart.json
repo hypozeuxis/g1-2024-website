@@ -1,0 +1,768 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": {
+    "contains": "padding",
+    "type": "fit-x"
+  },
+  "axes": [
+    {
+      "aria": false,
+      "domain": false,
+      "grid": true,
+      "gridScale": "layer_0_y",
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "orient": "bottom",
+      "scale": "x",
+      "tickCount": {
+        "signal": "ceil(width/40)"
+      },
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "aria": false,
+      "domain": false,
+      "grid": true,
+      "gridScale": "x",
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "orient": "left",
+      "scale": "layer_0_y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelFlush": true,
+      "labelOverlap": true,
+      "orient": "bottom",
+      "scale": "x",
+      "tickCount": {
+        "signal": "ceil(width/40)"
+      },
+      "title": "Number of Clusters (k)",
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelOverlap": true,
+      "orient": "left",
+      "scale": "layer_0_y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "title": "SSE",
+      "titleColor": "blue",
+      "zindex": 0
+    },
+    {
+      "grid": false,
+      "labelOverlap": true,
+      "orient": "right",
+      "scale": "layer_1_y",
+      "tickCount": {
+        "signal": "ceil(height/40)"
+      },
+      "title": "Silhouette Score",
+      "titleColor": "red",
+      "zindex": 0
+    }
+  ],
+  "background": "transparent",
+  "config": {
+    "axis": {
+      "domainColor": "#313338",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "style": {
+      "group-title": {
+        "fill": "#DBDEE1",
+        "fontSize": 16
+      }
+    }
+  },
+  "data": [
+    {
+      "name": "source_0",
+      "values": [
+        {
+          "k": 2,
+          "silhouette": 1.0,
+          "sse": 1.0
+        },
+        {
+          "k": 3,
+          "silhouette": 0.6708536148071289,
+          "sse": 0.8868980536593583
+        },
+        {
+          "k": 4,
+          "silhouette": 0.7137496471405029,
+          "sse": 0.8102853501827947
+        },
+        {
+          "k": 5,
+          "silhouette": 0.5319657325744629,
+          "sse": 0.7645083867516074
+        },
+        {
+          "k": 6,
+          "silhouette": 0.3195316791534424,
+          "sse": 0.730173729107428
+        },
+        {
+          "k": 7,
+          "silhouette": 0.4242074489593506,
+          "sse": 0.69919990241051
+        },
+        {
+          "k": 8,
+          "silhouette": 0.07999241352081299,
+          "sse": 0.6683474433535119
+        },
+        {
+          "k": 9,
+          "silhouette": 0.29468071460723877,
+          "sse": 0.6424143986604975
+        },
+        {
+          "k": 10,
+          "silhouette": 0.3435397148132324,
+          "sse": 0.613505369898844
+        },
+        {
+          "k": 11,
+          "silhouette": 0.3704848289489746,
+          "sse": 0.5887897169409411
+        },
+        {
+          "k": 12,
+          "silhouette": 0.11573851108551025,
+          "sse": 0.5684414413521841
+        },
+        {
+          "k": 13,
+          "silhouette": 0.27649927139282227,
+          "sse": 0.5440790549176189
+        },
+        {
+          "k": 14,
+          "silhouette": 0.4017883539199829,
+          "sse": 0.5229589182923324
+        },
+        {
+          "k": 15,
+          "silhouette": 0.42502546310424805,
+          "sse": 0.5052497696491733
+        },
+        {
+          "k": 16,
+          "silhouette": 0.3979274034500122,
+          "sse": 0.4920194584526367
+        },
+        {
+          "k": 17,
+          "silhouette": 0.5571162700653076,
+          "sse": 0.4707445161641881
+        },
+        {
+          "k": 18,
+          "silhouette": 0.5029782056808472,
+          "sse": 0.45664264908404606
+        },
+        {
+          "k": 19,
+          "silhouette": 0.5350844860076904,
+          "sse": 0.44091315526141095
+        },
+        {
+          "k": 20,
+          "silhouette": 0.4871174097061157,
+          "sse": 0.43077183626762316
+        },
+        {
+          "k": 21,
+          "silhouette": 0.45661473274230957,
+          "sse": 0.41499621035736567
+        },
+        {
+          "k": 22,
+          "silhouette": 0.4606729745864868,
+          "sse": 0.4027328153329437
+        },
+        {
+          "k": 23,
+          "silhouette": 0.6019265651702881,
+          "sse": 0.38872104514876193
+        },
+        {
+          "k": 24,
+          "silhouette": 0.5192267894744873,
+          "sse": 0.3797670855914319
+        },
+        {
+          "k": 25,
+          "silhouette": 0.5943343639373779,
+          "sse": 0.3668572221176425
+        },
+        {
+          "k": 26,
+          "silhouette": 0.6364126205444336,
+          "sse": 0.35784691329892127
+        },
+        {
+          "k": 27,
+          "silhouette": 0.4603365659713745,
+          "sse": 0.34594142896773095
+        },
+        {
+          "k": 28,
+          "silhouette": 0.49662721157073975,
+          "sse": 0.3335761718169481
+        },
+        {
+          "k": 29,
+          "silhouette": 0.2287534475326538,
+          "sse": 0.32638173342712484
+        },
+        {
+          "k": 30,
+          "silhouette": 0.6641616821289062,
+          "sse": 0.31945820494783694
+        },
+        {
+          "k": 31,
+          "silhouette": 0.6109316349029541,
+          "sse": 0.3034317938632558
+        },
+        {
+          "k": 32,
+          "silhouette": 0.7391605377197266,
+          "sse": 0.30162273488353675
+        },
+        {
+          "k": 33,
+          "silhouette": 0.7010400295257568,
+          "sse": 0.2871285902529399
+        },
+        {
+          "k": 34,
+          "silhouette": 0.6335186958312988,
+          "sse": 0.2800725481259847
+        },
+        {
+          "k": 35,
+          "silhouette": 0.5591964721679688,
+          "sse": 0.27507975587766165
+        },
+        {
+          "k": 36,
+          "silhouette": 0.36048221588134766,
+          "sse": 0.26943523178742357
+        },
+        {
+          "k": 37,
+          "silhouette": 0.15242505073547363,
+          "sse": 0.2618726655305994
+        },
+        {
+          "k": 38,
+          "silhouette": 0.27589738368988037,
+          "sse": 0.25579654325146395
+        },
+        {
+          "k": 39,
+          "silhouette": 0.2502901554107666,
+          "sse": 0.24889344911971323
+        },
+        {
+          "k": 40,
+          "silhouette": 0.046097755432128906,
+          "sse": 0.24074757512409217
+        },
+        {
+          "k": 41,
+          "silhouette": 0.22520160675048828,
+          "sse": 0.23385531738876297
+        },
+        {
+          "k": 42,
+          "silhouette": 0.43296074867248535,
+          "sse": 0.22804669929557253
+        },
+        {
+          "k": 43,
+          "silhouette": 0.30480265617370605,
+          "sse": 0.21567494030693624
+        },
+        {
+          "k": 44,
+          "silhouette": 0.3412436246871948,
+          "sse": 0.21580033289409828
+        },
+        {
+          "k": 45,
+          "silhouette": 0.0,
+          "sse": 0.20561504909197215
+        },
+        {
+          "k": 46,
+          "silhouette": 0.2541501522064209,
+          "sse": 0.20611321371602953
+        },
+        {
+          "k": 47,
+          "silhouette": 0.3879377841949463,
+          "sse": 0.1966316764586411
+        },
+        {
+          "k": 48,
+          "silhouette": 0.17966234683990479,
+          "sse": 0.19160730385503255
+        },
+        {
+          "k": 49,
+          "silhouette": 0.2552604675292969,
+          "sse": 0.18400046317854413
+        },
+        {
+          "k": 50,
+          "silhouette": 0.4091000556945801,
+          "sse": 0.1749056304677361
+        },
+        {
+          "k": 51,
+          "silhouette": 0.24901854991912842,
+          "sse": 0.1733956560292471
+        },
+        {
+          "k": 52,
+          "silhouette": 0.2203608751296997,
+          "sse": 0.17288510695213644
+        },
+        {
+          "k": 53,
+          "silhouette": 0.17240023612976074,
+          "sse": 0.16883570041512685
+        },
+        {
+          "k": 54,
+          "silhouette": 0.14831137657165527,
+          "sse": 0.15936004577293872
+        },
+        {
+          "k": 55,
+          "silhouette": 0.0750800371170044,
+          "sse": 0.15773210941911975
+        },
+        {
+          "k": 56,
+          "silhouette": 0.404193639755249,
+          "sse": 0.15504034854804694
+        },
+        {
+          "k": 57,
+          "silhouette": 0.5013517141342163,
+          "sse": 0.14448910415820393
+        },
+        {
+          "k": 58,
+          "silhouette": 0.6442148685455322,
+          "sse": 0.14505135832681093
+        },
+        {
+          "k": 59,
+          "silhouette": 0.4070136547088623,
+          "sse": 0.1377556770332795
+        },
+        {
+          "k": 60,
+          "silhouette": 0.37934041023254395,
+          "sse": 0.13340316100779726
+        },
+        {
+          "k": 61,
+          "silhouette": 0.3747202157974243,
+          "sse": 0.12539723133167557
+        },
+        {
+          "k": 62,
+          "silhouette": 0.3064446449279785,
+          "sse": 0.12611645844272923
+        },
+        {
+          "k": 63,
+          "silhouette": 0.4643591642379761,
+          "sse": 0.11558874451368739
+        },
+        {
+          "k": 64,
+          "silhouette": 0.24863982200622559,
+          "sse": 0.11909354472769085
+        },
+        {
+          "k": 65,
+          "silhouette": 0.4151116609573364,
+          "sse": 0.11556800055482341
+        },
+        {
+          "k": 66,
+          "silhouette": 0.3635730743408203,
+          "sse": 0.10685491860937457
+        },
+        {
+          "k": 67,
+          "silhouette": 0.5604639053344727,
+          "sse": 0.1040681070611198
+        },
+        {
+          "k": 68,
+          "silhouette": 0.4490600824356079,
+          "sse": 0.09863597634074095
+        },
+        {
+          "k": 69,
+          "silhouette": 0.21421480178833008,
+          "sse": 0.09676158937116686
+        },
+        {
+          "k": 70,
+          "silhouette": 0.44508862495422363,
+          "sse": 0.09724891759880316
+        },
+        {
+          "k": 71,
+          "silhouette": 0.47237980365753174,
+          "sse": 0.08940491464634936
+        },
+        {
+          "k": 72,
+          "silhouette": 0.4904576539993286,
+          "sse": 0.08522330407299883
+        },
+        {
+          "k": 73,
+          "silhouette": 0.37746381759643555,
+          "sse": 0.08461801393003299
+        },
+        {
+          "k": 74,
+          "silhouette": 0.4579155445098877,
+          "sse": 0.07705544767320882
+        },
+        {
+          "k": 75,
+          "silhouette": 0.13943326473236084,
+          "sse": 0.07835612485510213
+        },
+        {
+          "k": 76,
+          "silhouette": 0.44139790534973145,
+          "sse": 0.07109047586022399
+        },
+        {
+          "k": 77,
+          "silhouette": 0.49504148960113525,
+          "sse": 0.06618901895316709
+        },
+        {
+          "k": 78,
+          "silhouette": 0.44796955585479736,
+          "sse": 0.06170058355542807
+        },
+        {
+          "k": 79,
+          "silhouette": 0.17848670482635498,
+          "sse": 0.05882955772641241
+        },
+        {
+          "k": 80,
+          "silhouette": 0.2490309476852417,
+          "sse": 0.0623117563135942
+        },
+        {
+          "k": 81,
+          "silhouette": 0.34337830543518066,
+          "sse": 0.053991261529925616
+        },
+        {
+          "k": 82,
+          "silhouette": 0.34182286262512207,
+          "sse": 0.05275838922849818
+        },
+        {
+          "k": 83,
+          "silhouette": 0.5388636589050293,
+          "sse": 0.04388523822733914
+        },
+        {
+          "k": 84,
+          "silhouette": 0.523036003112793,
+          "sse": 0.04423014524486524
+        },
+        {
+          "k": 85,
+          "silhouette": 0.4444161653518677,
+          "sse": 0.042266280601983564
+        },
+        {
+          "k": 86,
+          "silhouette": 0.5446348190307617,
+          "sse": 0.03379872043831078
+        },
+        {
+          "k": 87,
+          "silhouette": 0.35810041427612305,
+          "sse": 0.028642763021013984
+        },
+        {
+          "k": 88,
+          "silhouette": 0.3472515344619751,
+          "sse": 0.029639092269129197
+        },
+        {
+          "k": 89,
+          "silhouette": 0.33319151401519775,
+          "sse": 0.0298183572270716
+        },
+        {
+          "k": 90,
+          "silhouette": 0.4669698476791382,
+          "sse": 0.025108859342335865
+        },
+        {
+          "k": 91,
+          "silhouette": 0.6078357696533203,
+          "sse": 0.026837419377210736
+        },
+        {
+          "k": 92,
+          "silhouette": 0.4466891288757324,
+          "sse": 0.012026232748457044
+        },
+        {
+          "k": 93,
+          "silhouette": 0.20909380912780762,
+          "sse": 0.017872933034785543
+        },
+        {
+          "k": 94,
+          "silhouette": 0.24944961071014404,
+          "sse": 0.012504582247629514
+        },
+        {
+          "k": 95,
+          "silhouette": 0.3642040491104126,
+          "sse": 0.010177233907641803
+        },
+        {
+          "k": 96,
+          "silhouette": 0.48373889923095703,
+          "sse": 0.005442967116800368
+        },
+        {
+          "k": 97,
+          "silhouette": 0.6083230972290039,
+          "sse": 0.001159184805762159
+        },
+        {
+          "k": 98,
+          "silhouette": 0.3620263338088989,
+          "sse": 0.0
+        },
+        {
+          "k": 99,
+          "silhouette": 0.4002852439880371,
+          "sse": 0.005232431414898819
+        }
+      ]
+    },
+    {
+      "name": "source_0_x_domain_k",
+      "values": [
+        {
+          "max": 99,
+          "min": 2
+        }
+      ]
+    },
+    {
+      "name": "source_0_layer_0_y_domain_sse",
+      "values": [
+        {
+          "max": 1.0,
+          "min": 0.0
+        }
+      ]
+    },
+    {
+      "name": "source_0_layer_1_y_domain_silhouette",
+      "values": [
+        {
+          "max": 1.0,
+          "min": 0.0
+        }
+      ]
+    }
+  ],
+  "height": 400,
+  "marks": [
+    {
+      "encode": {
+        "update": {
+          "defined": {
+            "signal": "isValid(datum[\"k\"]) && isFinite(+datum[\"k\"]) && isValid(datum[\"sse\"]) && isFinite(+datum[\"sse\"])"
+          },
+          "stroke": {
+            "value": "blue"
+          },
+          "tooltip": {
+            "signal": "{\"k\": format(datum[\"k\"], \"\"), \"sse\": format(datum[\"sse\"], \"\")}"
+          },
+          "x": {
+            "field": "k",
+            "scale": "x"
+          },
+          "y": {
+            "field": "sse",
+            "scale": "layer_0_y"
+          }
+        }
+      },
+      "from": {
+        "data": "source_0"
+      },
+      "name": "layer_0_marks",
+      "sort": {
+        "field": "datum[\"k\"]"
+      },
+      "style": [
+        "line"
+      ],
+      "type": "line"
+    },
+    {
+      "encode": {
+        "update": {
+          "defined": {
+            "signal": "isValid(datum[\"k\"]) && isFinite(+datum[\"k\"]) && isValid(datum[\"silhouette\"]) && isFinite(+datum[\"silhouette\"])"
+          },
+          "stroke": {
+            "value": "red"
+          },
+          "tooltip": {
+            "signal": "{\"k\": format(datum[\"k\"], \"\"), \"silhouette\": format(datum[\"silhouette\"], \"\")}"
+          },
+          "x": {
+            "field": "k",
+            "scale": "x"
+          },
+          "y": {
+            "field": "silhouette",
+            "scale": "layer_1_y"
+          }
+        }
+      },
+      "from": {
+        "data": "source_0"
+      },
+      "name": "layer_1_marks",
+      "sort": {
+        "field": "datum[\"k\"]"
+      },
+      "style": [
+        "line"
+      ],
+      "type": "line"
+    }
+  ],
+  "padding": 5,
+  "scales": [
+    {
+      "domain": [
+        {
+          "signal": "(data(\"source_0_x_domain_k\")[0] || {}).min"
+        },
+        {
+          "signal": "(data(\"source_0_x_domain_k\")[0] || {}).max"
+        }
+      ],
+      "name": "x",
+      "nice": true,
+      "range": [
+        0,
+        {
+          "signal": "width"
+        }
+      ],
+      "type": "linear",
+      "zero": false
+    },
+    {
+      "domain": [
+        {
+          "signal": "(data(\"source_0_layer_0_y_domain_sse\")[0] || {}).min"
+        },
+        {
+          "signal": "(data(\"source_0_layer_0_y_domain_sse\")[0] || {}).max"
+        }
+      ],
+      "name": "layer_0_y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    },
+    {
+      "domain": [
+        {
+          "signal": "(data(\"source_0_layer_1_y_domain_silhouette\")[0] || {}).min"
+        },
+        {
+          "signal": "(data(\"source_0_layer_1_y_domain_silhouette\")[0] || {}).max"
+        }
+      ],
+      "name": "layer_1_y",
+      "nice": true,
+      "range": [
+        {
+          "signal": "height"
+        },
+        0
+      ],
+      "type": "linear",
+      "zero": true
+    }
+  ],
+  "signals": [
+    {
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+      "name": "width",
+      "on": [
+        {
+          "events": "window:resize",
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200"
+        }
+      ]
+    }
+  ],
+  "style": "cell"
+}
