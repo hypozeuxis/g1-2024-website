@@ -132,7 +132,7 @@ fino a scomparire del tutto negli ultimi venti anni.
 Genere musicale per lustro per Classe di Nizza 28
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice28_f_22.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice28_f_22_b.json" style="width: 100%"></vegachart>
 
 #### Generi alimentari (29 e 30)
 Per le pubblicità relative ai generi alimentari (classi 29 e 30) l'andamento della musica è piuttosto simile, 
