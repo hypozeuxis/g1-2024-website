@@ -138,6 +138,11 @@ footer {
 $frame-width: 24px;
 $frame-width-sm: 16px;
 
+/* Internal navigation */
+html {
+  scroll-padding-top: calc($frame-width + 56px + 2rem);
+}
+
 body {
   letter-spacing: 0.025rem;
   font-feature-settings: 'tnum';
@@ -225,6 +230,12 @@ body::after {
       margin: 0;
       max-width: 100%;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: calc($frame-width-sm + 2rem);
   }
 }
 
