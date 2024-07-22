@@ -40,10 +40,7 @@ Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo
 
 ## Evoluzione di musica 
 
-La pubblicità dimostra di sapersi adattare molto bene ai diversi equilibri della società e alle sue novità. Ad esempio, 
-si nota a partire dagli anni Ottanta fino a oggi una progressiva
-riduzione nell’utilizzo della musica classica e della musica elettronica a favore della musica pop che, ormai sempre più
-in voga grazie a MTV, diventa nell’ultimo decennio il genere caratterizzante per oltre la metà degli spot televisivi.
+
 
 ## Evoluzione del linguaggio
 Sulla scia delle nuove tendenze portate in auge da MTV, si nota anche un progressivo aumento delle parole inglesi negli spot, dopo il calo registrato negli ultimi anni ’90. 
