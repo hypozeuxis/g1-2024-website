@@ -8,8 +8,10 @@ header_img: assets/images/hero/fantasy.jpg
 header_title: "Analisi della musica"
 vega: true
 ---
+A cura di: Giorgia De Re e Dimitri Viccari
 
-## Dettagli tecnici
+
+## Analisi dell'audio
 
 Tutti gli spot televisivi sono stati analizzati con **YAMNet**, una deep neural network che predice 521 classi di 
 eventi audio. Dopo un campionamento a 16 KHz, per ogni video sono state memorizzate le cinque classi predette con 
@@ -23,6 +25,17 @@ Per la successiva analisi della musica, sono stati selezionati solo gli spot in 
 era relativa a un genere o a uno strumento musicale.
 
 
+Nel corso degli anni, il rapporto tra spot pubblicitari in cui la musica rappresenta una componente fondamentale 
+dell'audio e quelli in cui la sua presenza è limitata, è rimasto pressoché costante.
+
+<p class="caption">
+Presenza di musica per lustro
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/music_lustrum_f_22.json" style="width: 100%"></vegachart>
+
+
+## Analisi del genere musicale
 L’analisi del genere musicale è stata effettuata con il modello **Musicnn**, che ha mostrato un’accuratezza migliore 
 di YAMNet nella predizione. 
 Musicnn è una rete neurale convoluzionale per la classificazione di eventi musicali. Predice cinquanta possibili classi,
@@ -37,29 +50,11 @@ Ogni video per cui YAMNet aveva rilevato suoni riconducibili a musica è stato q
 state salvate le tre classi con punteggio più elevato e per ogni spot è stato individuato il genere musicale 
 predominante.
 
----
 
-## Analisi dell'audio
-La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali 
-principali per rendere il messaggio dello spot efficace e accattivante.  
-Analizzare l’evoluzione temporale della musica della pubblicità italiana permette quindi di comprendere come le 
-strategie di marketing siano cambiate.
-
-Nel corso degli anni, il rapporto tra spot pubblicitari in cui la musica rappresenta una componente fondamentale 
-dell'audio e quelli in cui la sua presenza è limitata, è rimasto pressoché costante.
-
-<p class="caption">
-Presenza di musica per lustro
-</p>
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/music_lustrum_f.json" style="width: 100%"></vegachart>
-
-
-## Analisi del genere musicale
 ### Analisi temporale
 
 Effettuando un'analisi temporale del genere musicale negli spot televisivi, si nota a partire dagli anni Ottanta fino 
-ad oggi una progressiva riduzione nell’utilizzo della musica classica e 
+a oggi una progressiva riduzione nell’utilizzo della musica classica e 
 della musica elettronica a favore della musica pop, che diventa nell’ultimo decennio il genere caratterizzante per 
 oltre la metà degli spot televisivi. 
 
@@ -74,25 +69,25 @@ Genere musicale per anno (grafico non normalizzato)
 </p>
 
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/streamgraph_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/streamgraph_f_22.json" style="width: 100%"></vegachart>
 
 <p class="caption">
 Genere musicale per lustro
 </p>
 
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/lustrum_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/lustrum_f_22.json" style="width: 100%"></vegachart>
 
 ### Analisi per classi di Nizza
 
 
-Considerando le dieci classi di Nizza più frequenti nel nostro dataset è possibile osservare la distribuzione
+Considerando le dieci classi di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)) più frequenti nel nostro dataset è possibile osservare la distribuzione
 dei generi musicali in base alla tipologia merceologica. Si osserva che la musica elettronica è presente in oltre la 
 metà delle pubblcità per le classi di Nizza relative ad apparecchi scientifici e informatici (classe 9), veicoli (12) e 
 prodotti realizzati in carta (16).
 
 Il genere pop risulta quello predominante per i prodotti per l'igiene (3) e farmaceutici (5), 
-per le pubblicità dei giocattoli (28), per i prodotti alimentari (29,30) e per i servizi di telecomunicazione (38).
+per le pubblicità dei giocattoli (28), per i prodotti alimentari (29, 30) e per i servizi di telecomunicazione (38).
 
 La musica rock invece rappresenta una frazione molto bassa degli spot televisivi e le classi per cui ha un valore 
 maggiore sono quelle relative ai veicoli (12) e alle birre (32).
@@ -101,15 +96,14 @@ maggiore sono quelle relative ai veicoli (12) e alle birre (32).
 Genere musicale per Classe di Nizza
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice_top10_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice_top10_f_22.json" style="width: 100%"></vegachart>
 
-Per completezza, si riporta la distribuzione dei generi musicali per tutte le classi di Nizza.
-
+Per completezza, si riporta la distribuzione dei generi musicali per tutte le classi di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)).
 <p class="caption">
 Genere musicale per Classe di Nizza
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice_all_f_2.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice_slider_22.json" style="width: 100%"></vegachart>
 
 
 
@@ -127,7 +121,7 @@ pubblicità delle automobili.
 Genere musicale per lustro per Classe di Nizza 12
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice12_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice12_f_22.json" style="width: 100%"></vegachart>
 
 #### Giocattoli (28)
 La classe di Nizza relativa ai giocattoli è quella con la proporzione maggiore di musica pop e come si osserva dal 
@@ -138,7 +132,7 @@ fino a scomparire del tutto negli ultimi venti anni.
 Genere musicale per lustro per Classe di Nizza 28
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice28_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice28_f_22.json" style="width: 100%"></vegachart>
 
 #### Generi alimentari (29 e 30)
 Per le pubblicità relative ai generi alimentari (classi 29 e 30) l'andamento della musica è piuttosto simile, 
@@ -150,13 +144,13 @@ e di background per la classe 29.
 Genere musicale per lustro per Classe di Nizza 29
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice29_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice29_f_22.json" style="width: 100%"></vegachart>
 
 <p class="caption">
 Genere musicale per lustro per Classe di Nizza 30
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice30_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice30_f_22.json" style="width: 100%"></vegachart>
 
 #### Telecomunicazioni (38)
 Le pubblicità dei servizi di telecomunicazioni hanno un andamento caratteristico rispetto alle altre classi 
@@ -168,7 +162,7 @@ ripresa negli ultimi anni.
 Genere musicale per lustro per Classe di Nizza 38
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/nice38_f.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice38_f_22.json" style="width: 100%"></vegachart>
 
 ### Analisi in base alla durata degli spot
 I generi musicali si distribuiscono in maniera differente rispetto alla durata degli spot. Si può infatti notare 
