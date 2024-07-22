@@ -2,6 +2,7 @@
 layout: home
 title: "Analisi delle entità"
 # subtitle: ""
+show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/hero/scacchiera.jpg
 header_title: "Analisi delle entità"

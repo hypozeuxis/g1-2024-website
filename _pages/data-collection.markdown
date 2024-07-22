@@ -2,6 +2,7 @@
 layout: home
 title: "Raccolta dati"
 # subtitle: ""
+show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/hero/miro_a.jpg
 header_title: "Raccolta dati"
