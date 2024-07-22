@@ -331,7 +331,7 @@ code {
   font-size: 0.75rem;
 }
 
-.navbar-chulapa .navbar-nav {
+.navbar.navbar-expand.sticky-top.navbar-chulapa .navbar-nav {
   .nav-item:last-child {
     background-color: $link-color;
     border-radius: 4px;
