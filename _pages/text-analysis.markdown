@@ -27,7 +27,7 @@ suggerendo che la qualità dei cluster può variare.
 <p class="caption">
 Rappresentazione della Clusterizzazione delle Trascrizioni degli Spot con il t-SNE
 </p>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/chart_cluster_text.json" style="width: 100%; height:640px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/chart_cluster_text.json" style="width: 100%; height:540px;"></vegachart>
 
 #### Interpretazione
 
