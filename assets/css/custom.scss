@@ -502,9 +502,28 @@ div:not(.vg-tooltip) {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  justify-content: center;
+  justify-content: left;
   justify-items: center;
   margin-top: 1rem;
+
+  .card {
+    width: 100%;
+    padding: 1rem;
+
+    .value {
+      color: $link-color;
+      line-height: 1;
+    }
+
+    .label {
+      font-weight: 800;
+      font-size: 1.2rem;
+      line-height: 1;
+      margin-bottom: 0.25em;
+
+    }
+
+  }
 }
 
 
