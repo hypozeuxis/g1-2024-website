@@ -121,7 +121,8 @@ partire dagli anni 2000 fino a oggi. Altri oggetti degni di nota sono le sedie (
 quali hanno avuto un progressivo aumento, arrivando a essere rappresentate con una frequenza sette volte più alta oggi,
 rispetto al loro esordio.
 
-Le analisi si sono inoltre concentrate sullo studio delle classi di [Nizza](entity-analysis.markdown#analisi-delle-classi-di-nizza), valutando la loro rappresentazione nel tempo:
+Le analisi si sono inoltre concentrate sullo studio delle classi di [Nizza](entity-analysis.markdown#analisi-delle-classi-di-nizza)
+, valutando la loro rappresentazione nel tempo:
 tra le classi più rappresentate si possono osservare la 12 (veicoli e apparecchi per il trasporto di persone o merci via terra, aria o acqua) e la 21 (piccoli utensili e apparecchi a mano per uso domestico e da cucina).
 Mostrare queste informazioni può essere utile per comprendere meglio l'evoluzione della pubblicità nel tempo, favorendo lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un pubblico più bisognoso di stimoli rapidi e nuovi; va inoltre considerata l'utilità che queste informazioni possono avere per coloro che desiderano ricoprire un ruolo competitivo nell'ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
 

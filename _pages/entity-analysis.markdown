@@ -8,8 +8,7 @@ header_img: assets/images/hero/scacchiera.jpg
 header_title: "Analisi delle entità"
 vega: true
 ---
-
-
+A cura di: Axel Perini
 
 ### Dettagli tecnici
 
