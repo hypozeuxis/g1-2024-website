@@ -9,10 +9,7 @@ header_title: "Analisi delle entità"
 vega: true
 ---
 
-<button id="showSectionButton">Dettagli Tecnici</button>
 
-<div id="hiddenSection" class="hidden">
-{% capture hidden_content %}
 
 ### Dettagli tecnici
 
@@ -85,31 +82,17 @@ E' stato aggiunto l'elemento "interactive" dopo i parametri per poter visualizza
 ##### Fase 6: utilizzo di Jekyll per la creazione del sito web
 Per l'implementazione dei grafici sono stati presi degli accorgimenti in quanto questi non venivano visualizzati correttamente, infatti si sono dovute specificare le dimensioni di width e height, con quest'ultima avente una dimensione in pixel, per poter visualizzare i grafici.
 
-{% endcapture %}
 
-{{ hidden_content | markdownify }}
-</div>
 
-<style>
-.hidden { display: none; }
-</style>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const button = document.getElementById('showSectionButton');
-    const hiddenSection = document.getElementById('hiddenSection');
-    button.addEventListener('click', function() {
-        hiddenSection.classList.toggle('hidden');
-    });
-});
-</script>
+
 
 ## Analisi delle classi di YOLO
 
 YOLO è un framework di intelligenza artificiale che permette di svolgere varie operazioni di computer vision; in questo caso ha classificato le scene in cui sono stati divisi i video analizzati.
 
 <p class="caption">
-Distribuzione classi nel tempo
+Numero di occorrenze totali delle 50 classi più rappresentate
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/class_distribution_lustrum.json" style="width:100%;height:600px;"></vegachart>  
@@ -124,7 +107,7 @@ _Nell'immagine si osserva come la classe più rappresentata sia quella delle "pe
 Per comprendere l'andamento dell'utilizzo di certe classi nei lustri di tempo, si possono prendere in considerazione le 10 classi più rappresentate, escludendo quella delle "persone", che avrebbe una presenza preponderante rispetto alle altre.
 
 <p class="caption">
-Evoluzione delle classi nel tempo
+Frequenze di ciascuna classe rispetto al numero di video, distribuite nel tempo
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_classes_evolution_lustrum.json" style="width:100%;height:400px;"></vegachart>  
@@ -139,7 +122,7 @@ _Si osserva come, a un certo punto, la classe "macchine" abbia un'impennata di p
 Le stesse categorizzazioni precedentemente analizzate sono state trasformate in categorie di Nizza, per osservare l'andamento nel tempo delle tipologie merceologiche definite da questa particolare classificazione.
 
 <p class="caption">
-Evoluzione delle classi di Nizza nel tempo
+Frequenze di ciascuna classe di Nizza rispetto al numero di video, distribuite nel tempo
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_Nizza_evolution_lustrum.json" style="width:100%;height:600px;"></vegachart>  
