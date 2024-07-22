@@ -1,0 +1,1204 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json",
+  "config": {
+    "axis": {
+      "domainColor": "#313338",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
+    }
+  },
+  "data": {
+    "name": "data-9cb803bdb385d02ee72c0810ff97db3c"
+  },
+  "datasets": {
+    "data-9cb803bdb385d02ee72c0810ff97db3c": [
+      {
+        "genre": "background",
+        "sum": 2.0,
+        "year": "1980-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": null,
+        "year": "1981-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 5.0,
+        "year": "1982-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 7.0,
+        "year": "1983-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 27.0,
+        "year": "1984-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 14.0,
+        "year": "1985-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 32.0,
+        "year": "1986-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 56.0,
+        "year": "1987-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 39.0,
+        "year": "1988-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 13.0,
+        "year": "1989-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 22.0,
+        "year": "1990-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 46.0,
+        "year": "1991-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 40.0,
+        "year": "1992-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 22.0,
+        "year": "1993-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 27.0,
+        "year": "1994-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 7.0,
+        "year": "1995-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 12.0,
+        "year": "1996-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 14.0,
+        "year": "1997-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": null,
+        "year": "1998-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 4.0,
+        "year": "1999-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 10.0,
+        "year": "2000-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 21.0,
+        "year": "2001-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 9.0,
+        "year": "2002-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 8.0,
+        "year": "2003-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 6.0,
+        "year": "2004-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 35.0,
+        "year": "2005-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 12.0,
+        "year": "2006-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 11.0,
+        "year": "2007-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 15.0,
+        "year": "2008-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 6.0,
+        "year": "2009-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 10.0,
+        "year": "2010-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 4.0,
+        "year": "2011-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 4.0,
+        "year": "2012-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 12.0,
+        "year": "2013-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 2.0,
+        "year": "2014-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 5.0,
+        "year": "2015-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 2.0,
+        "year": "2016-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 2.0,
+        "year": "2017-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 3.0,
+        "year": "2018-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 4.0,
+        "year": "2019-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 7.0,
+        "year": "2020-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": null,
+        "year": "2021-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 5.0,
+        "year": "2022-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 10.0,
+        "year": "2023-01-01T00:00:00"
+      },
+      {
+        "genre": "background",
+        "sum": 2.0,
+        "year": "2024-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": null,
+        "year": "1980-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": null,
+        "year": "1981-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 6.0,
+        "year": "1982-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 8.0,
+        "year": "1983-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 26.0,
+        "year": "1984-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 20.0,
+        "year": "1985-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 23.0,
+        "year": "1986-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 57.0,
+        "year": "1987-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 60.0,
+        "year": "1988-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 17.0,
+        "year": "1989-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 23.0,
+        "year": "1990-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 48.0,
+        "year": "1991-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 25.0,
+        "year": "1992-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 24.0,
+        "year": "1993-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 22.0,
+        "year": "1994-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 7.0,
+        "year": "1995-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 5.0,
+        "year": "1996-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 7.0,
+        "year": "1997-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": null,
+        "year": "1998-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 3.0,
+        "year": "1999-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 6.0,
+        "year": "2000-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 9.0,
+        "year": "2001-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 1.0,
+        "year": "2002-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 9.0,
+        "year": "2003-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 8.0,
+        "year": "2004-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 20.0,
+        "year": "2005-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 2.0,
+        "year": "2006-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 7.0,
+        "year": "2007-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 10.0,
+        "year": "2008-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 1.0,
+        "year": "2009-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 1.0,
+        "year": "2010-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 2.0,
+        "year": "2011-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 3.0,
+        "year": "2012-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 4.0,
+        "year": "2013-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": null,
+        "year": "2014-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 3.0,
+        "year": "2015-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 1.0,
+        "year": "2016-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 2.0,
+        "year": "2017-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": null,
+        "year": "2018-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": null,
+        "year": "2019-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 4.0,
+        "year": "2020-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": null,
+        "year": "2021-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 2.0,
+        "year": "2022-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 3.0,
+        "year": "2023-01-01T00:00:00"
+      },
+      {
+        "genre": "classical",
+        "sum": 6.0,
+        "year": "2024-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 5.0,
+        "year": "1980-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 5.0,
+        "year": "1981-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 10.0,
+        "year": "1982-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 24.0,
+        "year": "1983-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 117.0,
+        "year": "1984-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 95.0,
+        "year": "1985-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 141.0,
+        "year": "1986-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 168.0,
+        "year": "1987-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 141.0,
+        "year": "1988-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 76.0,
+        "year": "1989-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 67.0,
+        "year": "1990-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 164.0,
+        "year": "1991-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 105.0,
+        "year": "1992-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 79.0,
+        "year": "1993-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 96.0,
+        "year": "1994-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 63.0,
+        "year": "1995-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 43.0,
+        "year": "1996-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 45.0,
+        "year": "1997-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 3.0,
+        "year": "1998-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 30.0,
+        "year": "1999-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 54.0,
+        "year": "2000-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 114.0,
+        "year": "2001-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 27.0,
+        "year": "2002-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 70.0,
+        "year": "2003-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 22.0,
+        "year": "2004-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 108.0,
+        "year": "2005-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 44.0,
+        "year": "2006-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 47.0,
+        "year": "2007-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 56.0,
+        "year": "2008-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 39.0,
+        "year": "2009-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 10.0,
+        "year": "2010-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 11.0,
+        "year": "2011-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 4.0,
+        "year": "2012-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 20.0,
+        "year": "2013-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 13.0,
+        "year": "2014-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 22.0,
+        "year": "2015-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 8.0,
+        "year": "2016-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 17.0,
+        "year": "2017-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 10.0,
+        "year": "2018-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 11.0,
+        "year": "2019-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 30.0,
+        "year": "2020-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 9.0,
+        "year": "2021-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 21.0,
+        "year": "2022-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 26.0,
+        "year": "2023-01-01T00:00:00"
+      },
+      {
+        "genre": "electronic",
+        "sum": 9.0,
+        "year": "2024-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 2.0,
+        "year": "1980-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 4.0,
+        "year": "1981-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 11.0,
+        "year": "1982-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 27.0,
+        "year": "1983-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 54.0,
+        "year": "1984-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 60.0,
+        "year": "1985-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 64.0,
+        "year": "1986-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 126.0,
+        "year": "1987-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 134.0,
+        "year": "1988-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 57.0,
+        "year": "1989-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 79.0,
+        "year": "1990-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 142.0,
+        "year": "1991-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 114.0,
+        "year": "1992-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 85.0,
+        "year": "1993-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 109.0,
+        "year": "1994-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 29.0,
+        "year": "1995-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 42.0,
+        "year": "1996-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 45.0,
+        "year": "1997-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 2.0,
+        "year": "1998-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 23.0,
+        "year": "1999-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 73.0,
+        "year": "2000-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 63.0,
+        "year": "2001-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 24.0,
+        "year": "2002-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 58.0,
+        "year": "2003-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 19.0,
+        "year": "2004-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 140.0,
+        "year": "2005-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 69.0,
+        "year": "2006-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 64.0,
+        "year": "2007-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 118.0,
+        "year": "2008-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 77.0,
+        "year": "2009-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 19.0,
+        "year": "2010-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 14.0,
+        "year": "2011-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 14.0,
+        "year": "2012-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 26.0,
+        "year": "2013-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 15.0,
+        "year": "2014-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 28.0,
+        "year": "2015-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 24.0,
+        "year": "2016-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 15.0,
+        "year": "2017-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 15.0,
+        "year": "2018-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 22.0,
+        "year": "2019-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 56.0,
+        "year": "2020-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 22.0,
+        "year": "2021-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 35.0,
+        "year": "2022-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 35.0,
+        "year": "2023-01-01T00:00:00"
+      },
+      {
+        "genre": "pop",
+        "sum": 17.0,
+        "year": "2024-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "1980-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "1981-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "1982-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 2.0,
+        "year": "1983-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 4.0,
+        "year": "1984-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "1985-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 2.0,
+        "year": "1986-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 3.0,
+        "year": "1987-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 3.0,
+        "year": "1988-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 1.0,
+        "year": "1989-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 1.0,
+        "year": "1990-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 5.0,
+        "year": "1991-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 1.0,
+        "year": "1992-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 3.0,
+        "year": "1993-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 4.0,
+        "year": "1994-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "1995-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 1.0,
+        "year": "1996-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 2.0,
+        "year": "1997-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "1998-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "1999-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 5.0,
+        "year": "2000-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 2.0,
+        "year": "2001-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 4.0,
+        "year": "2002-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 3.0,
+        "year": "2003-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 2.0,
+        "year": "2004-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 12.0,
+        "year": "2005-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 4.0,
+        "year": "2006-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 4.0,
+        "year": "2007-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 8.0,
+        "year": "2008-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 1.0,
+        "year": "2009-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2010-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2011-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2012-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 1.0,
+        "year": "2013-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2014-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 2.0,
+        "year": "2015-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 3.0,
+        "year": "2016-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 2.0,
+        "year": "2017-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2018-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2019-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2020-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2021-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": null,
+        "year": "2022-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 2.0,
+        "year": "2023-01-01T00:00:00"
+      },
+      {
+        "genre": "rock",
+        "sum": 1.0,
+        "year": "2024-01-01T00:00:00"
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "genre",
+      "legend": {
+        "title": "Genere"
+      },
+      "scale": {
+        "scheme": "set3"
+      },
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "timeUnit": "year",
+        "title": "Anno",
+        "type": "temporal"
+      },
+      {
+        "field": "genre",
+        "title": "Genere Musicale",
+        "type": "nominal"
+      },
+      {
+        "field": "sum",
+        "title": "Conteggio",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "domain": false,
+        "format": "%Y",
+        "tickSize": 0,
+        "title": null
+      },
+      "field": "year",
+      "type": "temporal"
+    },
+    "y": {
+      "axis": null,
+      "field": "sum",
+      "stack": "center",
+      "type": "quantitative"
+    }
+  },
+  "height": 250,
+  "mark": {
+    "type": "area"
+  },
+  "width": "container"
+}
