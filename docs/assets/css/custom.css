@@ -62,6 +62,11 @@ footer {
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 /* Custom rules. */
+/* Internal navigation */
+html {
+  scroll-padding-top: calc(80px + 2rem);
+}
+
 body {
   letter-spacing: 0.025rem;
   font-feature-settings: "tnum";
@@ -135,6 +140,11 @@ body::after {
   max-width: 100%;
 }
 
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: calc(16px + 2rem);
+  }
+}
 @media (max-width: 575px) {
   body {
     margin: 16px;
