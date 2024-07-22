@@ -22,7 +22,7 @@ $primary: mix($body-color, $body-bg, 10%) !default;
 $secondary: mix($body-color, $body-bg, 90%) !default;
 $white: #fff !default;
 $black: #373e47 !default;
-$link-color: #2B8FFD !default;
+$link-color: #fdb462 !default;
 $success: #2da44e !default;
 $warning: #d4a72c !default;
 $danger: #D86F75 !default;
@@ -49,7 +49,7 @@ $navbar-chulapa-brand-color: $navbar-chulapa-text-color !default;
 
 $footer-chulapa-bg-color: $body-bg !default;
 $footer-chulapa-text-color: $text-muted !default;
-$footer-chulapa-hover-color: #58a6ff !default;
+$footer-chulapa-hover-color: #FB8804 !default;
 $footer-chulapa-icon-hover-color: mix($footer-chulapa-hover-color, $footer-chulapa-bg-color, 20%) !default;
 
 // Misc
@@ -103,11 +103,6 @@ time {
   font-style: normal !important;
 }
 
-blockquote {
-  border-radius: 0 !important;
-  border-left: solid $link-color !important;
-}
-
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
 
@@ -121,11 +116,22 @@ h1, h2, h3, h4, h5, h6,
   margin-top: 2em;
 }
 
+.blockquote, blockquote {
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+blockquote {
+  border-radius: 0 !important;
+  border-left: solid $link-color !important;
+  padding-left: 1rem !important;
+}
+
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 /* Custom rules. */
-$frame-width: 32px;
+$frame-width: 24px;
 $frame-width-sm: 16px;
 
 body {
@@ -172,7 +178,7 @@ body::after {
   border-width: $frame-width;
   border-style: solid;
   border-image: linear-gradient(var(--angle), $test-color-stops) 1;
-  animation: 480s rotate linear infinite;
+  animation: 480s*2 rotate linear infinite;
   // box-shadow: 10px 10px 10px white;
   pointer-events: none;
 }
@@ -319,6 +325,16 @@ code {
 .navbar-expand .navbar-nav .nav-link {
   padding: 0.25em !important;
   font-size: 0.75rem;
+}
+
+/* Links */
+
+.footer-chulapa a {
+  color: $link-color;
+}
+
+.footer-chulapa a:hover, .footer-chulapa a:focus {
+  color: $footer-chulapa-hover-color;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
