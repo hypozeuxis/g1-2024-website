@@ -97,7 +97,7 @@ Numero di parole per secondo
 
 Anche il numero di scene per secondo aumenta nel corso dei lustri.
 <p class="caption">
-Numero di scene per secondo
+Numero di scene medio per secondo
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%"></vegachart> 
