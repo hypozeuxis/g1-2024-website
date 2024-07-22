@@ -17,7 +17,7 @@ discreto successo, rivelandosi un efficace mezzo di comunicazione attraverso cui
 direttamente in contatto con i telespettatori. Non vi era tuttavia solo una dimensione economica, infatti ci possiamo
 ricordare di spot divertenti o di quelli più toccanti, che rimanevano impressi non per quello che vendevano, ma per le
 emozioni che ci facevano provare. Come dimenticare l’incontro sotto la pioggia fra un povero gattino smarrito e una
-dolce bambina nella pubblicità della Barilla? A chi non è mai capitato di ricordare i famosi 'pennelli Cinghiale'?
+dolce bambina nella pubblicità della Barilla? A chi non è mai capitato di ricordare i famosi 'Pennelli Cinghiale'?
 
 ## Da Carosello alla pubblicità moderna
 
@@ -93,30 +93,37 @@ dell’immagine.
 Ci teniamo a precisare che in ogni caso il nostro studio si focalizza proprio sui colori percepiti dall’utente finale
 attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui non abbiamo accesso).
 
-## Chi e cosa
+## Dagli anni 80 a oggi, chi sono i protagonisti
 
 Ulteriore aspetto che è stato preso in considerazione in queste analisi è stato _chi_ e _cosa_ effettivamente comparisse
-negli spot. Va infatti preso in considerazione anche chi sono i protagonisti dei brevi sipari che ci fanno compagnia
+negli spot. Va infatti preso in considerazione anche chi sono i principali personaggi dei brevi sipari che ci fanno compagnia
 mentre guardiamo la televisione. Un elemento che spicca immediatamente è la pervasiva presenza delle persone: benché
-possa sembrare scontato infatti, la preponderanza di esseri umani è assoluta in ogni epoca analizzata. La spiegazione di
-questo è banale, in quanto se la pubblicità si prefigge di influenzare il comportamento delle persone, è indubbio che
+possa sembrare scontato infatti, la preponderanza di esseri umani è assoluta in ogni epoca analizzata. 
+
+
+
+| Classe     | Occorrenze |
+|------------|------------|
+| persona    | 3845       |
+| automobile | 762        |
+| bottiglia  | 758        |
+| tazza      | 565        |
+| cravatta   | 534        |
+
+
+
+
+La spiegazione di questo è banale, in quanto se la pubblicità si prefigge di influenzare il comportamento delle persone, è indubbio che
 vedere altre persone come protagoniste ottenga un maggior effetto. Osserviamo trend particolari se invece si prendono in
-considerazione altri elementi: analizzando le 10 categorie di oggetti più osservati, infatti, si nota come auto e
-bottiglie (prevalentemente di alcolici) conquistino le prime posizioni, osservando le prime dominare la classifica a
+considerazione altri elementi: analizzando le 10 categorie di oggetti più osservati, infatti, si nota come automobili e
+bottiglie (prevalentemente di alcolici) conquistino le prime posizioni, [osservando](entity-analysis.markdown#analisi-delle-classi-di-yolo) le prime dominare la classifica a
 partire dagli anni 2000 fino a oggi. Altri oggetti degni di nota sono le sedie (osservabili in svariati contesti), le
 quali hanno avuto un progressivo aumento, arrivando a essere rappresentate con una frequenza sette volte più alta oggi,
 rispetto al loro esordio.
 
-Da ciò che la pubblicità mostra, si può cercare di inferire cosa essa stia cercando di proporre alla società. La
-presenza di elementi come auto e bottiglie, infatti, è indicativa di uno stile pubblicitario consumistico e
-avanzato, dove si sprona l’individuo a comportamenti più impulsivi, e di rimanere aggiornato sulle ultime novità
-tecnologiche (almeno per quanto riguarda gli spostamenti). Le pubblicità delle automobili hanno inoltre uno stile
-intrinsecamente dinamico, rappresentando rapidità e il movimento: aspetti che, come abbiamo visto, caratterizzano le
-esigenze attentive del nostro pubblico odierno. Va comunque tenuto in considerazione un ultimo aspetto, perché quella
-sedia che sempre più spesso appare (nonostante possa comparire in svariati contesti) è spesso associata alla casa, o
-comunque a qualcosa di immobile, fermo; non è ancora ai livelli di rappresentazione di tutte le componenti dinamiche che
-sono state osservate, tuttavia può rappresentare un futuro spunto, un segnale, che qualcuno cerchi di tornare alla calma
-della propria dimora.
+Le analisi si sono inoltre concentrate sullo studio delle classi di [Nizza](entity-analysis.markdown#analisi-delle-classi-di-nizza), valutando la loro rappresentazione nel tempo:
+tra le classi più rappresentate si possono osservare la 12 (veicoli e apparecchi per il trasporto di persone o merci via terra, aria o acqua) e la 21 (piccoli utensili e apparecchi a mano per uso domestico e da cucina).
+Mostrare queste informazioni può essere utile per comprendere meglio l'evoluzione della pubblicità nel tempo, favorendo lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un pubblico più bisognoso di stimoli rapidi e nuovi; va inoltre considerata l'utilità che queste informazioni possono avere per coloro che desiderano ricoprire un ruolo competitivo nell'ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
 
 ## Per concludere
 
