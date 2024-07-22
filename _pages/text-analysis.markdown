@@ -50,10 +50,6 @@ Con 26 cluster, possiamo osservare una distribuzione abbastanza sparsa dei punti
 
 ---
 
-## Analisi delle trascrizioni
-
-Ottenute le trascrizioni, abbiamo proseguito con le analisi dei testi.
-
 ### Analisi quantitative 
 La prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
