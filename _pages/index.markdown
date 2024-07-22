@@ -32,8 +32,8 @@ precedenti». Così commenta Michele Logrippo, fondatore del sito Spot80, quando
 rispetto agli anni ’80.
 
 La nostra ricerca nasce dall'idea di indagare l'evoluzione della comunicazione pubblicitaria 
-televisiva dagli anni ’80 a oggi. A tale scopo, abbiamo raccolto gli spot reperibili da un sito dedicato, Spot80, e 
-da diversi canali YouTube. Gli spot sono stati ordinati all'interno di un dataframe in base al loro id, al titolo, alla descrizione e all'anno di pubblicazione. 
+televisiva dagli anni ’80 a oggi. A tale scopo, abbiamo raccolto gli spot reperibili da un sito dedicato, _Spot80_, e 
+da diversi canali YouTube. I dati sono stati ordinati all'interno di un dataframe in base al loro id, al titolo, alla descrizione e all'anno di pubblicazione. 
 Successivamente, gli stessi sono stati arricchiti. Abbiamo, quindi, aggiunto la cosiddetta classe di Nizza e raggruppato gli spot in base ai lustri.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
