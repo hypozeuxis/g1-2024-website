@@ -327,6 +327,10 @@ body::after {
   }
 }
 
+vegachart {
+  letter-spacing: 0;
+}
+
 vegachart + p {
   margin-top: 3em;
 }
@@ -379,7 +383,8 @@ div:not(.vg-tooltip) {
   table {
     font-family: $font-family-monospace;
     font-size: 0.875rem;
-    td,th{
+
+    td, th {
       padding-inline-start: 1em;
       padding-inline-end: 1em;
     }
