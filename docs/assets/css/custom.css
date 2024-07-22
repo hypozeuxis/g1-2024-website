@@ -219,6 +219,10 @@ body::after {
   margin-inline-end: 0.5em;
 }
 
+vegachart {
+  letter-spacing: 0;
+}
+
 vegachart + p {
   margin-top: 3em;
 }
@@ -264,6 +268,10 @@ code {
 div:not(.vg-tooltip) table {
   font-family: "Space Mono", monospace;
   font-size: 0.875rem;
+}
+div:not(.vg-tooltip) table td, div:not(.vg-tooltip) table th {
+  padding-inline-start: 1em;
+  padding-inline-end: 1em;
 }
 
 /* Button sidebar */

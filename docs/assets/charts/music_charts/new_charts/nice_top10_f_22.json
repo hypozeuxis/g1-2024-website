@@ -1,0 +1,347 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json",
+  "config": {
+    "axis": {
+      "domainColor": "#313338",
+      "gridColor": "#666666",
+      "labelColor": "#DBDEE1",
+      "tickColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "background": "transparent",
+    "legend": {
+      "labelColor": "#DBDEE1",
+      "titleColor": "#DBDEE1"
+    },
+    "title": {
+      "color": "#DBDEE1",
+      "fontSize": 16
+    }
+  },
+  "data": {
+    "name": "data-b1e872281c1ad48d7c0ba550eff84372"
+  },
+  "datasets": {
+    "data-b1e872281c1ad48d7c0ba550eff84372": [
+      {
+        "genre": "background",
+        "nice_class": 3,
+        "percentage": 0.07954545454545454
+      },
+      {
+        "genre": "background",
+        "nice_class": 5,
+        "percentage": 0.10622710622710622
+      },
+      {
+        "genre": "background",
+        "nice_class": 9,
+        "percentage": 0.10666666666666667
+      },
+      {
+        "genre": "background",
+        "nice_class": 12,
+        "percentage": 0.13152804642166344
+      },
+      {
+        "genre": "background",
+        "nice_class": 16,
+        "percentage": 0.06097560975609756
+      },
+      {
+        "genre": "background",
+        "nice_class": 28,
+        "percentage": 0.022123893805309734
+      },
+      {
+        "genre": "background",
+        "nice_class": 29,
+        "percentage": 0.06866952789699571
+      },
+      {
+        "genre": "background",
+        "nice_class": 30,
+        "percentage": 0.09641025641025641
+      },
+      {
+        "genre": "background",
+        "nice_class": 32,
+        "percentage": 0.138996138996139
+      },
+      {
+        "genre": "background",
+        "nice_class": 38,
+        "percentage": 0.06190476190476191
+      },
+      {
+        "genre": "classical",
+        "nice_class": 3,
+        "percentage": 0.07449494949494949
+      },
+      {
+        "genre": "classical",
+        "nice_class": 5,
+        "percentage": 0.0695970695970696
+      },
+      {
+        "genre": "classical",
+        "nice_class": 9,
+        "percentage": 0.05333333333333334
+      },
+      {
+        "genre": "classical",
+        "nice_class": 12,
+        "percentage": 0.06382978723404255
+      },
+      {
+        "genre": "classical",
+        "nice_class": 16,
+        "percentage": 0.044715447154471545
+      },
+      {
+        "genre": "classical",
+        "nice_class": 28,
+        "percentage": 0.048672566371681415
+      },
+      {
+        "genre": "classical",
+        "nice_class": 29,
+        "percentage": 0.10085836909871244
+      },
+      {
+        "genre": "classical",
+        "nice_class": 30,
+        "percentage": 0.1117948717948718
+      },
+      {
+        "genre": "classical",
+        "nice_class": 32,
+        "percentage": 0.07335907335907337
+      },
+      {
+        "genre": "classical",
+        "nice_class": 38,
+        "percentage": 0.06190476190476191
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 3,
+        "percentage": 0.39646464646464646
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 5,
+        "percentage": 0.34798534798534797
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 9,
+        "percentage": 0.5155555555555555
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 12,
+        "percentage": 0.5067698259187621
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 16,
+        "percentage": 0.5528455284552846
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 28,
+        "percentage": 0.3053097345132743
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 29,
+        "percentage": 0.3776824034334764
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 30,
+        "percentage": 0.3302564102564103
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 32,
+        "percentage": 0.37065637065637064
+      },
+      {
+        "genre": "electronic",
+        "nice_class": 38,
+        "percentage": 0.319047619047619
+      },
+      {
+        "genre": "pop",
+        "nice_class": 3,
+        "percentage": 0.4393939393939394
+      },
+      {
+        "genre": "pop",
+        "nice_class": 5,
+        "percentage": 0.47619047619047616
+      },
+      {
+        "genre": "pop",
+        "nice_class": 9,
+        "percentage": 0.30666666666666664
+      },
+      {
+        "genre": "pop",
+        "nice_class": 12,
+        "percentage": 0.25918762088974856
+      },
+      {
+        "genre": "pop",
+        "nice_class": 16,
+        "percentage": 0.34146341463414637
+      },
+      {
+        "genre": "pop",
+        "nice_class": 28,
+        "percentage": 0.5973451327433629
+      },
+      {
+        "genre": "pop",
+        "nice_class": 29,
+        "percentage": 0.44635193133047213
+      },
+      {
+        "genre": "pop",
+        "nice_class": 30,
+        "percentage": 0.4461538461538462
+      },
+      {
+        "genre": "pop",
+        "nice_class": 32,
+        "percentage": 0.3667953667953668
+      },
+      {
+        "genre": "pop",
+        "nice_class": 38,
+        "percentage": 0.5476190476190477
+      },
+      {
+        "genre": "rock",
+        "nice_class": 3,
+        "percentage": 0.010101010101010102
+      },
+      {
+        "genre": "rock",
+        "nice_class": 5,
+        "percentage": null
+      },
+      {
+        "genre": "rock",
+        "nice_class": 9,
+        "percentage": 0.017777777777777778
+      },
+      {
+        "genre": "rock",
+        "nice_class": 12,
+        "percentage": 0.03868471953578337
+      },
+      {
+        "genre": "rock",
+        "nice_class": 16,
+        "percentage": null
+      },
+      {
+        "genre": "rock",
+        "nice_class": 28,
+        "percentage": 0.02654867256637168
+      },
+      {
+        "genre": "rock",
+        "nice_class": 29,
+        "percentage": 0.006437768240343348
+      },
+      {
+        "genre": "rock",
+        "nice_class": 30,
+        "percentage": 0.015384615384615385
+      },
+      {
+        "genre": "rock",
+        "nice_class": 32,
+        "percentage": 0.05019305019305019
+      },
+      {
+        "genre": "rock",
+        "nice_class": 38,
+        "percentage": 0.009523809523809525
+      }
+    ]
+  },
+  "encoding": {
+    "color": {
+      "field": "genre",
+      "legend": {
+        "title": "Genere"
+      },
+      "scale": {
+        "scheme": "set3"
+      },
+      "type": "nominal"
+    },
+    "opacity": {
+      "condition": {
+        "param": "param_90",
+        "value": 1
+      },
+      "value": 0.2
+    },
+    "tooltip": [
+      {
+        "field": "nice_class",
+        "title": "Classe di Nizza",
+        "type": "quantitative"
+      },
+      {
+        "field": "genre",
+        "title": "Genere Musicale",
+        "type": "nominal"
+      },
+      {
+        "field": "percentage",
+        "format": ".2f",
+        "title": "Percentuale",
+        "type": "quantitative"
+      }
+    ],
+    "x": {
+      "axis": {
+        "labelAngle": 0,
+        "title": null
+      },
+      "field": "nice_class",
+      "type": "nominal"
+    },
+    "y": {
+      "axis": {
+        "title": null
+      },
+      "field": "percentage",
+      "type": "quantitative"
+    }
+  },
+  "height": 250,
+  "mark": {
+    "type": "bar"
+  },
+  "params": [
+    {
+      "bind": "legend",
+      "name": "param_90",
+      "select": {
+        "fields": [
+          "genre"
+        ],
+        "type": "point"
+      }
+    }
+  ],
+  "width": "container"
+}
