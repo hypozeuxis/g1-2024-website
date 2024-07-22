@@ -52,7 +52,7 @@ Tuttavia, la rivendicazione della nostra italianità continua a manifestarsi att
 <p class="caption">
 Numero di anglicismi per lustro
 </p>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:70%"></vegachart> 
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
 
 
 Anche le semplici parole sembrano non essere mai casuali. «Assistiamo a un ribaltamento di ciò che la società considera
@@ -63,6 +63,7 @@ inizia a essere usata con una frequenza piuttosto elevata solo dal 2020. Oppure,
 dell’aggettivo ‘italiano’ che, dal 2015, compare timidamente fra le parole più frequenti negli spot di prodotti alimentari, 
 per poi rivelarsi il topic più rilevante a partire dal 2020.
 Il _Made in Italy_ sembra diventare un requisito fondamentale proprio in questi anni successivi alla pandemia mondiale.
+
 
 | **Prodotto**         | **Parola**     | **Lustro** |     **Rilevanza**     |
 |:---------------------|:--------------:|-----------:|:---------------------:|
