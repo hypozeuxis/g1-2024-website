@@ -60,14 +60,14 @@ navbar:
       url: /text-analysis
     - title: Entità
       url: /entity-analysis
-    - title: Cerca
+    - title: Disclaimer
+      url: /disclaimer
+    - title: Cerca spot
       url: /search
+
 
 googlefonts:
   - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-  # - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap"
-  # - url: "https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
-  # - url: "https://fonts.googleapis.com/css2?family=VT323&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
   - url: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
 
@@ -76,6 +76,8 @@ chulapa-skin:
   vars:
     body-bg: '#313338'
     body-color: '#DBDEE1'
+    link-color: '#FDB462'
+    footer-chulapa-hover-color: '#FB8804'
     # Typography
     font-family-base: "'Montserrat', 'Roboto' !important"
     headings-font-family: "'Montserrat', 'Roboto' !important"

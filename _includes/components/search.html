@@ -38,13 +38,13 @@
                     </div>
                 </div>
                 <!--
-                <div class="col">
-                    <select class="form-select" aria-label="Seleziona la tipologia di prodotto">
-                        <option selected>Scegli</option>
-                        {% for type in site.data.product-types %}
-                            <option value="{{ type.label }}">{{ type.label }}</option>
-                        {% endfor %}
-                    </select>
+                <div class="col col-12 col-ms-2">
+                    <div class="mb-3">
+                        <label for="year-range" class="form-label">Anno</label>
+                        <div>
+                            <input type="range" class="form-range" min="1980" max="2024" step="1" id="year-range">
+                        </div>
+                    </div>
                 </div>
                 -->
                 <div class="col col-12 col-md-2">
@@ -163,6 +163,10 @@
         line-height: 1.2;
     }
 
+    .card {
+        cursor: pointer;
+    }
+
     .card-body h2 {
         font-size: 1rem;
     }
@@ -239,9 +243,9 @@
                 });
 
                 const inputBrand = document.getElementById('input-brand');
+                const brandResultDiv = document.getElementById('dropdown-brands');
 
                 const showDropdownBrandsResults = function (e) {
-                    const brandResultDiv = document.getElementById('dropdown-brands');
                     const query = this.value;
                     if (query === '' && e.type !== 'focus') {
                         brandResultDiv.innerHTML = '';
@@ -275,19 +279,26 @@
 
                 inputBrand.addEventListener('input', showDropdownBrandsResults);
                 inputBrand.addEventListener('focus', showDropdownBrandsResults);
+                inputBrand.addEventListener('blur', function (e) {
+                        const clickedElement = e.relatedTarget;
+                        if (clickedElement === null || !clickedElement.classList.contains('list-group-item-action')) {
+                            brandResultDiv.innerHTML = '';
+                        }
+                    }
+                );
 
 
                 const inputProductType = document.getElementById('input-product-type');
+                const productTypeResultDiv = document.getElementById('dropdown-product-types');
 
                 const showDropdownProductTypesResults = function (e) {
-                    const productTypeDiv = document.getElementById('dropdown-product-types');
                     const query = this.value;
                     if (query === '' && e.type !== 'focus') {
-                        productTypeDiv.innerHTML = '';
+                        productTypeResultDiv.innerHTML = '';
                         return;
                     }
                     const results = [...new Set(idx.search(getExactMatchingQuery(query, 'product_type', true)))];
-                    productTypeDiv.innerHTML = '';
+                    productTypeResultDiv.innerHTML = '';
 
                     if (results.length > 0) {
                         const uniqueItems = new Set();
@@ -305,9 +316,9 @@
                             tile.addEventListener('click', function (e) {
                                 inputProductType.value = item.product_type;
                                 uniqueItems.clear();
-                                productTypeDiv.innerHTML = '';
+                                productTypeResultDiv.innerHTML = '';
                             });
-                            productTypeDiv.append(tile);
+                            productTypeResultDiv.append(tile);
                         });
                     }
                 };
@@ -315,7 +326,13 @@
 
                 inputProductType.addEventListener('input', showDropdownProductTypesResults);
                 inputProductType.addEventListener('focus', showDropdownProductTypesResults);
-
+                inputProductType.addEventListener('blur', function (e) {
+                        const clickedElement = e.relatedTarget;
+                        if (clickedElement === null || !clickedElement.classList.contains('list-group-item-action')) {
+                            productTypeResultDiv.innerHTML = '';
+                        }
+                    }
+                );
 
                 document.getElementById('search-button').addEventListener('click', function () {
                     if (inputBrand.value === '' && inputProductType.value === '') {
@@ -370,7 +387,7 @@
                                 colorLbTfidfDiv.appendChild(colorLbTfidfChart);
 
                                 const masonryDiv = document.getElementById('masonry');
-                                masonryDiv.innerHTML = `<h6 style="grid-column: span 2;">Scene (fotogrammi mediani)</h6>`;
+                                masonryDiv.innerHTML = `<h6 style="grid-column: 1/-1;">Scene (${item.scenes.length})</h6>`;
                                 item.scenes.forEach((v, i, a) => {
                                     v = v.toString().padStart(3, '0');
                                     const img = document.createElement('img');
@@ -421,10 +438,12 @@
 
                 document.getElementById('clear-input-brand').addEventListener('click', function () {
                     inputBrand.value = '';
+                    brandResultDiv.innerHTML = ''
                 });
 
                 document.getElementById('clear-input-product-type').addEventListener('click', function () {
                     inputProductType.value = '';
+                    productTypeResultDiv.innerHTML = '';
                 });
 
             });

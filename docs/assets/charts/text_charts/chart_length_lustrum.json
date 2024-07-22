@@ -19,10 +19,10 @@
     }
   },
   "data": {
-    "name": "data-f96c776b35b65432d5ba5454725b1ffd"
+    "name": "data-a595bf3a36c4e7d29e7188a3097f5d89"
   },
   "datasets": {
-    "data-f96c776b35b65432d5ba5454725b1ffd": [
+    "data-a595bf3a36c4e7d29e7188a3097f5d89": [
       {
         "Average Length": 45.515248796147674,
         "Period": "1980_1984"
@@ -32,7 +32,7 @@
         "Period": "1985_1989"
       },
       {
-        "Average Length": 41.056061332055585,
+        "Average Length": 41.053614169459074,
         "Period": "1990_1994"
       },
       {
@@ -40,7 +40,7 @@
         "Period": "1995_1999"
       },
       {
-        "Average Length": 39.252024291497975,
+        "Average Length": 39.18365287588295,
         "Period": "2000_2004"
       },
       {
@@ -66,13 +66,16 @@
       "value": "#F3CC94"
     },
     "x": {
+      "axis": {
+        "labelAngle": 0
+      },
       "field": "Period",
-      "title": "Lustro",
+      "title": null,
       "type": "nominal"
     },
     "y": {
       "field": "Average Length",
-      "title": "Lunghezza media delle trascrizioni",
+      "title": null,
       "type": "quantitative"
     }
   },
