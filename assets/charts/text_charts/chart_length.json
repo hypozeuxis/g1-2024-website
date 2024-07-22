@@ -2027,7 +2027,7 @@
           "2020_2024"
         ]
       },
-      "title": "Lustro",
+      "title": null,
       "type": "nominal"
     },
     "y": {
@@ -2038,7 +2038,7 @@
           115.0
         ]
       },
-      "title": "Lunghezza media delle trascrizioni per classe di Nizza",
+      "title": null,
       "type": "quantitative"
     }
   },
