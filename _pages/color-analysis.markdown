@@ -9,23 +9,24 @@ header_title: "Analisi del colore"
 vega: true
 ---
 
-## Titolo 2º livello
+A cura di Giorgio Bellante
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, lectus laoreet mattis maximus, enim orci
-vulputate risus, nec scelerisque lectus nulla sed ex. Nam ullamcorper cursus tellus, vel venenatis magna. Pellentesque
-felis dolor, egestas et auctor ut, tincidunt vel augue. Donec vitae mollis orci. Donec cursus lacus vel dui dignissim
-consectetur. Aliquam ultrices justo massa, id ultrices sapien aliquet eu. Mauris porta vehicula nulla a volutpat.
-Quisque bibendum elit et porttitor porta. Curabitur efficitur arcu eu enim iaculis consequat. Nunc ut nunc nec augue
-laoreet aliquam. Ut nec lacus sit amet sapien fringilla rhoncus a et mi.
+## Metodo
 
-Fusce at varius lectus. Suspendisse eu magna consectetur, lobortis justo non, viverra nisl. Vestibulum ultricies nibh
-lacus, vitae dictum augue bibendum vitae. Curabitur in urna accumsan, porta nulla non, vulputate sapien. Nam porttitor
-felis orci, quis interdum lectus cursus a. Suspendisse potenti. Curabitur fringilla magna sed tortor euismod porta sed
-ac elit. Mauris at pharetra ante. Sed at condimentum odio. Sed vulputate urna et justo efficitur, non tincidunt mi
-congue. Donec ultricies dolor in mauris pellentesque eleifend. In felis nunc, hendrerit hendrerit fringilla eget,
-posuere vitae nisl.
+Come raccogliere i colori da uno spot televisivo? Quanti raccoglierne? Come catalogarli in un dataset strutturato? A
+queste domande è stato risposto in questa maniera.
 
-Sed purus est, sollicitudin a commodo vitae, molestie non orci. Vivamus ac sagittis dolor. Sed fermentum, ipsum at
-sodales porta, turpis dui euismod arcu, id fringilla eros nunc vulputate justo. Mauris congue enim in orci maximus
-viverra. Ut dignissim interdum lacus, non posuere quam aliquet quis. Nam sodales nulla sed justo ullamcorper feugiat.
-Cras ipsum augue, cursus et gravida id, fermentum vel tellus.
+Lo spot è un video di durata breve, in genere di 30 secondi, spesso con numerosi tagli di montaggio che conferiscono
+dinamicità. L’idea iniziale è stata perciò quella di individuare questi tagli per poi dividere il video in **clip
+separate**.
+
+### Le scene
+
+A questo scopo è stata utilizzata la libreria Python **PySceneDetect**, uno strumento in grado rilevare i
+cambiamenti di ripresa nei video (sia bruschi, sia con dissolvenze basate su soglia) e dividere questo in clip separate,
+che sono state chiamate _scene_.
+
+L’individuazione delle scene è avvenuta utilizzando la funzione di PySceneDetect `detect`.
+Dopo svariati esperimenti, è stato individuaτο il miglior set di parametri che potesse essere adeguato per
+la grande maggioranza degli spot.
+
