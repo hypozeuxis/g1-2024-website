@@ -33,7 +33,9 @@ rispetto agli anni ’80.
 
 La nostra ricerca nasce dall'idea di indagare l'evoluzione della pubblicità televisiva andata in onda in Italia dagli anni ’80 a oggi. A tale scopo, abbiamo raccolto gli spot da un sito dedicato, _Spot80_, e 
 da diversi canali YouTube. I dati sono stati ordinati all'interno di un dataframe in base al loro id, al titolo, alla descrizione e all'anno di pubblicazione. 
-Successivamente, gli stessi sono stati arricchiti. Abbiamo, quindi, aggiunto la cosiddetta classe di Nizza e raggruppato gli spot in base ai lustri.
+Successivamente, gli stessi sono stati arricchiti. Basandoci sulla classificazione di Nizza, ovvero un sistema di categorizzazione internazionale per la registrazione di prodotti e servizi,
+abbiamo aggiunto a ciascuno spot la relativa classe. In aggiunta, essendo particolarmente complesso stabilire con certezza
+l'anno esatto di pubblicazione, abbiamo raggruppato gli spot in base ai lustri.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
 ## Evoluzione di musica 
