@@ -200,7 +200,7 @@ sup {
 }
 
 a {
-  color: #2B8FFD;
+  color: #FDB462;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2818,7 +2818,7 @@ fieldset:disabled #welcomments__container a.welcomments__comment-reply-link,
 
 .btn-link {
   font-weight: 400;
-  color: #2B8FFD;
+  color: #FDB462;
   text-decoration: none;
 }
 .btn-link:hover {
@@ -9574,7 +9574,7 @@ a.text-dark:hover, a.text-dark:focus {
   --cactus-border-color: #e9eaea;
   --cactus-button-color: #e9eaea;
   --cactus-text-color: #8b949e;
-  --cactus-text-color--soft: #58a6ff;
+  --cactus-text-color--soft: #FB8804;
 }
 
 /*!
@@ -10107,7 +10107,7 @@ a.chulapa-pill-bg-body:focus, a.chulapa-pill-bg-body.focus {
   border-top: 0;
 }
 .footer-chulapa a {
-  color: #58a6ff;
+  color: #FB8804;
   text-decoration: none;
   font-weight: 700;
 }
@@ -10118,7 +10118,7 @@ a.chulapa-pill-bg-body:focus, a.chulapa-pill-bg-body.focus {
   color: transparent;
 }
 .footer-chulapa .chulapa-footer-sociallink:hover, .footer-chulapa .chulapa-footer-sociallink:focus {
-  color: #58a6ff;
+  color: #FB8804;
 }
 .footer-chulapa .fa-stack:hover, .footer-chulapa .fa-stack:focus {
   color: #2e4259;
@@ -10891,7 +10891,7 @@ h6:hover .chulapa-header-link {
   font-weight: bold;
 }
 #ch-cusdis .underline:hover, #ch-cusdis .underline:focus {
-  color: #58a6ff;
+  color: #FB8804;
 }
 
 #welcomments__container {
@@ -10920,7 +10920,7 @@ h6:hover .chulapa-header-link {
   color: #fff;
 }
 #welcomments__container .welcomments__comment .welcomments__comment-message a:hover, #welcomments__container .welcomments__comment .welcomments__comment-message a:focus, #welcomments__container .welcomments__email-notice a:hover, #welcomments__container .welcomments__email-notice a:focus, #welcomments__container .welcomments__markdown-notice a:hover, #welcomments__container .welcomments__markdown-notice a:focus {
-  color: #58a6ff;
+  color: #FB8804;
 }
 #welcomments__container .welcomments__nesting-level-1 {
   border-color: #8b949e;

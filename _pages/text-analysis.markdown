@@ -2,14 +2,15 @@
 layout: home
 title: "Analisi del testo"
 # subtitle: ""
+show_sidetoc: true
 header_type: hero #base, post, hero,image, splash
 header_img: assets/images/hero/ghirigori.jpg
 header_title: "Analisi del testo"
 vega: true
 ---
+A cura di: Oltiana Asllani e Denise Botrini
 
-## Dettagli tecnici
-### Librerie utilizzate
+## Librerie utilizzate
 L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
 
 **Whisper** è un’architettura transformer (encoder-decoder) sequence-to-sequence che estrae feature dall’ audio da cui genera il testo. È sviluppato da OpenAI ed è stato addestrato su vari task di elaborazione vocale tra cui il riconoscimento vocale multilingue, la traduzione vocale e l’identificazione della lingua. È dotato di cinque diversi modelli con precisione crescente nella trascrizione ma con un costo computazionale più elevato. Abbiamo testato in particolare i modelli small, medium e large e abbiamo individuato nel modello medium il compromesso ottimale tra efficienza e accuratezza. 
@@ -23,7 +24,7 @@ Dopo aver ottenuto le trascrizioni per il dataset completo, è  stata effettuata
 Si è passati poi a una fase di controllo e pulizia per la rimozione delle trascrizioni nulle, di quelle con caratteri non latini e delle frasi con allucinazioni del modello. 
 In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del testo. 
 
-### Clusterizzazione delle Trascrizioni
+## Clusterizzazione delle Trascrizioni
 Come primo task abbiamo tentato di raggruppare gli spot in base alle trascrizioni, scegliendo il numero
 ideale di cluster secondo il cosiddetto metodo del 'gomito'. Il nostro intento era quello di trovare un numero di raggruppamenti 
 inferiore alle quarantacinque classi di Nizza.
@@ -95,12 +96,6 @@ Numero di parole per secondo
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
 
-Anche il numero di scene per secondo aumenta nel corso dei lustri, la pubblicità sembra adattarsi a una società sempre più dinamica.
-<p class="caption">
-Numero di scene per secondo
-</p>
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%"></vegachart> 
 Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta ma considerando anche la classe di Nizza. In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
 
 
@@ -117,7 +112,7 @@ Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni 
 'italiano'. Un simile aggettivo potrebbe essere emblematico della emergenza sanitaria dovuta al COVID.
 Oppure, spostando l'attenzione sulla classe di Nizza 5 e sul lustro 2020-2024, si può evidenziare la comparsa del sostantivo 'ciclo'.
 Questo topic diventa preponderante solo negli ultimi anni, in linea con i nuovi ideali e la maggiore sensibilità della società.
-Un confronto fra le diverse classi di Nizza e i lustri mette, però, in evidenza la presenza quasi costante dell'aggettivo
+Un confronto fra le diverse classi di Nizza e i lustri mette, però, in evidenza la presenza preponderante dell'aggettivo
 'nuovo'.
 
 <p class="caption">
@@ -129,19 +124,12 @@ Topic per lustro e classe di Nizza
 ### Anglicismi
 Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari. Dal grafico sembrerebbe emergere una tendenza altalenante fra periodi di apertura verso gli anglicismi, 
 seguiti da periodi di maggiore chiusura. Inoltre, si nota come a partire dagli anni 2000
-il numero di parole inglesi aumenti consistentemente, probabilmente anche per l'arrivo del canale MTV. 
+il numero di parole inglesi aumenti consistentemente rispetto al lustro precedente, probabilmente anche per l'arrivo del canale MTV. 
 Tuttavia, dal 2010 l'equilibrio cambia di nuovo, andando verso una diminuzione del numero di anglicismi per spot.
 
 <p class="caption">
 Numero di anglicismi per lustro
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
-
-### Conclusioni 
-
-In generale, dai nostri risultati, sembra che, nei primi anni 2000, per superare le difficoltà di un pubblico sempre meno attento e
-interessato, la pubblicità abbia optato per essere più corta e più dinamica. Infatti, risulta essere caratterizzata da una durata media ridotta e da un numero di parole piuttosto basso, 
-con un elevato numero di scene per secondo. Negli ultimi anni, però, il ritmo delle pubblicità sembra essere rallentato nuovamente. 
-L'adattamento della pubblicità alla società si nota anche nella scelta delle parole e dalla presenza di anglicismi.
 
 
