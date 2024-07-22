@@ -69,10 +69,10 @@ Il processo di _data cleaning and preparation_ ha avuto le seguenti fasi:
 - è stato effettuato il _crop_ dei video caricati in formati errati (modalità _pillar_ o _letter box_)
 
 <p class="caption">Video in formato <em>pillar box</em>, poi ripristinato</p>
-![Formato pillar box](assets/images/data/pillar-box.png)
+![Formato pillar box]({{site.baseurl}}/assets/images/data/pillar-box.png)
 
 <p class="caption">Video in formato <em>letter box</em>, poi ripristinato</p>
-![Formato letter box](assets/images/data/letter-box.png)
+![Formato letter box]({{site.baseurl}}/assets/images/data/letter-box.png)
 
 - Suddivisione in clip delle sequenze di spot
 - Eliminazione video estranei dalle sequenze (sigle, bumper, spot _inframe_)
@@ -81,7 +81,8 @@ Il processo di _data cleaning and preparation_ ha avuto le seguenti fasi:
 
 ### Data di messa in onda
 
-La data di messa in onda, `airing_date`, è stata estrapolata dal titolo o dalla descrizione mediante l’uso di espressioni
+La data di messa in onda, `airing_date`, è stata estrapolata dal titolo o dalla descrizione mediante l’uso di
+espressioni
 regolari e solo in rarissimi casi (meno di 10) questa era assente: in questi casi è stata fatta una ricerca sul web per
 recuperare la data più probabile.
 
