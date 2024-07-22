@@ -36,13 +36,15 @@ da diversi canali YouTube. I dati sono stati ordinati all'interno di un datafram
 Successivamente, gli stessi sono stati arricchiti. Abbiamo, quindi, aggiunto la cosiddetta classe di Nizza e raggruppato gli spot in base ai lustri.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
-## Evoluzione di musica e linguaggio
+## Evoluzione di musica 
 
 La pubblicità dimostra di sapersi adattare molto bene ai diversi equilibri della società e alle sue novità. Ad esempio, 
 si nota a partire dagli anni Ottanta fino a oggi una progressiva
 riduzione nell’utilizzo della musica classica e della musica elettronica a favore della musica pop che, ormai sempre più
 in voga grazie a MTV, diventa nell’ultimo decennio il genere caratterizzante per oltre la metà degli spot televisivi.
-Sulla scia di questa tendenza, si nota anche un progressivo aumento delle parole inglesi negli spot, dopo il calo registrato negli ultimi anni ’90. 
+
+## Evoluzione del linguaggio
+Sulla scia delle nuove tendenze portate in auge da MTV, si nota anche un progressivo aumento delle parole inglesi negli spot, dopo il calo registrato negli ultimi anni ’90. 
 Tuttavia, la rivendicazione della nostra italianità continua a manifestarsi attraverso una seconda e rapida diminuzione di queste negli ultimi quindici anni.
 
 <p class="caption">
