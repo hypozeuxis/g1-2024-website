@@ -6,5 +6,7 @@ vega: true
 lunr: true
 ---
 
+A cura di Giorgio Bellante
+
 {% include components/search.html %}
 

@@ -8,21 +8,7 @@ header_img: assets/images/hero/ghirigori.jpg
 header_title: "Analisi del testo"
 vega: true
 ---
-A cura di: Oltiana Asllani e Denise Botrini
-
-## Librerie utilizzate
-L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
-
-**Whisper** è un’architettura transformer (encoder-decoder) sequence-to-sequence che estrae feature dall’ audio da cui genera il testo. È sviluppato da OpenAI ed è stato addestrato su vari task di elaborazione vocale tra cui il riconoscimento vocale multilingue, la traduzione vocale e l’identificazione della lingua. È dotato di cinque diversi modelli con precisione crescente nella trascrizione ma con un costo computazionale più elevato. Abbiamo testato in particolare i modelli small, medium e large e abbiamo individuato nel modello medium il compromesso ottimale tra efficienza e accuratezza. 
-
-
-Uno dei problemi riscontrati è stato rappresentato dal fatto che Whisper può trascrivere erroneamente nomi propri non comuni come nomi di prodotti, aziende o persone. Il problema dell'errata trascrizione è stato risolto con l'aggiunta del parametro _initial_prompt_, che consente di fornire una lista di parole che verranno pronunciate, scritte con la giusta grafia. Come valore di questo parametro è stato quindi impostato il titolo dello spot televisivo e ciò ha permesso di ottenere una corretta trascrizione dei nomi dei prodotti commercializzati. 
-
-
-Il parametro di Whisper _average log probability_ è stato utilizzato come indicatore dell’accuratezza della trascrizione poiché indica una misura di confidenza delle previsioni del modello. Ha valore negativo e più il valore è prossimo allo zero, più la trascrizione dovrebbe essere corretta. 
-Dopo aver ottenuto le trascrizioni per il dataset completo, è  stata effettuata una seconda procedura di speech recognition per le pubblicità con _average log probability_ inferiore a -0,6 (circa 1200 spot). Questo valore era stato infatti  individuato come limite per poter considerare le trascrizioni come accurate. 
-Si è passati poi a una fase di controllo e pulizia per la rimozione delle trascrizioni nulle, di quelle con caratteri non latini e delle frasi con allucinazioni del modello. 
-In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del testo. 
+A cura di: Denise Botrini e Oltiana Asllani
 
 ## Clusterizzazione delle Trascrizioni
 Come primo task abbiamo tentato di raggruppare gli spot in base alle trascrizioni, scegliendo il numero
@@ -31,7 +17,7 @@ inferiore alle quarantacinque classi di Nizza.
 <p class="caption">
 Metodo del gomito
 </p>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/elbow_chart.json" style="width: 100%; height:640px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/elbow_chart.json" style="width: 100%; height:300px;"></vegachart>
 
 #### Interpretazione
 Osservando il grafico, si nota un significativo calo nella SSE inizialmente con l'aumento del numero di cluster, ma questo calo rallenta a un certo punto, creando una sorta di "gomito". In questo caso, il "gomito" appare chiaramente attorno al valore di 26 cluster. Questo punto rappresenta un buon compromesso tra la minimizzazione della SSE e l'evitare la sovrapartizione dei dati.
@@ -41,7 +27,7 @@ suggerendo che la qualità dei cluster può variare.
 <p class="caption">
 Rappresentazione della Clusterizzazione delle Trascrizioni degli Spot con il t-SNE
 </p>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/chart_cluster_text.json" style="width: 100%; height:640px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/chart_cluster_text.json" style="width: 100%; height:500px;"></vegachart>
 
 #### Interpretazione
 
@@ -60,15 +46,10 @@ Con 26 cluster, possiamo osservare una distribuzione abbastanza sparsa dei punti
  - Il numero ottimale di cluster, come indicato dal Metodo del gomito in questo esempio, è 26. Questa scelta bilancia efficacemente la riduzione degli errori e la qualità del clustering, fornendo una partizione ragionevole dei dati.
  - Il metodo di t-SNE fornisce una visione utile della struttura dei dati e dei risultati del clustering. Sebbene il numero di cluster scelto sia 26, è evidente che la qualità del clustering varia. Questo insight visivo è cruciale per comprendere meglio la distribuzione dei dati.
    Alcuni cluster sono ben definiti, mentre altri potrebbero richiedere ulteriori dati per migliorare la distinzione.
-  - In conclusione, purtroppo, questa metodologia non ha funzionato e abbiamo, quindi, deciso di utilizzare le Classi di Nizza.
+ - Tuttavia, nonostante l'uso di modelli avanzati e del clustering basato su k-means, non abbiamo ottenuto i risultati sperati a causa del bias presente nelle classi. Questo suggerisce che le Classi di Nizza non sono sufficientemente rappresentative e che potrebbero essere necessari ulteriori dati per migliorare i risultati del clustering.
+ - In conclusione, purtroppo, questa metodologia non ha funzionato come previsto, e abbiamo quindi deciso di utilizzare le Classi di Nizza. È importante considerare il bias nelle classi e l'importanza di dati adeguati per ottenere risultati di clustering più accurati.
 
----
-
-## Analisi delle trascrizioni
-
-Ottenute le trascrizioni, abbiamo proseguito con le analisi dei testi.
-
-### Analisi quantitative 
+## Analisi quantitative 
 La prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
 
@@ -96,7 +77,8 @@ Numero di parole per secondo
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
 
-Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta ma considerando anche la classe di Nizza. In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
+Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta 
+ma considerando anche la classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
 
 
 <p class="caption">
@@ -105,8 +87,9 @@ Lunghezza media delle trascrizioni per lustro e classe di Nizza
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length.json" style="width:100%"></vegachart>  
 
 
-### Topic
-Come ulteriore analisi, sono stati ricercati i cosiddetti 'topic' più rilevanti divisi, ancora una volta, per lustro e classe di Nizza. 
+## Topic
+Come ulteriore analisi, sono stati ricercati i cosiddetti 'topic' più rilevanti divisi, ancora una volta, 
+per lustro e classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). 
 Questa analisi permette di osservare l'eventuale insorgenza di parole chiave. 
 Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerge la parola 
 'italiano'. Un simile aggettivo potrebbe essere emblematico della emergenza sanitaria dovuta al COVID.
@@ -121,7 +104,7 @@ Topic per lustro e classe di Nizza
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_topic.json" style="width:100%"></vegachart>  
 
 
-### Anglicismi
+## Anglicismi
 Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari. Dal grafico sembrerebbe emergere una tendenza altalenante fra periodi di apertura verso gli anglicismi, 
 seguiti da periodi di maggiore chiusura. Inoltre, si nota come a partire dagli anni 2000
 il numero di parole inglesi aumenti consistentemente rispetto al lustro precedente, probabilmente anche per l'arrivo del canale MTV. 
