@@ -116,7 +116,7 @@ Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni 
 'italiano'. Un simile aggettivo potrebbe essere emblematico della emergenza sanitaria dovuta al COVID.
 Oppure, spostando l'attenzione sulla classe di Nizza 5 e sul lustro 2020-2024, si può evidenziare la comparsa del sostantivo 'ciclo'.
 Questo topic diventa preponderante solo negli ultimi anni, in linea con i nuovi ideali e la maggiore sensibilità della società.
-Un confronto fra le diverse classi di Nizza e i lustri mette, però, in evidenza la presenza quasi costante dell'aggettivo
+Un confronto fra le diverse classi di Nizza e i lustri mette, però, in evidenza la presenza preponderante dell'aggettivo
 'nuovo'.
 
 <p class="caption">
