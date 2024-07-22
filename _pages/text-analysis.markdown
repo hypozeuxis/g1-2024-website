@@ -48,8 +48,6 @@ Con 26 cluster, possiamo osservare una distribuzione abbastanza sparsa dei punti
    Alcuni cluster sono ben definiti, mentre altri potrebbero richiedere ulteriori dati per migliorare la distinzione.
   - In conclusione, purtroppo, questa metodologia non ha funzionato e abbiamo, quindi, deciso di utilizzare le Classi di Nizza.
 
----
-
 ### Analisi quantitative 
 La prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
