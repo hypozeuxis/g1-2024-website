@@ -27,6 +27,35 @@ cambiamenti di ripresa nei video (sia bruschi, sia con dissolvenze basate su sog
 che sono state chiamate _scene_.
 
 L’individuazione delle scene è avvenuta utilizzando la funzione di PySceneDetect `detect`.
-Dopo svariati esperimenti, è stato individuaτο il miglior set di parametri che potesse essere adeguato per
+Dopo svariati esperimenti, è stato individuato il miglior set di parametri che potesse essere adeguato per
 la grande maggioranza degli spot.
 
+Innanzitutto il taglio delle scene inizia 12 frame dopo l’inizio del video e termina 12 frame prima della fine. Questo
+è servito per eliminare possibili fotogrammi neri dovuti alla pausa tra uno spot e l’altro.
+
+<p class="caption">
+Esempio di video (Campari, 1990) con fotogrammi neri presenti all’inizio e alla fine
+</p>
+![Esempio di flusso video]({{site.baseurl}}/assets/images/color/video-stream.png)
+
+In qualità di `detector` delle scene è stato utilizzato `AdaptiveDetector()` al quale è stato applicato il parametro
+riguardante la durata minima delle scene (15 frame).
+
+Sulla base della rilevazione delle scene è stata poi effettuata la divisione del video in clip e da queste
+l’estrapolazione del **fotogramma mediano** (rappresentativo per la scena in cui si trova).
+
+<p class="caption">
+Il video è stato suddiviso in 13 scene di cui questi sono i fotogrammi mediani
+</p>
+![Le 13 scene del video]({{site.baseurl}}/assets/images/color/scenes.png)
+
+I dati ottenuti da questa prima procedura sono i seguenti:
+
+- `scene`
+    - il numero identificativo della scena
+- `scene_size`
+    - la lunghezza della scena, misurata in fotogrammi
+- `start_frame`
+    - il fotogramma di inizio
+- `end_frame`
+    - il fotogramma di fine
