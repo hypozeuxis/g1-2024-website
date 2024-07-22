@@ -8,8 +8,7 @@ header_title: "Analisi del testo"
 vega: true
 ---
 
-## Dettagli tecnici
-### Librerie utilizzate
+## Librerie utilizzate
 L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
 
 **Whisper** è un’architettura transformer (encoder-decoder) sequence-to-sequence che estrae feature dall’ audio da cui genera il testo. È sviluppato da OpenAI ed è stato addestrato su vari task di elaborazione vocale tra cui il riconoscimento vocale multilingue, la traduzione vocale e l’identificazione della lingua. È dotato di cinque diversi modelli con precisione crescente nella trascrizione ma con un costo computazionale più elevato. Abbiamo testato in particolare i modelli small, medium e large e abbiamo individuato nel modello medium il compromesso ottimale tra efficienza e accuratezza. 
@@ -23,7 +22,7 @@ Dopo aver ottenuto le trascrizioni per il dataset completo, è  stata effettuata
 Si è passati poi a una fase di controllo e pulizia per la rimozione delle trascrizioni nulle, di quelle con caratteri non latini e delle frasi con allucinazioni del modello. 
 In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del testo. 
 
-### Clusterizzazione delle Trascrizioni
+## Clusterizzazione delle Trascrizioni
 Come primo task abbiamo tentato di raggruppare gli spot in base alle trascrizioni, scegliendo il numero
 ideale di cluster secondo il cosiddetto metodo del 'gomito'. Il nostro intento era quello di trovare un numero di raggruppamenti 
 inferiore alle quarantacinque classi di Nizza.
@@ -95,7 +94,7 @@ Numero di parole per secondo
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
 
-Anche il numero di scene per secondo aumenta nel corso dei lustri, la pubblicità sembra adattarsi a una società sempre più dinamica.
+Anche il numero di scene per secondo aumenta nel corso dei lustri.
 <p class="caption">
 Numero di scene per secondo
 </p>
