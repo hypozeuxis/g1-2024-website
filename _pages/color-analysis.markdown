@@ -92,3 +92,55 @@ scena) sistemati in verticale dal basso verso l’alto. La loro altezza è propo
 scena. Ciascun rettangolo assume il colore che rappresenta.
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/campari.marimekko.json" style="width: 100%; height:400px;"></vegachart>
+
+{% include big-numbers-cards.html data="palette-processing" number="value" description="label" %}
+
+## Arricchimento colori
+
+Il processo di arricchimento colori è stato eseguito utilizzando due approcci distinti che prevede l’approssimazione
+a due scale di colore. Il primo metodo si basa sui _Color meanings_ di Jacob Olesen, che suddivide **550 colori in 11
+gruppi distinti**, fornendo una varietà cromatica ampiamente rappresentativa. Il secondo metodo impiega i **138 colori
+CSS3**, riconosciuti dagli standard web. Questi metodi consentono una classificazione significativa delle
+tonalità presenti nei video, rendendo possibile un’analisi dettagliata e comparativa dei colori utilizzati negli spot.
+
+<p class="caption">
+I 550 colori nominati
+</p>
+![550 colori]({{site.baseurl}}/assets/images/color/toyota-yaris-letter-box_.png)
+
+<p class="caption">
+CSS3 named colors
+</p>
+![CSS3 named colors]({{site.baseurl}}/assets/images/color/toyota-yaris-letter-box_.png)
+
+## Calcolo tf-idf
+
+Le palette di tutti gli spot sono state unite in unico grande dataset.
+
+Ogni colore è stato mappato con il colore CSS3 più vicino.
+
+Successivamente, è stato applicato il calcolo tf-idf per determinare il peso di ciascun colore CSS3 in relazione ai
+singoli spot e all’intero set di spot: ogni CSS3 color (_termine_) è stato pesato rispetto allo spot (_documento_) e
+rispetto alla totalità degli spot (_collezione di documenti_).
+
+> `tf * log10( N / df)`
+
+- `tf` è la frequenza del colore nello spot,
+- `N` è il numero totale di spot nella collezione,
+- `df` è il numero di spot in cui il colore appare.
+
+Questo approccio consente di stilare una classifica dei colori predominanti in ogni spot, tenendo conto della loro
+frequenza complessiva nel dataset. Tale metodo riduce l’importanza dei colori comuni (‘stopwords’), come il nero, spesso
+utilizzato per l’effetto letter box o pillar box, assegnando loro un peso minore. In questo modo, l’analisi diventa più
+precisa, evidenziando i colori davvero distintivi di ciascuno spot pubblicitario.
+
+<p class="caption">
+Toyota Yaris, 2006. Formato TV 4:3. Effetto 16:9
+</p>
+![Toyota Yaris, 2006]({{site.baseurl}}/assets/images/color/toyota-yaris-letter-box.png)
+
+
+<p class="caption">
+Sky Glass, 2023. Formato TV 16:9. Effetto 4:3
+</p>
+![Sky Glass, 2023]({{site.baseurl}}/assets/images/color/sky-glass-pillar-box.jpg)
