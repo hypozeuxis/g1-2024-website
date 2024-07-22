@@ -8,6 +8,7 @@ header_img: assets/images/hero/ghirigori.jpg
 header_title: "Analisi del testo"
 vega: true
 ---
+A cura di: Oltiana Asllani e Denise Botrini
 
 ## Librerie utilizzate
 L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
@@ -95,12 +96,6 @@ Numero di parole per secondo
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
 
-Anche il numero di scene per secondo aumenta nel corso dei lustri.
-<p class="caption">
-Numero di scene medio per secondo
-</p>
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%"></vegachart> 
 Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta ma considerando anche la classe di Nizza. In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
 
 
@@ -129,19 +124,12 @@ Topic per lustro e classe di Nizza
 ### Anglicismi
 Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari. Dal grafico sembrerebbe emergere una tendenza altalenante fra periodi di apertura verso gli anglicismi, 
 seguiti da periodi di maggiore chiusura. Inoltre, si nota come a partire dagli anni 2000
-il numero di parole inglesi aumenti consistentemente, probabilmente anche per l'arrivo del canale MTV. 
+il numero di parole inglesi aumenti consistentemente rispetto al lustro precedente, probabilmente anche per l'arrivo del canale MTV. 
 Tuttavia, dal 2010 l'equilibrio cambia di nuovo, andando verso una diminuzione del numero di anglicismi per spot.
 
 <p class="caption">
 Numero di anglicismi per lustro
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
-
-### Conclusioni 
-
-In generale, dai nostri risultati, sembra che, nei primi anni 2000, per superare le difficoltà di un pubblico sempre meno attento e
-interessato, la pubblicità abbia optato per essere più corta e più dinamica. Infatti, risulta essere caratterizzata da una durata media ridotta e da un numero di parole piuttosto basso, 
-con un elevato numero di scene per secondo. Negli ultimi anni, però, il ritmo delle pubblicità sembra essere rallentato nuovamente. 
-L'adattamento della pubblicità alla società si nota anche nella scelta delle parole e dalla presenza di anglicismi.
 
 
