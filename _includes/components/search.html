@@ -243,9 +243,9 @@
                 });
 
                 const inputBrand = document.getElementById('input-brand');
+                const brandResultDiv = document.getElementById('dropdown-brands');
 
                 const showDropdownBrandsResults = function (e) {
-                    const brandResultDiv = document.getElementById('dropdown-brands');
                     const query = this.value;
                     if (query === '' && e.type !== 'focus') {
                         brandResultDiv.innerHTML = '';
@@ -279,19 +279,26 @@
 
                 inputBrand.addEventListener('input', showDropdownBrandsResults);
                 inputBrand.addEventListener('focus', showDropdownBrandsResults);
+                inputBrand.addEventListener('blur', function (e) {
+                        const clickedElement = e.relatedTarget;
+                        if (clickedElement === null || !clickedElement.classList.contains('list-group-item-action')) {
+                            brandResultDiv.innerHTML = '';
+                        }
+                    }
+                );
 
 
                 const inputProductType = document.getElementById('input-product-type');
+                const productTypeResultDiv = document.getElementById('dropdown-product-types');
 
                 const showDropdownProductTypesResults = function (e) {
-                    const productTypeDiv = document.getElementById('dropdown-product-types');
                     const query = this.value;
                     if (query === '' && e.type !== 'focus') {
-                        productTypeDiv.innerHTML = '';
+                        productTypeResultDiv.innerHTML = '';
                         return;
                     }
                     const results = [...new Set(idx.search(getExactMatchingQuery(query, 'product_type', true)))];
-                    productTypeDiv.innerHTML = '';
+                    productTypeResultDiv.innerHTML = '';
 
                     if (results.length > 0) {
                         const uniqueItems = new Set();
@@ -309,9 +316,9 @@
                             tile.addEventListener('click', function (e) {
                                 inputProductType.value = item.product_type;
                                 uniqueItems.clear();
-                                productTypeDiv.innerHTML = '';
+                                productTypeResultDiv.innerHTML = '';
                             });
-                            productTypeDiv.append(tile);
+                            productTypeResultDiv.append(tile);
                         });
                     }
                 };
@@ -319,7 +326,13 @@
 
                 inputProductType.addEventListener('input', showDropdownProductTypesResults);
                 inputProductType.addEventListener('focus', showDropdownProductTypesResults);
-
+                inputProductType.addEventListener('blur', function (e) {
+                        const clickedElement = e.relatedTarget;
+                        if (clickedElement === null || !clickedElement.classList.contains('list-group-item-action')) {
+                            productTypeResultDiv.innerHTML = '';
+                        }
+                    }
+                );
 
                 document.getElementById('search-button').addEventListener('click', function () {
                     if (inputBrand.value === '' && inputProductType.value === '') {
@@ -425,10 +438,12 @@
 
                 document.getElementById('clear-input-brand').addEventListener('click', function () {
                     inputBrand.value = '';
+                    brandResultDiv.innerHTML = ''
                 });
 
                 document.getElementById('clear-input-product-type').addEventListener('click', function () {
                     inputProductType.value = '';
+                    productTypeResultDiv.innerHTML = '';
                 });
 
             });
