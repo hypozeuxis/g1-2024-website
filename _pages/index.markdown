@@ -31,7 +31,8 @@ sovraesposte e dal ritmo sempre più incalzante \[…\] gli spot degli anni 2000
 precedenti». Così commenta Michele Logrippo, fondatore del sito Spot80, quando gli chiediamo che cosa sia cambiato
 rispetto agli anni ’80.
 
-La nostra ricerca nasce dall'idea di indagare l'evoluzione della pubblicità televisiva andata in onda in Italia dagli anni ’80 a oggi. A tale scopo, abbiamo raccolto gli spot da un sito dedicato, _Spot80_, e 
+La nostra ricerca nasce dall'idea di indagare l'evoluzione della pubblicità televisiva andata in onda in Italia dagli anni ’80 a oggi. 
+A tale scopo, abbiamo raccolto gli spot dal sito sopra indicato, _Spot80_, e 
 da diversi canali YouTube. I dati sono stati ordinati all'interno di un dataframe in base al loro id, al titolo, alla descrizione e all'anno di pubblicazione. 
 Successivamente, gli stessi sono stati arricchiti. Basandoci sulla classificazione di Nizza, ovvero un sistema di categorizzazione internazionale per la registrazione di prodotti e servizi,
 abbiamo associato a ciascuno spot la relativa classe. In aggiunta, essendo particolarmente complesso stabilire con certezza
