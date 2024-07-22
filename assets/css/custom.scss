@@ -331,14 +331,18 @@ code {
   font-size: 0.75rem;
 }
 
-.navbar-nav {
+.navbar-chulapa .navbar-nav {
   .nav-item:last-child {
     background-color: $link-color;
     border-radius: 4px;
     padding-inline-start: 0.4em;
     padding-inline-end: 0.4em;
 
-    a {
+    &:hover, &:focus {
+      background-color: $footer-chulapa-hover-color !important;
+    }
+
+    a.nav-link {
       color: $body-bg !important;
       font-weight: 500 !important;
 

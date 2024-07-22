@@ -77,7 +77,6 @@ chulapa-skin:
     body-bg: '#313338'
     body-color: '#DBDEE1'
     link-color: '#FDB462'
-    link-hover-color: '#FB8804'
     footer-chulapa-hover-color: '#FB8804'
     # Typography
     font-family-base: "'Montserrat', 'Roboto' !important"
