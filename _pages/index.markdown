@@ -17,7 +17,7 @@ discreto successo, rivelandosi un efficace mezzo di comunicazione attraverso cui
 direttamente in contatto con i telespettatori. Non vi era tuttavia solo una dimensione economica, infatti ci possiamo
 ricordare di spot divertenti o di quelli più toccanti, che rimanevano impressi non per quello che vendevano, ma per le
 emozioni che ci facevano provare. Come dimenticare l’incontro sotto la pioggia fra un povero gattino smarrito e una
-dolce bambina nella pubblicità della Barilla? A chi non è mai capitato di ricordare i famosi 'pennelli Cinghiale'?
+dolce bambina nella pubblicità della Barilla? A chi non è mai capitato di ricordare i famosi 'Pennelli Cinghiale'?
 
 ## Da Carosello alla pubblicità moderna
 
