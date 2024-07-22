@@ -8,7 +8,7 @@ header_img: assets/images/hero/ghirigori.jpg
 header_title: "Analisi del testo"
 vega: true
 ---
-A cura di: Denise Botrini e Oltiana Asslani
+A cura di: Denise Botrini e Oltiana Asllani
 
 ## Clusterizzazione delle Trascrizioni
 Come primo task abbiamo tentato di raggruppare gli spot in base alle trascrizioni, scegliendo il numero
@@ -17,7 +17,7 @@ inferiore alle quarantacinque classi di Nizza.
 <p class="caption">
 Metodo del gomito
 </p>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/elbow_chart.json" style="width: 100%; height:640px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/elbow_chart.json" style="width: 100%; height:300px;"></vegachart>
 
 #### Interpretazione
 Osservando il grafico, si nota un significativo calo nella SSE inizialmente con l'aumento del numero di cluster, ma questo calo rallenta a un certo punto, creando una sorta di "gomito". In questo caso, il "gomito" appare chiaramente attorno al valore di 26 cluster. Questo punto rappresenta un buon compromesso tra la minimizzazione della SSE e l'evitare la sovrapartizione dei dati.
@@ -27,7 +27,7 @@ suggerendo che la qualità dei cluster può variare.
 <p class="caption">
 Rappresentazione della Clusterizzazione delle Trascrizioni degli Spot con il t-SNE
 </p>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/chart_cluster_text.json" style="width: 100%; height:640px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/chart_cluster_text.json" style="width: 100%; height:500px;"></vegachart>
 
 #### Interpretazione
 
@@ -46,8 +46,8 @@ Con 26 cluster, possiamo osservare una distribuzione abbastanza sparsa dei punti
  - Il numero ottimale di cluster, come indicato dal Metodo del gomito in questo esempio, è 26. Questa scelta bilancia efficacemente la riduzione degli errori e la qualità del clustering, fornendo una partizione ragionevole dei dati.
  - Il metodo di t-SNE fornisce una visione utile della struttura dei dati e dei risultati del clustering. Sebbene il numero di cluster scelto sia 26, è evidente che la qualità del clustering varia. Questo insight visivo è cruciale per comprendere meglio la distribuzione dei dati.
    Alcuni cluster sono ben definiti, mentre altri potrebbero richiedere ulteriori dati per migliorare la distinzione.
-  - In conclusione, purtroppo, questa metodologia non ha funzionato e abbiamo, quindi, deciso di utilizzare le Classi di Nizza.
-
+ - Tuttavia, nonostante l'uso di modelli avanzati e del clustering basato su k-means, non abbiamo ottenuto i risultati sperati a causa del bias presente nelle classi. Questo suggerisce che le Classi di Nizza non sono sufficientemente rappresentative e che potrebbero essere necessari ulteriori dati per migliorare i risultati del clustering.
+ - In conclusione, purtroppo, questa metodologia non ha funzionato come previsto, e abbiamo quindi deciso di utilizzare le Classi di Nizza. È importante considerare il bias nelle classi e l'importanza di dati adeguati per ottenere risultati di clustering più accurati.
 ### Analisi quantitative 
 La prima analisi si è concentrata sul misurare la lunghezza media per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 

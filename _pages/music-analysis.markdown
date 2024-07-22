@@ -196,6 +196,20 @@ Distribuzione del colore per Genere Musicale
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%"></vegachart>
 
 
+## Speech Recognition
+L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
+
+**Whisper** è un’architettura transformer (encoder-decoder) sequence-to-sequence che estrae feature dall’ audio da cui genera il testo. È sviluppato da OpenAI ed è stato addestrato su vari task di elaborazione vocale tra cui il riconoscimento vocale multilingue, la traduzione vocale e l’identificazione della lingua. È dotato di cinque diversi modelli con precisione crescente nella trascrizione ma con un costo computazionale più elevato. Abbiamo testato in particolare i modelli small, medium e large e abbiamo individuato nel modello medium il compromesso ottimale tra efficienza e accuratezza. 
+
+
+Uno dei problemi riscontrati è stato rappresentato dal fatto che Whisper può trascrivere erroneamente nomi propri non comuni come nomi di prodotti, aziende o persone. Il problema dell'errata trascrizione è stato risolto con l'aggiunta del parametro _initial_prompt_, che consente di fornire una lista di parole che verranno pronunciate, scritte con la giusta grafia. Come valore di questo parametro è stato quindi impostato il titolo dello spot televisivo e ciò ha permesso di ottenere una corretta trascrizione dei nomi dei prodotti commercializzati. 
+
+
+Il parametro di Whisper _average log probability_ è stato utilizzato come indicatore dell’accuratezza della trascrizione poiché indica una misura di confidenza delle previsioni del modello. Ha valore negativo e più il valore è prossimo allo zero, più la trascrizione dovrebbe essere corretta. 
+Dopo aver ottenuto le trascrizioni per il dataset completo, è  stata effettuata una seconda procedura di speech recognition per le pubblicità con _average log probability_ inferiore a -0,6 (circa 1200 spot). Questo valore era stato infatti  individuato come limite per poter considerare le trascrizioni come accurate. 
+Si è passati poi a una fase di controllo e pulizia per la rimozione delle trascrizioni nulle, di quelle con caratteri non latini e delle frasi con allucinazioni del modello. 
+In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del testo. 
+
 
 
 
