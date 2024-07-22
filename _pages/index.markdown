@@ -39,15 +39,12 @@ del tempo degli italiani con la garanzia del ‘senza interruzioni’.
 
 ## Evoluzione di musica e linguaggio
 
-Come si è adattata la pubblicità a questa nuova realtà? Quali soluzioni ha cercato di mettere in atto? Dalle analisi
-svolte dal nostro gruppo di ricerca sembra che, come prima strategia, ci sia stata una decisa riduzione della durata
-media degli spot iniziata proprio negli anni 2000, accompagnata da una diminuzione dei dialoghi al loro interno e da un
-aumento del numero di scene e di parole per secondo. Ma non è tutto. La pubblicità dimostra di sapersi adattare molto
-bene ai diversi equilibri della società. Ad esempio, si nota a partire dagli anni Ottanta fino a oggi una progressiva
+La pubblicità dimostra di sapersi adattare molto bene ai diversi equilibri della società e alle sue novità. Ad esempio, 
+si nota a partire dagli anni Ottanta fino a oggi una progressiva
 riduzione nell’utilizzo della musica classica e della musica elettronica a favore della musica pop che, ormai sempre più
 in voga grazie a MTV, diventa nell’ultimo decennio il genere caratterizzante per oltre la metà degli spot televisivi.
-Sulla scia di questa novità, si nota anche un progressivo aumento delle parole inglesi negli spot. Tuttavia, la
-rivendicazione della nostra italianità si manifesta con una rapida diminuzione di queste negli ultimi quindici anni.
+Sulla scia di questa tendenza, si nota anche un progressivo aumento delle parole inglesi negli spot, dopo il calo registrato negli ultimi anni '90. 
+Tuttavia, la rivendicazione della nostra italianità continua a manifestarsi attraverso una seconda e rapida diminuzione di queste negli ultimi quindici anni.
 
 Anche le semplici parole sembrano non essere mai casuali. «Assistiamo a un ribaltamento di ciò che la società considera
 scandaloso: negli anni Ottanta e Novanta erano facilmente concesse battutine sessuali e di genere, ma non si potevano
