@@ -66,13 +66,16 @@
       "value": "#F3CC94"
     },
     "x": {
+      "axis": {
+        "labelAngle": 0
+      },
       "field": "Class",
-      "title": "Lustro",
+      "title": null,
       "type": "nominal"
     },
     "y": {
       "field": "Word Count",
-      "title": "Numero di Anglicismi",
+      "title": null,
       "type": "quantitative"
     }
   },
