@@ -34,7 +34,7 @@ Innanzitutto il taglio delle scene inizia 12 frame dopo l’inizio del video e t
 è servito per eliminare possibili fotogrammi neri dovuti alla pausa tra uno spot e l’altro.
 
 <p class="caption">
-Esempio di video (Campari, 1990) con fotogrammi neri presenti all’inizio e alla fine
+Esempio di spot (Campari, 1990) con fotogrammi neri presenti all’inizio e alla fine
 </p>
 ![Esempio di flusso video]({{site.baseurl}}/assets/images/color/video-stream.png)
 
@@ -45,7 +45,7 @@ Sulla base della rilevazione delle scene è stata poi effettuata la divisione de
 l’estrapolazione del **fotogramma mediano** (rappresentativo per la scena in cui si trova).
 
 <p class="caption">
-Il video è stato suddiviso in 13 scene di cui questi sono i fotogrammi mediani
+Lo spot è stato suddiviso in 13 scene di cui questi sono i fotogrammi mediani
 </p>
 ![Le 13 scene del video]({{site.baseurl}}/assets/images/color/scenes.png)
 
@@ -56,6 +56,39 @@ I dati ottenuti da questa prima procedura sono i seguenti:
 - `scene_size`
     - la lunghezza della scena, misurata in fotogrammi
 - `start_frame`
-    - il fotogramma di inizio
+    - il numero del fotogramma di inizio
 - `end_frame`
-    - il fotogramma di fine
+    - il numero del fotogramma di fine
+
+Oltre a questi dati è stata salvata anche una miniatura del fotogramma di altezza pari a 180px.
+
+### La palette colori
+
+Da ogni fotogramma mediano è stata poi estrapolata una palette di 5 colori utilizzando la libreria Python `Pylette` che
+utilizza un algoritmo K-Means per la rilevazione dei colori predominanti di un’immagine.
+
+I dati ottenuti da questa seconda procedura sono una serie di 5 record relativi ai 5 colori estratti:
+
+- `hex_color`
+    - il colore in codice esadecimale
+- `frequency`
+    - la quantità normalizzata del colore
+- `hue`
+    - la componente _tonalità_ del colore
+- `lightness`
+    - la componente _luminosità_ del colore
+- `saturation`
+    - la componente _saturazione_ del colore
+
+Al termine di questa procedura per ciascuno spot è stato salvato un file con estensione `.pal.csv` contenente le
+feature summenzionate.
+
+Questa è la rappresentazione in un grafico _Marimekko_ della palette colori dello spot Campari.
+
+<p class="caption">
+Il grafico è composto da 13 colonne (una per scena) sistemate da sinistra verso destra secondo il loro ordine. La
+larghezza è proporzionale alla loro durata. Ogni colonna è poi composta da 5 rettangoli (uno per colore estratto dalla
+scena) sistemati in verticale dal basso verso l’alto. La loro altezza è proporzionale alla frequenza all’interno della
+scena. Ciascun rettangolo assume il colore che rappresenta.
+</p>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/campari.marimekko.json" style="width: 100%; height:400px;"></vegachart>
