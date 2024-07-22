@@ -55,8 +55,17 @@ scandaloso: negli anni Ottanta e Novanta erano facilmente concesse battutine ses
 assolutamente pronunciare determinate parole. Se ci pensate, oggi, è esattamente il contrario», continua Logrippo.
 Effettivamente, la nostra analisi dei testi mostra che nelle pubblicità sugli assorbenti, ad esempio, la parola ‘ciclo’
 inizia a essere usata con una frequenza piuttosto elevata solo dal 2020. Oppure, risulta emblematico il caso
-dell’aggettivo ‘italiano’ che, ancora dal 2020, compare fra le parole più frequenti negli spot di prodotti alimentari.
+dell’aggettivo ‘italiano’ che, dal 2015, compare timidamente fra le parole più frequenti negli spot di prodotti alimentari, 
+per poi rivelarsi il topic più rilevante a partire dal 2020.
 Il _Made in Italy_ sembra diventare un requisito fondamentale proprio in questi anni successivi alla pandemia mondiale.
+
+| **Prodotto**          | **Parola**     | **Lustro** |     **Rilevanza**     |
+|:----------------------|:--------------:|-----------:|:---------------------:|
+| Generi alimentari     |    italiano    |  2015-2019 |         4.34          |
+| Generi alimentari     |    italiano    |  2020-2024 |         13.39         |
+| Prodotti farmaceutici |     ciclo      |  2020-2024 |         8.43          |
+
+
 
 ## I colori
 
