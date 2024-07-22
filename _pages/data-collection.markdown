@@ -56,8 +56,6 @@ I dati sono stati sistemati in un dataframe con le seguenti proprietà:
 - `description`
     - la didascalia presente appena dopo il video (Spot 80)
     - la descrizione (non sempre presente) del video su YouTube
-- `airing_date`
-    - data di messa in onda, estrapolata dal titolo o dalla descrizione
 - `duration_in_seconds`
     - durata in secondi
 - `source`
@@ -81,6 +79,18 @@ Il processo di _data cleaning and preparation_ ha avuto le seguenti fasi:
 
 ## Data enrichment
 
+### Data di messa in onda
+
+La data di messa in onda, `airing_date`, è stata estrapolata dal titolo o dalla descrizione mediante l’uso di espressioni
+regolari e solo in rarissimi casi (meno di 10) questa era assente: in questi casi è stata fatta una ricerca sul web per
+recuperare la data più probabile.
+
+### Marchio
+
+Spesso la feature `title` (il titolo del video) funge da didascalia al video: oltre al nome del marchio, prodotto o
+servizio essa presenta altre parole di descrizione. Da questa feature sono stati estrapolati (in maniera
+semi-manuale) i nomi dei marchi e riportati nella colonna `brand`.
+
 ### Lustro
 
 La distribuzione degli spot negli anni non ha un andamento canonico: per alcuni periodi ad esempio gli spot sono molto
@@ -103,7 +113,7 @@ I valori della colonna `lustrum` seguono questo pattern:
 ...
 ```
 
-In questa maniera la distribuzione risulta più consistente e **il valore minimo di spot per lustro è 342** (2015-2019).
+In questa maniera la distribuzione risulta più consistente e **il valore minimo di spot per lustro è 342** (2015–2019).
 
 <p class="caption">Distribuzione degli spot nei lustri</p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/data_charts/commercial_distribution_per_lustrum.json" style="width: 100%; height:320px;"></vegachart>
@@ -113,12 +123,10 @@ In questa maniera la distribuzione risulta più consistente e **il valore minimo
 Con i dati in nostro possesso (titolo e descrizione), abbiamo tentato di clusterizzare gli spot in categorie, ma questo
 ha portato a scarsi risultati.
 
-Abbiamo così deciso di classificare gli spot in maniera manuale utilizzando
-la [Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza),
-
-> un elenco che descrive la natura di prodotti e servizi in termini generali, allo scopo
-> di classificare i marchi registrati in maniera univocamente riconosciuta ed accettata a livello internazionale.
-> (Wikipedia)
+Abbiamo così deciso di classificare gli spot in maniera manuale utilizzando la **Classificazione di Nizza**, un elenco
+di 45 classi che descrivono «la natura di prodotti e servizi in termini generali, allo scopo di classificare i marchi
+registrati in maniera univocamente riconosciuta ed accettata a livello
+internazionale» [(Wikipedia)](https://it.wikipedia.org/wiki/Classificazione_di_Nizza).
 
 <p class="caption">
 Distribuzione degli spot rispetto alle classi di Nizza
@@ -143,7 +151,10 @@ Notiamo come le 10 categorie di prodotti maggiormente pubblicizzati facciano par
 ### Tipi di prodotto
 
 Ciascuna classe di Nizza ha una serie di sotto-classi che identificano in maniera più precisa le categoria di un
-prodotto. Ciascuno spot è stato così ulteriormente etichettato manualmente con queste sotto-categorie.
+prodotto. Ciascuno spot è stato così ulteriormente etichettato manualmente con queste sotto-categorie, consultando il
+sito [TMclass](https://euipo.europa.eu/ec2/?lang=it).
+
+I valori unici per il tipo di prodotto sono risultati 150: in questo grafico ne mostriamo i primi 40.
 
 <p class="caption">
 Distribuzione degli spot rispetto ai tipi di prodotto
@@ -152,7 +163,7 @@ Distribuzione degli spot rispetto ai tipi di prodotto
 
 Notiamo come, grazie a questa nuova etichettatura, nella top 10 dei prodotti maggiormente pubblicizzati compaiano le
 _Bevande alcoliche (eccetto le birre)_ (classe di Nizza 33) e servizi di _Vendita al dettaglio ed all’ingrosso_ (classe
-di Nizza 35).
+35), mentre spariscono _Articoli di cartoleria_ (classe 16) e Giocattoli (28).
 
 | Tipo di prodotto                                                            | Classe di Nizza | Nº di spot | 
 |-----------------------------------------------------------------------------|----------------:|-----------:|
