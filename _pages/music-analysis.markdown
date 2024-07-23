@@ -180,12 +180,12 @@ mentre gli altri generi sono poco presenti. La musica pop tende poi a diminuire 
 a favorire la presenza degli altri generi musicali, in particolar modo background.
 
 <p class="caption">
-Distribuzione dei Generi in base alla Durata dello Spot
+Distribuzione dei Generi in base alla durata dello spot
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/genere_intervallo.json" style="width: 100%; height:400px"></vegachart>
 
-### Analisi del Colore in base al Genere Musicale
+### Analisi del colore in base al genere musicale
 
 Il colore associato al genere musicale presente nei video sembre sempre ben bilanciato. Il colore marrone infatti 
 è sempre il più presente seguito poi dal grigio e dal blu in quest'ordine. Tuttavia negli spot contenenti musica 
@@ -194,7 +194,7 @@ Eccezzione particolare sono i video contenenti musica rock, questi sono quelli p
 possiamo ntoare come il blue sia il colore più rappresentativo seguito da marrone, grigio e bianco con valori molto simili tra loro. 
 
 <p class="caption">
-Distribuzione del colore per Genere Musicale
+Distribuzione del colore per genere musicale
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%; height:400px"></vegachart>
