@@ -373,9 +373,23 @@ div:not(.vg-tooltip) table td, div:not(.vg-tooltip) table th {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  justify-content: center;
+  justify-content: left;
   justify-items: center;
   margin-top: 1rem;
+}
+.badge-container .card {
+  width: 100%;
+  padding: 1rem;
+}
+.badge-container .card .value {
+  color: #fdb462;
+  line-height: 1;
+}
+.badge-container .card .label {
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 1;
+  margin-bottom: 0.25em;
 }
 
 .comic-neue-regular {
