@@ -116,12 +116,12 @@ possa sembrare scontato infatti, la preponderanza di esseri umani è assoluta in
 La spiegazione di questo è banale, in quanto se la pubblicità si prefigge di influenzare il comportamento delle persone, è indubbio che
 vedere altre persone come protagoniste ottenga un maggior effetto. Osserviamo trend particolari se invece si prendono in
 considerazione altri elementi: analizzando le 10 categorie di oggetti più osservati, infatti, si nota come automobili e
-bottiglie (prevalentemente di alcolici) conquistino le prime posizioni, [osservando](entity-analysis.markdown#analisi-delle-classi-di-yolo) le prime dominare la classifica a
+bottiglie (prevalentemente di alcolici) conquistino le prime posizioni, [osservando](entity-analysis#analisi-delle-classi-di-yolo) le prime dominare la classifica a
 partire dagli anni 2000 fino a oggi. Altri oggetti degni di nota sono le sedie (osservabili in svariati contesti), le
 quali hanno avuto un progressivo aumento, arrivando a essere rappresentate con una frequenza sette volte più alta oggi,
 rispetto al loro esordio.
 
-Le analisi si sono inoltre concentrate sullo studio delle classi di [Nizza](entity-analysis.markdown#analisi-delle-classi-di-nizza)
+Le analisi si sono inoltre concentrate sullo studio delle classi di [Nizza](entity-analysis#analisi-delle-classi-di-nizza)
 , valutando la loro rappresentazione nel tempo:
 tra le classi più rappresentate si possono osservare la 12 (veicoli e apparecchi per il trasporto di persone o merci via terra, aria o acqua) e la 21 (piccoli utensili e apparecchi a mano per uso domestico e da cucina).
 Mostrare queste informazioni può essere utile per comprendere meglio l'evoluzione della pubblicità nel tempo, favorendo lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un pubblico più bisognoso di stimoli rapidi e nuovi; va inoltre considerata l'utilità che queste informazioni possono avere per coloro che desiderano ricoprire un ruolo competitivo nell'ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
