@@ -87,6 +87,9 @@
                                 <dt>Tipologia di prodotto</dt>
                                 <dd id="product-type"></dd>
 
+                                <dt>Classe di Nizza</dt>
+                                <dd id="nice-class"></dd>
+
                                 <dt>Durata</dt>
                                 <dd id="duration-in-seconds"></dd>
 
@@ -125,7 +128,6 @@
     }
 
     .grid-2x2 {
-        width: 67%;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(max(10rem, 100% / 2), 1fr));
     }
@@ -140,11 +142,36 @@
     }
 
     #masonry {
-        width: 33%;
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
         gap: 0.5rem;
         padding: 1rem;
+    }
+
+    #masonry div.thumb-container {
+        width: 100%;
+    }
+
+    @media (min-width: 360px) {
+        .grid-2x2 {
+            width: 67%;
+        }
+
+        #masonry {
+            width: 33%;
+            grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+        }
+    }
+
+    @media (min-width: 768px) {
+        #masonry {
+            grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+        }
+    }
+
+    @media (min-width: 1200px) {
+        #masonry {
+            grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+        }
     }
 
     dl {
@@ -152,13 +179,15 @@
     }
 
     dt {
-        font-weight: bold;
+        font-weight: normal;
         font-size: 0.875rem;
         line-height: 1.2;
         font-feature-settings: 'smcp', 'c2sc';
     }
 
     dd {
+        font-weight: bold;
+        font-size: 0.875rem;
         margin: 0 0 1rem 0;
         line-height: 1.2;
     }
@@ -175,7 +204,7 @@
         font-family: 'Space Mono', monospace !important;
         margin: 0 0 1rem 0;
         padding: 0;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 0.875rem;
         line-height: 1.2;
     }
@@ -363,6 +392,8 @@
                                 commercialTitle.innerText = `${item.title}`;
                                 const productType = document.getElementById('product-type');
                                 productType.innerText = `${item.product_type}`;
+                                const niceClass = document.getElementById('nice-class');
+                                niceClass.innerText = item.nice_class == -1 ? '—' : item.nice_class;
                                 const durationInSeconds = document.getElementById('duration-in-seconds');
                                 durationInSeconds.innerText = `${item.duration_in_seconds}″`;
                                 const source = document.getElementById('source');

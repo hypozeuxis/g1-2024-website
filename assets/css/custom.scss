@@ -308,21 +308,24 @@ body::after {
 }
 
 /* Vega charts */
+.vega-bindings {
+  width: max-content;
 
-.vega-bind {
-  font-size: 0.875em;
-  font-family: $font-family-monospace;
+  .vega-bind {
+    font-size: 0.875em;
+    font-family: $font-family-monospace;
 
-  label {
-    display: flex;
-    align-items: center;
+    label {
+      display: flex;
+      align-items: center;
 
-    .vega-bind-name {
-      margin-inline-end: 1em;
-    }
+      .vega-bind-name {
+        margin-inline-end: 1em;
+      }
 
-    input {
-      margin-inline-end: 0.5em;
+      input {
+        margin-inline-end: 0.5em;
+      }
     }
   }
 }

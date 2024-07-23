@@ -204,18 +204,21 @@ body::after {
 }
 
 /* Vega charts */
-.vega-bind {
+.vega-bindings {
+  width: max-content;
+}
+.vega-bindings .vega-bind {
   font-size: 0.875em;
   font-family: "Space Mono", monospace;
 }
-.vega-bind label {
+.vega-bindings .vega-bind label {
   display: flex;
   align-items: center;
 }
-.vega-bind label .vega-bind-name {
+.vega-bindings .vega-bind label .vega-bind-name {
   margin-inline-end: 1em;
 }
-.vega-bind label input {
+.vega-bindings .vega-bind label input {
   margin-inline-end: 0.5em;
 }
 

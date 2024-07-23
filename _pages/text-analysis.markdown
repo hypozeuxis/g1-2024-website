@@ -8,7 +8,7 @@ header_img: assets/images/hero/ghirigori.jpg
 header_title: "Analisi del testo"
 vega: true
 ---
-A cura di: Denise Botrini e Oltiana Asllani
+A cura di Denise Botrini e Oltiana Asllani
 
 ## Clusterizzazione delle trascrizioni
 Come primo task abbiamo tentato di raggruppare gli spot in base alle trascrizioni, scegliendo il numero

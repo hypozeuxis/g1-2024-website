@@ -32,26 +32,46 @@ precedenti». Così commenta Michele Logrippo, fondatore del sito _Spot80_, quan
 rispetto agli anni ’80.
 
 La nostra ricerca nasce dall’idea di indagare l’evoluzione della pubblicità televisiva andata in onda in Italia dagli
-anni ’80 a oggi.
+anni ’80 a oggi. Partendo dagli spunti di riflessione suggeriti da Logrippo durante l'intervista, abbiamo
+voluto ricercare gli elementi che caratterizzano la pubblicità degli anni 2000 e la differenziano dal passato.
 A tale scopo, abbiamo raccolto gli spot dal sito sopra indicato, _Spot80_, e
 da diversi canali YouTube. I dati sono stati ordinati all’interno di un dataset in base al loro id, al titolo, alla
 descrizione e all’anno di pubblicazione.
 Successivamente, gli stessi sono stati arricchiti. Basandoci sulla classificazione di Nizza, ovvero un sistema di
 categorizzazione internazionale per la registrazione di prodotti e servizi,
-abbiamo associato a ciascuno spot la relativa classe. In aggiunta, non avendo una distribuzione dei dati che riuscisse a coprire in
-maniera omogenea tutti gli anni della nostra ampia finestra temporale, abbiamo deciso di raggrupparli in base ai lustri. Tale scelta è
+abbiamo associato a ciascuno spot la relativa classe. In aggiunta, non avendo una distribuzione dei dati che riuscisse a
+coprire in
+maniera omogenea tutti gli anni della nostra ampia finestra temporale, abbiamo deciso di raggrupparli in base ai lustri.
+Tale scelta è
 risultata molto proficua, permettendoci di ottenere una distribuzione più consistente degli spot lungo l'asse temporale.
+Un ulteriore raggruppamento è stato fatto sulla durata degli spot. I nostri spot infatti avevano una durata che andava
+dai 3 ai 254 secondi, pertanto abbiamo deciso di suddividerli in intervalli. Le principali durate degli spot sono
+10, 15, 20, 30 e 35 secondi. Come riportato nel grafico sottostante è possibile notare come inizialmete la durata degli
+spot fosse tipicamente di 35 secondi, lunghezza che è andata man mano scemando nel tempo, facendo spazio a spot
+della durata di 30 e 15 secondi. Infine negli ultimi quindici anni c'è stata una durata degli spot della durata
+compresa tra i 18 e 27 secondi, accompagnata da una diminuzione degli spot di 30 secondi nel corso degli ultimi dieci
+anni.
+La scelta di utilizzare intervalli di tempo è dovuta al fatto che spesso gli spot avevano subito tagli non perfetti
+durante i ricaricamenti da parte degli utenti e potevano dunque differire di pochi secondi rispetto alla lunghezza
+degli spot orginali.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
+<p class="caption">
+Distribuzione della durata degli spot per lustro
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/intervalli_lustro.json" style="width: 100%; height:400px"></vegachart>
+
 ## Musica pop per spot popolari
-La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali 
+
+La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali
 principali per rendere il messaggio dello spot efficace e accattivante.  
-Analizzando l’[evoluzione temporale](music-analysis#analisi-temporale) della musica si osserva, a partire dagli anni 
-Ottanta fino a oggi, una progressiva riduzione nell’impiego della musica classica ed elettronica. 
-Il rock ha da sempre caratterizzato una frazione esigua degli spot mentre la musica di background ha un andamento 
-piuttosto costante, essendo presente in circa uno spot su dieci del nostro dataset. 
-Si nota anche come la musica pop aumenti progressivamente fino a diventare nell’ultimo decennio il genere 
-caratterizzante per oltre la metà degli spot televisivi. 
+Analizzando l’[evoluzione temporale](music-analysis#analisi-temporale) della musica si osserva, a partire dagli anni
+Ottanta fino a oggi, una progressiva riduzione nell’impiego della musica classica ed elettronica.
+Il rock ha da sempre caratterizzato una frazione esigua degli spot mentre la musica di background ha un andamento
+piuttosto costante, essendo presente in circa uno spot su dieci del nostro dataset.
+Si nota anche come la musica pop aumenti progressivamente fino a diventare nell’ultimo decennio il genere
+caratterizzante per oltre la metà degli spot televisivi.
 
 <p class="caption">
 Genere musicale per lustro
@@ -60,9 +80,8 @@ Genere musicale per lustro
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/lustrum_f_22.json" style="width: 100%"></vegachart>
 
 Il genere pop risulta, in tutto l'arco temporale considerato, la scelta
-predominante per diverse classi di [Nizza](music-analysis#analisi-per-classi-di-nizza) tra cui i prodotti farmaceutici, 
+predominante per diverse classi di [Nizza](music-analysis#analisi-per-classi-di-nizza) tra cui i prodotti farmaceutici,
 i giocattoli, i generi alimentari e i servizi di telecomunicazione.
-
 
 |     **Prodotto**      | **Percentuale di musica pop** |
 |:---------------------:|:-----------------------------:|
@@ -71,10 +90,9 @@ i giocattoli, i generi alimentari e i servizi di telecomunicazione.
 |   Generi alimentari   |              45%              |
 |   Telecomunicazioni   |              55%              |
 
-
-Per le pubblicità dei [veicoli](music-analysis#veicoli-12), in controtendenza con la diffusione del genere pop, 
-la musica elettronica sta tornando a essere la scelta più gettonata dopo aver raggiunto il minimo di occorrenze tra il 
-2005 e il 2009. In accordo con l'andamento generale, invece, la progressiva scomparsa della musica classica. 
+Per le pubblicità dei [veicoli](music-analysis#veicoli-12), in controtendenza con la diffusione del genere pop,
+la musica elettronica sta tornando a essere la scelta più gettonata dopo aver raggiunto il minimo di occorrenze tra il
+2005 e il 2009. In accordo con l'andamento generale, invece, la progressiva scomparsa della musica classica.
 
 <p class="caption">
 Genere musicale per lustro per le pubblicità dei veicoli
@@ -82,10 +100,11 @@ Genere musicale per lustro per le pubblicità dei veicoli
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice12_f_22.json" style="width: 100%"></vegachart>
 
-
 ## Parole, parole, parole...
+
 In questa sezione ci siamo concentrati sull'analizzare le trascrizioni estrapolate dai nostri dati.
-Sulla scia delle nuove tendenze portate in auge da MTV, si nota, in primo luogo, un progressivo aumento delle parole inglesi negli
+Sulla scia delle nuove tendenze portate in auge da MTV, si nota, in primo luogo, un progressivo aumento delle parole
+inglesi negli
 spot, dopo il calo registrato verso la fine degli anni ’90.
 Tuttavia, la rivendicazione della nostra italianità continua a manifestarsi attraverso una seconda e rapida diminuzione
 di queste negli ultimi quindici anni.
@@ -181,23 +200,28 @@ lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un p
 e nuovi; va inoltre considerata l’utilità che queste informazioni possono avere per coloro che desiderano ricoprire un
 ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
 
-## Addetti ai lavori o curiosi?
+## Conclusioni
 
-Il nostro progetto vuole diventare un utile strumento di supporto e di ricerca per un pubblico di esperti e di appassionati. 
-Più precisamente, fra i probabili interessati possono rientrare: professionisti della comunicazione, pubblicitari, sociologi, video-maker, 
-designer, ma anche i più curiosi. Il nostro strumento, infatti, può fornire una analisi scientifica della pubblicità e della sua evoluzione nel tempo per i più esperti, 
-supportandoli nella proposta di inserzioni compatibili con i programmi televisivi e migliorando l’efficacia delle campagne pubblicitarie;
-ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di indagare un elemento culturalmente 
-onnipresente da più prospettive.
+Il nostro progetto vuole diventare un utile strumento di supporto e di ricerca per un pubblico di esperti e di
+appassionati. Più precisamente, fra i probabili interessati possono rientrare: professionisti della comunicazione,
+pubblicitari, sociologi, video-maker, designer, ma anche i più curiosi. Il nostro strumento, infatti, può fornire una
+analisi della pubblicità e della sua evoluzione nel tempo per i più esperti, migliorando l’efficacia delle campagne
+pubblicitarie; ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di
+approfondire un tema facente parte della nostra cultura.
 
-A valle della nostra analisi, inoltre, è stato progettato un [prototipo di motore di ricerca](search) 
-che consente di consultare un dataset di spot pubblicitari per marchio e tipologia di prodotto, 
-in modo da poter velocizzare eventuali indagini mirate.
+A valle della nostra analisi, inoltre, è stato progettato un [prototipo di motore di ricerca](search)
+che consente di consultare un dataset di spot pubblicitari per marchio e tipologia di prodotto,
+in modo da poter accelerare eventuali indagini mirate.
 
 In generale, dalle nostre analisi, è emerso quanto la pubblicità sia un settore
-dinamico, continuamente al passo con i tempi e molto influenzato dalle 
-novità che si manifestano nella società. 
-I nostri risultati, infatti, sono caratterizzati da aspetti mutevoli e difficili da inquadrare.
-Va sicuramente sottolineato, però, che le nostre conclusioni rimangono parziali,
+dinamico e incostante. I nostri risultati, infatti, 
+sono contraddistinti da aspetti mutevoli e difficili da definire, e
+solo in rari casi siamo riusciti a individuare tendenze chiare e precise. 
+Eppure, non ci sentiamo di affermare di non aver raggiunto il nostro obiettivo.
+Seppur con delle difficoltà, studiando i diversi livelli di comunicazione abbiamo trovato, almeno in parte,
+elementi che distinguono la pubblicità contemporanea da quella passata. Sicuramente, la separazione fra
+ieri e oggi non è così netta come ci aspettavamo, o meglio, così non appare dalle nostre analisi.
+Tuttavia, non si può negare che ci sia un graduale cambiamento nel corso degli anni.
+Infine, è doveroso sottolineare che le nostre conclusioni rimangono parziali,
 pertanto non possono, e non vogliono, spiegare la totalità del fenomeno indagato. 
 
