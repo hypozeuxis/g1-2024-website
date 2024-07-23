@@ -211,6 +211,13 @@ Per k il valore ottimale è 7
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/k_choice_chart_saturation.json" style="width: 100%; height:200px;"></vegachart>
 
+Infine analizzando l'andamento degli 11 colori nel tempo è possibile notare come il marrone sia sempre tra
+le prime due posizioni in tutti i lustri. Questo a nostro avviso è dovuto principalmente al fatto che il marrone
+è il colore che viene associato alla carnagione delle persone, la cui presenza, come vederemo in seguito, è
+preponderante all'interno degli spot. Un altro colore largamente presente è il grigio, anche lui sempre nelle
+prime due posizioni ad eccezione dei lustri a
+cavallo del 2000. Gli altri due colori che si possono incontrare più spesso negli spot sono il blu e il bianco.
+
 <p class="caption">
 Andamento colori per lustro
 </p>

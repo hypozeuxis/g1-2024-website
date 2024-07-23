@@ -44,7 +44,23 @@ coprire in
 maniera omogenea tutti gli anni della nostra ampia finestra temporale, abbiamo deciso di raggrupparli in base ai lustri.
 Tale scelta è
 risultata molto proficua, permettendoci di ottenere una distribuzione più consistente degli spot lungo l'asse temporale.
+Un ulteriore raggruppamento è stato fatto sulla durata degli spot. I nostri spot infatti avevano una durata che andava
+dai 3 ai 254 secondi, pertanto abbiamo deciso di suddividerli in intervalli. Le principali durate degli spot sono
+10, 15, 20, 30 e 35 secondi. Come riportato nel grafico sottostante è possibile notare come inizialmete la durata degli
+spot fosse tipicamente di 35 secondi, lunghezza che è andata man mano scemando nel tempo, facendo spazio a spot
+della durata di 30 e 15 secondi. Infine negli ultimi quindici anni c'è stata una durata degli spot della durata
+compresa tra i 18 e 27 secondi, accompagnata da una diminuzione degli spot di 30 secondi nel corso degli ultimi dieci
+anni.
+La scelta di utilizzare intervalli di tempo è dovuta al fatto che spesso gli spot avevano subito tagli non perfetti
+durante i ricaricamenti da parte degli utenti e potevano dunque differire di pochi secondi rispetto alla lunghezza
+degli spot orginali.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
+
+<p class="caption">
+Distribuzione della durata degli spot per lustro
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/intervalli_lustro.json" style="width: 100%; height:400px"></vegachart>
 
 ## Musica pop per spot popolari
 
