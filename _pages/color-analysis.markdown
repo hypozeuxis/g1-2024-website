@@ -144,3 +144,29 @@ Toyota Yaris, 2006. Formato TV 4:3. Effetto 16:9
 Sky Glass, 2023. Formato TV 16:9. Effetto 4:3
 </p>
 ![Sky Glass, 2023]({{site.baseurl}}/assets/images/color/sky-glass-pillar-box.jpg)
+
+## Clustering
+
+Per il clustering è stato creato un dataset ad hoc, una riga per ogni spot.
+
+In ogni riga appaiono le 3 componenti _tonalità_, _luminosità_ e _saturazione_ per ognuno dei 5 colori dominanti, più
+il peso di quel colore calcolato con modalità tf-idf.
+
+### Tonalità
+
+Di questo dataset è stato fatto il clustering, con le sole componenti della tonalità, con metodo K-Means, scegliendo
+come valore ottimale k = 6.
+
+<p class="caption">
+Per k il valore ottimale è il 6
+</p>
+![Scelta del valore k]({{site.baseurl}}/assets/images/color/choice-of-k.png)
+
+Questi sono i centroidi risultanti. Dal grafico notiamo che i cluster A e D hanno tutti i valori delle componenti più o
+meno allineate, lasciando intendere che in A i colori tendono a essere caldi (tonalità che vanno dall’arancio, 0.1,
+al giallo, 0.15) mentre in D i colori tendono a essere freddi (tonalità che vanno dal ciano, 0.55, al blu, 0.58).
+
+<p class="caption">
+I centroidi nel parallel plot
+</p>
+![Centroidi]({{site.baseurl}}/assets/images/color/hue-centroids.png)
