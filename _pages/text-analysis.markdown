@@ -69,13 +69,20 @@ Durata media dei video per lustro
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/durata_media.json" style="width:100%"></vegachart> 
 
-Adattandosi a un ritmo sempre più incalzante, 
-il numero di parole per secondo aumenta a partire dal 2000, per poi diminuire negli ultimi cinque anni.
+Il numero di parole per secondo ha un andamento oscillante, con picchi
+verso l'alto e successive ricadute.
 <p class="caption">
 Numero di parole per secondo
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
+
+<p class="caption">
+Numero di scene per secondo
+</p>
+Tuttavia, il numero di scene medio per secondo cresce fino al 2019.
+
+ <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%"></vegachart> 
 
 Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta 
 ma considerando anche la classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
