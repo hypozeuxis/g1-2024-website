@@ -38,9 +38,9 @@ da diversi canali YouTube. I dati sono stati ordinati all’interno di un datase
 descrizione e all’anno di pubblicazione.
 Successivamente, gli stessi sono stati arricchiti. Basandoci sulla classificazione di Nizza, ovvero un sistema di
 categorizzazione internazionale per la registrazione di prodotti e servizi,
-abbiamo associato a ciascuno spot la relativa classe. In aggiunta, essendo particolarmente complesso stabilire con
-certezza
-l’anno esatto di pubblicazione, abbiamo raggruppato gli spot in base ai lustri.
+abbiamo associato a ciascuno spot la relativa classe. In aggiunta, non avendo una distribuzione dei dati che riuscisse a coprire in
+maniera omogenea tutti gli anni della nostra ampia finestra temporale, abbiamo deciso di raggrupparli in base ai lustri. Tale scelta è
+risultata molto proficua, permettendoci di ottenere una distribuzione più consistente degli spot lungo l'asse temporale.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
 ## Evoluzione di musica
