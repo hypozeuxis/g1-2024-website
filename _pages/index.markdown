@@ -145,7 +145,7 @@ onnipresente da più prospettive.
 
 A valle della nostra analisi, inoltre, è stato progettato un [prototipo di motore di ricerca](search) 
 che consente di consultare un dataset di spot pubblicitari per marchio e tipologia di prodotto, 
-in modo da poter velocizzare eventuali ricerche mirate.
+in modo da poter velocizzare eventuali indagini mirate.
 
 In generale, dalle nostre analisi, è emerso quanto la pubblicità sia un settore
 dinamico, continuamente al passo con i tempi e molto influenzato dalle 
