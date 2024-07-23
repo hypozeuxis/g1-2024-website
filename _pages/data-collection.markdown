@@ -9,6 +9,8 @@ header_title: "Raccolta dati"
 vega: true
 ---
 
+A cura di Giorgio Bellante e Denise Botrini
+
 ## Individuazione delle fonti
 
 Le nostre fonti per il recupero di spot televisivi andati in onda sulla TV italiana dal 1980 al 2024 sono state:
