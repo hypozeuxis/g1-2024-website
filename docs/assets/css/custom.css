@@ -256,6 +256,10 @@ code {
 }
 
 /* Links */
+a:hover {
+  color: #FB8804;
+}
+
 .footer-chulapa a {
   color: #fdb462;
 }
