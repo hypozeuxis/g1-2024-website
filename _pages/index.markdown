@@ -19,6 +19,8 @@ ricordare di spot divertenti o di quelli più toccanti, che rimanevano impressi 
 emozioni che ci facevano provare. Come dimenticare l’incontro sotto la pioggia fra un povero gattino smarrito e una
 dolce bambina nella pubblicità della Barilla? A chi non è mai capitato di ricordare i famosi ‘Pennelli Cinghiale’?
 
+> Screenshot da Barilla, Pennello Cinghiale
+
 ## Da Carosello alla pubblicità moderna
 
 In quegli anni la televisione passa da avere uno scopo pedagogico-didascalico tipico degli anni ’60 a quello di puro
@@ -153,7 +155,7 @@ Numero di parole per secondo
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%; height:400px;"></vegachart>
 
-## I colori
+## I colori della nostalgia
 
 Per quanto riguarda i colori si nota come questi siano passati dall’essere molto saturi e ad alto contrasto negli anni
 Ottanta e Novanta a esserlo invece meno dalla metà del 2000 in poi. Un motivo potrebbe essere quello tecnologico: la
@@ -161,6 +163,8 @@ trasmissione delle immagini da parte delle emittenti è passata da una tecnologi
 ad alterazione del segnale) a una digitale (in cui disturbo e alterazione non sussistono). Un altro motivo è poi dato
 dal mezzo di ricezione e di quello di registrazione che hanno ulteriormente contribuito a deteriorare qualità e colore
 dell’immagine.
+
+> Immagine Barilla 1985 (Fellini), uno spot Barilla 2024
 
 Ci teniamo a precisare che in ogni caso il nostro studio si focalizza proprio sui colori percepiti dall’utente finale
 attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui non abbiamo accesso).
@@ -170,7 +174,8 @@ attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui 
 Ulteriore aspetto che è stato preso in considerazione in queste analisi è stato _chi_ e _cosa_ effettivamente comparisse
 negli spot. Va infatti preso in considerazione anche chi sono i principali personaggi dei brevi sipari che ci fanno
 compagnia
-mentre guardiamo la televisione. Un elemento che spicca immediatamente è la pervasiva presenza delle [persone](entity-analysis#analisi-delle-classi-di-yolo): benché
+mentre guardiamo la televisione. Un elemento che spicca immediatamente è la pervasiva presenza
+delle [persone](entity-analysis#analisi-delle-classi-di-yolo): benché
 possa sembrare scontato infatti, la preponderanza di esseri umani è assoluta in ogni epoca analizzata.
 
 | Classe     | Occorrenze |
@@ -214,14 +219,24 @@ che consente di consultare un dataset di spot pubblicitari per marchio e tipolog
 in modo da poter accelerare eventuali indagini mirate.
 
 In generale, dalle nostre analisi, è emerso quanto la pubblicità sia un settore
-dinamico e incostante. I nostri risultati, infatti, 
+dinamico e incostante. I nostri risultati, infatti,
 sono contraddistinti da aspetti mutevoli e difficili da definire, e
-solo in rari casi siamo riusciti a individuare tendenze chiare e precise. 
+solo in rari casi siamo riusciti a individuare tendenze chiare e precise.
 Eppure, non ci sentiamo di affermare di non aver raggiunto il nostro obiettivo.
 Seppur con delle difficoltà, studiando i diversi livelli di comunicazione abbiamo trovato, almeno in parte,
 elementi che distinguono la pubblicità contemporanea da quella passata. Sicuramente, la separazione fra
 ieri e oggi non è così netta come ci aspettavamo, o meglio, così non appare dalle nostre analisi.
 Tuttavia, non si può negare che ci sia un graduale cambiamento nel corso degli anni.
 Infine, è doveroso sottolineare che le nostre conclusioni rimangono parziali,
-pertanto non possono, e non vogliono, spiegare la totalità del fenomeno indagato. 
+pertanto non possono, e non vogliono, spiegare la totalità del fenomeno indagato.
 
+## Next step
+
+Abbiamo analizzato spot estraendo indicatori che nel loro insieme descrivono il _mood_ di ciascun video.
+Questo tipo di analisi potrebbe essere esteso anche alle trasmissioni televisive (serie, varietà, film, talk show).
+
+In questa maniera, parallelamente, si avrebbero gli stessi indicatori anche per gli show e
+sarebbe quindi possibile calcolare l’affinità tra questi e gli spot che vanno a inserirsi in essi.
+
+Tale operazione permetterebbe alle concessionarie di pubblicità di avere un nuovo strumento per caratterizzare gli spazi
+pubblicitari da vendere.
