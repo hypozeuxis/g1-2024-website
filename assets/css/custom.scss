@@ -370,6 +370,10 @@ code {
 
 /* Links */
 
+a:hover {
+  color: $footer-chulapa-hover-color;
+}
+
 .footer-chulapa a {
   color: $link-color;
 }
