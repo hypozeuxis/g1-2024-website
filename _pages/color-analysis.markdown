@@ -113,6 +113,24 @@ CSS3 named colors
 </p>
 ![CSS3 named colors]({{site.baseurl}}/assets/images/color/toyota-yaris-letter-box_.png)
 
+### Ulteriore pulizia delle scene
+
+L’arricchimento colori ha permesso un’ulteriore pulizia delle palette: alcuni grafici marimekko presentavano la prima
+e/o l’ultima colonna colorate quasi interamente di nero.
+
+Questo era dovuto al fatto che, nonostante le dovute precauzioni, il nero di stacco da uno spot all’altro (evidentemente
+superiore ai 12 frame) sia rimasto nel computo delle scene.
+
+Per evitare di conservare questi dati inutili sono stati approssimati tutti i colori di tutte le palette ai nomi dei
+colori CSS3 (in questo modo tutte le sfumature del nero — tipiche degli stacchi — sarebbero state rimappate
+come `black`).
+
+Successivamente sarebbero stati eliminati i colori delle prime scene e delle ultime solo se queste avessero avuto una
+quantità di `black` strettamente superiore al 90%.
+
+Questo è uno dei motivi per cui, passando con il mouse sopra la prima colonna di alcuni marimekko, nel tooltip appare il
+valore `2` per l’etichetta `Scena`.
+
 ## Calcolo tf-idf
 
 Le palette di tutti gli spot sono state unite in unico grande dataset.
@@ -144,3 +162,46 @@ Toyota Yaris, 2006. Formato TV 4:3. Effetto 16:9
 Sky Glass, 2023. Formato TV 16:9. Effetto 4:3
 </p>
 ![Sky Glass, 2023]({{site.baseurl}}/assets/images/color/sky-glass-pillar-box.jpg)
+
+## Clustering
+
+Per il clustering è stato creato un dataset ad hoc, una riga per ogni spot.
+
+In ogni riga appaiono le 3 componenti _tonalità_, _luminosità_ e _saturazione_ per ognuno dei 5 colori dominanti, più
+il peso di quel colore calcolato con modalità tf-idf.
+
+### Tonalità
+
+Di questo dataset è stato fatto il clustering, con le sole componenti della tonalità, con metodo K-Means, scegliendo
+come valore ottimale k = 6.
+
+<p class="caption">
+Per k il valore ottimale è 6
+</p>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/k_choice_chart_hue.json" style="width: 100%; height:200px;"></vegachart>
+
+Questi sono i centroidi risultanti. Dal grafico notiamo che i cluster A e D hanno tutti i valori delle componenti più o
+meno allineate, lasciando intendere che in A i colori tendono a essere caldi (tonalità che vanno dall’arancio, 0.1,
+al giallo, 0.15) mentre in D i colori tendono a essere freddi (tonalità che vanno dal ciano, 0.55, al blu, 0.58).
+
+<p class="caption">
+I centroidi nel parallel plot
+</p>
+![Centroidi]({{site.baseurl}}/assets/images/color/hue-centroids.png)
+
+### Saturazione
+
+Successivamente è stato fatto il clustering con le sole componenti della **saturazione**, con metodo K-Means, scegliendo
+come valore ottimale k = 7.
+
+<p class="caption">
+Per k il valore ottimale è 7
+</p>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/k_choice_chart_saturation.json" style="width: 100%; height:200px;"></vegachart>
+
+<p class="caption">
+Andamento colori per lustro
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/colori_lustro.json" style="width: 100%; height:400px;"></vegachart>
+

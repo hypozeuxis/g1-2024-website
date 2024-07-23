@@ -33,7 +33,7 @@ I video reperibili in rete erano suddivisi in
 Nel caso delle sequenze, è stato anche selezionato il timecode presente nella loro descrizione:
 questo è stato utile successivamente per la suddivisione in spot singoli.
 
-## Dati grezzi
+## Dati raw
 
 Le librerie principalmente utilizzate per la raccolta dei dati sono state:
 

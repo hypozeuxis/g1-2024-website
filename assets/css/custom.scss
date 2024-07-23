@@ -301,7 +301,7 @@ body::after {
 /* Caption */
 .caption {
   font-family: $font-family-monospace;
-  font-weight: bold;
+  font-weight: normal;
   padding: 0;
   margin: 3em 0 1em 0;
   font-size: 0.875em;
@@ -369,6 +369,10 @@ code {
 }
 
 /* Links */
+
+a:hover {
+  color: $footer-chulapa-hover-color;
+}
 
 .footer-chulapa a {
   color: $link-color;

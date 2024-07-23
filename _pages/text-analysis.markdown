@@ -10,7 +10,7 @@ vega: true
 ---
 A cura di: Denise Botrini e Oltiana Asllani
 
-## Clusterizzazione delle Trascrizioni
+## Clusterizzazione delle trascrizioni
 Come primo task abbiamo tentato di raggruppare gli spot in base alle trascrizioni, scegliendo il numero
 ideale di cluster secondo il cosiddetto metodo del 'gomito'. Il nostro intento era quello di trovare un numero di raggruppamenti 
 inferiore alle quarantacinque classi di Nizza.
@@ -50,7 +50,8 @@ Con 26 cluster, possiamo osservare una distribuzione abbastanza sparsa dei punti
  - In conclusione, purtroppo, questa metodologia non ha funzionato come previsto, e abbiamo quindi deciso di utilizzare le Classi di Nizza. È importante considerare il bias nelle classi e l'importanza di dati adeguati per ottenere risultati di clustering più accurati.
 
 ## Analisi quantitative 
-La prima analisi si è concentrata sul misurare la lunghezza media per lustro.
+La prima analisi si è concentrata sul misurare la lunghezza media delle trascrizioni
+per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
 
 <p class="caption">
@@ -59,27 +60,18 @@ Lunghezza media delle trascrizioni per lustro
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length_lustrum.json" style="width:100%"></vegachart> 
 
-Le analisi sulla durata media degli spot confermano questo andamento. 
-Anche in questo caso, infatti, si riscontra una riduzione della durata 
-che coinvolge lo stesso decennio.
+Questo andamento trova riscontro nei risultati ottenuti calcolando la durata media
+degli spot per lustro. Anche in questo caso, come si può vedere, 
+si riscontra una riduzione della durata dei video che coinvolge lo stesso decennio.
 
 <p class="caption">
 Durata media dei video per lustro
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/durata_media.json" style="width:100%"></vegachart> 
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/durata_media.json" style="width:100%;height:400px;"></vegachart>
 
-Adattandosi a un ritmo sempre più incalzante, 
-il numero di parole per secondo aumenta a partire dal 2000, per poi diminuire negli ultimi cinque anni.
-<p class="caption">
-Numero di parole per secondo
-</p>
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%"></vegachart> 
-
-Successivamente, la analisi sulla durata media delle trascrizioni è stata ripetuta 
-ma considerando anche la classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
-
+Le analisi, poi, sono state ripetute considerando anche la classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). 
+In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.
 
 <p class="caption">
 Lunghezza media delle trascrizioni per lustro e classe di Nizza
@@ -88,15 +80,15 @@ Lunghezza media delle trascrizioni per lustro e classe di Nizza
 
 
 ## Topic
-Come ulteriore analisi, sono stati ricercati i cosiddetti 'topic' più rilevanti divisi, ancora una volta, 
+Come terzo task, sono stati ricercati i topic più rilevanti, ancora una volta, 
 per lustro e classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). 
 Questa analisi permette di osservare l'eventuale insorgenza di parole chiave. 
-Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerge la parola 
-'italiano'. Un simile aggettivo potrebbe essere emblematico della emergenza sanitaria dovuta al COVID.
-Oppure, spostando l'attenzione sulla classe di Nizza 5 e sul lustro 2020-2024, si può evidenziare la comparsa del sostantivo 'ciclo'.
-Questo topic diventa preponderante solo negli ultimi anni, in linea con i nuovi ideali e la maggiore sensibilità della società.
-Un confronto fra le diverse classi di Nizza e i lustri mette, però, in evidenza la presenza preponderante dell'aggettivo
-'nuovo'.
+Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerga la parola 
+'italiano'.
+Oppure, spostando l'attenzione sulla classe di Nizza 5 e sul lustro 2020-2024, si può evidenziare la comparsa della parola 'ciclo'.
+La presenza di questo sostantivo si rileva solo nell'ultimo lustro.
+Non manca, però, una sorta di costante: un confronto fra le diverse classi di Nizza e i lustri mette in evidenza la presenza preponderante dell'aggettivo
+'nuovo' nella maggior parte degli spot.
 
 <p class="caption">
 Topic per lustro e classe di Nizza
@@ -105,14 +97,14 @@ Topic per lustro e classe di Nizza
 
 
 ## Anglicismi
-Infine, l'attenzione è stata rivolta all'eventuale presenza di anglicismi presenti negli spot pubblicitari. Dal grafico sembrerebbe emergere una tendenza altalenante fra periodi di apertura verso gli anglicismi, 
+Infine, l'attenzione è stata rivolta all'eventuale presenza di parole inglesi negli spot pubblicitari. Dal grafico sembrerebbe emergere una tendenza altalenante fra periodi di apertura verso gli anglicismi, 
 seguiti da periodi di maggiore chiusura. Inoltre, si nota come a partire dagli anni 2000
-il numero di parole inglesi aumenti consistentemente rispetto al lustro precedente, probabilmente anche per l'arrivo del canale MTV. 
-Tuttavia, dal 2010 l'equilibrio cambia di nuovo, andando verso una diminuzione del numero di anglicismi per spot.
+il numero di parole inglesi aumenti consistentemente rispetto al lustro precedente. 
+Tuttavia, dal 2010 l'equilibrio cambia di nuovo, andando verso una seconda 
+diminuzione della loro presenza per spot.
 
 <p class="caption">
 Numero di anglicismi per lustro
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_angl_lustrum.json" style="width:100%"></vegachart> 
-
 
