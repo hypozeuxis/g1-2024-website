@@ -181,18 +181,18 @@ lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un p
 e nuovi; va inoltre considerata l’utilità che queste informazioni possono avere per coloro che desiderano ricoprire un
 ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
 
-## Addetti ai lavori o curiosi?
+## Conclusioni
 
 Il nostro progetto vuole diventare un utile strumento di supporto e di ricerca per un pubblico di esperti e di appassionati. 
 Più precisamente, fra i probabili interessati possono rientrare: professionisti della comunicazione, pubblicitari, sociologi, video-maker, 
-designer, ma anche i più curiosi. Il nostro strumento, infatti, può fornire una analisi scientifica della pubblicità e della sua evoluzione nel tempo per i più esperti, 
-supportandoli nella proposta di inserzioni compatibili con i programmi televisivi e migliorando l’efficacia delle campagne pubblicitarie;
-ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di indagare un elemento culturalmente 
-onnipresente da più prospettive.
+designer, ma anche i più curiosi. Il nostro strumento, infatti, può fornire una analisi della pubblicità e della sua evoluzione nel tempo per i più esperti, 
+migliorando l’efficacia delle campagne pubblicitarie;
+ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di approfondire un tema facente parte della nostra cultura. 
+.
 
 A valle della nostra analisi, inoltre, è stato progettato un [prototipo di motore di ricerca](search) 
 che consente di consultare un dataset di spot pubblicitari per marchio e tipologia di prodotto, 
-in modo da poter velocizzare eventuali indagini mirate.
+in modo da poter accelerare eventuali indagini mirate.
 
 In generale, dalle nostre analisi, è emerso quanto la pubblicità sia un settore
 dinamico, continuamente al passo con i tempi e molto influenzato dalle 
