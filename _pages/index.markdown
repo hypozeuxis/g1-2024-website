@@ -45,7 +45,7 @@ Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo
 
 ## Evoluzione di musica
 
-## Evoluzione del linguaggio
+## Parole, parole, parole...
 In questa sezione ci siamo concentrati sull'analizzare le trascrizioni estrapolate dai nostri dati.
 Sulla scia delle nuove tendenze portate in auge da MTV, si nota, in primo luogo, un progressivo aumento delle parole inglesi negli
 spot, dopo il calo registrato negli ultimi anni ’90.
@@ -134,7 +134,7 @@ lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un p
 e nuovi; va inoltre considerata l’utilità che queste informazioni possono avere per coloro che desiderano ricoprire un
 ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
 
-## Uno strumento per addetti ai lavori
+## Addetti ai lavori o curiosi?
 
 Il nostro progetto vuole diventare un utile strumento di supporto e di ricerca per un pubblico di esperti e di appassionati. 
 Più precisamente, fra i probabili interessati possono rientrare: esperti di comunicazione, pubblicitari, sociologi, video-maker, 
