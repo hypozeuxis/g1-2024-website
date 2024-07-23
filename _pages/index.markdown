@@ -170,23 +170,23 @@ attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui 
 Ulteriore aspetto che è stato preso in considerazione in queste analisi è stato _chi_ e _cosa_ effettivamente comparisse
 negli spot. Va infatti preso in considerazione anche chi sono i principali personaggi dei brevi sipari che ci fanno
 compagnia
-mentre guardiamo la televisione. Un elemento che spicca immediatamente è la pervasiva presenza delle persone: benché
+mentre guardiamo la televisione. Un elemento che spicca immediatamente è la pervasiva presenza delle [persone](entity-analysis#analisi-delle-classi-di-yolo): benché
 possa sembrare scontato infatti, la preponderanza di esseri umani è assoluta in ogni epoca analizzata.
 
 | Classe     | Occorrenze |
 |------------|------------|
-| persona    | 3845       |
-| automobile | 762        |
-| bottiglia  | 758        |
-| tazza      | 565        |
-| cravatta   | 534        |
+| persona    | 8264       |
+| macchina   | 1174       |
+| automobile | 1102       |
+| cravatta   | 791        |
+| tazza      | 753        |
 
 La spiegazione di questo è banale, in quanto se la pubblicità si prefigge di influenzare il comportamento delle persone,
 è indubbio che
 vedere altre persone come protagoniste ottenga un maggior effetto. Osserviamo trend particolari se invece si prendono in
 considerazione altri elementi: analizzando le 10 categorie di oggetti più osservati, infatti, si nota come automobili e
 bottiglie (prevalentemente di alcolici) conquistino le prime
-posizioni, [osservando](entity-analysis#analisi-delle-classi-di-yolo) le prime dominare la classifica a
+posizioni, osservando le prime dominare la classifica a
 partire dagli anni 2000 fino a oggi. Altri oggetti degni di nota sono le sedie (osservabili in svariati contesti), le
 quali hanno avuto un progressivo aumento, arrivando a essere rappresentate con una frequenza sette volte più alta oggi,
 rispetto al loro esordio.
@@ -198,7 +198,7 @@ terra, aria o acqua) e la 21 (piccoli utensili e apparecchi a mano per uso domes
 Mostrare queste informazioni può essere utile per comprendere meglio l’evoluzione della pubblicità nel tempo, favorendo
 lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un pubblico più bisognoso di stimoli rapidi
 e nuovi; va inoltre considerata l’utilità che queste informazioni possono avere per coloro che desiderano ricoprire un
-ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
+ruolo creativo nell’ambito pubblicitario.
 
 ## Conclusioni
 

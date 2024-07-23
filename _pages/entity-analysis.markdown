@@ -101,7 +101,7 @@ YOLO è un framework di intelligenza artificiale che permette di svolgere varie 
 Numero di occorrenze totali delle 50 classi più rappresentate
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/class_distribution_lustrum.json" style="width:100%;height:600px;"></vegachart>  
+<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/class_distribution_lustrum2.json" style="width:100%;height:600px;"></vegachart>  
 
 
 
@@ -116,7 +116,7 @@ Per comprendere l'andamento dell'utilizzo di certe classi nei lustri di tempo, s
 Frequenze di ciascuna classe rispetto al numero di video, distribuite nel tempo
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_classes_evolution_lustrum.json" style="width:100%;height:400px;"></vegachart>  
+<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_classes_evolution_lustrum2.json" style="width:100%;height:400px;"></vegachart>  
 
 
 
@@ -131,13 +131,12 @@ Le stesse categorizzazioni precedentemente analizzate sono state trasformate in 
 Frequenze di ciascuna classe di Nizza rispetto al numero di video, distribuite nel tempo
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_Nizza_evolution_lustrum.json" style="width:100%;height:600px;"></vegachart>  
+<vegachart schema-url="{{site.baseurl}}/assets/charts/entity_charts/top_Nizza_evolution_lustrum2.json" style="width:100%;height:600px;"></vegachart>  
 
 
-_Anche in queste analisi la categoria "persona" non è stata inclusa, in quanto sovra rappresentata. Nell'immagine si osserva come la classe di Nizza 21 (piccoli utensili e apparecchi a mano per uso domestico e da cucina) abbia avuto un'impennata di rappresentazioni all'interno della pubblicità a partire dal lustro 2005-2009, arrivando a essere la più rappresentata per tutto il restante periodo preso in esame. Si osserva inoltre una generale superiorità rappresentativa per quanto riguarda la classe 12 (veicoli e apparecchi per il trasporto di persone o merci via terra, aria o acqua), così come anche un progressivo aumento della classe 20 (mobili e loro parti) partendo dal lustro 1995-1999._
+_Anche in queste analisi la categoria "persona" non è stata inclusa, in quanto sovra rappresentata. Nell'immagine si osserva come la classe di Nizza 21 (piccoli utensili e apparecchi a mano per uso domestico e da cucina) abbia avuto un'impennata di rappresentazioni all'interno della pubblicità a partire dal lustro 2010-2014, rimanendo comunque la più rappresentata per tutto il restante periodo preso in esame. Si osserva inoltre una generale superiorità rappresentativa per quanto riguarda la classe 12 (veicoli e apparecchi per il trasporto di persone o merci via terra, aria o acqua), così come anche un progressivo aumento della classe 20 (mobili e loro parti) partendo dal lustro 2005-2009._
 
 ## Conclusioni
-Questi risultati appaiono mutevoli a seconda di quale classificazione si usa (quella di YOLO piuttosto che quella di Nizza), ma sono comunque accomunati da una tendenza: la rappresentazione di elementi inerenti ai veicoli e al quotidiano ha riscontrato un aumento significativo partendo dagli anni 2000, assestandosi come più rappresentati nelle pubblicità italiane.
-Questo genere di conoscenza è utile considerando la necessità che ha la pubblicità di adattarsi a un mercato sempre più esigente (sono sempre più infatti le fonti pubblicitarie alle quali il pubblico viene esposto).
-
+Questi risultati appaiono mutevoli a seconda di quale classificazione si usa (quella di YOLO piuttosto che quella di Nizza), ma sono comunque accomunati da una tendenza: la rappresentazione di elementi inerenti ai veicoli e al quotidiano ha riscontrato un aumento significativo partendo dai primi anni del 2000, assestandosi come più rappresentati nelle pubblicità italiane.
+Questo genere di conoscenza può essere utile per eventuali scopi creativi in ambito pubblicitario, nei quali ci si vuole ispirare al passato, per creare qualcosa di nuovo nel futuro. 
 
