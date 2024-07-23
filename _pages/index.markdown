@@ -135,43 +135,21 @@ ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una conc
 
 ## Uno strumento per addetti ai lavori
 
-Dal momento che nella produzione degli spot attualmente ci si affida alla teoria del colore per la scelta delle palette
-utilizzate, il progetto vuole diventare un tool che supporti il progettista attraverso una raccolta dati che renda
-accessibile lo storico degli spot.
+Il nostro progetto vuole diventare un utile strumento di supporto e di ricerca per un pubblico di esperti e di appassionati. 
+Più precisamente, fra i probabili interessati possono rientrare: esperti di comunicazione, pubblicitari, sociologi, video-maker, 
+designer, ma anche i più curiosi. Il nostro strumento, infatti, può fornire una analisi scientifica della pubblicità e della sua evoluzione nel tempo per i più esperti, 
+supportandoli nella proposta di inserzioni compatibili con i programmi televisivi e migliorando l’efficacia delle campagne pubblicitarie. 
+Ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di indagare un elemento culturalmente 
+onnipresente da più prospettive.
 
----
-A valle della nostra analisi è stato progettato un [prototipo di motore di ricerca](search) che consente di consultare
-un dataset di spot pubblicitari per
-marchio e tipologia di prodotto. Questo strumento è utile per professionisti del settore pubblicitario e per il pubblico
-generale, offrendo un’analisi dell’evoluzione della pubblicità e del ruolo dei colori nel marketing.
-Lo strumento mira a
-supportare i
-progettisti fornendo uno storico degli spot e permettendo di categorizzarli per mood, tonalità cromatiche, musicalità e
-testi. Questo strumento può aiutare i concessionari di pubblicità a proporre inserzioni più compatibili con i programmi
-televisivi, migliorando l’efficacia delle campagne pubblicitarie.
+A valle della nostra analisi, inoltre, è stato progettato un [prototipo di motore di ricerca](search) 
+che consente di consultare un dataset di spot pubblicitari per marchio e tipologia di prodotto, 
+in modo da poter velocizzare eventuali ricerche mirate.
 
+In generale, dalle nostre analisi, è emerso quanto la pubblicità sia un settore
+dinamico, continuamente al passo con i tempi e molto influenzato dalle 
+novità che si manifestano nella società. 
+I nostri risultati, infatti, sono caratterizzati da aspetti mutevoli e difficili da inquadrare.
+Va sicuramente sottolineato, però, che le nostre conclusioni rimangono parziali,
+pertanto non possono, e non vogliono, spiegare la totalità del fenomeno indagato. 
 
----
-
-Il target previsto è multiplo: può essere un argomento interessante sia per gli addetti ai lavori in ambito
-pubblicitario, dato che fornirà un’analisi della pubblicità e della sua evoluzione nel tempo, sia per il cittadino
-medio, in quanto fornisce una prospettiva di analisi nei riguardi di un elemento culturalmente fondamentale e
-onnipresente. L’analisi della comunicazione pubblicitaria può essere argomento di interesse per chiunque si occupi di
-questo campo, e per tutti coloro che hanno intenzione di comprendere il cambiamento che questo strumento ha avuto nel
-tempo, utilizzandolo come una sorta di specchio della società alla quale (forse) tende ad adeguarsi.
-
-Un esempio di possibili target interessati possono essere esperti di comunicazione, pubblicitari, sociologi,
-video-maker, designer.
-
-
-
-Dal momento che nella produzione degli spot attualmente ci si affida alla teoria del colore per la scelta delle palette
-utilizzate, il progetto vuole diventare un tool che supporti il progettista attraverso una raccolta dati che renda
-accessibile lo storico degli spot.
-
-Lo strumento può essere utilizzato per categorizzare gli spot per mood, ovvero per tonalità cromatiche, musicalità, e
-testi.
-Facendo un’analisi simile sulle trasmissioni in cui fare gli inserimenti pubblicitari sarebbe possibile creare un indice
-di mood e quindi misurare la distanza tra trasmissione e inserzione pubblicitaria.
-Il concessionario potrà quindi proporre inserzioni basate su una misura di distanza tra lo spot e il programma in cui
-verrà collocato.
