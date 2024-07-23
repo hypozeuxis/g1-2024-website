@@ -296,14 +296,14 @@
       }
     ]
   },
-  "height": 400,
+  "height": "container",
   "layer": [
     {
       "encoding": {
         "color": {
           "field": "Durata Intervallo",
           "scale": {
-            "scheme": "blueorange"
+            "scheme": "set3"
           },
           "title": "Intervallo di tempo",
           "type": "nominal"
@@ -324,17 +324,21 @@
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": 0
+          },
           "field": "Lustro",
-          "title": "Lustro",
+          "title": "",
           "type": "nominal"
         },
         "y": {
           "field": "Percentuale",
-          "title": "Percentuale",
+          "title": "",
           "type": "quantitative"
         }
       },
       "mark": {
+        "interpolate": "monotone",
         "type": "line"
       },
       "title": "Distribuzione normalizzata degli intervalli di tempo per lustro"
@@ -344,7 +348,7 @@
         "color": {
           "field": "Durata Intervallo",
           "scale": {
-            "scheme": "blueorange"
+            "scheme": "set3"
           },
           "title": "Intervallo di tempo",
           "type": "nominal"
@@ -365,13 +369,16 @@
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": 0
+          },
           "field": "Lustro",
-          "title": "Lustro",
+          "title": "",
           "type": "nominal"
         },
         "y": {
           "field": "Percentuale",
-          "title": "Percentuale",
+          "title": "",
           "type": "quantitative"
         }
       },
@@ -381,5 +388,5 @@
       "title": "Distribuzione normalizzata degli intervalli di tempo per lustro"
     }
   ],
-  "width": 600
+  "width": "container"
 }

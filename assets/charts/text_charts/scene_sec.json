@@ -61,7 +61,7 @@
       }
     ]
   },
-  "height": 400,
+  "height": "container",
   "layer": [
     {
       "encoding": {
@@ -80,7 +80,7 @@
             "labelAngle": 0
           },
           "field": "Lustro",
-          "title": "Lustro",
+          "title": "",
           "type": "ordinal"
         },
         "y": {
@@ -96,6 +96,7 @@
         }
       },
       "mark": {
+        "interpolate": "monotone",
         "type": "line"
       }
     },
@@ -126,6 +127,5 @@
       }
     }
   ],
-  "title": "Andamento Numero di Scene al Secondo nel Tempo",
-  "width": 600
+  "width": "container"
 }
