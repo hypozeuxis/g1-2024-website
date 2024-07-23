@@ -17,7 +17,7 @@ discreto successo, rivelandosi un efficace mezzo di comunicazione attraverso cui
 direttamente in contatto con i telespettatori. Non vi era tuttavia solo una dimensione economica, infatti ci possiamo
 ricordare di spot divertenti o di quelli più toccanti, che rimanevano impressi non per quello che vendevano, ma per le
 emozioni che ci facevano provare. Come dimenticare l’incontro sotto la pioggia fra un povero gattino smarrito e una
-dolce bambina nella pubblicità della Barilla? A chi non è mai capitato di ricordare i famosi 'Pennelli Cinghiale'?
+dolce bambina nella pubblicità della Barilla? A chi non è mai capitato di ricordare i famosi ‘Pennelli Cinghiale’?
 
 ## Da Carosello alla pubblicità moderna
 
@@ -31,16 +31,16 @@ sovraesposte e dal ritmo sempre più incalzante \[…\] gli spot degli anni 2000
 precedenti». Così commenta Michele Logrippo, fondatore del sito Spot80, quando gli chiediamo che cosa sia cambiato
 rispetto agli anni ’80.
 
-La nostra ricerca nasce dall'idea di indagare l'evoluzione della pubblicità televisiva andata in onda in Italia dagli
+La nostra ricerca nasce dall’idea di indagare l’evoluzione della pubblicità televisiva andata in onda in Italia dagli
 anni ’80 a oggi.
 A tale scopo, abbiamo raccolto gli spot dal sito sopra indicato, _Spot80_, e
-da diversi canali YouTube. I dati sono stati ordinati all'interno di un dataframe in base al loro id, al titolo, alla
-descrizione e all'anno di pubblicazione.
+da diversi canali YouTube. I dati sono stati ordinati all’interno di un dataframe in base al loro id, al titolo, alla
+descrizione e all’anno di pubblicazione.
 Successivamente, gli stessi sono stati arricchiti. Basandoci sulla classificazione di Nizza, ovvero un sistema di
 categorizzazione internazionale per la registrazione di prodotti e servizi,
 abbiamo associato a ciascuno spot la relativa classe. In aggiunta, essendo particolarmente complesso stabilire con
 certezza
-l'anno esatto di pubblicazione, abbiamo raggruppato gli spot in base ai lustri.
+l’anno esatto di pubblicazione, abbiamo raggruppato gli spot in base ai lustri.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
 ## Evoluzione di musica
@@ -74,7 +74,7 @@ Il _Made in Italy_ sembra diventare un requisito fondamentale proprio in questi 
 | Generi alimentari     |  italiano  |  2015-2019 |     4.34      |
 | Generi alimentari     |  italiano  |  2020-2024 |     13.39     |
 
-Una dimensione che, invece, risulta essere in continua crescita è il ritmo degli spot. Non solo quest'ultimo aumenta
+Una dimensione che, invece, risulta essere in continua crescita è il ritmo degli spot. Non solo quest’ultimo aumenta
 considerevolmente
 nel passaggio fra gi anni ’90 e i primi 2000, come ricordato anche dal nostro intervistato, ma la sua dinamicità
 continua
@@ -128,10 +128,10 @@ Le analisi si sono inoltre concentrate sullo studio delle classi
 di [Nizza](entity-analysis#analisi-delle-classi-di-nizza), valutando la loro rappresentazione nel tempo:
 tra le classi più rappresentate si possono osservare la 12 (veicoli e apparecchi per il trasporto di persone o merci via
 terra, aria o acqua) e la 21 (piccoli utensili e apparecchi a mano per uso domestico e da cucina).
-Mostrare queste informazioni può essere utile per comprendere meglio l'evoluzione della pubblicità nel tempo, favorendo
+Mostrare queste informazioni può essere utile per comprendere meglio l’evoluzione della pubblicità nel tempo, favorendo
 lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un pubblico più bisognoso di stimoli rapidi
-e nuovi; va inoltre considerata l'utilità che queste informazioni possono avere per coloro che desiderano ricoprire un
-ruolo competitivo nell'ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
+e nuovi; va inoltre considerata l’utilità che queste informazioni possono avere per coloro che desiderano ricoprire un
+ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
 
 ## Per concludere
 
