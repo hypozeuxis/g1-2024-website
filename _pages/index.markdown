@@ -34,13 +34,13 @@ rispetto agli anni ’80.
 La nostra ricerca nasce dall’idea di indagare l’evoluzione della pubblicità televisiva andata in onda in Italia dagli
 anni ’80 a oggi.
 A tale scopo, abbiamo raccolto gli spot dal sito sopra indicato, _Spot80_, e
-da diversi canali YouTube. I dati sono stati ordinati all’interno di un dataframe in base al loro id, al titolo, alla
+da diversi canali YouTube. I dati sono stati ordinati all’interno di un dataset in base al loro id, al titolo, alla
 descrizione e all’anno di pubblicazione.
 Successivamente, gli stessi sono stati arricchiti. Basandoci sulla classificazione di Nizza, ovvero un sistema di
 categorizzazione internazionale per la registrazione di prodotti e servizi,
-abbiamo associato a ciascuno spot la relativa classe. In aggiunta, essendo particolarmente complesso stabilire con
-certezza
-l’anno esatto di pubblicazione, abbiamo raggruppato gli spot in base ai lustri.
+abbiamo associato a ciascuno spot la relativa classe. In aggiunta, non avendo una distribuzione dei dati che riuscisse a coprire in
+maniera omogenea tutti gli anni della nostra ampia finestra temporale, abbiamo deciso di raggrupparli in base ai lustri. Tale scelta è
+risultata molto proficua, permettendoci di ottenere una distribuzione più consistente degli spot lungo l'asse temporale.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
 ## Evoluzione di musica
@@ -133,6 +133,45 @@ lo sviluppo di nuovi sistemi comunicativi, che facciano maggior presa su di un p
 e nuovi; va inoltre considerata l’utilità che queste informazioni possono avere per coloro che desiderano ricoprire un
 ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una concorrenza in continua evoluzione.
 
-## Per concludere
+## Uno strumento per addetti ai lavori
 
-.......
+Dal momento che nella produzione degli spot attualmente ci si affida alla teoria del colore per la scelta delle palette
+utilizzate, il progetto vuole diventare un tool che supporti il progettista attraverso una raccolta dati che renda
+accessibile lo storico degli spot.
+
+---
+A valle della nostra analisi è stato progettato un [prototipo di motore di ricerca](search) che consente di consultare
+un dataset di spot pubblicitari per
+marchio e tipologia di prodotto. Questo strumento è utile per professionisti del settore pubblicitario e per il pubblico
+generale, offrendo un’analisi dell’evoluzione della pubblicità e del ruolo dei colori nel marketing.
+Lo strumento mira a
+supportare i
+progettisti fornendo uno storico degli spot e permettendo di categorizzarli per mood, tonalità cromatiche, musicalità e
+testi. Questo strumento può aiutare i concessionari di pubblicità a proporre inserzioni più compatibili con i programmi
+televisivi, migliorando l’efficacia delle campagne pubblicitarie.
+
+
+---
+
+Il target previsto è multiplo: può essere un argomento interessante sia per gli addetti ai lavori in ambito
+pubblicitario, dato che fornirà un’analisi della pubblicità e della sua evoluzione nel tempo, sia per il cittadino
+medio, in quanto fornisce una prospettiva di analisi nei riguardi di un elemento culturalmente fondamentale e
+onnipresente. L’analisi della comunicazione pubblicitaria può essere argomento di interesse per chiunque si occupi di
+questo campo, e per tutti coloro che hanno intenzione di comprendere il cambiamento che questo strumento ha avuto nel
+tempo, utilizzandolo come una sorta di specchio della società alla quale (forse) tende ad adeguarsi.
+
+Un esempio di possibili target interessati possono essere esperti di comunicazione, pubblicitari, sociologi,
+video-maker, designer.
+
+
+
+Dal momento che nella produzione degli spot attualmente ci si affida alla teoria del colore per la scelta delle palette
+utilizzate, il progetto vuole diventare un tool che supporti il progettista attraverso una raccolta dati che renda
+accessibile lo storico degli spot.
+
+Lo strumento può essere utilizzato per categorizzare gli spot per mood, ovvero per tonalità cromatiche, musicalità, e
+testi.
+Facendo un’analisi simile sulle trasmissioni in cui fare gli inserimenti pubblicitari sarebbe possibile creare un indice
+di mood e quindi misurare la distanza tra trasmissione e inserzione pubblicitaria.
+Il concessionario potrà quindi proporre inserzioni basate su una misura di distanza tra lo spot e il programma in cui
+verrà collocato.
