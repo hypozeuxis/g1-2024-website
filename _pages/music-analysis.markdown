@@ -8,7 +8,7 @@ header_img: assets/images/hero/fantasy.jpg
 header_title: "Analisi della musica"
 vega: true
 ---
-A cura di: Giorgia De Re e Dimitri Viccari
+A cura di Giorgia De Re e Dimitri Viccari
 
 
 ## Analisi dell'audio
