@@ -187,7 +187,7 @@ al giallo, 0.15) mentre in D i colori tendono a essere freddi (tonalità che van
 <p class="caption">
 I centroidi nel parallel plot
 </p>
-![Centroidi]({{site.baseurl}}/assets/images/color/hue-centroids.png)
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/hue_cluster_centroids.json" style="width: 100%; height:400px;"></vegachart>
 
 Nel grafico di seguito le colonne rappresentano i 6 cluster individuati.
 Le righe rappresentano invece, dall’alto verso il basso, le tonalità di colore dei 5 colori predominanti di ciascuno

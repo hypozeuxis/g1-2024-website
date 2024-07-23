@@ -284,7 +284,7 @@
       }
     ]
   },
-  "height": 400,
+  "height": "container",
   "layer": [
     {
       "encoding": {
@@ -369,5 +369,5 @@
       }
     }
   ],
-  "width": 600
+  "width": "container"
 }
