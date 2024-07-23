@@ -1,6 +1,6 @@
 - label: 'Spot processati'
-  value: 10.317
+  value: 10.350
 - label: 'Durata del processo'
-  value: 55h 04min 17s
-- label: 'Media durata per spot'
+  value: 55h 15min 27s
+- label: 'Durata media del  processo per spot'
   value: 19s
