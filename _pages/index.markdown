@@ -84,7 +84,8 @@ ad aumentare fino agli ultimi cinque anni.
 Numero di scene medio per secondo
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:70%,height=70%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%; height=200px;"></vegachart>
+
 
 ## I colori
 
