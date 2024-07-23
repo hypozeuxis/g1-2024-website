@@ -32,7 +32,8 @@ precedenti». Così commenta Michele Logrippo, fondatore del sito _Spot80_, quan
 rispetto agli anni ’80.
 
 La nostra ricerca nasce dall’idea di indagare l’evoluzione della pubblicità televisiva andata in onda in Italia dagli
-anni ’80 a oggi.
+anni ’80 a oggi. Basandoci sugli spunti di riflessioni suggeriti da Logrippo durante l'intervista, abbiamo
+voluto ricercare quegli elementi che caratterizzano la pubblicità degli anni 2000 e la differenziano dal passato.
 A tale scopo, abbiamo raccolto gli spot dal sito sopra indicato, _Spot80_, e
 da diversi canali YouTube. I dati sono stati ordinati all’interno di un dataset in base al loro id, al titolo, alla
 descrizione e all’anno di pubblicazione.
@@ -197,9 +198,14 @@ che consente di consultare un dataset di spot pubblicitari per marchio e tipolog
 in modo da poter accelerare eventuali indagini mirate.
 
 In generale, dalle nostre analisi, è emerso quanto la pubblicità sia un settore
-dinamico, continuamente al passo con i tempi e molto influenzato dalle
-novità che si manifestano nella società.
-I nostri risultati, infatti, sono caratterizzati da aspetti mutevoli e difficili da inquadrare.
-Va sicuramente sottolineato, però, che le nostre conclusioni rimangono parziali,
+dinamico e incostante. I nostri risultati, infatti, 
+sono contraddistinti da aspetti mutevoli e difficili da inquadrare, e
+solo in rari casi siamo riusciti a individuare tendenze chiare e precise. 
+Eppure, non ci sentiamo di affermare di non aver raggiunto il nostro scopo.
+Seppur con delle difficoltà, studiando i diversi livelli di comunicazione abbiamo trovato, almeno in parte,
+elementi che distinguono la pubblicità contemporanea da quella passata. Sicuramente, la separazione fra
+ieri e oggi non è così netta come ci aspettavamo, o meglio, così non appare dalle nostre analisi.
+Tuttavia, non si può dire che non ci sia un graduale cambiamento nel corso degli anni.
+Infine, è doveroso sottolineare che le nostre conclusioni rimangono parziali,
 pertanto non possono, e non vogliono, spiegare la totalità del fenomeno indagato. 
 
