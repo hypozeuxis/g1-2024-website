@@ -113,6 +113,24 @@ CSS3 named colors
 </p>
 ![CSS3 named colors]({{site.baseurl}}/assets/images/color/toyota-yaris-letter-box_.png)
 
+### Ulteriore pulizia delle scene
+
+L’arricchimento colori ha permesso un’ulteriore pulizia delle palette: alcuni grafici marimekko presentavano la prima
+e/o l’ultima colonna colorate quasi interamente di nero.
+
+Questo era dovuto al fatto che, nonostante le dovute precauzioni, il nero di stacco da uno spot all’altro (evidentemente
+superiore ai 12 frame) sia rimasto nel computo delle scene.
+
+Per evitare di conservare questi dati inutili sono stati approssimati tutti i colori di tutte le palette ai nomi dei
+colori CSS3 (in questo modo tutte le sfumature del nero — tipiche degli stacchi — sarebbero state rimappate
+come `black`).
+
+Successivamente sarebbero stati eliminati i colori delle prime scene e delle ultime solo se queste avessero avuto una
+quantità di `black` strettamente superiore al 90%.
+
+Questo è uno dei motivi per cui, passando con il mouse sopra la prima colonna di alcuni marimekko, nel tooltip appare il
+valore `2` per l’etichetta `Scena`.
+
 ## Calcolo tf-idf
 
 Le palette di tutti gli spot sono state unite in unico grande dataset.
