@@ -198,3 +198,10 @@ come valore ottimale k = 7.
 Per k il valore ottimale è 7
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/k_choice_chart_saturation.json" style="width: 100%; height:200px;"></vegachart>
+
+<p class="caption">
+Andamento colori per lustro
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/colori_lustro.json" style="width: 100%; height:400px;"></vegachart>
+

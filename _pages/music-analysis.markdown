@@ -34,6 +34,16 @@ Presenza di musica per lustro
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/music_lustrum_f_22.json" style="width: 100%"></vegachart>
 
+Osservando invece la distribuzione della musica in base alla durata degli spot è possibile notare come all'aumentare
+della durata degli spot sia più probabile riscontrare musica al loro interno.
+
+<p class="caption">
+Presenza di musica per durata spot
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%; height: 400px;"></vegachart>
+
+
 
 ## Analisi del genere musicale
 L’analisi del genere musicale è stata effettuata con il modello **Musicnn**, che ha mostrato un’accuratezza migliore 
@@ -166,12 +176,12 @@ Genere musicale per lustro per Classe di Nizza 38
 
 ### Analisi in base alla durata degli spot
 I generi musicali si distribuiscono in maniera differente rispetto alla durata degli spot. Si può infatti notare 
-come la quasi totali degli spot inferiori ai 7 secondi contenga musica pop, probabilmente associata brevi jingle 
+come la quasi totali degli spot inferiori ai sette secondi contenga musica pop, probabilmente associata a brevi jingle 
 mentre gli altri generi sono poco presenti. La musica pop tende poi a diminuire all'aumentare della durata andando 
-a favorire la presenza degli altri generi musicali.
+a favorire la presenza degli altri generi musicali, in particolar modo background.
 
 <p class="caption">
-Distribuzione dei Generi in base alla Durata dello Spot
+Distribuzione dei generi in base alla durata dello spot
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/genere_intervallo.json" style="width: 100%"></vegachart>
@@ -185,15 +195,11 @@ musica rock, questi sono quelli presenti in minor numero e qua possiamo ntoare c
 più rappresentativo seguito da marrone, grigio e bianco con valori molto simili tra loro. 
 
 <p class="caption">
-Distribuzione del colore per Genere Musicale
+Distribuzione del colore per genere musicale
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%; height:400px"></vegachart>
 
-
-
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%; height: 400px;"></vegachart>
 
 ## Speech Recognition
 L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
