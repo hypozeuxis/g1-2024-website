@@ -33,7 +33,7 @@ rispetto agli anni ’80.
 
 La nostra ricerca nasce dall’idea di indagare l’evoluzione della pubblicità televisiva andata in onda in Italia dagli
 anni ’80 a oggi. Partendo dagli spunti di riflessione suggeriti da Logrippo durante l'intervista, abbiamo
-voluto ricercare quegli elementi che caratterizzano la pubblicità degli anni 2000 e la differenziano dal passato.
+voluto ricercare gli elementi che caratterizzano la pubblicità degli anni 2000 e la differenziano dal passato.
 A tale scopo, abbiamo raccolto gli spot dal sito sopra indicato, _Spot80_, e
 da diversi canali YouTube. I dati sono stati ordinati all’interno di un dataset in base al loro id, al titolo, alla
 descrizione e all’anno di pubblicazione.
