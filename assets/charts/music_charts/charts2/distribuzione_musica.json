@@ -207,7 +207,7 @@
       }
     ]
   },
-  "height": 400,
+  "height": "container",
   "layer": [
     {
       "data": {
@@ -237,6 +237,9 @@
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": 0
+          },
           "field": "Durata Intervallo",
           "title": "Intervalli lunghezza video (s)",
           "type": "nominal"
@@ -253,12 +256,12 @@
               1
             ]
           },
-          "title": "Percentuale",
+          "title": "",
           "type": "quantitative"
         }
       },
       "mark": {
-        "opacity": 0.6,
+        "opacity": 0.75,
         "type": "bar"
       },
       "title": "Distribuzione Della Presenza di Musica"
@@ -307,5 +310,5 @@
       "y": "shared"
     }
   },
-  "width": 600
+  "width": "container"
 }

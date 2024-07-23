@@ -521,7 +521,7 @@
       }
     ]
   },
-  "height": 400,
+  "height": "container",
   "layer": [
     {
       "encoding": {
@@ -558,15 +558,23 @@
           "type": "nominal"
         },
         "x": {
+          "axis": {
+            "labelAngle": 0,
+            "title": ""
+          },
           "field": "Lustro",
           "type": "nominal"
         },
         "y": {
+          "axis": {
+            "title": ""
+          },
           "field": "Percentuale",
           "type": "quantitative"
         }
       },
       "mark": {
+        "interpolate": "monotone",
         "type": "line"
       }
     },
@@ -619,10 +627,17 @@
           }
         ],
         "x": {
+          "axis": {
+            "labelAngle": 0,
+            "title": ""
+          },
           "field": "Lustro",
           "type": "nominal"
         },
         "y": {
+          "axis": {
+            "title": ""
+          },
           "field": "Percentuale",
           "type": "quantitative"
         }
@@ -632,6 +647,5 @@
       }
     }
   ],
-  "title": "Evoluzione dei Colori nel Tempo",
-  "width": 600
+  "width": "container"
 }
