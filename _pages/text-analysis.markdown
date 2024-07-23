@@ -49,7 +49,7 @@ Con 26 cluster, possiamo osservare una distribuzione abbastanza sparsa dei punti
  - Tuttavia, nonostante l'uso di modelli avanzati e del clustering basato su k-means, non abbiamo ottenuto i risultati sperati a causa del bias presente nelle classi. Questo suggerisce che le Classi di Nizza non sono sufficientemente rappresentative e che potrebbero essere necessari ulteriori dati per migliorare i risultati del clustering.
  - In conclusione, purtroppo, questa metodologia non ha funzionato come previsto, e abbiamo quindi deciso di utilizzare le Classi di Nizza. È importante considerare il bias nelle classi e l'importanza di dati adeguati per ottenere risultati di clustering più accurati.
 
-## Analisi quantitative delle trascrizioni
+## Analisi quantitative 
 La prima analisi si è concentrata sul misurare la lunghezza media delle trascrizioni
 per lustro.
 Dal grafico è possibile notare come ci sia un calo nel decennio 2000-2009. 
