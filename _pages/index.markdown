@@ -139,8 +139,8 @@ ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una conc
 Il nostro progetto vuole diventare un utile strumento di supporto e di ricerca per un pubblico di esperti e di appassionati. 
 Più precisamente, fra i probabili interessati possono rientrare: esperti di comunicazione, pubblicitari, sociologi, video-maker, 
 designer, ma anche i più curiosi. Il nostro strumento, infatti, può fornire una analisi scientifica della pubblicità e della sua evoluzione nel tempo per i più esperti, 
-supportandoli nella proposta di inserzioni compatibili con i programmi televisivi e migliorando l’efficacia delle campagne pubblicitarie. 
-Ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di indagare un elemento culturalmente 
+supportandoli nella proposta di inserzioni compatibili con i programmi televisivi e migliorando l’efficacia delle campagne pubblicitarie;
+ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di indagare un elemento culturalmente 
 onnipresente da più prospettive.
 
 A valle della nostra analisi, inoltre, è stato progettato un [prototipo di motore di ricerca](search) 
