@@ -46,8 +46,8 @@ Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo
 ## Evoluzione di musica
 
 ## Evoluzione del linguaggio
-
-Sulla scia delle nuove tendenze portate in auge da MTV, si nota anche un progressivo aumento delle parole inglesi negli
+In questa sezione ci siamo concentrati sull'analizzare le trascrizioni estrapolate dai nostri dati.
+Sulla scia delle nuove tendenze portate in auge da MTV, si nota, in primo luogo, un progressivo aumento delle parole inglesi negli
 spot, dopo il calo registrato negli ultimi anni ’90.
 Tuttavia, la rivendicazione della nostra italianità continua a manifestarsi attraverso una seconda e rapida diminuzione
 di queste negli ultimi quindici anni.
