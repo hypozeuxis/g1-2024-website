@@ -38,20 +38,23 @@ da diversi canali YouTube. I dati sono stati ordinati all’interno di un datase
 descrizione e all’anno di pubblicazione.
 Successivamente, gli stessi sono stati arricchiti. Basandoci sulla classificazione di Nizza, ovvero un sistema di
 categorizzazione internazionale per la registrazione di prodotti e servizi,
-abbiamo associato a ciascuno spot la relativa classe. In aggiunta, non avendo una distribuzione dei dati che riuscisse a coprire in
-maniera omogenea tutti gli anni della nostra ampia finestra temporale, abbiamo deciso di raggrupparli in base ai lustri. Tale scelta è
+abbiamo associato a ciascuno spot la relativa classe. In aggiunta, non avendo una distribuzione dei dati che riuscisse a
+coprire in
+maniera omogenea tutti gli anni della nostra ampia finestra temporale, abbiamo deciso di raggrupparli in base ai lustri.
+Tale scelta è
 risultata molto proficua, permettendoci di ottenere una distribuzione più consistente degli spot lungo l'asse temporale.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
 ## Musica pop per spot popolari
-La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali 
+
+La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali
 principali per rendere il messaggio dello spot efficace e accattivante.  
-Analizzando l’[evoluzione temporale](music-analysis#analisi-temporale) della musica si osserva, a partire dagli anni 
-Ottanta fino a oggi, una progressiva riduzione nell’impiego della musica classica ed elettronica. 
-Il rock ha da sempre caratterizzato una frazione esigua degli spot mentre la musica di background ha un andamento 
-piuttosto costante, essendo presente in circa uno spot su dieci del nostro dataset. 
-Si nota anche come la musica pop aumenti progressivamente fino a diventare nell’ultimo decennio il genere 
-caratterizzante per oltre la metà degli spot televisivi. 
+Analizzando l’[evoluzione temporale](music-analysis#analisi-temporale) della musica si osserva, a partire dagli anni
+Ottanta fino a oggi, una progressiva riduzione nell’impiego della musica classica ed elettronica.
+Il rock ha da sempre caratterizzato una frazione esigua degli spot mentre la musica di background ha un andamento
+piuttosto costante, essendo presente in circa uno spot su dieci del nostro dataset.
+Si nota anche come la musica pop aumenti progressivamente fino a diventare nell’ultimo decennio il genere
+caratterizzante per oltre la metà degli spot televisivi.
 
 <p class="caption">
 Genere musicale per lustro
@@ -60,9 +63,8 @@ Genere musicale per lustro
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/lustrum_f_22.json" style="width: 100%"></vegachart>
 
 Il genere pop risulta, in tutto l'arco temporale considerato, la scelta
-predominante per diverse classi di [Nizza](music-analysis#analisi-per-classi-di-nizza) tra cui i prodotti farmaceutici, 
+predominante per diverse classi di [Nizza](music-analysis#analisi-per-classi-di-nizza) tra cui i prodotti farmaceutici,
 i giocattoli, i generi alimentari e i servizi di telecomunicazione.
-
 
 |     **Prodotto**      | **Percentuale di musica pop** |
 |:---------------------:|:-----------------------------:|
@@ -71,10 +73,9 @@ i giocattoli, i generi alimentari e i servizi di telecomunicazione.
 |   Generi alimentari   |              45%              |
 |   Telecomunicazioni   |              55%              |
 
-
-Per le pubblicità dei [veicoli](music-analysis#veicoli-12), in controtendenza con la diffusione del genere pop, 
-la musica elettronica sta tornando a essere la scelta più gettonata dopo aver raggiunto il minimo di occorrenze tra il 
-2005 e il 2009. In accordo con l'andamento generale, invece, la progressiva scomparsa della musica classica. 
+Per le pubblicità dei [veicoli](music-analysis#veicoli-12), in controtendenza con la diffusione del genere pop,
+la musica elettronica sta tornando a essere la scelta più gettonata dopo aver raggiunto il minimo di occorrenze tra il
+2005 e il 2009. In accordo con l'andamento generale, invece, la progressiva scomparsa della musica classica.
 
 <p class="caption">
 Genere musicale per lustro per le pubblicità dei veicoli
@@ -82,10 +83,11 @@ Genere musicale per lustro per le pubblicità dei veicoli
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice12_f_22.json" style="width: 100%"></vegachart>
 
-
 ## Parole, parole, parole...
+
 In questa sezione ci siamo concentrati sull'analizzare le trascrizioni estrapolate dai nostri dati.
-Sulla scia delle nuove tendenze portate in auge da MTV, si nota, in primo luogo, un progressivo aumento delle parole inglesi negli
+Sulla scia delle nuove tendenze portate in auge da MTV, si nota, in primo luogo, un progressivo aumento delle parole
+inglesi negli
 spot, dopo il calo registrato verso la fine degli anni ’90.
 Tuttavia, la rivendicazione della nostra italianità continua a manifestarsi attraverso una seconda e rapida diminuzione
 di queste negli ultimi quindici anni.
@@ -183,20 +185,20 @@ ruolo competitivo nell’ambito pubblicitario, costretti a fronteggiare una conc
 
 ## Conclusioni
 
-Il nostro progetto vuole diventare un utile strumento di supporto e di ricerca per un pubblico di esperti e di appassionati. 
-Più precisamente, fra i probabili interessati possono rientrare: professionisti della comunicazione, pubblicitari, sociologi, video-maker, 
-designer, ma anche i più curiosi. Il nostro strumento, infatti, può fornire una analisi della pubblicità e della sua evoluzione nel tempo per i più esperti, 
-migliorando l’efficacia delle campagne pubblicitarie;
-ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di approfondire un tema facente parte della nostra cultura. 
-.
+Il nostro progetto vuole diventare un utile strumento di supporto e di ricerca per un pubblico di esperti e di
+appassionati. Più precisamente, fra i probabili interessati possono rientrare: professionisti della comunicazione,
+pubblicitari, sociologi, video-maker, designer, ma anche i più curiosi. Il nostro strumento, infatti, può fornire una
+analisi della pubblicità e della sua evoluzione nel tempo per i più esperti, migliorando l’efficacia delle campagne
+pubblicitarie; ma, allo stesso tempo, può offrire, a chi volesse semplicemente saperne di più, la possibilità di
+approfondire un tema facente parte della nostra cultura.
 
-A valle della nostra analisi, inoltre, è stato progettato un [prototipo di motore di ricerca](search) 
-che consente di consultare un dataset di spot pubblicitari per marchio e tipologia di prodotto, 
+A valle della nostra analisi, inoltre, è stato progettato un [prototipo di motore di ricerca](search)
+che consente di consultare un dataset di spot pubblicitari per marchio e tipologia di prodotto,
 in modo da poter accelerare eventuali indagini mirate.
 
 In generale, dalle nostre analisi, è emerso quanto la pubblicità sia un settore
-dinamico, continuamente al passo con i tempi e molto influenzato dalle 
-novità che si manifestano nella società. 
+dinamico, continuamente al passo con i tempi e molto influenzato dalle
+novità che si manifestano nella società.
 I nostri risultati, infatti, sono caratterizzati da aspetti mutevoli e difficili da inquadrare.
 Va sicuramente sottolineato, però, che le nostre conclusioni rimangono parziali,
 pertanto non possono, e non vogliono, spiegare la totalità del fenomeno indagato. 
