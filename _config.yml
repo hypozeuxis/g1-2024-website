@@ -36,6 +36,8 @@ github_repo:
     url: "https://github.com/hypozeuxis/g1_2024_lbdai"
   - name: "Group 1 - Website repository"
     url: "https://github.com/hypozeuxis/g1-2024-website"
+  - name: "Group 1 - Asset repository"
+    url: "https://github.com/hypozeuxis/dv"
 
 
 
