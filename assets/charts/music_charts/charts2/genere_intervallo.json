@@ -291,7 +291,7 @@
         "color": {
           "field": "Genere",
           "scale": {
-            "scheme": "blueorange"
+            "scheme": "set3"
           },
           "title": "Generi",
           "type": "nominal"
@@ -307,22 +307,23 @@
           },
           {
             "field": "Percentuale",
-            "format": ".3f",
+            "format": ".2f",
             "type": "quantitative"
           }
         ],
         "x": {
           "field": "Durata Intervallo",
-          "title": "Tempo",
+          "title": "",
           "type": "nominal"
         },
         "y": {
           "field": "Percentuale",
-          "title": "Percentuale",
+          "title": "",
           "type": "quantitative"
         }
       },
       "mark": {
+        "interpolate": "monotone",
         "type": "line"
       }
     },
@@ -353,16 +354,17 @@
         ],
         "x": {
           "field": "Durata Intervallo",
-          "title": "Tempo",
+          "title": "Durata Spot (s)",
           "type": "nominal"
         },
         "y": {
           "field": "Percentuale",
-          "title": "Percentuale",
+          "title": "",
           "type": "quantitative"
         }
       },
       "mark": {
+        "interpolate": "monotone",
         "type": "point"
       }
     }

@@ -68,7 +68,7 @@ si riscontra una riduzione della durata dei video che coinvolge lo stesso decenn
 Durata media dei video per lustro
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/durata_media.json" style="width:100%;height:200px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/durata_media.json" style="width:100%;height:400px;"></vegachart>
 
 Le analisi, poi, sono state ripetute considerando anche la classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). 
 In generale, sembra che la lunghezza media delle trascrizioni sia molto oscillante con picchi verso l'alto e verso il basso. Si può notare, inoltre, come ogni classe segua un proprio andamento indipendente.

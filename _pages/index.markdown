@@ -79,13 +79,22 @@ considerevolmente
 nel passaggio fra gi anni ’90 e i primi 2000, come ricordato anche dal nostro intervistato, ma la sua dinamicità
 continua
 ad aumentare fino agli ultimi cinque anni.
+Infatti è possibile notare come il numero medio di scene per secondo aumenti ogni lustro, suggerendo spot
+pubblicitari sempre più frenetici. Oltre a ciò anche il numero di parole per secondo aumenta nel corso dei lustri,
+anche se negli ultimi cinque anni vi è stato un calo che ha riportato il numero di parole per secondo allo stesso
+di dieci anni fa.
 
 <p class="caption">
 Numero di scene medio per secondo
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%; height:200px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%; height:400px;"></vegachart>
 
+<p class="caption">
+Numero di parole per secondo
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%; height:400px;"></vegachart>
 
 ## I colori
 

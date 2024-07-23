@@ -193,8 +193,7 @@ Distribuzione del colore per Genere Musicale
 
 
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%"></vegachart>
-
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%; height: 400px;"></vegachart>
 
 ## Speech Recognition
 L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
@@ -211,7 +210,7 @@ Si è passati poi a una fase di controllo e pulizia per la rimozione delle trasc
 In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del testo. 
 
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%"></vegachart>
+
 
 
 
