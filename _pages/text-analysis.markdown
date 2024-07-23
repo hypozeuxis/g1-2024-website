@@ -10,7 +10,7 @@ vega: true
 ---
 A cura di: Denise Botrini e Oltiana Asllani
 
-## Clusterizzazione delle Trascrizioni
+## Clusterizzazione delle trascrizioni
 Come primo task abbiamo tentato di raggruppare gli spot in base alle trascrizioni, scegliendo il numero
 ideale di cluster secondo il cosiddetto metodo del 'gomito'. Il nostro intento era quello di trovare un numero di raggruppamenti 
 inferiore alle quarantacinque classi di Nizza.
