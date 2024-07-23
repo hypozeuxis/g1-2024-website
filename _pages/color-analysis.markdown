@@ -158,9 +158,9 @@ Di questo dataset è stato fatto il clustering, con le sole componenti della ton
 come valore ottimale k = 6.
 
 <p class="caption">
-Per k il valore ottimale è il 6
+Per k il valore ottimale è 6
 </p>
-![Scelta del valore k]({{site.baseurl}}/assets/images/color/choice-of-k.png)
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/k_choice_chart_hue.json" style="width: 100%; height:200px;"></vegachart>
 
 Questi sono i centroidi risultanti. Dal grafico notiamo che i cluster A e D hanno tutti i valori delle componenti più o
 meno allineate, lasciando intendere che in A i colori tendono a essere caldi (tonalità che vanno dall’arancio, 0.1,
@@ -170,3 +170,13 @@ al giallo, 0.15) mentre in D i colori tendono a essere freddi (tonalità che van
 I centroidi nel parallel plot
 </p>
 ![Centroidi]({{site.baseurl}}/assets/images/color/hue-centroids.png)
+
+### Saturazione
+
+Successivamente è stato fatto il clustering con le sole componenti della **saturazione**, con metodo K-Means, scegliendo
+come valore ottimale k = 7.
+
+<p class="caption">
+Per k il valore ottimale è 7
+</p>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/k_choice_chart_saturation.json" style="width: 100%; height:200px;"></vegachart>
