@@ -34,16 +34,6 @@ Presenza di musica per lustro
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/music_lustrum_f_22.json" style="width: 100%"></vegachart>
 
-Osservando invece la distribuzione della musica in base alla durata degli spot è possibile notare come all'aumentare
-della durata degli spot sia più probabile riscontrare musica al loro interno.
-
-<p class="caption">
-Presenza di musica per durata spot
-</p>
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%; height: 400px;"></vegachart>
-
-
 
 ## Analisi del genere musicale
 L’analisi del genere musicale è stata effettuata con il modello **Musicnn**, che ha mostrato un’accuratezza migliore 
@@ -93,7 +83,7 @@ Genere musicale per lustro
 
 Considerando le dieci classi di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)) più frequenti nel nostro dataset è possibile osservare la distribuzione
 dei generi musicali in base alla tipologia merceologica. Si osserva che la musica elettronica è presente in oltre la 
-metà delle pubblcità per le classi di Nizza relative ad apparecchi scientifici e informatici (classe 9), veicoli (12) e 
+metà delle pubblicità per le classi di Nizza relative ad apparecchi scientifici e informatici (classe 9), veicoli (12) e 
 prodotti realizzati in carta (16).
 
 Il genere pop risulta quello predominante per i prodotti per l'igiene (3) e farmaceutici (5), 
@@ -176,12 +166,12 @@ Genere musicale per lustro per Classe di Nizza 38
 
 ### Analisi in base alla durata degli spot
 I generi musicali si distribuiscono in maniera differente rispetto alla durata degli spot. Si può infatti notare 
-come la quasi totali degli spot inferiori ai sette secondi contenga musica pop, probabilmente associata a brevi jingle 
+come la quasi totali degli spot inferiori ai 7 secondi contenga musica pop, probabilmente associata brevi jingle 
 mentre gli altri generi sono poco presenti. La musica pop tende poi a diminuire all'aumentare della durata andando 
-a favorire la presenza degli altri generi musicali, in particolar modo background.
+a favorire la presenza degli altri generi musicali.
 
 <p class="caption">
-Distribuzione dei generi in base alla durata dello spot
+Distribuzione dei Generi in base alla Durata dello Spot
 </p>
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/genere_intervallo.json" style="width: 100%"></vegachart>
@@ -195,13 +185,17 @@ musica rock, questi sono quelli presenti in minor numero e qua possiamo ntoare c
 più rappresentativo seguito da marrone, grigio e bianco con valori molto simili tra loro. 
 
 <p class="caption">
-Distribuzione del colore per genere musicale
+Distribuzione del colore per Genere Musicale
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%; height:400px"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/colori_genere.json" style="width: 100%"></vegachart>
 
 
-## Speech Recognition
+
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%; height: 400px;"></vegachart>
+
+## Speech recognition
 L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
 
 **Whisper** è un’architettura transformer (encoder-decoder) sequence-to-sequence che estrae feature dall’ audio da cui genera il testo. È sviluppato da OpenAI ed è stato addestrato su vari task di elaborazione vocale tra cui il riconoscimento vocale multilingue, la traduzione vocale e l’identificazione della lingua. È dotato di cinque diversi modelli con precisione crescente nella trascrizione ma con un costo computazionale più elevato. Abbiamo testato in particolare i modelli small, medium e large e abbiamo individuato nel modello medium il compromesso ottimale tra efficienza e accuratezza. 

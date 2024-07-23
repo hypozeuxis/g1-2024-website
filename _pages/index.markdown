@@ -28,7 +28,7 @@ come unico limite (o quasi) l’immaginazione. Se però pensiamo a quanto fosser
 rispetto a quelle che siamo abituati a vedere oggi, ci chiediamo cosa sia accaduto. «A partire dagli anni 2000 c’è
 un’inversione di rotta, si adotta lo stile MTV. La pubblicità si fa più ammiccante, caratterizzata da immagini
 sovraesposte e dal ritmo sempre più incalzante \[…\] gli spot degli anni 2000 non suscitano le stesse emozioni dei
-precedenti». Così commenta Michele Logrippo, fondatore del sito Spot80, quando gli chiediamo che cosa sia cambiato
+precedenti». Così commenta Michele Logrippo, fondatore del sito _Spot80_, quando gli chiediamo che cosa sia cambiato
 rispetto agli anni ’80.
 
 La nostra ricerca nasce dall’idea di indagare l’evoluzione della pubblicità televisiva andata in onda in Italia dagli
@@ -43,12 +43,50 @@ maniera omogenea tutti gli anni della nostra ampia finestra temporale, abbiamo d
 risultata molto proficua, permettendoci di ottenere una distribuzione più consistente degli spot lungo l'asse temporale.
 Una volta puliti e preparati i dati, abbiamo eseguito le analisi che presentiamo qui di seguito.
 
-## Evoluzione di musica
+## Musica pop per spot popolari
+La musica costituisce un aspetto fondamentale della comunicazione pubblicitaria televisiva e rappresenta uno dei canali 
+principali per rendere il messaggio dello spot efficace e accattivante.  
+Analizzando l’[evoluzione temporale](music-analysis#analisi-temporale) della musica si osserva, a partire dagli anni 
+Ottanta fino a oggi, una progressiva riduzione nell’impiego della musica classica ed elettronica. 
+Il rock ha da sempre caratterizzato una frazione esigua degli spot mentre la musica di background ha un andamento 
+piuttosto costante, essendo presente in circa uno spot su dieci del nostro dataset. 
+Si nota anche come la musica pop aumenti progressivamente fino a diventare nell’ultimo decennio il genere 
+caratterizzante per oltre la metà degli spot televisivi. 
+
+<p class="caption">
+Genere musicale per lustro
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/lustrum_f_22.json" style="width: 100%"></vegachart>
+
+Il genere pop risulta, in tutto l'arco temporale considerato, la scelta
+predominante per diverse classi di [Nizza](music-analysis#analisi-per-classi-di-nizza) tra cui i prodotti farmaceutici, 
+i giocattoli, i generi alimentari e i servizi di telecomunicazione.
+
+
+|     **Prodotto**      | **Percentuale di musica pop** |
+|:---------------------:|:-----------------------------:|
+| Prodotti farmaceutici |              48%              |      
+|      Giocattoli       |              60%              | 
+|   Generi alimentari   |              45%              |
+|   Telecomunicazioni   |              55%              |
+
+
+Per le pubblicità dei [veicoli](music-analysis#veicoli-12), in controtendenza con la diffusione del genere pop, 
+la musica elettronica sta tornando a essere la scelta più gettonata dopo aver raggiunto il minimo di occorrenze tra il 
+2005 e il 2009. In accordo con l'andamento generale, invece, la progressiva scomparsa della musica classica. 
+
+<p class="caption">
+Genere musicale per lustro per le pubblicità dei veicoli
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice12_f_22.json" style="width: 100%"></vegachart>
+
 
 ## Parole, parole, parole...
 In questa sezione ci siamo concentrati sull'analizzare le trascrizioni estrapolate dai nostri dati.
 Sulla scia delle nuove tendenze portate in auge da MTV, si nota, in primo luogo, un progressivo aumento delle parole inglesi negli
-spot, dopo il calo registrato negli ultimi anni ’90.
+spot, dopo il calo registrato verso la fine degli anni ’90.
 Tuttavia, la rivendicazione della nostra italianità continua a manifestarsi attraverso una seconda e rapida diminuzione
 di queste negli ultimi quindici anni.
 
