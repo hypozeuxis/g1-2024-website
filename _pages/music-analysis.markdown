@@ -83,7 +83,7 @@ Genere musicale per lustro
 
 Considerando le dieci classi di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)) più frequenti nel nostro dataset è possibile osservare la distribuzione
 dei generi musicali in base alla tipologia merceologica. Si osserva che la musica elettronica è presente in oltre la 
-metà delle pubblcità per le classi di Nizza relative ad apparecchi scientifici e informatici (classe 9), veicoli (12) e 
+metà delle pubblicità per le classi di Nizza relative ad apparecchi scientifici e informatici (classe 9), veicoli (12) e 
 prodotti realizzati in carta (16).
 
 Il genere pop risulta quello predominante per i prodotti per l'igiene (3) e farmaceutici (5), 
@@ -195,7 +195,7 @@ Distribuzione del colore per Genere Musicale
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%; height: 400px;"></vegachart>
 
-## Speech Recognition
+## Speech recognition
 L’obiettivo del task di speech recognition è la trascrizione dei dialoghi e dei voiceover presenti negli spot televisivi in modo da poter effettuare la text analysis. Per il riconoscimento vocale abbiamo quindi testato diverse librerie. Whisper è emerso come il modello più adatto in quanto ha fornito le trascrizioni più accurate. 
 
 **Whisper** è un’architettura transformer (encoder-decoder) sequence-to-sequence che estrae feature dall’ audio da cui genera il testo. È sviluppato da OpenAI ed è stato addestrato su vari task di elaborazione vocale tra cui il riconoscimento vocale multilingue, la traduzione vocale e l’identificazione della lingua. È dotato di cinque diversi modelli con precisione crescente nella trascrizione ma con un costo computazionale più elevato. Abbiamo testato in particolare i modelli small, medium e large e abbiamo individuato nel modello medium il compromesso ottimale tra efficienza e accuratezza. 
