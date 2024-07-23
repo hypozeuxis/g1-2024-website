@@ -86,7 +86,7 @@ Genere musicale per lustro per le pubblicità dei veicoli
 ## Parole, parole, parole...
 In questa sezione ci siamo concentrati sull'analizzare le trascrizioni estrapolate dai nostri dati.
 Sulla scia delle nuove tendenze portate in auge da MTV, si nota, in primo luogo, un progressivo aumento delle parole inglesi negli
-spot, dopo il calo registrato negli ultimi anni ’90.
+spot, dopo il calo registrato verso la fine degli anni ’90.
 Tuttavia, la rivendicazione della nostra italianità continua a manifestarsi attraverso una seconda e rapida diminuzione
 di queste negli ultimi quindici anni.
 
