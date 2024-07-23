@@ -135,8 +135,4 @@ ruolo competitivo nell'ambito pubblicitario, costretti a fronteggiare una concor
 
 ## Per concludere
 
-In generale, dai nostri risultati, sembra che, nei primi anni 2000, per superare le difficoltà di un pubblico sempre
-meno attento e interessato, la pubblicità abbia optato per essere più breve ma anche più dinamica e incisiva. Negli
-ultimi anni, però, il ritmo delle pubblicità sembra essere rallentato nuovamente, per adattarsi, forse, a un nuovo
-pubblico. Sicuramente, quella contemporanea, è una pubblicità che non mira a insegnare né tantomeno a emozionare ma,
-piuttosto, a modellarsi e a plasmarsi alla società a cui si rivolge.
+In generale, dai nostri risultati, sembra che, ....
