@@ -34,7 +34,7 @@ Innanzitutto il taglio delle scene inizia 12 frame dopo l’inizio del video e t
 è servito per eliminare possibili fotogrammi neri dovuti alla pausa tra uno spot e l’altro.
 
 <p class="caption">
-Esempio di spot (Campari, 1990) con fotogrammi neri presenti all’inizio e alla fine
+Esempio di spot (Campari, 1990) con serie di fotogrammi neri presenti all’inizio e alla fine
 </p>
 ![Esempio di flusso video]({{site.baseurl}}/assets/images/color/video-stream.png)
 
@@ -106,12 +106,12 @@ tonalità presenti nei video, rendendo possibile un’analisi dettagliata e comp
 <p class="caption">
 I 550 colori nominati
 </p>
-![550 colori]({{site.baseurl}}/assets/images/color/toyota-yaris-letter-box_.png)
+![550 colori]({{site.baseurl}}/assets/images/color/named-colors.png)
 
 <p class="caption">
 CSS3 named colors
 </p>
-![CSS3 named colors]({{site.baseurl}}/assets/images/color/toyota-yaris-letter-box_.png)
+![CSS3 named colors]({{site.baseurl}}/assets/images/color/css3-named-colors.png)
 
 ### Ulteriore pulizia delle scene
 
@@ -188,6 +188,18 @@ al giallo, 0.15) mentre in D i colori tendono a essere freddi (tonalità che van
 I centroidi nel parallel plot
 </p>
 ![Centroidi]({{site.baseurl}}/assets/images/color/hue-centroids.png)
+
+Nel grafico di seguito le colonne rappresentano i 6 cluster individuati.
+Le righe rappresentano invece, dall’alto verso il basso, le tonalità di colore dei 5 colori predominanti di ciascuno
+spot.
+Lo slider in basso permette di osservare la distribuzione degli spot in ciascun cluster secondo la relativa classe di
+Nizza. Al passaggio del mouse su un cerchio colorato è possibile osservare nell’ultima colonna a destra i 5 colori
+predominanti dello spot associato.
+
+<p class="caption">
+Clusterizzazione per tonalità
+</p>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/clustering_by_hue.json" style="width: 12%; height:80px;"></vegachart>
 
 ### Saturazione
 
