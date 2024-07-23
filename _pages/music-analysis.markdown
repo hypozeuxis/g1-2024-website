@@ -211,6 +211,7 @@ Si è passati poi a una fase di controllo e pulizia per la rimozione delle trasc
 In questo modo sono state ottenute 9400 trascrizioni adatte per l’analisi del testo. 
 
 
+<vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/charts2/distribuzione_musica.json" style="width: 100%"></vegachart>
 
 
 
