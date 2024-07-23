@@ -199,13 +199,13 @@ in modo da poter accelerare eventuali indagini mirate.
 
 In generale, dalle nostre analisi, è emerso quanto la pubblicità sia un settore
 dinamico e incostante. I nostri risultati, infatti, 
-sono contraddistinti da aspetti mutevoli e difficili da inquadrare, e
+sono contraddistinti da aspetti mutevoli e difficili da definire, e
 solo in rari casi siamo riusciti a individuare tendenze chiare e precise. 
-Eppure, non ci sentiamo di affermare di non aver raggiunto il nostro scopo.
+Eppure, non ci sentiamo di affermare di non aver raggiunto il nostro obiettivo.
 Seppur con delle difficoltà, studiando i diversi livelli di comunicazione abbiamo trovato, almeno in parte,
 elementi che distinguono la pubblicità contemporanea da quella passata. Sicuramente, la separazione fra
 ieri e oggi non è così netta come ci aspettavamo, o meglio, così non appare dalle nostre analisi.
-Tuttavia, non si può dire che non ci sia un graduale cambiamento nel corso degli anni.
+Tuttavia, non si può negare che ci sia un graduale cambiamento nel corso degli anni.
 Infine, è doveroso sottolineare che le nostre conclusioni rimangono parziali,
 pertanto non possono, e non vogliono, spiegare la totalità del fenomeno indagato. 
 
