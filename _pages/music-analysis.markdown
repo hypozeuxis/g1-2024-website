@@ -120,8 +120,8 @@ Si analizza nei grafici seguenti l'andamento dei generi musicali nel tempo per c
 
 
 
-#### Veicoli (12)
-Per gli spot pubblicitari dei veicoli, si osserva che la musica classica, un tempo abbastanza diffusa, è andata via
+#### Veicoli
+Per gli spot pubblicitari dei veicoli (classe 12), si osserva che la musica classica, un tempo abbastanza diffusa, è andata via
 via diminuendo. Il rock ha raggiunto un picco di presenza a inizio duemila. Nello stesso periodo si nota 
 un minimo per la musica elettronica, che è tornata ad essere negli ultimi anni il genere preponderante nelle 
 pubblicità delle automobili.
@@ -132,8 +132,8 @@ Genere musicale per lustro per Classe di Nizza 12
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice12_f_22.json" style="width: 100%"></vegachart>
 
-#### Giocattoli (28)
-La classe di Nizza relativa ai giocattoli è quella con la proporzione maggiore di musica pop e come si osserva dal 
+#### Giocattoli
+La classe di Nizza 28 relativa ai giocattoli è quella con la proporzione maggiore di musica pop e come si osserva dal 
 grafico il suo aumento è stato piuttosto costante. Anche in questo caso, la musica classica è pian piano diminuita 
 fino a scomparire del tutto negli ultimi venti anni. 
 
@@ -143,7 +143,7 @@ Genere musicale per lustro per Classe di Nizza 28
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice28_f_22_b.json" style="width: 100%"></vegachart>
 
-#### Generi alimentari (29 e 30)
+#### Generi alimentari
 Per le pubblicità relative ai generi alimentari (classi 29 e 30) l'andamento della musica è piuttosto simile, 
 con un progressivo aumento della musica pop a discapito di quella elettronica. Per entrambe le classi di Nizza, 
 il lustro 2010-2014 vede un impiego più ridotto della musica pop con un aumento della musica classica per la classe 30 
@@ -161,8 +161,8 @@ Genere musicale per lustro per Classe di Nizza 30
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/nice30_f_22.json" style="width: 100%"></vegachart>
 
-#### Telecomunicazioni (38)
-Le pubblicità dei servizi di telecomunicazioni hanno un andamento caratteristico rispetto alle altre classi 
+#### Telecomunicazioni
+Le pubblicità dei servizi di telecomunicazioni (classe 38) hanno un andamento caratteristico rispetto alle altre classi 
 di Nizza, con una proporzione tra generi molto variabile da un lustro all'altro e con l'unica costante dell'assenza 
 di musica rock. Il genere pop infatti ha avuto un periodo di massima rappresentazione, seguito da un calo e da una 
 ripresa negli ultimi anni.
