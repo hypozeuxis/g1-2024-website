@@ -38,6 +38,13 @@ sovraesposte e dal ritmo sempre più incalzante \[…\] gli spot degli anni 2000
 precedenti». Così commenta Michele Logrippo, fondatore del sito _Spot80_, quando gli chiediamo che cosa sia cambiato
 rispetto agli anni ’80.
 
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 0.5rem;margin: 1rem 0;">
+    <img src="{{site.baseurl}}/assets/images/home/bistefani.png" alt="Bistefani">
+    <img src="{{site.baseurl}}/assets/images/home/mastro-lindo.png" alt="Mastro Lindo">
+    <img src="{{site.baseurl}}/assets/images/home/mulino-bianco.png" alt="Mulino Bianco">
+    <img src="{{site.baseurl}}/assets/images/home/tabu.jpg" alt="Tabù">
+</div>
+
 La nostra ricerca nasce dall’idea di indagare l’evoluzione della pubblicità televisiva andata in onda in Italia dagli
 anni ’80 a oggi. Partendo dagli spunti di riflessione suggeriti da Logrippo durante l’intervista, abbiamo
 voluto ricercare gli elementi che caratterizzano la pubblicità degli anni 2000 e la differenziano dal passato.
@@ -160,7 +167,68 @@ Numero di parole per secondo
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%; height:200px;"></vegachart>
 
-## I colori della nostalgia
+Navigando tra i colori
+
+Ogni spot è stato analizzato
+
+## Navigando tra i colori
+
+Un aspetto importante per un video pubblicitario è il colore.
+
+Ogni spot è stato suddiviso in **scene** e poi ‘tradotto’ in un grafico Marimekko che riassume a colpo d’occhio i *
+*colori** utilizzati, la loro **quantità** e la loro **frequenza**.
+
+<p class="caption">
+Le tavolozze colori (<em>Marimekko</em>) di 8 spot diversi
+</p>
+<div class="marimekko-grid">
+    <div>
+        <p class="marimekko-caption">Tabù, 1987</p>
+        <img src="{{site.baseurl}}/assets/images/home/marimekko-tabu-1987.png" alt="Tabù, 1987">
+    </div>
+
+    <div>
+        <p class="marimekko-caption">Nutella, 1995</p>
+        <img src="{{site.baseurl}}/assets/images/home/marimekko-nutella-1995.png" alt="Nutella, 1995">
+    </div>
+
+    <div>
+        <p class="marimekko-caption">Barilla, 2000</p>
+        <img src="{{site.baseurl}}/assets/images/home/marimekko-barilla-2000.png" alt="Barilla, 2000">
+    </div>
+
+    <div>
+        <p class="marimekko-caption">Vodafone, 2003</p>
+        <img src="{{site.baseurl}}/assets/images/home/marimekko-vodafone-2003.png" alt="Vodafone, 2003">
+    </div>
+
+</div>
+
+<div class="marimekko-grid">
+
+    <div>
+        <p class="marimekko-caption">Poste Italiane, 2003</p>
+        <img src="{{site.baseurl}}/assets/images/home/marimekko-poste-italiane-2003.png" alt="Poste Italiane, 2003">
+    </div>
+
+    <div>
+        <p class="marimekko-caption">Riso Gallo, 2005</p>
+        <img src="{{site.baseurl}}/assets/images/home/marimekko-riso-gallo-2005.png" alt="Riso Gallo, 2005">
+    </div>
+
+
+    <div>
+        <p class="marimekko-caption">Vanish, 2007</p>
+        <img src="{{site.baseurl}}/assets/images/home/marimekko-vanish-2007.png" alt="Vanish, 2007">
+    </div>
+
+    <div>
+        <p class="marimekko-caption">Mercedes-Benz, 2023</p>
+        <img src="{{site.baseurl}}/assets/images/home/marimekko-mercedes-benz-2023.png" alt="Mercedes-Benz, 2023">
+    </div>
+
+</div>
+
 
 Per quanto riguarda i colori si nota come questi siano passati dall’essere molto saturi e ad alto contrasto negli anni
 Ottanta e Novanta a esserlo invece meno dalla metà del 2000 in poi. Un motivo potrebbe essere quello tecnologico: la
@@ -169,18 +237,19 @@ ad alterazione del segnale) a una digitale (in cui disturbo e alterazione non su
 dal mezzo di ricezione e di quello di registrazione che hanno ulteriormente contribuito a deteriorare qualità e colore
 dell’immagine.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 0.5rem;margin: 1rem 0;">
-    <img src="{{site.baseurl}}/assets/images/home/bistefani.png" alt="Bistefani">
-    <img src="{{site.baseurl}}/assets/images/home/mastro-lindo.png" alt="Mastro Lindo">
-    <img src="{{site.baseurl}}/assets/images/home/mulino-bianco.png" alt="Mulino Bianco">
-    <img src="{{site.baseurl}}/assets/images/home/tabu.jpg" alt="Tabù">
-</div>
-
 Ci teniamo a precisare che in ogni caso il nostro studio si focalizza proprio sui colori percepiti dall’utente finale
 attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui non abbiamo accesso).
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_colore.json" style="width: 100%; height:400px"></vegachart>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_tempo.json" style="width: 100%; height:400px"></vegachart>
+
+Il seguente grafico mostra l’andamento dei colori per lustro.
+
+<p class="caption">
+Andamento colori per lustro
+</p>
+
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/colori_lustro.json" style="width: 100%; height:400px;"></vegachart>
 
 ## Dagli anni 80 a oggi, chi sono i protagonisti
 
