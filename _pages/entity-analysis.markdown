@@ -85,8 +85,6 @@ Nel grafico risultante è stato implementato un selettore legato alla legenda, c
 E' stato aggiunto un tooltip che visualizza (passandoci sopra con il cursore) le informazioni relative alla classe di Nizza a cui appartiene quel punto e la sua descrizione, per aumentare l'intelligibilità del grafico.
 E' stato aggiunto l'elemento "interactive" dopo i parametri per poter visualizzare il tooltip, tuttavia con argomenti "bind_x" e "bind_y" = FALSE, in quanto altrimenti il grafico si sarebbe ridimensionato con lo scrolling del cursore sopra di esso.
 
-## Utilizzo di Jekyll per la creazione del sito web
-Per l'implementazione dei grafici sono stati presi degli accorgimenti in quanto questi non venivano visualizzati correttamente, infatti si sono dovute specificare le dimensioni di width e height, con quest'ultima avente una dimensione in pixel, per poter visualizzare i grafici.
 
 
 
