@@ -99,7 +99,7 @@ i giocattoli, i generi alimentari e i servizi di telecomunicazione.
 
 Per le pubblicità dei [veicoli](music-analysis#veicoli-12), in controtendenza con la diffusione del genere pop,
 la musica elettronica sta tornando a essere la scelta più gettonata dopo aver raggiunto il minimo di occorrenze tra il
-2005 e il 2009. In accordo con l'andamento generale, invece, la progressiva scomparsa della musica classica.
+2005 e il 2009. In accordo con l'andamento generale, invece, è la progressiva scomparsa della musica classica.
 
 <p class="caption">
 Genere musicale per lustro per le pubblicità dei veicoli
