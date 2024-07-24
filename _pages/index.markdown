@@ -152,13 +152,13 @@ di dieci anni fa.
 Numero di scene medio per secondo
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%; height:400px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/scene_sec.json" style="width:100%; height:200px;"></vegachart>
 
 <p class="caption">
 Numero di parole per secondo
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%; height:400px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%; height:200px;"></vegachart>
 
 ## I colori della nostalgia
 
