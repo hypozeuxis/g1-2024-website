@@ -191,7 +191,7 @@ possa sembrare scontato infatti, la preponderanza di esseri umani è assoluta in
 | Classe     | Occorrenze |
 |------------|-----------:|
 | persona    |       8264 |
-| macchina   |       1174 |
+| bottiglia  |       1174 |
 | automobile |       1102 |
 | cravatta   |        791 |
 | tazza      |        753 |
