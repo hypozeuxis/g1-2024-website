@@ -294,6 +294,22 @@ div:not(.vg-tooltip) table td, div:not(.vg-tooltip) table th {
   background-color: #FB8804;
 }
 
+/* Home */
+.marimekko-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem 0;
+  align-items: end;
+}
+.marimekko-grid .marimekko-caption {
+  font-family: "Space Mono", monospace;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 0 0.5em 0;
+  font-size: 0.75em;
+}
+
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 #sezione-1, #sezione-11, #sezione-12, #mappa-delle-stragi, #galleria {
   scroll-margin-top: 60px; /* Imposta lo spazio di scorrimento prima dell'elemento ancorato */
