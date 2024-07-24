@@ -175,7 +175,7 @@ Ogni spot è stato analizzato
 
 Un aspetto importante per un video pubblicitario è il colore.
 
-Ogni spot è stato suddiviso in **scene** e poi ‘tradotto’ in un grafico Marimekko che riassume a colpo d’occhio i 
+Ogni spot è stato suddiviso in **scene** e poi ‘tradotto’ in un grafico Marimekko che riassume a colpo d’occhio i
 **colori** utilizzati, la loro **quantità** e la loro **frequenza**.
 
 <p class="caption">
@@ -229,9 +229,12 @@ Le tavolozze colori (<em>Marimekko</em>) di 8 spot diversi
 
 </div>
 
+La collezione di tutte le palette ci ha poi permesso di ricalibrare il peso di ciascun colore e di applicarlo nelle
+nostre analisi.
+
 Ci teniamo a precisare che il nostro studio si è basato su video che provengono nella maggior parte dei casi da
-registrazioni casalinghe e poi riversate in digitale: la qualità dei colori degli spot perciò è quella più vicina a
-quella esperita dall’utente finale attraverso i mezzi di ricezione di ciascuna epoca.
+registrazioni casalinghe e poi riversate in digitale: la qualità dei colori degli spot perciò non è quella originale ma
+quella più vicina a quella esperita dall’utente finale attraverso i mezzi di ricezione di ciascuna epoca.
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_colore.json" style="width: 100%; height:400px"></vegachart>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_tempo.json" style="width: 100%; height:400px"></vegachart>
