@@ -341,7 +341,7 @@
         "interpolate": "monotone",
         "type": "line"
       },
-      "title": "Distribuzione normalizzata degli intervalli di tempo per lustro"
+      "title": ""
     },
     {
       "encoding": {
@@ -385,7 +385,7 @@
       "mark": {
         "type": "point"
       },
-      "title": "Distribuzione normalizzata degli intervalli di tempo per lustro"
+      "title": ""
     }
   ],
   "width": "container"
