@@ -189,12 +189,12 @@ delle [persone](entity-analysis#analisi-delle-classi-di-yolo): benché
 possa sembrare scontato infatti, la preponderanza di esseri umani è assoluta in ogni epoca analizzata.
 
 | Classe     | Occorrenze |
-|------------|------------|
-| persona    | 8264       |
-| macchina   | 1174       |
-| automobile | 1102       |
-| cravatta   | 791        |
-| tazza      | 753        |
+|------------|-----------:|
+| persona    |       8264 |
+| macchina   |       1174 |
+| automobile |       1102 |
+| cravatta   |        791 |
+| tazza      |        753 |
 
 La spiegazione di questo è banale, in quanto se la pubblicità si prefigge di influenzare il comportamento delle persone,
 è indubbio che
