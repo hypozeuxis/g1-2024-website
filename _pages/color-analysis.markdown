@@ -180,9 +180,20 @@ Per k il valore ottimale è 6
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/k_choice_chart_hue.json" style="width: 100%; height:200px;"></vegachart>
 
+Ciò che piacevolmente stupisce è che gli spot sono ben distribuiti tra i vari cluster.
+
+| Cluster | Nº di spot |
+|--------:|-----------:|
+|       A |       3570 |
+|       B |       1106 |
+|       C |       1271 |
+|       D |       2155 |
+|       E |       1186 |
+|       F |       1025 |
+
 Questi sono i centroidi risultanti. Dal grafico notiamo che i cluster A e D hanno tutti i valori delle componenti più o
 meno allineate, lasciando intendere che in A i colori tendono a essere caldi (tonalità che vanno dall’arancio, 0.1,
-al giallo, 0.15) mentre in D i colori tendono a essere freddi (tonalità che vanno dal ciano, 0.55, al blu, 0.58).
+al giallo, 0.15) mentre in D i colori tendono a essere freddi (ciano, 0.55).
 
 <p class="caption">
 I centroidi nel parallel plot
@@ -201,22 +212,10 @@ Clusterizzazione per tonalità
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/clustering_by_hue.json" style="width: 12%; height:80px;"></vegachart>
 
-### Saturazione
+## I colori nel tempo
 
-Successivamente è stato fatto il clustering con le sole componenti della **saturazione**, con metodo K-Means, scegliendo
-come valore ottimale k = 7.
-
-<p class="caption">
-Per k il valore ottimale è 7
-</p>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/k_choice_chart_saturation.json" style="width: 100%; height:200px;"></vegachart>
-
-Infine analizzando l'andamento degli 11 colori nel tempo è possibile notare come il marrone sia sempre tra
-le prime due posizioni in tutti i lustri. Questo a nostro avviso è dovuto principalmente al fatto che il marrone
-è il colore che viene associato alla carnagione delle persone, la cui presenza, come vederemo in seguito, è
-preponderante all'interno degli spot. Un altro colore largamente presente è il grigio, anche lui sempre nelle
-prime due posizioni ad eccezione dei lustri a
-cavallo del 2000. Gli altri due colori che si possono incontrare più spesso negli spot sono il blu e il bianco.
+Il seguente grafico mostra l’andamento degli 11 gruppi di colori per lustro. Ogni colore (prima del raggruppamento) è
+stato pesato con metodo tf-idf.
 
 <p class="caption">
 Andamento colori per lustro
