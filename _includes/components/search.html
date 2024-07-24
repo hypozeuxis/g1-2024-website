@@ -219,7 +219,21 @@
         z-index: 1;
     }
 </style>
+<!--
+    // Add a one-time touchend event listener
+    // each time a touchstart event occurs...
+    // ... but remove that touchend listener
+    // whenever the user swipes the screen
+-->
 <script>
+    function addTouchListener(element, callback) {
+        element.addEventListener('touchstart', () => {
+            element.addEventListener('touchend', callback, {once: true})
+        });
+        element.addEventListener('touchmove', () => {
+            element.removeEventListener('touchend', callback)
+        });
+    }
 
     function getExactMatchingQuery(query, field, asterisk) {
         query = query.trim().replaceAll(/ +/g, ' ');
@@ -296,11 +310,13 @@
                             tile.classList.add('list-group-item',
                                 'list-group-item-action');
                             tile.innerText = item.brand;
-                            tile.addEventListener('click', function (e) {
+                            const selectBrand = function (e) {
                                 inputBrand.value = item.brand;
                                 uniqueItems.clear();
                                 brandResultDiv.innerHTML = '';
-                            });
+                            };
+                            tile.addEventListener('click', selectBrand);
+                            addTouchListener(tile, selectBrand);
                             brandResultDiv.append(tile);
                         });
                     }
@@ -342,11 +358,13 @@
                             tile.classList.add('list-group-item',
                                 'list-group-item-action');
                             tile.innerText = item.product_type;
-                            tile.addEventListener('click', function (e) {
+                            const selectProductType = function (e) {
                                 inputProductType.value = item.product_type;
                                 uniqueItems.clear();
                                 productTypeResultDiv.innerHTML = '';
-                            });
+                            };
+                            tile.addEventListener('click', selectProductType);
+                            addTouchListener(tile, selectProductType);
                             productTypeResultDiv.append(tile);
                         });
                     }
