@@ -18,8 +18,6 @@ inferiore alle quarantacinque classi di Nizza.
 Metodo del gomito
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/elbow_chart.json" style="width: 100%; height:300px;"></vegachart>
-
-#### Interpretazione
 Osservando il grafico, si nota un significativo calo nella SSE inizialmente con l'aumento del numero di cluster, ma questo calo rallenta a un certo punto, creando una sorta di "gomito". In questo caso, il "gomito" appare chiaramente attorno al valore di 26 cluster. Questo punto rappresenta un buon compromesso tra la minimizzazione della SSE e l'evitare la sovrapartizione dei dati.
 Il Silhouette Score aggiunge un ulteriore livello di comprensione, indicando la qualità del clustering. In generale, un Silhouette Score più alto indica cluster più distinti. Tuttavia, notiamo che il punteggio varia considerevolmente, 
 suggerendo che la qualità dei cluster può variare.
@@ -29,7 +27,6 @@ Rappresentazione della Clusterizzazione delle Trascrizioni degli Spot con il t-S
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/cluster_charts_text/chart_cluster_text.json" style="width: 100%; height:500px;"></vegachart>
 
-#### Interpretazione
 
 Il grafico sopra rappresenta la visualizzazione dei dati ridotti in due dimensioni usando il t-SNE. Ogni punto rappresenta un dato, con la posizione determinata dalle prime due componenti t-SNE.
 
