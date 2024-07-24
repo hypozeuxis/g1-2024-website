@@ -76,9 +76,9 @@ Lunghezza media delle trascrizioni per lustro e classe di Nizza
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_length.json" style="width:100%"></vegachart>  
 
 
-## Topic
-Come terzo task, sono stati ricercati i topic più rilevanti, ancora una volta, 
-per lustro e classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). 
+## Parole
+Come terzo task, sono state ricercate le parole più rilevanti alla base dei nostri spot, ancora una volta, 
+considerando lustro e classe di Nizza ([Classificazione di Nizza](https://it.wikipedia.org/wiki/Classificazione_di_Nizza)). 
 Questa analisi permette di osservare l'eventuale insorgenza di parole chiave. 
 Ad esempio, considerando la classe di Nizza 30, sotto la quale rientrano alcuni tipi di alimenti, è possibile notare come a partire dal 2020 emerga la parola 
 'italiano'.
