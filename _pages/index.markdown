@@ -19,7 +19,12 @@ ricordare di spot divertenti o di quelli più toccanti, che rimanevano impressi 
 emozioni che ci facevano provare. Come dimenticare l’incontro sotto la pioggia fra un povero gattino smarrito e una
 dolce bambina nella pubblicità della Barilla? A chi non è mai capitato di ricordare i famosi ‘Pennelli Cinghiale’?
 
-> Screenshot da Barilla, Pennello Cinghiale
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); gap: 0.5rem;">
+    <img src="{{site.baseurl}}/assets/images/home/barilla-soggetto-gattino-1986.png" alt="Barilla, 1986">
+    <img src="{{site.baseurl}}/assets/images/home/cinghiale.png" alt="Cinghiale, 1983">
+    <img src="{{site.baseurl}}/assets/images/home/dash.png" alt="Dash, 1986">
+    <img src="{{site.baseurl}}/assets/images/home/ferrero-rocher.png" alt="Ferrero Rocher, 1991">
+</div>
 
 ## Da Carosello alla pubblicità moderna
 
@@ -164,7 +169,12 @@ ad alterazione del segnale) a una digitale (in cui disturbo e alterazione non su
 dal mezzo di ricezione e di quello di registrazione che hanno ulteriormente contribuito a deteriorare qualità e colore
 dell’immagine.
 
-> Immagine Barilla 1985 (Fellini), uno spot Barilla 2024
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 0.5rem;margin: 1rem 0;">
+    <img src="{{site.baseurl}}/assets/images/home/bistefani.png" alt="Bistefani">
+    <img src="{{site.baseurl}}/assets/images/home/mastro-lindo.png" alt="Mastro Lindo">
+    <img src="{{site.baseurl}}/assets/images/home/mulino-bianco.png" alt="Mulino Bianco">
+    <img src="{{site.baseurl}}/assets/images/home/tabu.jpg" alt="Tabù">
+</div>
 
 Ci teniamo a precisare che in ogni caso il nostro studio si focalizza proprio sui colori percepiti dall’utente finale
 attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui non abbiamo accesso).
