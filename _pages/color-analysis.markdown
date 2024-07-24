@@ -163,14 +163,12 @@ Sky Glass, 2023. Formato TV 16:9. Effetto 4:3
 </p>
 ![Sky Glass, 2023]({{site.baseurl}}/assets/images/color/sky-glass-pillar-box.jpg)
 
-## Clustering
+## Clustering per tonalità di colore
 
-Per il clustering è stato creato un dataset ad hoc, una riga per ogni spot.
+Per questo clustering è stato creato un dataset ad hoc, una riga per ogni spot.
 
-In ogni riga appaiono le 3 componenti _tonalità_, _luminosità_ e _saturazione_ per ognuno dei 5 colori dominanti, più
-il peso di quel colore calcolato con modalità tf-idf.
-
-### Tonalità
+In ogni riga appaiono le 3 componenti `hue` (tonalità), `lightness` (luminosità) e `saturation` (saturazione) per
+ognuno dei 5 colori dominanti, più il peso di quel colore calcolato con modalità tf-idf.
 
 Di questo dataset è stato fatto il clustering, con le sole componenti della tonalità, con metodo K-Means, scegliendo
 come valore ottimale k = 6.
