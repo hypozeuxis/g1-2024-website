@@ -411,6 +411,24 @@ div:not(.vg-tooltip) {
   background-color: $footer-chulapa-hover-color;
 }
 
+/* Home */
+
+.marimekko-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  align-items: end;
+
+  .marimekko-caption {
+    font-family: $font-family-monospace;
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 0.5em 0;
+    font-size: .75em;
+  }
+}
+
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
 
