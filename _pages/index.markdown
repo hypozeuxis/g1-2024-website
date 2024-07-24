@@ -167,10 +167,6 @@ Numero di parole per secondo
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/parole_secondo.json" style="width:100%; height:200px;"></vegachart>
 
-Navigando tra i colori
-
-Ogni spot è stato analizzato
-
 ## Traducendo coi colori
 
 Un aspetto importante per un video pubblicitario è il colore.
@@ -236,16 +232,21 @@ Ci teniamo a precisare che il nostro studio si è basato su video che provengono
 registrazioni casalinghe e poi riversate in digitale: la qualità dei colori degli spot perciò non è quella originale ma
 quella più vicina a quella esperita dall’utente finale attraverso i mezzi di ricezione di ciascuna epoca.
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_colore.json" style="width: 100%; height:400px"></vegachart>
-<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_tempo.json" style="width: 100%; height:400px"></vegachart>
-
-Il seguente grafico mostra l’andamento dei colori per lustro.
+<p class="caption">
+Distribuzione dei colori per classe di Nizza
+</p>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_colore.json" style="width: 100%; height:200px"></vegachart>
 
 <p class="caption">
-Andamento colori per lustro
+Andamento delle classi di Nizza nel tempo
+</p>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_tempo.json" style="width: 100%; height:300px"></vegachart>
+
+<p class="caption">
+Andamento dei colori per lustro
 </p>
 
-<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/colori_lustro.json" style="width: 100%; height:400px;"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/colori_lustro.json" style="width: 100%; height:300px;"></vegachart>
 
 ## Dagli anni 80 a oggi, chi sono i protagonisti
 
