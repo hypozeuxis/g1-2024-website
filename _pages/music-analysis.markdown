@@ -34,7 +34,7 @@ Presenza di musica per lustro
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/music_charts/new_charts/music_lustrum_f_22.json" style="width: 100%"></vegachart>
 
-Si può inoltre notare come all'aumentare della durata degli spot aumenti anche la probabilità che all'intenro vi sia
+Si può inoltre notare come all'aumentare della durata degli spot aumenti anche la probabilità che all'interno vi sia
 musica
 
 <p class="caption">
@@ -175,7 +175,7 @@ Genere musicale per lustro per Classe di Nizza 38
 
 ### Analisi in base alla durata degli spot
 I generi musicali si distribuiscono in maniera differente rispetto alla durata degli spot. Si può infatti notare 
-come la quasi totali degli spot inferiori ai sette secondi contenga musica pop, probabilmente associata brevi jingle 
+come la quasi totalità degli spot inferiori ai sette secondi contenga musica pop, probabilmente associata brevi jingle 
 mentre gli altri generi sono poco presenti. La musica pop tende poi a diminuire all'aumentare della durata andando 
 a favorire la presenza degli altri generi musicali, in particolar modo background.
 
@@ -189,9 +189,9 @@ Distribuzione dei Generi in base alla durata dello spot
 
 Il colore associato al genere musicale presente nei video sembre sempre ben bilanciato. Il colore marrone infatti 
 è sempre il più presente seguito poi dal grigio e dal blu in quest'ordine. Tuttavia negli spot contenenti musica 
-elettronica questi tre colori risultano essere sempre i più presenti ma anche maggior mente bilanciati tra loro. 
-Eccezzione particolare sono i video contenenti musica rock, questi sono quelli presenti in minor numero e qua 
-possiamo ntoare come il blue sia il colore più rappresentativo seguito da marrone, grigio e bianco con valori molto simili tra loro. 
+elettronica questi tre colori risultano essere sempre i più presenti ma anche maggiormente bilanciati tra loro. 
+Eccezione particolare sono i video contenenti musica rock, questi sono quelli presenti in minor numero e qua 
+possiamo notare come il blu sia il colore più rappresentativo seguito da marrone, grigio e bianco con valori molto simili tra loro. 
 
 <p class="caption">
 Distribuzione del colore per genere musicale
