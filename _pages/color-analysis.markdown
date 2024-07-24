@@ -209,15 +209,3 @@ predominanti dello spot associato.
 Clusterizzazione per tonalità
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/clustering_by_hue.json" style="width: 12%; height:80px;"></vegachart>
-
-## I colori nel tempo
-
-Il seguente grafico mostra l’andamento degli 11 gruppi di colori per lustro. Ogni colore (prima del raggruppamento) è
-stato pesato con metodo tf-idf.
-
-<p class="caption">
-Andamento colori per lustro
-</p>
-
-<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/colori_lustro.json" style="width: 100%; height:400px;"></vegachart>
-
