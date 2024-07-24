@@ -179,6 +179,9 @@ dell’immagine.
 Ci teniamo a precisare che in ogni caso il nostro studio si focalizza proprio sui colori percepiti dall’utente finale
 attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui non abbiamo accesso).
 
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_colore.json" style="width: 100%; height:400px"></vegachart>
+<vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_tempo.json" style="width: 100%; height:400px"></vegachart>
+
 ## Dagli anni 80 a oggi, chi sono i protagonisti
 
 Ulteriore aspetto che è stato preso in considerazione in queste analisi è stato _chi_ e _cosa_ effettivamente comparisse
