@@ -88,7 +88,7 @@ Non manca, però, una sorta di costante: un confronto fra le diverse classi di N
 'nuovo' nella maggior parte degli spot.
 
 <p class="caption">
-Topic per lustro e classe di Nizza
+Parole per lustro e classe di Nizza
 </p>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/text_charts/chart_topic.json" style="width:100%"></vegachart>  
 
