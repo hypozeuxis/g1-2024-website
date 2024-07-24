@@ -171,12 +171,12 @@ Navigando tra i colori
 
 Ogni spot è stato analizzato
 
-## Navigando tra i colori
+## Traducendo coi colori
 
 Un aspetto importante per un video pubblicitario è il colore.
 
-Ogni spot è stato suddiviso in **scene** e poi ‘tradotto’ in un grafico Marimekko che riassume a colpo d’occhio i *
-*colori** utilizzati, la loro **quantità** e la loro **frequenza**.
+Ogni spot è stato suddiviso in **scene** e poi ‘tradotto’ in un grafico Marimekko che riassume a colpo d’occhio i 
+**colori** utilizzati, la loro **quantità** e la loro **frequenza**.
 
 <p class="caption">
 Le tavolozze colori (<em>Marimekko</em>) di 8 spot diversi
@@ -229,16 +229,9 @@ Le tavolozze colori (<em>Marimekko</em>) di 8 spot diversi
 
 </div>
 
-
-Per quanto riguarda i colori si nota come questi siano passati dall’essere molto saturi e ad alto contrasto negli anni
-Ottanta e Novanta a esserlo invece meno dalla metà del 2000 in poi. Un motivo potrebbe essere quello tecnologico: la
-trasmissione delle immagini da parte delle emittenti è passata da una tecnologia analogica (soggetta quindi a disturbo e
-ad alterazione del segnale) a una digitale (in cui disturbo e alterazione non sussistono). Un altro motivo è poi dato
-dal mezzo di ricezione e di quello di registrazione che hanno ulteriormente contribuito a deteriorare qualità e colore
-dell’immagine.
-
-Ci teniamo a precisare che in ogni caso il nostro studio si focalizza proprio sui colori percepiti dall’utente finale
-attraverso i mezzi di ciascuna epoca (e non su quelli originali degli spot, cui non abbiamo accesso).
+Ci teniamo a precisare che il nostro studio si è basato su video che provengono nella maggior parte dei casi da
+registrazioni casalinghe e poi riversate in digitale: la qualità dei colori degli spot perciò è quella più vicina a
+quella esperita dall’utente finale attraverso i mezzi di ricezione di ciascuna epoca.
 
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_colore.json" style="width: 100%; height:400px"></vegachart>
 <vegachart schema-url="{{site.baseurl}}/assets/charts/color_charts/nizza_tempo.json" style="width: 100%; height:400px"></vegachart>
