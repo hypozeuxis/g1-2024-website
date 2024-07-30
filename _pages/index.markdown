@@ -32,7 +32,7 @@ In quegli anni la televisione passa da avere uno scopo pedagogico-didascalico ti
 intrattenimento che la ha caratterizzata fino agli anni 2000. Era una novità, sia per chi guardava la televisione, sia
 per chi ideava queste sequenze di immagini: non vi erano molte regole e si potevano rappresentare scene narrative avendo
 come unico limite (o quasi) l’immaginazione. Se però pensiamo a quanto fossero diverse le pubblicità di un tempo
-rispetto a quelle che siamo abituati a vedere oggi, ci chiediamo cosa sia accaduto. «A partire dagli anni 2000 c’è
+rispetto a quelle che siamo abituati a vedere oggi, ci chiediamo cosa sia accaduto. «A cavallo fra gli anni 90 e gli anni 2000 c’è
 un’inversione di rotta, si adotta lo stile MTV. La pubblicità si fa più ammiccante, caratterizzata da immagini
 sovraesposte e dal ritmo sempre più incalzante \[…\] gli spot degli anni 2000 non suscitano le stesse emozioni dei
 precedenti». Così commenta Michele Logrippo, fondatore del sito _Spot80_, quando gli chiediamo che cosa sia cambiato
